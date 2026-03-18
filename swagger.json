@@ -1,0 +1,5319 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "GoCreate API Help Page",
+    "description": "**This API exposes core commerce data for B2B clients, providing visibility into products, pricing, inventory, and operational status. It is optimized for client-facing applications that require secure, reliable, and consistent data access.**\r\n\r\n**Data Retention Policy:** Starting January 14, 2026, we will provide order details for ongoing orders. After an order is delivered, its details will remain available only for 4 weeks.",
+    "contact": {
+      "name": "GoCreate Support Team",
+      "url": "https://api.gocreate.nu"
+    },
+    "version": "2.0"
+  },
+  "paths": {
+    "/Order/ByCustomerId": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "summary": "ByCustomerId",
+        "description": "This endpoint validates requested customer id, and provide orders of specific customer.",
+        "operationId": "FetchOrderInfoByCustomerId",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ByCustomerIDRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ByCustomerIDResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Order/ByDate": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "summary": "ByDate",
+        "description": "This endpoint validates request and provide orders by created or changed date.",
+        "operationId": "ByDate",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ByOrderDateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ByOrderDateResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Order/ByOrderdate": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "summary": "ByOrderdate",
+        "description": "This endpoint validates request and provide orders by created date.",
+        "operationId": "ByOrderdate",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ByOrderDateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ByOrderDateResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Order/ByOrderNumber": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "summary": "ByOrderNumber",
+        "description": "This endpoint validates requested order number, and provide information according to the parameters.",
+        "operationId": "ByOrderNumber",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ByOrderNumberRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ByOrderNumberResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Order/CreateOrder": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "operationId": "CreateOrder",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Order/OrderDeliveryInfo": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "summary": "OrderDeliveryInfo",
+        "description": "This endpoint validates requested order number and provide delivery information.",
+        "operationId": "OrderDeliveryInfo",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderDeliveryInfoRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderDeliveryInfoResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Order/OrderDeliveryInfoByStatus": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "summary": "OrderDeliveryInfoByStatus",
+        "description": "This endpoint validates request, and provide delivery information of orders in the given status.",
+        "operationId": "OrderDeliveryInfoByStatus",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderDeliveryInfoByStatusRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderDeliveryInfoByStatusResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Order/OrderPricingInfo": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "summary": "OrderPricingInfo",
+        "description": "This endpoint validates request, and provide Pricing information of given orders.",
+        "operationId": "OrderPricingInfo",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/OrderPricingInfoRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/OrderPricingInfoResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Order/ProductsData": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "operationId": "ProductsData",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/BaseApiRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Order/UpdateStatus": {
+      "post": {
+        "tags": [
+          "Order"
+        ],
+        "summary": "UpdateStatus",
+        "description": "This endpoint validates request, destination status and update the order status.",
+        "operationId": "UpdateStatus",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/UpdateOrderStatusRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/UpdateOrderStatusResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Customer/Add": {
+      "post": {
+        "tags": [
+          "Customer"
+        ],
+        "summary": "AddCustomer",
+        "description": "Adds a new customer with the provided details.",
+        "operationId": "AddCustomer",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerAddRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomerAddResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Customer/ByCustomerId": {
+      "post": {
+        "tags": [
+          "Customer"
+        ],
+        "summary": "ByCustomerId",
+        "description": "This endpoint validates the search parameters provided in the request and retrieves matching customer records by customer ID.",
+        "operationId": "FetchCustomerInfoByCustomerId",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerDetailsByCustomerIDRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomerDetailsByCustomerIDResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Customer/ByDate": {
+      "post": {
+        "tags": [
+          "Customer"
+        ],
+        "summary": "ByDate",
+        "description": "This endpoint validates the date provided in the request and retrieves matching customer with created date.",
+        "operationId": "FetchCustomerByDate",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerByDateRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomerByDateResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Customer/ByDateRange": {
+      "post": {
+        "tags": [
+          "Customer"
+        ],
+        "summary": "ByDateRange",
+        "description": "This endpoint validates the date provided in the request and retrieves matching customer between created date range.",
+        "operationId": "FetchCustomerByDateRange",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerByDateRangeRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomerByDateRangeResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Customer/Search": {
+      "post": {
+        "tags": [
+          "Customer"
+        ],
+        "summary": "Search",
+        "description": "This endpoint validates the search parameters provided in the request and retrieves matching customer records. It supports filtering by multiple attributes such as customer number, name, address, and other identifiers.",
+        "operationId": "Search",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/CustomerSearchRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/CustomerSearchResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Fabric/FetchFabricStockInfo": {
+      "post": {
+        "tags": [
+          "Fabric"
+        ],
+        "summary": "FetchFabricStockInfo",
+        "description": "This endpoint validates the incoming request parameters and returns accurate, structured basic fabric information.",
+        "operationId": "FetchFabricStockInfo",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FabricStockBasicRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FabricStockBasicInfoResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Fabric/Post": {
+      "post": {
+        "tags": [
+          "Fabric"
+        ],
+        "summary": "Post",
+        "description": "This endpoint validates the incoming request parameters and returns accurate, structured fabric information.",
+        "operationId": "FabricPost",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/FabricStockRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/FabricStockResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/Lining/Post": {
+      "post": {
+        "tags": [
+          "Lining"
+        ],
+        "summary": "Post",
+        "description": "This endpoint validates the incoming request parameters and returns accurate, structured lining information.",
+        "operationId": "LiningPost",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LiningStockRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/LiningStockResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "400",
+                  "ErrorMessage": "Validation failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "401": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "401",
+                  "ErrorMessage": "Authentication failed.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "403": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "403",
+                  "ErrorMessage": "Access denied.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "404",
+                  "ErrorMessage": "Resource not found.",
+                  "ID": 0
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/BaseApiResponse"
+                },
+                "example": {
+                  "IsValidResult": false,
+                  "ErrorCode": "500",
+                  "ErrorMessage": "Internal server error.",
+                  "ID": 0
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "BaseApiRequest": {
+        "required": [
+          "AuthenticationToken",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BaseApiResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BrandingData": {
+        "type": "object",
+        "properties": {
+          "LabelId": {
+            "type": "integer",
+            "description": "Label identifier.",
+            "format": "int32"
+          },
+          "PositionName": {
+            "type": "string",
+            "description": "Position name.",
+            "nullable": true
+          },
+          "LabelName": {
+            "type": "string",
+            "description": "Label name.",
+            "nullable": true
+          },
+          "PositionId": {
+            "type": "integer",
+            "description": "Position identifier.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "BrandingOptionData": {
+        "type": "object",
+        "properties": {
+          "LabelId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "PositionId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ByCustomerIDRequest": {
+        "required": [
+          "AuthenticationToken",
+          "CustomerID",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "CustomerID": {
+            "type": "integer",
+            "description": "The customer ID.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ByCustomerIDResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "Orders": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderInfoByCustomerIDAPIResult"
+            },
+            "description": "The orders for the specified customer.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ByOrderDateRequest": {
+        "required": [
+          "AuthenticationToken",
+          "OrderDate",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "OrderDate": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The order date in yyyy-MM-dd format."
+          }
+        },
+        "additionalProperties": false
+      },
+      "ByOrderDateResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "Orders": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderInfoByOrderDateAPIResult"
+            },
+            "description": "The orders for the specified order date.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "ByOrderNumberRequest": {
+        "required": [
+          "AuthenticationToken",
+          "OrderNumber",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "OrderNumber": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The order number to look up."
+          },
+          "OtherDetails": {
+            "$ref": "#/components/schemas/FetchOtherDetails"
+          }
+        },
+        "additionalProperties": false
+      },
+      "ByOrderNumberResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "OrderInfo": {
+            "$ref": "#/components/schemas/OrderInfoAPIResult"
+          },
+          "FitTools": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderFitToolInfoAPIResult"
+            },
+            "description": "Fit tool results grouped by product part.",
+            "nullable": true
+          },
+          "BodyMeasurements": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderBodyhMeasurementAPIResult"
+            },
+            "description": "Body measurement groups for the order.",
+            "nullable": true
+          },
+          "FinishMeasurement": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderFinishMeasurementAPIResult"
+            },
+            "description": "Finish measurement groups for the order.",
+            "nullable": true
+          },
+          "BrandingOptions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderBrandingOptionAPIResult"
+            },
+            "description": "Branding options grouped by product part.",
+            "nullable": true
+          },
+          "Options": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderDesignOptionAPIResult"
+            },
+            "description": "Design options grouped by product part.",
+            "nullable": true
+          },
+          "ItemDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderItemDetailsAPIResult"
+            },
+            "description": "Item details for the order.",
+            "nullable": true
+          },
+          "PriceDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderPriceInfoAPIResult"
+            },
+            "description": "Price details for the order.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CategoryData": {
+        "type": "object",
+        "properties": {
+          "CategoryId": {
+            "type": "integer",
+            "description": "Category identifier.",
+            "format": "int32"
+          },
+          "CategoryName": {
+            "type": "string",
+            "description": "Category name.",
+            "nullable": true
+          },
+          "OptionDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DesignOptionData"
+            },
+            "description": "Design option details.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomFieldInfo": {
+        "type": "object",
+        "properties": {
+          "FieldName": {
+            "type": "string",
+            "description": "The custom field name.",
+            "nullable": true
+          },
+          "FieldValue": {
+            "type": "string",
+            "description": "The custom field value.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerAddRequest": {
+        "required": [
+          "AuthenticationToken",
+          "FirstName",
+          "LastName",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "LastName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The customer last name"
+          },
+          "FirstName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The customer first name"
+          },
+          "MobileNumber": {
+            "type": "string",
+            "description": "The customer mobile number",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "description": "The customer email",
+            "nullable": true
+          },
+          "PostalCode": {
+            "type": "string",
+            "description": "The customer Postal code",
+            "nullable": true
+          },
+          "City": {
+            "type": "string",
+            "description": "The customer city",
+            "nullable": true
+          },
+          "Country": {
+            "type": "string",
+            "description": "The customer country",
+            "nullable": true
+          },
+          "PhoneNumber": {
+            "type": "string",
+            "description": "The customer phone number",
+            "nullable": true
+          },
+          "Address": {
+            "type": "string",
+            "description": "The customer address",
+            "nullable": true
+          },
+          "Remarks": {
+            "type": "string",
+            "description": "The customer remarks",
+            "nullable": true
+          },
+          "CompanyName": {
+            "type": "string",
+            "description": "The customer company name",
+            "nullable": true
+          },
+          "CompanyAddress": {
+            "type": "string",
+            "description": "The customer company address",
+            "nullable": true
+          },
+          "SSID": {
+            "type": "string",
+            "description": "The customer SSID",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerAddResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of error codes returned by the API.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "List of error messages returned by the API.",
+            "nullable": true
+          },
+          "FirstName": {
+            "type": "string",
+            "description": "The customer first name.",
+            "nullable": true
+          },
+          "LastName": {
+            "type": "string",
+            "description": "The customer last name.",
+            "nullable": true
+          },
+          "CustomerID": {
+            "type": "integer",
+            "description": "The customer ID",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerByDateRangeRequest": {
+        "required": [
+          "AuthenticationToken",
+          "DateTime",
+          "EndDateTime",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "DateTime": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The start date and time for the range."
+          },
+          "EndDateTime": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The end date and time for the range."
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerByDateRangeResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "CustomerInfo": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomerInfoAPIResult"
+            },
+            "description": "The list of customer information results.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerByDateRequest": {
+        "required": [
+          "AuthenticationToken",
+          "DateTime",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "DateTime": {
+            "minLength": 1,
+            "type": "string",
+            "description": "The date and time for the request."
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerByDateResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "CustomerInfo": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomerInfoAPIResult"
+            },
+            "description": "The list of customer information results.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerDetailsByCustomerIDRequest": {
+        "required": [
+          "AuthenticationToken",
+          "CustomerID",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "CustomerID": {
+            "type": "integer",
+            "description": "The customer internal identifier.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerDetailsByCustomerIDResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "CustomerInfo": {
+            "$ref": "#/components/schemas/CustomerInfoAPIResult"
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerInfoAPIResult": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "description": "The customer internal identifier.",
+            "format": "int32"
+          },
+          "CustomerNumber": {
+            "type": "string",
+            "description": "The customer number.",
+            "nullable": true
+          },
+          "FirstName": {
+            "type": "string",
+            "description": "The customer first name.",
+            "nullable": true
+          },
+          "LastName": {
+            "type": "string",
+            "description": "The customer last name.",
+            "nullable": true
+          },
+          "Initials": {
+            "type": "string",
+            "description": "The customer initials.",
+            "nullable": true
+          },
+          "Suffix": {
+            "type": "string",
+            "description": "The customer name suffix.",
+            "nullable": true
+          },
+          "Address": {
+            "type": "string",
+            "description": "The customer address.",
+            "nullable": true
+          },
+          "PostalCode": {
+            "type": "string",
+            "description": "The customer postal code.",
+            "nullable": true
+          },
+          "City": {
+            "type": "string",
+            "description": "The customer city.",
+            "nullable": true
+          },
+          "CountryName": {
+            "type": "string",
+            "description": "The customer country name.",
+            "nullable": true
+          },
+          "CountryCode": {
+            "type": "string",
+            "description": "The customer country ISO code.",
+            "nullable": true
+          },
+          "DateOfBirth": {
+            "type": "string",
+            "description": "The customer date of birth.",
+            "nullable": true
+          },
+          "PhoneNumber": {
+            "type": "string",
+            "description": "The customer phone number.",
+            "nullable": true
+          },
+          "MobileNumber": {
+            "type": "string",
+            "description": "The customer mobile number.",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "description": "The customer email.",
+            "nullable": true
+          },
+          "ReferredByCustomer": {
+            "type": "string",
+            "description": "The customer who referred this customer.",
+            "nullable": true
+          },
+          "KeepInformed": {
+            "type": "boolean",
+            "description": "Whether the customer should be kept informed."
+          },
+          "CompanyName": {
+            "type": "string",
+            "description": "The customer company name.",
+            "nullable": true
+          },
+          "CompanyAddress": {
+            "type": "string",
+            "description": "The customer company address.",
+            "nullable": true
+          },
+          "CompanyPostalCode": {
+            "type": "string",
+            "description": "The customer company postal code.",
+            "nullable": true
+          },
+          "CompanyCity": {
+            "type": "string",
+            "description": "The customer company city.",
+            "nullable": true
+          },
+          "CustomerProject": {
+            "type": "string",
+            "description": "The customer project.",
+            "nullable": true
+          },
+          "CustomFields": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomFieldInfo"
+            },
+            "description": "Custom fields associated with the customer.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerSearchRequest": {
+        "required": [
+          "AuthenticationToken",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "PageNo": {
+            "type": "integer",
+            "description": "The page number.",
+            "format": "int32",
+            "nullable": true
+          },
+          "PageSize": {
+            "type": "integer",
+            "description": "The size of the page.",
+            "format": "int32",
+            "nullable": true
+          },
+          "LastName": {
+            "type": "string",
+            "description": "The customer last name.",
+            "nullable": true
+          },
+          "FirstName": {
+            "type": "string",
+            "description": "The customer first name.",
+            "nullable": true
+          },
+          "MobileNumber": {
+            "type": "string",
+            "description": "The customer mobile number.",
+            "nullable": true
+          },
+          "Email": {
+            "type": "string",
+            "description": "The customer email.",
+            "nullable": true
+          },
+          "PostalCode": {
+            "type": "string",
+            "description": "The customer Postal code.",
+            "nullable": true
+          },
+          "City": {
+            "type": "string",
+            "description": "The customer city.",
+            "nullable": true
+          },
+          "PhoneNumber": {
+            "type": "string",
+            "description": "The customer phone number.",
+            "nullable": true
+          },
+          "Address": {
+            "type": "string",
+            "description": "The customer address.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "CustomerSearchResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "CustomerInfo": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CustomerInfoAPIResult"
+            },
+            "description": "The list of customer information results.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "DesignOptionData": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "type": "string",
+            "description": "Option name.",
+            "nullable": true
+          },
+          "Value": {
+            "type": "string",
+            "description": "Option value.",
+            "nullable": true
+          },
+          "OptionId": {
+            "type": "integer",
+            "description": "Option identifier.",
+            "format": "int32"
+          },
+          "OptionValueId": {
+            "type": "integer",
+            "description": "Option value identifier.",
+            "format": "int32"
+          },
+          "IsForTrim": {
+            "type": "boolean",
+            "description": "Whether option is for trim."
+          },
+          "TrimMasterId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "OptionValueType": {
+            "$ref": "#/components/schemas/KindOfDesignOptionList"
+          },
+          "OptionCategoryId": {
+            "type": "integer",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "DesignOptionValueData": {
+        "type": "object",
+        "properties": {
+          "Name": {
+            "type": "string",
+            "description": "Option name.",
+            "nullable": true
+          },
+          "Value": {
+            "type": "string",
+            "description": "Option value.",
+            "nullable": true
+          },
+          "OptionId": {
+            "type": "integer",
+            "description": "Option identifier.",
+            "format": "int32"
+          },
+          "OptionValueId": {
+            "type": "integer",
+            "description": "Option value identifier.",
+            "format": "int32"
+          },
+          "TrimMasterId": {
+            "type": "integer",
+            "description": "Trim value identifier.",
+            "format": "int32"
+          },
+          "LiningId": {
+            "type": "integer",
+            "description": "Lining value identifier.",
+            "format": "int32"
+          },
+          "IsForTrim": {
+            "type": "boolean",
+            "description": "Whether option is for trim."
+          }
+        },
+        "additionalProperties": false
+      },
+      "FabricStockBasicInfoAPIResult": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "description": "The internal identifier.",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "description": "The fabric name.",
+            "nullable": true
+          },
+          "ImageUrl": {
+            "type": "string",
+            "description": "URL to the fabric image.",
+            "nullable": true
+          },
+          "Code": {
+            "type": "string",
+            "description": "The fabric code.",
+            "nullable": true
+          },
+          "Description": {
+            "type": "string",
+            "description": "The fabric description.",
+            "nullable": true
+          },
+          "AtelierName": {
+            "type": "string",
+            "description": "The atelier name.",
+            "nullable": true
+          },
+          "Composition": {
+            "type": "string",
+            "description": "The fabric composition.",
+            "nullable": true
+          },
+          "Season": {
+            "type": "string",
+            "description": "The season.",
+            "nullable": true
+          },
+          "StatusId": {
+            "type": "integer",
+            "description": "The fabric status identifier.",
+            "format": "int32"
+          },
+          "Supplier": {
+            "type": "string",
+            "description": "The fabric supplier.",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "description": "The fabric status.",
+            "nullable": true
+          },
+          "Stock": {
+            "type": "number",
+            "description": "The available stock quantity.",
+            "format": "double"
+          },
+          "MessageCode": {
+            "type": "string",
+            "description": "The message code.",
+            "nullable": true
+          },
+          "Message": {
+            "type": "string",
+            "description": "The message text.",
+            "nullable": true
+          },
+          "RequestedId": {
+            "type": "integer",
+            "description": "The requested identifier.",
+            "format": "int32"
+          },
+          "RequestedCode": {
+            "type": "string",
+            "description": "The requested code.",
+            "nullable": true
+          },
+          "RequestedName": {
+            "type": "string",
+            "description": "The requested fabric name.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FabricStockBasicInfoResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "FabricStockResult": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FabricStockBasicInfoAPIResult"
+            },
+            "description": "The fabric stock basic info result.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FabricStockBasicRequest": {
+        "required": [
+          "AuthenticationToken",
+          "FabricInputs",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "PageNo": {
+            "type": "integer",
+            "description": "The page number.",
+            "format": "int32",
+            "nullable": true
+          },
+          "PageSize": {
+            "type": "integer",
+            "description": "The size of the page.",
+            "format": "int32",
+            "nullable": true
+          },
+          "FabricInputs": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MaterialBasicInput"
+            },
+            "description": "The fabric basic info inputs."
+          }
+        },
+        "additionalProperties": false
+      },
+      "FabricStockInfoAPIResult": {
+        "type": "object",
+        "properties": {
+          "Code": {
+            "type": "string",
+            "description": "The fabric code.",
+            "nullable": true
+          },
+          "Bunch": {
+            "type": "string",
+            "description": "The fabric bunch.",
+            "nullable": true
+          },
+          "Collection": {
+            "type": "string",
+            "description": "The fabric collection.",
+            "nullable": true
+          },
+          "ImageUrl": {
+            "type": "string",
+            "description": "URL to the fabric image.",
+            "nullable": true
+          },
+          "Supplier": {
+            "type": "string",
+            "description": "The fabric supplier.",
+            "nullable": true
+          },
+          "Season": {
+            "type": "string",
+            "description": "The season.",
+            "nullable": true
+          },
+          "RequestedId": {
+            "type": "integer",
+            "description": "The requested identifier.",
+            "format": "int32"
+          },
+          "RequestedCode": {
+            "type": "string",
+            "description": "The requested code.",
+            "nullable": true
+          },
+          "AtelierName": {
+            "type": "string",
+            "description": "The atelier name.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The internal identifier.",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "description": "The fabric name.",
+            "nullable": true
+          },
+          "Description": {
+            "type": "string",
+            "description": "The fabric description.",
+            "nullable": true
+          },
+          "PPriceCategories": {
+            "type": "string",
+            "description": "The price categories.",
+            "nullable": true
+          },
+          "CutLengthFabric": {
+            "type": "boolean",
+            "description": "Whether the fabric is cut length."
+          },
+          "Stock": {
+            "type": "number",
+            "description": "The available stock quantity.",
+            "format": "double"
+          },
+          "ExtraDays": {
+            "type": "integer",
+            "description": "The Fabric Extra days",
+            "format": "int32"
+          },
+          "RPrice": {
+            "type": "number",
+            "description": "The retail price.",
+            "format": "double"
+          },
+          "SoldOutSince": {
+            "type": "string",
+            "description": "Date when the fabric was marked sold out.",
+            "format": "date-time",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "description": "The fabric status.",
+            "nullable": true
+          },
+          "StatusId": {
+            "type": "integer",
+            "description": "The fabric status identifier.",
+            "format": "int32"
+          },
+          "RequestedName": {
+            "type": "string",
+            "description": "The requested fabric name.",
+            "nullable": true
+          },
+          "MessageCode": {
+            "type": "string",
+            "description": "The message code.",
+            "nullable": true
+          },
+          "Message": {
+            "type": "string",
+            "description": "The message text.",
+            "nullable": true
+          },
+          "UsedFor": {
+            "type": "string",
+            "description": "What the fabric is used for.",
+            "nullable": true
+          },
+          "Composition": {
+            "type": "string",
+            "description": "The fabric composition.",
+            "nullable": true
+          },
+          "DurabilityIndicator": {
+            "type": "string",
+            "description": "The durability indicator.",
+            "nullable": true
+          },
+          "FabricOnOrder": {
+            "type": "number",
+            "description": "The quantity of fabric currently on order.",
+            "format": "double"
+          },
+          "FabricReadyDate": {
+            "type": "string",
+            "description": "The date when fabric will be ready.",
+            "format": "date-time",
+            "nullable": true
+          },
+          "IsCustomerOwn": {
+            "type": "boolean",
+            "description": "Indicates whether the fabric is customer-owned."
+          }
+        },
+        "additionalProperties": false
+      },
+      "FabricStockRequest": {
+        "required": [
+          "AuthenticationToken",
+          "FabricInputs",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "PageNo": {
+            "type": "integer",
+            "description": "The page number.",
+            "format": "int32",
+            "nullable": true
+          },
+          "PageSize": {
+            "type": "integer",
+            "description": "The size of the page.",
+            "format": "int32",
+            "nullable": true
+          },
+          "FabricInputs": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MaterialInput"
+            },
+            "description": "The fabric inputs."
+          }
+        },
+        "additionalProperties": false
+      },
+      "FabricStockResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "FabricStockResult": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/FabricStockInfoAPIResult"
+            },
+            "description": "The fabric stock result.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "FetchOtherDetails": {
+        "type": "object",
+        "properties": {
+          "FetchFitTools": {
+            "type": "boolean",
+            "description": "Fetch fit tools for the order."
+          },
+          "FetchFinishMeasurement": {
+            "type": "boolean",
+            "description": "Fetch finished measurements for the order."
+          },
+          "FetchBrandingOptions": {
+            "type": "boolean",
+            "description": "Fetch branding options for the order."
+          },
+          "FetchDesignOptions": {
+            "type": "boolean",
+            "description": "Fetch design options for the order."
+          },
+          "FetchItemDetails": {
+            "type": "boolean",
+            "description": "Fetch item details for the order."
+          },
+          "FetchPriceDetails": {
+            "type": "boolean",
+            "description": "Fetch price details for the order."
+          }
+        },
+        "additionalProperties": false
+      },
+      "FitAndTryOnData": {
+        "type": "object",
+        "properties": {
+          "FitProfileId": {
+            "type": "integer",
+            "description": "Order Product part Fitprofile id",
+            "format": "int32"
+          },
+          "FitId": {
+            "type": "integer",
+            "description": "Order Product part Fit id",
+            "format": "int32"
+          },
+          "TryonId": {
+            "type": "integer",
+            "description": "Order Product part Tryon size id",
+            "format": "int32"
+          },
+          "FitProfileName": {
+            "type": "string",
+            "description": "Order Product part Fitprofile name",
+            "nullable": true
+          },
+          "FitToolData": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/IDNameAndValue"
+            },
+            "description": "Order Product part fittool data",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "IDNameAndValue": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Value": {
+            "type": "number",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "IdAndName": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "KindOfDesignOptionList": {
+        "enum": [
+          "0 = None",
+          "1 = ButtonList",
+          "2 = LiningList",
+          "3 = TrimList"
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "LiningStockInfoAPIResult": {
+        "type": "object",
+        "properties": {
+          "Code": {
+            "type": "string",
+            "nullable": true
+          },
+          "Bunch": {
+            "type": "string",
+            "nullable": true
+          },
+          "Collection": {
+            "type": "string",
+            "nullable": true
+          },
+          "ImageUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "Supplier": {
+            "type": "string",
+            "nullable": true
+          },
+          "Season": {
+            "type": "string",
+            "nullable": true
+          },
+          "RequestedId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "RequestedCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "AtelierName": {
+            "type": "string",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Description": {
+            "type": "string",
+            "nullable": true
+          },
+          "PPriceCategories": {
+            "type": "string",
+            "nullable": true
+          },
+          "CutLengthLining": {
+            "type": "boolean"
+          },
+          "Stock": {
+            "type": "number",
+            "format": "double"
+          },
+          "ExtraDays": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "RPrice": {
+            "type": "number",
+            "format": "double"
+          },
+          "SoldOutSince": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "nullable": true
+          },
+          "StatusId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "RequestedName": {
+            "type": "string",
+            "nullable": true
+          },
+          "MessageCode": {
+            "type": "string",
+            "nullable": true
+          },
+          "Message": {
+            "type": "string",
+            "nullable": true
+          },
+          "UsedFor": {
+            "type": "string",
+            "nullable": true
+          },
+          "Composition": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LiningStockRequest": {
+        "required": [
+          "AuthenticationToken",
+          "LiningInputs",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "PageNo": {
+            "type": "integer",
+            "description": "The page number.",
+            "format": "int32",
+            "nullable": true
+          },
+          "PageSize": {
+            "type": "integer",
+            "description": "The size of the page.",
+            "format": "int32",
+            "nullable": true
+          },
+          "LiningInputs": {
+            "minItems": 1,
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MaterialInput"
+            },
+            "description": "The lining inputs."
+          }
+        },
+        "additionalProperties": false
+      },
+      "LiningStockResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "LiningStockResult": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/LiningStockInfoAPIResult"
+            },
+            "description": "The lining stock result.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MaterialBasicInput": {
+        "required": [
+          "ID"
+        ],
+        "type": "object",
+        "properties": {
+          "ID": {
+            "type": "integer",
+            "description": "The material identifier.",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "description": "The material name.",
+            "nullable": true
+          },
+          "Code": {
+            "type": "string",
+            "description": "The material code.",
+            "nullable": true
+          },
+          "Status": {
+            "type": "integer",
+            "description": "The material status identifier.",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "MaterialInput": {
+        "required": [
+          "ID"
+        ],
+        "type": "object",
+        "properties": {
+          "ID": {
+            "type": "integer",
+            "description": "The material identifier.",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "description": "The material name.",
+            "nullable": true
+          },
+          "Code": {
+            "type": "string",
+            "description": "The material code.",
+            "nullable": true
+          },
+          "PriceCategoryId": {
+            "type": "integer",
+            "description": "The price category identifier.",
+            "format": "int32",
+            "nullable": true
+          },
+          "Status": {
+            "type": "integer",
+            "description": "The material status identifier.",
+            "format": "int32",
+            "nullable": true
+          },
+          "XtraDays": {
+            "type": "integer",
+            "description": "Extra days (lead time) for the material.",
+            "format": "int32",
+            "nullable": true
+          },
+          "SearchStartWith": {
+            "type": "boolean",
+            "description": "Whether the search should match the start of the name."
+          },
+          "CombinationId": {
+            "type": "integer",
+            "description": "The combination identifier.",
+            "format": "int32"
+          },
+          "AtelierIds": {
+            "type": "string",
+            "description": "Comma-separated atelier identifiers.",
+            "nullable": true
+          },
+          "IsCLFabricSearch": {
+            "type": "integer",
+            "description": "Indicator whether this is a cut-length fabric search (nullable).",
+            "format": "int32",
+            "nullable": true
+          },
+          "ProductLineId": {
+            "type": "integer",
+            "description": "The product line identifier.",
+            "format": "int32"
+          }
+        },
+        "additionalProperties": false
+      },
+      "MonogramData": {
+        "type": "object",
+        "properties": {
+          "MonogramColourId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "MonogramFontId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "MonogramLengthId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "MonogramPositionId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "MonogramFirstLine": {
+            "type": "string",
+            "nullable": true
+          },
+          "MonogramSecondLine": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "NameAndValueData": {
+        "type": "object",
+        "properties": {
+          "Id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "Name": {
+            "type": "string",
+            "nullable": true
+          },
+          "Value": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderBodyhMeasurementAPIResult": {
+        "type": "object",
+        "properties": {
+          "ProductPartId": {
+            "type": "integer",
+            "description": "Product part identifier.",
+            "format": "int32"
+          },
+          "ProductPartName": {
+            "type": "string",
+            "description": "Product part name.",
+            "nullable": true
+          },
+          "MeasurementDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NameAndValueData"
+            },
+            "description": "Body measurement name/value pairs.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderBrandingOptionAPIResult": {
+        "type": "object",
+        "properties": {
+          "ProductPartId": {
+            "type": "integer",
+            "description": "Product part identifier.",
+            "format": "int32"
+          },
+          "ProductPartName": {
+            "type": "string",
+            "description": "Product part name.",
+            "nullable": true
+          },
+          "BrandingOptionDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BrandingData"
+            },
+            "description": "Branding option details.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderData": {
+        "required": [
+          "CustomerId"
+        ],
+        "type": "object",
+        "properties": {
+          "CustomerId": {
+            "type": "integer",
+            "description": "The Customer ID",
+            "format": "int32"
+          },
+          "Status": {
+            "type": "string",
+            "description": "Order status you want to choose at time of saving",
+            "nullable": true
+          },
+          "ExtraTrouserAddOn": {
+            "type": "boolean",
+            "description": "Extra trouser add on for 3-piece suit / 2-piece suit"
+          },
+          "Item": {
+            "$ref": "#/components/schemas/IdAndName"
+          },
+          "Fabric": {
+            "$ref": "#/components/schemas/IdAndName"
+          },
+          "Lining": {
+            "$ref": "#/components/schemas/IdAndName"
+          },
+          "ExtraLining": {
+            "$ref": "#/components/schemas/IdAndName"
+          },
+          "ProductData": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ProductData"
+            },
+            "description": "Order Product part make and Model details",
+            "nullable": true
+          },
+          "ShopOrderNumber": {
+            "type": "string",
+            "description": "Shop Order Number is a unique reference number assigned by the shop or store when your order is created",
+            "nullable": true
+          },
+          "ShowSize": {
+            "type": "boolean",
+            "description": "Show size label?"
+          },
+          "Occasion": {
+            "type": "string",
+            "description": "The Occasion field is used by the store to specify the event or purpose for which the order is being placed",
+            "nullable": true
+          },
+          "SkipWarnings": {
+            "type": "boolean",
+            "description": "Do you want to ignore warning? if yes then true else false"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderDeliveryInfoAPIResult": {
+        "type": "object",
+        "properties": {
+          "OrderNumber": {
+            "type": "string",
+            "description": "The order number.",
+            "nullable": true
+          },
+          "ShopOrderNumber": {
+            "type": "string",
+            "description": "The shop-specific order number.",
+            "nullable": true
+          },
+          "ProcessDate": {
+            "type": "string",
+            "description": "The last process date/time.",
+            "nullable": true
+          },
+          "OrderType": {
+            "type": "string",
+            "description": "The order type name.",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "description": "The order status.",
+            "nullable": true
+          },
+          "DaysInStatus": {
+            "type": "string",
+            "description": "Days the order has been in the current status.",
+            "nullable": true
+          },
+          "DeliveryDate": {
+            "type": "string",
+            "description": "The delivery date.",
+            "nullable": true
+          },
+          "UpdatedDeliveryDate": {
+            "type": "string",
+            "description": "The updated delivery date.",
+            "nullable": true
+          },
+          "LatestDeliveryDate": {
+            "type": "string",
+            "description": "The latest delivery date.",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "description": "The created date for the order.",
+            "nullable": true
+          },
+          "CustomerName": {
+            "type": "string",
+            "description": "The customer name associated with the order.",
+            "nullable": true
+          },
+          "ExpectedDeliveryDate": {
+            "type": "string",
+            "description": "The expected delivery date.",
+            "nullable": true
+          },
+          "UrgentOrder": {
+            "type": "string",
+            "description": "Flag indicating whether the order is urgent.",
+            "nullable": true
+          },
+          "ShopName": {
+            "type": "string",
+            "description": "The shop name where the order was placed.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderDeliveryInfoByStatusAPIResult": {
+        "type": "object",
+        "properties": {
+          "OrderNumber": {
+            "type": "string",
+            "description": "The order number.",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "description": "The order status.",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "description": "The created date for the order.",
+            "nullable": true
+          },
+          "DeliveryDate": {
+            "type": "string",
+            "description": "The delivery date.",
+            "nullable": true
+          },
+          "UpdatedDeliveryDate": {
+            "type": "string",
+            "description": "The updated delivery date.",
+            "nullable": true
+          },
+          "LatestDeliveryDate": {
+            "type": "string",
+            "description": "The latest delivery date.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderDeliveryInfoByStatusRequest": {
+        "required": [
+          "AuthenticationToken",
+          "Password",
+          "StatusID",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "StatusID": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderStatusEnum"
+            },
+            "description": "The order status identifier to filter delivery info."
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderDeliveryInfoByStatusResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "Orders": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderDeliveryInfoByStatusAPIResult"
+            },
+            "description": "Orders filtered by delivery status.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderDeliveryInfoRequest": {
+        "required": [
+          "AuthenticationToken",
+          "OrderNumbers",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "OrderNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "The collection of order numbers to fetch delivery info for."
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderDeliveryInfoResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "Orders": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderDeliveryInfoAPIResult"
+            },
+            "description": "Delivery information for the requested orders.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderDesignOptionAPIResult": {
+        "type": "object",
+        "properties": {
+          "ProductPartId": {
+            "type": "integer",
+            "description": "Product part identifier.",
+            "format": "int32"
+          },
+          "ProductPartName": {
+            "type": "string",
+            "description": "Product part name.",
+            "nullable": true
+          },
+          "OptionCategories": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/CategoryData"
+            },
+            "description": "Design option categories.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderFinishMeasurementAPIResult": {
+        "type": "object",
+        "properties": {
+          "ProductPartId": {
+            "type": "integer",
+            "description": "Product part identifier.",
+            "format": "int32"
+          },
+          "ProductPartName": {
+            "type": "string",
+            "description": "Product part name.",
+            "nullable": true
+          },
+          "MeasurementDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NameAndValueData"
+            },
+            "description": "Finish measurement name/value pairs.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderFitToolInfoAPIResult": {
+        "type": "object",
+        "properties": {
+          "ProductPartId": {
+            "type": "integer",
+            "description": "Product part identifier.",
+            "format": "int32"
+          },
+          "ProductPartName": {
+            "type": "string",
+            "description": "Product part name.",
+            "nullable": true
+          },
+          "FitToolDetails": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/NameAndValueData"
+            },
+            "description": "Fit tool name/value details.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderInfoAPIResult": {
+        "type": "object",
+        "properties": {
+          "OrderNumber": {
+            "type": "string",
+            "description": "Order number.",
+            "nullable": true
+          },
+          "ShopOrderNumber": {
+            "type": "string",
+            "description": "Shop order number.",
+            "nullable": true
+          },
+          "RetailPrice": {
+            "type": "string",
+            "description": "Retail price",
+            "nullable": true
+          },
+          "PPrice": {
+            "type": "string",
+            "description": "P-price",
+            "nullable": true
+          },
+          "Downpayment": {
+            "type": "string",
+            "description": "Down payment",
+            "nullable": true
+          },
+          "CustomerID": {
+            "type": "integer",
+            "description": "Customer identifier",
+            "format": "int32"
+          },
+          "ProcessDate": {
+            "type": "string",
+            "description": "Last process date",
+            "nullable": true
+          },
+          "OrderType": {
+            "type": "string",
+            "description": "Order type",
+            "nullable": true
+          },
+          "OrderTypeId": {
+            "type": "integer",
+            "description": "Order type identifier",
+            "format": "int32"
+          },
+          "Tailor": {
+            "type": "string",
+            "description": "Tailor name",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "description": "Order status",
+            "nullable": true
+          },
+          "DaysInStatus": {
+            "type": "integer",
+            "description": "Days in current status",
+            "format": "int32"
+          },
+          "Fabric": {
+            "type": "string",
+            "description": "Fabric",
+            "nullable": true
+          },
+          "Lining": {
+            "type": "string",
+            "description": "Lining",
+            "nullable": true
+          },
+          "DeliveryDate": {
+            "type": "string",
+            "description": "Delivery date",
+            "nullable": true
+          },
+          "UpdatedDeliveryDate": {
+            "type": "string",
+            "description": "Updated delivery date",
+            "nullable": true
+          },
+          "LatestDeliveryDate": {
+            "type": "string",
+            "description": "Latest delivery date",
+            "nullable": true
+          },
+          "ShopLabel": {
+            "type": "string",
+            "description": "Shop label",
+            "nullable": true
+          },
+          "CreateBy": {
+            "type": "string",
+            "description": "Created by",
+            "nullable": true
+          },
+          "CreateDate": {
+            "type": "string",
+            "description": "Create date",
+            "nullable": true
+          },
+          "CustomerName": {
+            "type": "string",
+            "description": "Customer name",
+            "nullable": true
+          },
+          "Company": {
+            "type": "string",
+            "description": "Company name",
+            "nullable": true
+          },
+          "FabricPriceCategory": {
+            "type": "string",
+            "description": "Fabric price category",
+            "nullable": true
+          },
+          "PPriceDiscountOrCost": {
+            "type": "string",
+            "description": "PPrice discount or cost",
+            "nullable": true
+          },
+          "TotalPPriceInclDiscountOrCost": {
+            "type": "string",
+            "description": "Total PPrice including discount or cost",
+            "nullable": true
+          },
+          "RPriceDiscount": {
+            "type": "string",
+            "description": "RPrice discount",
+            "nullable": true
+          },
+          "RPriceServiceCharge": {
+            "type": "string",
+            "description": "RPrice service charge",
+            "nullable": true
+          },
+          "TotalRPrice": {
+            "type": "string",
+            "description": "Total RPrice",
+            "nullable": true
+          },
+          "OutStandingAmount": {
+            "type": "string",
+            "description": "Outstanding amount",
+            "nullable": true
+          },
+          "ExpectedDeliveryDate": {
+            "type": "string",
+            "description": "Expected delivery date",
+            "nullable": true
+          },
+          "UrgentOrder": {
+            "type": "string",
+            "description": "Urgent order flag",
+            "nullable": true
+          },
+          "ShopOrderComment": {
+            "type": "string",
+            "description": "Shop order comment",
+            "nullable": true
+          },
+          "IsSizeLabelSelected": {
+            "type": "string",
+            "description": "Is size label selected",
+            "nullable": true
+          },
+          "ShopName": {
+            "type": "string",
+            "description": "Shop name",
+            "nullable": true
+          },
+          "WashName": {
+            "type": "string",
+            "description": "Wash name",
+            "nullable": true
+          },
+          "QRCodeResponse": {
+            "$ref": "#/components/schemas/QRCodeAPIResult"
+          },
+          "Occasion": {
+            "type": "string",
+            "description": "Occasion",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderInfoByCustomerIDAPIResult": {
+        "type": "object",
+        "properties": {
+          "OrderNumber": {
+            "type": "string",
+            "description": "Order number.",
+            "nullable": true
+          },
+          "ShopOrderNumber": {
+            "type": "string",
+            "description": "Shop order number.",
+            "nullable": true
+          },
+          "RetailPrice": {
+            "type": "string",
+            "description": "Retail price.",
+            "nullable": true
+          },
+          "PPrice": {
+            "type": "string",
+            "description": "P-price.",
+            "nullable": true
+          },
+          "Downpayment": {
+            "type": "string",
+            "description": "Down payment.",
+            "nullable": true
+          },
+          "CustomerID": {
+            "type": "string",
+            "description": "Customer identifier.",
+            "nullable": true
+          },
+          "ProcessDate": {
+            "type": "string",
+            "description": "Process date.",
+            "nullable": true
+          },
+          "OrderType": {
+            "type": "string",
+            "description": "Order type.",
+            "nullable": true
+          },
+          "OrderTypeId": {
+            "type": "integer",
+            "description": "Order type identifier.",
+            "format": "int32"
+          },
+          "Tailor": {
+            "type": "string",
+            "description": "Tailor.",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "description": "Status.",
+            "nullable": true
+          },
+          "DaysInStatus": {
+            "type": "string",
+            "description": "Days in status.",
+            "nullable": true
+          },
+          "Fabric": {
+            "type": "string",
+            "description": "Fabric.",
+            "nullable": true
+          },
+          "Lining": {
+            "type": "string",
+            "description": "Lining.",
+            "nullable": true
+          },
+          "DeliveryDate": {
+            "type": "string",
+            "description": "Delivery date.",
+            "nullable": true
+          },
+          "UpdatedDeliveryDate": {
+            "type": "string",
+            "description": "Updated delivery date.",
+            "nullable": true
+          },
+          "LatestDeliveryDate": {
+            "type": "string",
+            "description": "Latest delivery date.",
+            "nullable": true
+          },
+          "ShopLabel": {
+            "type": "string",
+            "description": "Shop label.",
+            "nullable": true
+          },
+          "CreateBy": {
+            "type": "string",
+            "description": "Created by.",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "description": "Created date.",
+            "nullable": true
+          },
+          "CustomerName": {
+            "type": "string",
+            "description": "Customer name.",
+            "nullable": true
+          },
+          "Company": {
+            "type": "string",
+            "description": "Company.",
+            "nullable": true
+          },
+          "FabricPriceCategory": {
+            "type": "string",
+            "description": "Fabric price category.",
+            "nullable": true
+          },
+          "PPriceDiscountOrCost": {
+            "type": "string",
+            "description": "PPrice discount or cost.",
+            "nullable": true
+          },
+          "TotalPPriceInclDiscountOrCost": {
+            "type": "string",
+            "description": "Total PPrice including discount or cost.",
+            "nullable": true
+          },
+          "RPriceDiscount": {
+            "type": "string",
+            "description": "RPrice discount.",
+            "nullable": true
+          },
+          "RPriceServiceCharge": {
+            "type": "string",
+            "description": "RPrice service charge.",
+            "nullable": true
+          },
+          "TotalRPrice": {
+            "type": "string",
+            "description": "Total RPrice.",
+            "nullable": true
+          },
+          "OutStandingAmount": {
+            "type": "string",
+            "description": "Outstanding amount.",
+            "nullable": true
+          },
+          "ExpectedDeliveryDate": {
+            "type": "string",
+            "description": "Expected delivery date.",
+            "nullable": true
+          },
+          "UrgentOrder": {
+            "type": "string",
+            "description": "Urgent order flag.",
+            "nullable": true
+          },
+          "ShopOrderComment": {
+            "type": "string",
+            "description": "Shop order comment.",
+            "nullable": true
+          },
+          "IsSizeLabelSelected": {
+            "type": "string",
+            "description": "Is size label selected.",
+            "nullable": true
+          },
+          "ShopName": {
+            "type": "string",
+            "description": "Shop name.",
+            "nullable": true
+          },
+          "WashName": {
+            "type": "string",
+            "description": "Wash name.",
+            "nullable": true
+          },
+          "QRCodeResponse": {
+            "$ref": "#/components/schemas/QRCodeAPIResult"
+          },
+          "Occasion": {
+            "type": "string",
+            "description": "Occasion.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderInfoByOrderDateAPIResult": {
+        "type": "object",
+        "properties": {
+          "OrderNumber": {
+            "type": "string",
+            "description": "The order number.",
+            "nullable": true
+          },
+          "ShopOrderNumber": {
+            "type": "string",
+            "description": "The shop-specific order number.",
+            "nullable": true
+          },
+          "RetailPrice": {
+            "type": "string",
+            "description": "The retail price as string.",
+            "nullable": true
+          },
+          "PPrice": {
+            "type": "string",
+            "description": "The P-price as string.",
+            "nullable": true
+          },
+          "Downpayment": {
+            "type": "string",
+            "description": "The down payment amount as string.",
+            "nullable": true
+          },
+          "CustomerID": {
+            "type": "string",
+            "description": "The customer identifier.",
+            "nullable": true
+          },
+          "ProcessDate": {
+            "type": "string",
+            "description": "The process date.",
+            "nullable": true
+          },
+          "OrderType": {
+            "type": "string",
+            "description": "The order type name.",
+            "nullable": true
+          },
+          "OrderTypeId": {
+            "type": "integer",
+            "description": "The order type identifier.",
+            "format": "int32"
+          },
+          "Tailor": {
+            "type": "string",
+            "description": "The tailor name.",
+            "nullable": true
+          },
+          "Status": {
+            "type": "string",
+            "description": "The order status.",
+            "nullable": true
+          },
+          "DaysInStatus": {
+            "type": "string",
+            "description": "Days in current status.",
+            "nullable": true
+          },
+          "Fabric": {
+            "type": "string",
+            "description": "The fabric name.",
+            "nullable": true
+          },
+          "Lining": {
+            "type": "string",
+            "description": "The lining name.",
+            "nullable": true
+          },
+          "DeliveryDate": {
+            "type": "string",
+            "description": "The delivery date.",
+            "nullable": true
+          },
+          "UpdatedDeliveryDate": {
+            "type": "string",
+            "description": "The updated delivery date.",
+            "nullable": true
+          },
+          "LatestDeliveryDate": {
+            "type": "string",
+            "description": "The latest delivery date.",
+            "nullable": true
+          },
+          "ShopLabel": {
+            "type": "string",
+            "description": "The shop label.",
+            "nullable": true
+          },
+          "CreateBy": {
+            "type": "string",
+            "description": "Created by user.",
+            "nullable": true
+          },
+          "CreatedDate": {
+            "type": "string",
+            "description": "The created date.",
+            "nullable": true
+          },
+          "CustomerName": {
+            "type": "string",
+            "description": "The customer name.",
+            "nullable": true
+          },
+          "Company": {
+            "type": "string",
+            "description": "The customer company.",
+            "nullable": true
+          },
+          "FabricPriceCategory": {
+            "type": "string",
+            "description": "The fabric price category.",
+            "nullable": true
+          },
+          "PPriceDiscountOrCost": {
+            "type": "string",
+            "description": "P-price discount or cost.",
+            "nullable": true
+          },
+          "TotalPPriceInclDiscountOrCost": {
+            "type": "string",
+            "description": "Total P-price including discount or cost.",
+            "nullable": true
+          },
+          "RPriceDiscount": {
+            "type": "string",
+            "description": "R-price discount.",
+            "nullable": true
+          },
+          "RPriceServiceCharge": {
+            "type": "string",
+            "description": "R-price service charge.",
+            "nullable": true
+          },
+          "TotalRPrice": {
+            "type": "string",
+            "description": "Total R-price.",
+            "nullable": true
+          },
+          "OutStandingAmount": {
+            "type": "string",
+            "description": "Outstanding amount.",
+            "nullable": true
+          },
+          "ExpectedDeliveryDate": {
+            "type": "string",
+            "description": "The expected delivery date.",
+            "nullable": true
+          },
+          "UrgentOrder": {
+            "type": "string",
+            "description": "Flag indicating an urgent order.",
+            "nullable": true
+          },
+          "ShopOrderComment": {
+            "type": "string",
+            "description": "Shop order comment.",
+            "nullable": true
+          },
+          "IsSizeLabelSelected": {
+            "type": "string",
+            "description": "Indicates whether a size label is selected.",
+            "nullable": true
+          },
+          "ShopName": {
+            "type": "string",
+            "description": "The shop name.",
+            "nullable": true
+          },
+          "WashName": {
+            "type": "string",
+            "description": "The wash name.",
+            "nullable": true
+          },
+          "QRCodeResponse": {
+            "$ref": "#/components/schemas/QRCodeAPIResult"
+          },
+          "Occasion": {
+            "type": "string",
+            "description": "Occasion for the order.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderItemDetailsAPIResult": {
+        "type": "object",
+        "properties": {
+          "ProductPartId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ProductPartName": {
+            "type": "string",
+            "nullable": true
+          },
+          "StyleName": {
+            "type": "string",
+            "nullable": true
+          },
+          "FitProfileName": {
+            "type": "string",
+            "nullable": true
+          },
+          "FitName": {
+            "type": "string",
+            "nullable": true
+          },
+          "MakeName": {
+            "type": "string",
+            "nullable": true
+          },
+          "TryOn": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderPriceInfoAPIResult": {
+        "type": "object",
+        "properties": {
+          "FabricPPrice": {
+            "type": "number",
+            "description": "Fabric P-price.",
+            "format": "double"
+          },
+          "LiningPPrice": {
+            "type": "number",
+            "description": "Lining P-price.",
+            "format": "double"
+          },
+          "ButtonPPrice": {
+            "type": "number",
+            "description": "Button P-price.",
+            "format": "double"
+          },
+          "MakePPrice": {
+            "type": "number",
+            "description": "Make P-price.",
+            "format": "double"
+          },
+          "DesignOptionValuePPrice": {
+            "type": "number",
+            "description": "Design option value P-price.",
+            "format": "double"
+          },
+          "TotalDiscount": {
+            "type": "number",
+            "description": "Total discount.",
+            "format": "double"
+          },
+          "TotalPPrice": {
+            "type": "number",
+            "description": "Total P-price.",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderPricingInfoAPIResult": {
+        "type": "object",
+        "properties": {
+          "OrderNumber": {
+            "type": "string",
+            "description": "The order number.",
+            "nullable": true
+          },
+          "PPriceDetails": {
+            "$ref": "#/components/schemas/OrderPriceInfoAPIResult"
+          },
+          "RPriceDetails": {
+            "$ref": "#/components/schemas/OrderRPriceInfoAPIResult"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderPricingInfoRequest": {
+        "required": [
+          "AuthenticationToken",
+          "OrderNumbers",
+          "Password",
+          "PricingType",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "OrderNumbers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Order numbers to fetch pricing information for."
+          },
+          "PricingType": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/PriceEnum"
+            },
+            "description": "Pricing types to include in the response."
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderPricingInfoResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "Orders": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/OrderPricingInfoAPIResult"
+            },
+            "description": "Pricing information for the requested orders.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderRPriceInfoAPIResult": {
+        "type": "object",
+        "properties": {
+          "FabricRPrice": {
+            "type": "number",
+            "description": "Fabric R-price.",
+            "format": "double"
+          },
+          "LiningRPrice": {
+            "type": "number",
+            "description": "Lining R-price.",
+            "format": "double"
+          },
+          "ButtonRPrice": {
+            "type": "number",
+            "description": "Button R-price.",
+            "format": "double"
+          },
+          "MakeRPrice": {
+            "type": "number",
+            "description": "Make R-price.",
+            "format": "double"
+          },
+          "DesignOptionValueRPrice": {
+            "type": "number",
+            "description": "Design option value R-price.",
+            "format": "double"
+          },
+          "TotalDiscount": {
+            "type": "number",
+            "description": "Total discount.",
+            "format": "double"
+          },
+          "TotalRPrice": {
+            "type": "number",
+            "description": "Total R-price.",
+            "format": "double"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderRequest": {
+        "required": [
+          "AuthenticationToken",
+          "Password",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "OrderData": {
+            "$ref": "#/components/schemas/OrderData"
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderStatusEnum": {
+        "enum": [
+          "11 = In alteration",
+          "14 = Delivered to customer",
+          "16 = Received",
+          "44 = In transit",
+          "45 = In workshop",
+          "46 = Out for delivery"
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "OrderStatusUpdateAPIResult": {
+        "type": "object",
+        "properties": {
+          "OrderNumber": {
+            "type": "string",
+            "description": "The order number.",
+            "nullable": true
+          },
+          "IsUpdated": {
+            "type": "boolean",
+            "description": "Indicating whether order is updated."
+          },
+          "MessageCode": {
+            "type": "string",
+            "description": "The message code.",
+            "nullable": true
+          },
+          "Message": {
+            "type": "string",
+            "description": "The message.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "OrderStatusUpdateEnum": {
+        "enum": [
+          "6 = Processed",
+          "11 = In alteration",
+          "12 = On hold",
+          "14 = Delivered to customer",
+          "16 = Received",
+          "17 = Cancelled",
+          "67 = Deposit paid"
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "PriceEnum": {
+        "enum": [
+          "0 = PPrice",
+          "1 = RPrice"
+        ],
+        "type": "integer",
+        "format": "int32"
+      },
+      "ProductData": {
+        "type": "object",
+        "properties": {
+          "ProductPartId": {
+            "type": "integer",
+            "description": "Order Product part id",
+            "format": "int32"
+          },
+          "StyleOrderNumber": {
+            "type": "string",
+            "description": "Order number from which you want to copy design options",
+            "nullable": true
+          },
+          "MakeId": {
+            "type": "integer",
+            "description": "Order Product part Make id",
+            "format": "int32"
+          },
+          "FitAndTryOnData": {
+            "$ref": "#/components/schemas/FitAndTryOnData"
+          },
+          "DesignOptions": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DesignOptionValueData"
+            },
+            "description": "Order Product part Design option details",
+            "nullable": true
+          },
+          "MonogramData": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/MonogramData"
+            },
+            "description": "Order Product part Monogram option details",
+            "nullable": true
+          },
+          "BrandingOptionData": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/BrandingOptionData"
+            },
+            "description": "Order Product part Branding option details",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "QRCodeAPIResult": {
+        "type": "object",
+        "properties": {
+          "OrderNumber": {
+            "type": "string",
+            "description": "The order number.",
+            "nullable": true
+          },
+          "MaterialDescription": {
+            "type": "string",
+            "description": "Description of the material (fabric/model) encoded in the QR).",
+            "nullable": true
+          },
+          "Size": {
+            "type": "string",
+            "description": "The size information.",
+            "nullable": true
+          },
+          "FabricColor": {
+            "type": "string",
+            "description": "The fabric color information.",
+            "nullable": true
+          },
+          "FabricDescription": {
+            "type": "string",
+            "description": "The fabric composition/description.",
+            "nullable": true
+          },
+          "ModelInfo": {
+            "type": "string",
+            "description": "Model-specific information.",
+            "nullable": true
+          },
+          "Closure": {
+            "type": "string",
+            "description": "Closure type information.",
+            "nullable": true
+          },
+          "Width": {
+            "type": "string",
+            "description": "Width value.",
+            "nullable": true
+          },
+          "Length": {
+            "type": "string",
+            "description": "Length value.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateOrderStatusRequest": {
+        "required": [
+          "AuthenticationToken",
+          "OrderNumber",
+          "Password",
+          "Status",
+          "UserName"
+        ],
+        "type": "object",
+        "properties": {
+          "UserName": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Username for authentication"
+          },
+          "Password": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Password for authentication"
+          },
+          "AuthenticationToken": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Authentication token for authorized requests"
+          },
+          "OrderNumber": {
+            "minLength": 1,
+            "type": "string",
+            "description": "Order number to update."
+          },
+          "Status": {
+            "$ref": "#/components/schemas/OrderStatusUpdateEnum"
+          },
+          "Remarks": {
+            "type": "string",
+            "description": "Optional remarks for the status update.",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "UpdateOrderStatusResponse": {
+        "type": "object",
+        "properties": {
+          "IsValidResult": {
+            "type": "boolean",
+            "description": "Indicates whether the result is valid."
+          },
+          "ErrorCode": {
+            "type": "string",
+            "description": "The error code when the response is not valid.",
+            "nullable": true
+          },
+          "ErrorMessage": {
+            "type": "string",
+            "description": "A human-readable error message when the response is not valid.",
+            "nullable": true
+          },
+          "Id": {
+            "type": "integer",
+            "description": "The identifier associated with this response.",
+            "format": "int32"
+          },
+          "Order": {
+            "$ref": "#/components/schemas/OrderStatusUpdateAPIResult"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  }
+}
