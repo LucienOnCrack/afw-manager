@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useState, useCallback } from "react";
+import { useRouter } from "next/navigation";
+import { createClient } from "@/lib/supabase/client";
 import type { FabricsApiResponse, Fabric, FabricStats, GarmentPrice, Surcharge } from "@/lib/types";
 
 type SortField = "code" | "name" | "priceCategory" | "supplier" | "stock" | "usedFor";
@@ -78,6 +80,8 @@ export default function Home() {
   const [page, setPage] = useState(1);
   const [imageErrors, setImageErrors] = useState<Set<number>>(new Set());
   const [expandedId, setExpandedId] = useState<number | null>(null);
+  const router = useRouter();
+  const supabase = createClient();
 
   useEffect(() => {
     const timer = setTimeout(() => setDebouncedSearch(search), 300);
@@ -154,14 +158,26 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-gray-50">
       <header className="border-b border-gray-200 bg-white">
-        <div className="mx-auto max-w-[1400px] px-4 py-6 sm:px-6 lg:px-8">
-          <h1 className="text-2xl font-bold tracking-tight text-gray-900">
-            Fabric Catalogue
-          </h1>
-          <p className="mt-1 text-sm text-gray-500">
-            Browse fabrics from GoCreate
-            {data ? ` \u00B7 ${data.totalCount.toLocaleString()} fabrics` : ""}
-          </p>
+        <div className="mx-auto max-w-[1400px] px-4 py-6 sm:px-6 lg:px-8 flex items-center justify-between">
+          <div>
+            <h1 className="text-2xl font-bold tracking-tight text-gray-900">
+              Fabric Catalogue
+            </h1>
+            <p className="mt-1 text-sm text-gray-500">
+              Browse fabrics from GoCreate
+              {data ? ` \u00B7 ${data.totalCount.toLocaleString()} fabrics` : ""}
+            </p>
+          </div>
+          <button
+            onClick={async () => {
+              await supabase.auth.signOut();
+              router.push("/login");
+              router.refresh();
+            }}
+            className="rounded-lg border border-gray-300 px-3 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+          >
+            Sign out
+          </button>
         </div>
       </header>
 

@@ -1,9 +1,16 @@
 import { NextRequest, NextResponse } from "next/server";
-import { supabase } from "@/lib/supabase";
+import { createClient } from "@/lib/supabase/server";
 import type { Fabric, FabricsApiResponse, GarmentPrice, Surcharge } from "@/lib/types";
 
 export async function GET(request: NextRequest) {
   try {
+    const supabase = await createClient();
+
+    const { data: { user }, error: authError } = await supabase.auth.getUser();
+    if (authError || !user) {
+      return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+    }
+
     const { searchParams } = request.nextUrl;
     const type = searchParams.get("type") || "all";
     const search = searchParams.get("search") || "";

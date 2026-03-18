@@ -1,6 +1,8 @@
 import { NextRequest, NextResponse } from "next/server";
 import { getServiceClient } from "@/lib/supabase";
 
+const SYNC_ENABLED = false;
+
 const API_BASE = "https://api.gocreate.nu";
 const DELAY_MS = 500;
 const MAX_RETRIES = 5;
@@ -110,18 +112,12 @@ function toDbRow(f: FabricStockInfo) {
   };
 }
 
-export async function POST(request: NextRequest) {
-  const syncSecret = process.env.SYNC_SECRET;
-  if (!syncSecret) {
+export async function POST(_request: NextRequest) {
+  if (!SYNC_ENABLED) {
     return NextResponse.json(
-      { error: "SYNC_SECRET not configured" },
-      { status: 500 }
+      { error: "Sync endpoint is currently disabled" },
+      { status: 503 }
     );
-  }
-
-  const authHeader = request.headers.get("authorization");
-  if (authHeader !== `Bearer ${syncSecret}`) {
-    return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
   }
 
   const userName = process.env.GOCREATE_USERNAME;
