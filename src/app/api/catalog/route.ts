@@ -23,6 +23,7 @@ interface DbDesignOption {
   id: number;
   category_id: number;
   part_id: number;
+  gc_select_id: string;
   name: string;
   sort_order: number;
 }
@@ -101,9 +102,9 @@ export async function GET(request: NextRequest) {
     catalog.from("gc_sales_associates").select("id, name"),
     catalog.from("gc_fit_advise").select("id, part_id, name"),
     catalog.from("gc_fits").select("id, part_id, name"),
-    fetchAll<{ id: number; part_id: number; fit_id: number; label: string; sort_order: number; tryon_type: string | null }>("gc_tryon_sizes", "id, part_id, fit_id, label, sort_order, tryon_type", "sort_order"),
+    fetchAll<{ id: number; part_id: number; fit_id: number; label: string; value: string; sort_order: number; tryon_type: string | null }>("gc_tryon_sizes", "id, part_id, fit_id, label, value, sort_order, tryon_type", "sort_order"),
     catalog.from("gc_option_categories").select("id, part_id, category_name, is_monogram"),
-    catalog.from("gc_design_options").select("id, category_id, part_id, name, sort_order").order("sort_order"),
+    catalog.from("gc_design_options").select("id, category_id, part_id, gc_select_id, name, sort_order").order("sort_order"),
     fetchAll<DbOptionValue>("gc_option_values", "design_option_id, value_id, label, sort_order", "sort_order"),
     catalog.from("gc_fit_tools").select("*").order("sort_order"),
     catalog.from("gc_branding_positions").select("id, part_id, position_id, position_name, gc_branding_labels(label_id, label_name)"),
@@ -139,7 +140,7 @@ export async function GET(request: NextRequest) {
     (r) => r.part_id
   );
   const tryonSizesByPart = groupBy(
-    (tryonSizes ?? []).map((s) => ({ id: s.id, label: s.label, part_id: s.part_id, fitId: s.fit_id, tryonType: s.tryon_type })),
+    (tryonSizes ?? []).map((s) => ({ id: parseInt(s.value, 10) || s.id, label: s.label, part_id: s.part_id, fitId: s.fit_id, tryonType: s.tryon_type })),
     (r) => r.part_id
   );
 
@@ -173,7 +174,8 @@ export async function GET(request: NextRequest) {
       const numId = Number(v.value_id);
       return { valueId: isNaN(numId) ? v.value_id : numId, label: v.label };
     });
-    cat.options.push({ optionId: opt.id, name: opt.name, values: vals });
+    const gcOptionId = parseInt(opt.gc_select_id?.replace(/\D/g, "") ?? "", 10) || opt.id;
+    cat.options.push({ optionId: gcOptionId, name: opt.name, values: vals });
   }
 
   // Classify fit tool into section based on name patterns (matches GoCreate's server-rendered groupings)
