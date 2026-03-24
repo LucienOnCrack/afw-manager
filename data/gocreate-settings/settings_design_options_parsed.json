@@ -1,0 +1,207 @@
+{
+  "selects": [
+    {
+      "id": "ddlProductPart",
+      "name": "SelectedProductPartID",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "1",
+          "selected": false,
+          "data": {},
+          "text": "Jacket"
+        },
+        {
+          "value": "2",
+          "selected": false,
+          "data": {},
+          "text": "Trousers"
+        },
+        {
+          "value": "3",
+          "selected": false,
+          "data": {},
+          "text": "Waistcoat"
+        },
+        {
+          "value": "4",
+          "selected": false,
+          "data": {},
+          "text": "Shirt"
+        },
+        {
+          "value": "5",
+          "selected": false,
+          "data": {},
+          "text": "Overcoat"
+        },
+        {
+          "value": "12",
+          "selected": false,
+          "data": {},
+          "text": "Bermuda"
+        },
+        {
+          "value": "13",
+          "selected": false,
+          "data": {},
+          "text": "Pea coat"
+        },
+        {
+          "value": "26",
+          "selected": false,
+          "data": {},
+          "text": "Coat"
+        },
+        {
+          "value": "27",
+          "selected": false,
+          "data": {},
+          "text": "Detachable liner"
+        },
+        {
+          "value": "31",
+          "selected": false,
+          "data": {},
+          "text": "Informal jacket"
+        }
+      ]
+    },
+    {
+      "id": "ddlProductLine",
+      "name": "SelectedProductLineAtelierID",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "1",
+          "selected": false,
+          "data": {},
+          "text": "Standard Suits A"
+        },
+        {
+          "value": "17",
+          "selected": false,
+          "data": {},
+          "text": "Standard Suits B / Outerwear"
+        }
+      ]
+    },
+    {
+      "id": "ddlProductMake",
+      "name": "SelectedProductMakeIDs",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "8",
+          "selected": true,
+          "data": {},
+          "text": "traditional"
+        },
+        {
+          "value": "9",
+          "selected": false,
+          "data": {},
+          "text": "traditional full canvas"
+        },
+        {
+          "value": "1",
+          "selected": false,
+          "data": {},
+          "text": "handmade"
+        },
+        {
+          "value": "11",
+          "selected": false,
+          "data": {},
+          "text": "unconstructed"
+        },
+        {
+          "value": "12",
+          "selected": false,
+          "data": {},
+          "text": "unconstructed handmade"
+        },
+        {
+          "value": "7",
+          "selected": false,
+          "data": {},
+          "text": "semi-traditional"
+        }
+      ]
+    },
+    {
+      "id": "ddlProductFit",
+      "name": "SelectedProductFitIDs",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "38",
+          "selected": true,
+          "data": {},
+          "text": "Regular "
+        },
+        {
+          "value": "41",
+          "selected": false,
+          "data": {},
+          "text": "Slim "
+        },
+        {
+          "value": "39",
+          "selected": false,
+          "data": {},
+          "text": "Slim2.0 "
+        }
+      ]
+    }
+  ],
+  "hiddens": [
+    {
+      "id": "ControllerName",
+      "name": "ControllerName",
+      "value": "ShopSettings"
+    },
+    {
+      "id": "ActionName",
+      "name": "ActionName",
+      "value": "DesignOptions"
+    },
+    {
+      "id": "hiddenScrollPositionH",
+      "name": "",
+      "value": ""
+    },
+    {
+      "id": "selectedShop",
+      "name": "selectedShop",
+      "value": ""
+    },
+    {
+      "id": "hiddenHostedServer",
+      "name": "",
+      "value": "Web5"
+    },
+    {
+      "id": "hiddenFromMobileDevice",
+      "name": "",
+      "value": "false"
+    }
+  ],
+  "tables": [],
+  "js_variables": {
+    "DATEFORMAT": "'dd-M-yyyy'",
+    "shopCurrency": "'&#163;'",
+    "DATERANGE": "'1950:2050'",
+    "DATEFORMAT_SERVER": "'dd-MMM-yyyy'",
+    "SITE_BASE_URL": "'http://gocreate.nu/'",
+    "SESSION_EXPIRE_URL": "'/ShopSettings/SessionExpire'",
+    "ISINVOICE_SURCHARGE_APPLICABLE": "'False'",
+    "shouldRedirectToHttps": "'true'",
+    "redirectToHttps": "'False'",
+    "PANEL_COOKIE_NAME": "\"shoppanels\"",
+    "PANEL_COOKIE_NAME_SINGLE_STEP": "\"shoppanelSingleStep\"",
+    "isSiteInReadOnlyMode": "'False'",
+    "i": "0",
+    "productPartChangeURL": "'/ShopSettings/GetProductFits'"
+  }
+}

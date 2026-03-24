@@ -1,0 +1,10 @@
+{
+  "1": {
+    "partId": 1,
+    "partName": "Jacket",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  }
+}

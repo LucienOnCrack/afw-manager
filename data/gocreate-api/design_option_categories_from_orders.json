@@ -1,0 +1,68 @@
+{
+  "2": {
+    "name": "Trousers",
+    "parts": [
+      "Trousers"
+    ]
+  },
+  "6": {
+    "name": "Waistcoat",
+    "parts": [
+      "Waistcoat"
+    ]
+  },
+  "1": {
+    "name": "Jacket",
+    "parts": [
+      "Jacket"
+    ]
+  },
+  "62": {
+    "name": "Monogram jacket",
+    "parts": [
+      "Jacket"
+    ]
+  },
+  "61": {
+    "name": "Monogram general",
+    "parts": [
+      "Jacket"
+    ]
+  },
+  "35": {
+    "name": "Ties",
+    "parts": [
+      "Bow tie"
+    ]
+  },
+  "18": {
+    "name": "Shirts",
+    "parts": [
+      "Shirt"
+    ]
+  },
+  "42": {
+    "name": "Sneaker",
+    "parts": [
+      "Sneaker"
+    ]
+  },
+  "34": {
+    "name": "Monogram shoes",
+    "parts": [
+      "Sneaker"
+    ]
+  },
+  "37": {
+    "name": "Monogram belt",
+    "parts": [
+      "Sneaker"
+    ]
+  },
+  "78": {
+    "name": "Knitwear",
+    "parts": [
+      "Knitwear"
+    ]
+  }
+}

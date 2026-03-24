@@ -1,0 +1,290 @@
+[
+  {
+    "ProductPartId": 2,
+    "ProductPartName": "Trousers",
+    "StyleName": "",
+    "FitProfileName": "double pleat aff",
+    "FitName": "T40",
+    "MakeName": "traditional",
+    "TryOn": "54"
+  },
+  {
+    "ProductPartId": 2,
+    "ProductPartName": "Trousers",
+    "StyleName": "",
+    "FitProfileName": "double pleat aff",
+    "FitName": "T40",
+    "MakeName": "traditional",
+    "TryOn": "54"
+  },
+  {
+    "ProductPartId": 3,
+    "ProductPartName": "Waistcoat",
+    "StyleName": "",
+    "FitProfileName": "[Waistcoat] 09-Mar-2026",
+    "FitName": "Slim 2.0",
+    "MakeName": "traditional",
+    "TryOn": "62"
+  },
+  {
+    "ProductPartId": 1,
+    "ProductPartName": "Jacket",
+    "StyleName": "",
+    "FitProfileName": "[Jacket] 10-Mar-2026",
+    "FitName": "Slim2.0 ",
+    "MakeName": "traditional",
+    "TryOn": "27"
+  },
+  {
+    "ProductPartId": 3,
+    "ProductPartName": "Waistcoat",
+    "StyleName": "",
+    "FitProfileName": "[Waistcoat] 17-Mar-2026",
+    "FitName": "Slim 2.0",
+    "MakeName": "traditional",
+    "TryOn": "56"
+  },
+  {
+    "ProductPartId": 23,
+    "ProductPartName": "Bow tie",
+    "StyleName": "",
+    "FitProfileName": null,
+    "FitName": "Standard",
+    "MakeName": "pre-folded",
+    "TryOn": "Dummy"
+  },
+  {
+    "ProductPartId": 1,
+    "ProductPartName": "Jacket",
+    "StyleName": "",
+    "FitProfileName": "[Jacket] 12-Mar-2026",
+    "FitName": "Regular ",
+    "MakeName": "traditional",
+    "TryOn": "68"
+  },
+  {
+    "ProductPartId": 2,
+    "ProductPartName": "Trousers",
+    "StyleName": "",
+    "FitProfileName": "[Trousers] 12-Mar-2026",
+    "FitName": "Regular",
+    "MakeName": "traditional",
+    "TryOn": "68"
+  },
+  {
+    "ProductPartId": 4,
+    "ProductPartName": "Shirt",
+    "StyleName": "",
+    "FitProfileName": "[Shirt] 09-Mar-2026",
+    "FitName": "Slim 2.0",
+    "MakeName": "traditional",
+    "TryOn": "42"
+  },
+  {
+    "ProductPartId": 4,
+    "ProductPartName": "Shirt",
+    "StyleName": "",
+    "FitProfileName": "[Shirt] 13-Mar-2026",
+    "FitName": "Regular 2.0",
+    "MakeName": "traditional",
+    "TryOn": "50"
+  },
+  {
+    "ProductPartId": 21,
+    "ProductPartName": "Sneaker",
+    "StyleName": "",
+    "FitProfileName": "[Sneaker] 17-Mar-2026",
+    "FitName": "Standard",
+    "MakeName": "blake P",
+    "TryOn": "Dummy"
+  },
+  {
+    "ProductPartId": 32,
+    "ProductPartName": "Knitwear",
+    "StyleName": "",
+    "FitProfileName": "[Oversized Knit from Jacket] 7-Oct-2025",
+    "FitName": "K40",
+    "MakeName": "traditional",
+    "TryOn": "58"
+  },
+  {
+    "ProductPartId": 1,
+    "ProductPartName": "Jacket",
+    "StyleName": "",
+    "FitProfileName": "[Jacket] 17-Mar-2026",
+    "FitName": "Slim2.0 ",
+    "MakeName": "traditional",
+    "TryOn": "24"
+  },
+  {
+    "ProductPartId": 2,
+    "ProductPartName": "Trousers",
+    "StyleName": "",
+    "FitProfileName": "[Trousers] 17-Mar-2026",
+    "FitName": "T40",
+    "MakeName": "traditional",
+    "TryOn": "24"
+  },
+  {
+    "ProductPartId": 1,
+    "ProductPartName": "Jacket",
+    "StyleName": "",
+    "FitProfileName": "[Jacket] 17-Mar-2026",
+    "FitName": "Slim2.0 ",
+    "MakeName": "traditional",
+    "TryOn": "56"
+  },
+  {
+    "ProductPartId": 4,
+    "ProductPartName": "Shirt",
+    "StyleName": "",
+    "FitProfileName": "[Shirt] 09-Mar-2026",
+    "FitName": "Slim 2.0",
+    "MakeName": "traditional",
+    "TryOn": "42"
+  },
+  {
+    "ProductPartId": 1,
+    "ProductPartName": "Jacket",
+    "StyleName": "",
+    "FitProfileName": "[Jacket] 09-Mar-2026",
+    "FitName": "Slim2.0 ",
+    "MakeName": "traditional",
+    "TryOn": "62"
+  },
+  {
+    "ProductPartId": 21,
+    "ProductPartName": "Sneaker",
+    "StyleName": "",
+    "FitProfileName": "[Sneaker] 03-Mar-2026",
+    "FitName": "Standard",
+    "MakeName": "blake P",
+    "TryOn": "Dummy"
+  },
+  {
+    "ProductPartId": 3,
+    "ProductPartName": "Waistcoat",
+    "StyleName": "",
+    "FitProfileName": "[Waistcoat] 05-Mar-2026",
+    "FitName": "Slim 2.0",
+    "MakeName": "traditional",
+    "TryOn": "62"
+  },
+  {
+    "ProductPartId": 2,
+    "ProductPartName": "Trousers",
+    "StyleName": "",
+    "FitProfileName": "[Trousers] 17-Mar-2026",
+    "FitName": "T40",
+    "MakeName": "traditional",
+    "TryOn": "52"
+  },
+  {
+    "ProductPartId": 1,
+    "ProductPartName": "Jacket",
+    "StyleName": "",
+    "FitProfileName": "[Jacket] 13-Mar-2026",
+    "FitName": "Regular ",
+    "MakeName": "traditional",
+    "TryOn": "66"
+  },
+  {
+    "ProductPartId": 2,
+    "ProductPartName": "Trousers",
+    "StyleName": "",
+    "FitProfileName": "[Trousers] 13-Mar-2026",
+    "FitName": "Regular",
+    "MakeName": "traditional",
+    "TryOn": "66"
+  },
+  {
+    "ProductPartId": 3,
+    "ProductPartName": "Waistcoat",
+    "StyleName": "",
+    "FitProfileName": "[Waistcoat] 13-Mar-2026",
+    "FitName": "Regular",
+    "MakeName": "traditional",
+    "TryOn": "66"
+  },
+  {
+    "ProductPartId": 21,
+    "ProductPartName": "Sneaker",
+    "StyleName": "",
+    "FitProfileName": "[Sneaker] 03-Mar-2026",
+    "FitName": "Standard",
+    "MakeName": "blake P",
+    "TryOn": "Dummy"
+  },
+  {
+    "ProductPartId": 1,
+    "ProductPartName": "Jacket",
+    "StyleName": "",
+    "FitProfileName": "[Jacket] 10-Mar-2026",
+    "FitName": "Slim2.0 ",
+    "MakeName": "traditional",
+    "TryOn": "30"
+  },
+  {
+    "ProductPartId": 2,
+    "ProductPartName": "Trousers",
+    "StyleName": "",
+    "FitProfileName": "[Trousers] 10-Mar-2026",
+    "FitName": "T40",
+    "MakeName": "traditional",
+    "TryOn": "56"
+  },
+  {
+    "ProductPartId": 3,
+    "ProductPartName": "Waistcoat",
+    "StyleName": "",
+    "FitProfileName": "[Waistcoat] 10-Mar-2026",
+    "FitName": "Slim 2.0",
+    "MakeName": "traditional",
+    "TryOn": "30"
+  },
+  {
+    "ProductPartId": 1,
+    "ProductPartName": "Jacket",
+    "StyleName": "",
+    "FitProfileName": "[Jacket] 17-Mar-2026",
+    "FitName": "Slim2.0 ",
+    "MakeName": "traditional",
+    "TryOn": "24"
+  },
+  {
+    "ProductPartId": 2,
+    "ProductPartName": "Trousers",
+    "StyleName": "",
+    "FitProfileName": "[Trousers] 17-Mar-2026",
+    "FitName": "T40",
+    "MakeName": "traditional",
+    "TryOn": "24"
+  },
+  {
+    "ProductPartId": 3,
+    "ProductPartName": "Waistcoat",
+    "StyleName": "",
+    "FitProfileName": "[Waistcoat] 17-Mar-2026",
+    "FitName": "Slim 2.0",
+    "MakeName": "traditional",
+    "TryOn": "24"
+  },
+  {
+    "ProductPartId": 1,
+    "ProductPartName": "Jacket",
+    "StyleName": "",
+    "FitProfileName": "[Jacket] 10-Mar-2026",
+    "FitName": "Slim2.0 ",
+    "MakeName": "traditional",
+    "TryOn": "26"
+  },
+  {
+    "ProductPartId": 2,
+    "ProductPartName": "Trousers",
+    "StyleName": "",
+    "FitProfileName": "[Trousers] 10-Mar-2026",
+    "FitName": "T40",
+    "MakeName": "traditional",
+    "TryOn": "25"
+  }
+]

@@ -1,0 +1,1573 @@
+{
+  "_meta": {
+    "generated": "2026-03-18",
+    "description": "Deep analysis of all GoCreate JavaScript files - AJAX endpoints, data structures, form IDs, hidden inputs, and wizard step breakdown",
+    "sources": [
+      "data/gocreate-web/Scripts_CustomScripts_Page_CustomOrder_CustomOrder.js",
+      "data/gocreate-web/Scripts_CustomScripts_CopyOrder.js",
+      "data/gocreate-web/Customer.js",
+      "data/gocreate-web/Scripts_CustomScripts_Page_DyoOrder_DyoOrder.js",
+      "data/gocreate-web/Scripts_CustomScripts_Page_ShoeOrder_ShoeOrderEditCopy.js",
+      "data/gocreate-web/Scripts_CustomScripts_Page_TieOrder_TieOrderEditCopy.js",
+      "data/gocreate-web/Scripts_CustomScripts_Enums.js",
+      "data/gocreate-web/Scripts_CustomScripts_ClientAppObject.js",
+      "data/gocreate-web/Scripts_CustomScripts_Validation.js",
+      "data/gocreate-web/Scripts_utils.js",
+      "data/gocreate-web/ShopDesignOptionSettings.js",
+      "data/gocreate-web/ShopFittoolSettings.js",
+      "data/gocreate-web/Scripts_CustomScripts_OpenBodyMeasurement.js",
+      "data/gocreate-web/Scripts_CustomScripts_Page_OrderOverview.js",
+      "data/gocreate-web/Scripts_CustomScripts_Search.js",
+      "data/gocreate-web/Scripts_CustomScripts_Page_MunroShopLayout.js"
+    ]
+  },
+
+  "enums": {
+    "EnumOrderMode": {
+      "NEW": 0,
+      "EDIT": 1,
+      "COPY": 2
+    },
+    "EnumCustomOrderWizardSteps": {
+      "PRIMARY_INFORMATION": 1,
+      "FIT_AND_TRYON": 2,
+      "FITTOOL": 3,
+      "DESINGN_OPTIONS": 4,
+      "BRANDING_OPTIONS": 5,
+      "ORDER_SUMMARY": 6,
+      "FINALIZE": 7
+    },
+    "EnumReadyMadeOrderWizardSteps": {
+      "PRIMARY_INFORMATION": 1,
+      "TRYON_SIZES": 2,
+      "FITTOOL": 3,
+      "DESINGN_OPTIONS": 4,
+      "BRANDING_OPTIONS": 5,
+      "ORDER_SUMMARY": 6,
+      "FINALIZE": 7
+    },
+    "OrderCreationTypes": {
+      "TryOnOrderCreationType": 1,
+      "BMOrderCreationType": 2,
+      "note": "hiddenOrderCreationType can also be 3 (admin BM order)"
+    },
+    "OrderTypes_from_CopyOrder": {
+      "1": "CustomMade (CM/MTM/MTO/DYO)",
+      "2": "ReadyMade (RM)",
+      "5": "MossBros MTO",
+      "6": "Vest-related",
+      "7": "Denim-related",
+      "9": "Knit-related"
+    },
+    "ShopTypes": {
+      "3": "MOSS Bros Shop",
+      "7": "MTO Shop (treated like CustomOrder)"
+    },
+    "ProductLineInternalNames": [
+      "MTM",
+      "CUSTOMMADE",
+      "MTO",
+      "DYO",
+      "STANDARD"
+    ],
+    "ItemTypeCategories": {
+      "4": "Shoes",
+      "5": "Ties",
+      "note": "passed to GetNewGuid for GUID routing"
+    },
+    "IMPOSSIBLE_VALIDATION_TYPE_WARNINGS": "referenced as constant in SubmitPrimaryInfo callback",
+    "ELEMENT_TYPE_REMARKS": "constant used in RefreshRemarksInRunningInfo"
+  },
+
+  "global_variables": {
+    "RunningInformation": "JSON serialized RunningInformation object for right panel",
+    "ItemDetails": "JSON serialized ItemDetails object for item details popup",
+    "step": "Current wizard step (1-7), starts at 1",
+    "TOTAL_STEP": "Total wizard steps, default 7 (can be 6 if branding hidden)",
+    "testGarmentSelected": "Boolean flag for test garment selection",
+    "CopyTrouserSmokingColor": "Boolean for trouser smoking color copy",
+    "CopiedOptionValueId": "Int, default -1",
+    "hideFitAndTryOn": "from #HideFitAndTryOn hidden input",
+    "hideFitTools": "from #HideFitTools hidden input",
+    "hideMake": "from #HideMake hidden input",
+    "hideButton": "from #HideButton hidden input",
+    "numberOfStepsToSkip": "Calculated from hideFitAndTryOn + hideFitTools",
+    "finalStepToLoad": "Int, default 0",
+    "ClientAppObject": {
+      "CustomOrderCurrentWizardStep": "tracks current wizard step",
+      "CustomOrderMode": "EnumOrderMode value (NEW/EDIT/COPY)",
+      "ReadyMadeOrderCurrentWizardStep": "tracks RM wizard step",
+      "ReadyMadeOrderMode": "EnumOrderMode value"
+    }
+  },
+
+  "ajax_endpoints": {
+    "custom_order_wizard": [
+      {
+        "url": "CustomOrder/GoToStep",
+        "method": "GET",
+        "params": { "step": "int (1-7)" },
+        "response": { "MessageHtml": "string - HTML for the wizard step panel" },
+        "source": "CustomOrder.js - GoToStep()",
+        "description": "Navigate backwards to a previous wizard step"
+      },
+      {
+        "url": "CustomOrder/GoToStep?step={stepNo}",
+        "method": "POST",
+        "params": { "step": "int (1-7)" },
+        "response": { "MessageHtml": "string" },
+        "source": "CustomOrder.js - GoToStepForEdit()",
+        "description": "Navigate to a step for editing"
+      },
+      {
+        "url": "/CustomOrder/RefreshRunningInformation",
+        "method": "GET",
+        "params": {
+          "ElementType": "ELEMENT_TYPE_REMARKS constant",
+          "ItemNumber": "int",
+          "Remarks": "string",
+          "IsInternalRemarks": "boolean"
+        },
+        "source": "CustomOrder.js - RefreshRemarksInRunningInfo()",
+        "description": "Update running information panel with remarks"
+      },
+      {
+        "url": "/CustomOrder/SaveCustomOrder",
+        "method": "GET",
+        "params": { "name": "string - custom order name" },
+        "source": "CustomOrder.js - SaveCustomOrder()",
+        "description": "Save entire custom order with user-provided name"
+      },
+      {
+        "url": "/CustomOrder/ApplyBodymeasurementCalculatedValues",
+        "method": "GET",
+        "params": { "saveBMStatus": "SaveBMStatus value" },
+        "response": { "Status": "boolean", "MessageHtml": "string" },
+        "source": "CustomOrder.js - OnBodyMeasurementCalculatorApply()",
+        "description": "Apply calculated body measurement values from BM calculator"
+      },
+      {
+        "url": "/CustomOrder/UpdateOrderForDraft",
+        "method": "POST (via ajaxForm)",
+        "params": { "tabName": "string (DesignOption|BrandingOption|FitTools|Finalize)", "activeProductID": "int" },
+        "response": { "AcceptChangeProfile": "boolean" },
+        "source": "CustomOrder.js - DraftOrderSubmit()",
+        "description": "Save current step data before saving as draft"
+      },
+      {
+        "url": "/CustomOrder/SaveDraftOrder",
+        "method": "POST (via ajaxForm on #DraftForm)",
+        "params": "serialized #DraftForm fields",
+        "response": { "Status": "boolean", "MessageHtml": "string" },
+        "source": "CustomOrder.js - DraftSubmit()",
+        "description": "Final save of draft order"
+      },
+      {
+        "url": "/CustomOrder/GetNewGuid",
+        "method": "GET",
+        "params": { "productLineInternalName": "string (MTM|CUSTOMMADE|MTO|DYO|STANDARD)", "itemTypeCategory": "int" },
+        "response": "string (GUID)",
+        "source": "CopyOrder.js - used everywhere for session routing",
+        "description": "Get new GUID for order session routing - prepended to URLs as /g/{guid}/..."
+      },
+      {
+        "url": "/CustomOrder/CreateOrderForSameCustomer",
+        "method": "GET (redirect)",
+        "description": "Redirect to create new order for same customer"
+      }
+    ],
+
+    "wizard_step_form_submissions": [
+      {
+        "step": 1,
+        "stepName": "PrimaryInfo",
+        "formId": "#frmPrimaryInfo",
+        "submitFunction": "SubmitPrimaryInfo()",
+        "method": "POST (via ajaxForm)",
+        "postData": { "checkValidation": "boolean", "wizardNextStep": "boolean", "runningInformation": "CollectAllCautionMessages() result" },
+        "response": {
+          "Status": "boolean",
+          "MessageHtml": "string - next step HTML or error HTML",
+          "IsTestGarmentSppUse": "boolean",
+          "ValidationType": "int - IMPOSSIBLE_VALIDATION_TYPE_WARNINGS for warnings",
+          "WarningHtml": "string - warning message HTML"
+        },
+        "description": "Submit primary info form (product combination, fabric, model, occasion, quantity)"
+      },
+      {
+        "step": 2,
+        "stepName": "FitAndTryOn",
+        "formId": "unknown (uses ajaxForm)",
+        "submitFunction": "submitFitAndTryOn()",
+        "method": "POST",
+        "postData": { "checkValidation": "boolean", "wizardNextStep": "boolean", "runningInformation": "string" },
+        "description": "Submit fit & try-on selections (fit profile, try-on sizes)"
+      },
+      {
+        "step": 3,
+        "stepName": "FitTools",
+        "formId": "#frmFitTools",
+        "submitFunction": "submitFitTools()",
+        "method": "POST",
+        "postData": { "checkValidation": "boolean", "wizardNextStep": "boolean", "runningInformation": "string", "canGoToPreviousStep": "boolean" },
+        "description": "Submit fit tool measurements"
+      },
+      {
+        "step": 4,
+        "stepName": "DesignOptions",
+        "formId": "#Form{ActiveProductTab}",
+        "submitFunction": "submitDesignOptions()",
+        "method": "POST",
+        "postData": { "checkValidation": "boolean", "wizardNextStep": "boolean", "runningInformation": "string", "canGoToPreviousStep": "boolean" },
+        "description": "Submit design option selections (per product part tab)"
+      },
+      {
+        "step": 5,
+        "stepName": "BrandingOptions",
+        "formId": "#BrandingOptionForm",
+        "submitFunction": "SubmitBrandingOptionInfo()",
+        "method": "POST",
+        "postData": { "checkValidation": "boolean", "wizardNextStep": "boolean", "runningInformation": "string", "canGoToPreviousStep": "boolean" },
+        "description": "Submit branding option selections"
+      },
+      {
+        "step": 6,
+        "stepName": "OrderSummary",
+        "formId": "#CustomOrderSummaryForm",
+        "submitFunction": "SubmitOrderSummaryInfo()",
+        "method": "POST",
+        "postData": { "checkValidation": "boolean", "wizardNextStep": "boolean", "runningInformation": "string", "canGoToPreviousStep": "boolean" },
+        "response": { "Status": "boolean", "MessageHtml": "string" },
+        "description": "Submit order summary confirmation"
+      },
+      {
+        "step": 7,
+        "stepName": "Finalize",
+        "formId": "#FinalizeForm",
+        "submitFunction": "SubmitFinalize()",
+        "method": "POST",
+        "postData": { "checkValidation": "boolean", "wizardNextStep": "boolean", "runningInformation": "string", "isProcessOrder": "boolean", "isPaymentPending": "boolean", "canGoToPreviousStep": "boolean" },
+        "description": "Final submission - process or hold order"
+      }
+    ],
+
+    "copy_order_endpoints": [
+      {
+        "url": "/CustomOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" },
+        "response": { "status": "boolean", "Msg": "string (HTML for copy dialog)", "ErrMsg": "array of strings" },
+        "for": "CM/MTM/CUSTOMMADE orders (orderType==1)"
+      },
+      {
+        "url": "/MossBrosOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" },
+        "for": "MOSS MTO orders (shopType==3)"
+      },
+      {
+        "url": "/MTOOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" },
+        "for": "MTO orders (non-MOSS shops)"
+      },
+      {
+        "url": "/DyoOrder/CopyDyoOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" },
+        "for": "DYO CM orders"
+      },
+      {
+        "url": "/DyoReadyMadeOrder/CopyDyoOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" },
+        "for": "DYO RM orders"
+      },
+      {
+        "url": "/ReadyMadeOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" },
+        "for": "RM MTM/CUSTOMMADE/MTO orders"
+      },
+      {
+        "url": "/DyoOrder/CopyCustomMadeOrder/?orderID={id}",
+        "method": "GET (redirect)",
+        "for": "DYO CM copy redirect"
+      },
+      {
+        "url": "/DyoReadyMadeOrder/CopyReadymadeOrder/?orderID={id}",
+        "method": "GET (redirect)",
+        "for": "DYO RM copy redirect"
+      },
+      {
+        "url": "/MossBrosOrder/CopyCustomMadeOrder/?orderID={id}&isFitProfileValid={bool}&isCancelAndRemake={bool}",
+        "method": "GET (redirect via /g/{guid}/...)",
+        "for": "Moss Bros copy CM order redirect"
+      },
+      {
+        "url": "/VestOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" },
+        "for": "Vest CM copy"
+      },
+      {
+        "url": "/VestReadymadeOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" },
+        "for": "Vest RM copy"
+      },
+      {
+        "url": "/VestOrder/CopyCustomMadeOrder/?orderID={id}",
+        "method": "GET (redirect via /g/{guid}/...)",
+        "for": "Vest CM copy redirect"
+      },
+      {
+        "url": "/VestReadymadeOrder/CopyReadyMadeOrder/?orderID={id}",
+        "method": "GET (redirect)",
+        "for": "Vest RM copy redirect"
+      },
+      {
+        "url": "/DenimOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" }
+      },
+      {
+        "url": "/DenimReadymadeOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" }
+      },
+      {
+        "url": "/DenimOrder/CopyCustomMadeOrder/?orderID={id}",
+        "method": "GET (redirect via /g/{guid}/...)"
+      },
+      {
+        "url": "/DenimReadymadeOrder/CopyReadyMadeOrder/?orderID={id}",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/KnitOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" }
+      },
+      {
+        "url": "/KnitReadymadeOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" }
+      },
+      {
+        "url": "/KnitOrder/CopyCustomMadeOrder/?orderID={id}",
+        "method": "GET (redirect via /g/{guid}/...)"
+      },
+      {
+        "url": "/KnitReadymadeOrder/CopyReadyMadeOrder/?orderID={id}",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/ShoeOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" }
+      },
+      {
+        "url": "/ShoeReadymadeOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" }
+      },
+      {
+        "url": "/ShoeOrder/CopyCustomMadeOrder/?orderID={id}&isQualityIssueRemakeOrder=true",
+        "method": "GET (redirect via /g/{guid}/...)"
+      },
+      {
+        "url": "/ShoeReadyMadeOrder/CopyShoeReadyMadeOrder/?orderID={id}&isQualityIssueRemakeOrder=true",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/ShoeOrder/CopyShoeOrder",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "source": "ShoeOrderEditCopy.js"
+      },
+      {
+        "url": "/ShoeReadyMadeOrder/CopyShoeOrder",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "source": "ShoeOrderEditCopy.js"
+      },
+      {
+        "url": "/TieOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" }
+      },
+      {
+        "url": "/TieReadymadeOrder/CopyOrder",
+        "method": "GET",
+        "params": { "orderID": "int", "isCancelledAndRemakeOrder": "boolean" }
+      },
+      {
+        "url": "/TieOrder/CopyTieCustomMadeOrder/?orderID={id}",
+        "method": "GET (redirect via /g/{guid}/...)"
+      },
+      {
+        "url": "/TieReadymadeOrder/CopyTieReadyMadeOrder/?orderID={id}",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/TieOrder/CopyTieOrder",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "source": "TieOrderEditCopy.js"
+      },
+      {
+        "url": "/TieReadyMadeOrder/CopyTieOrder",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "source": "TieOrderEditCopy.js"
+      },
+      {
+        "url": "/TieOrder/CopyTieCustomMadeOrder/?orderID={id}&isQualityIssueRemakeOrder=true",
+        "method": "GET (redirect via /g/{guid}/...)",
+        "source": "TieOrderEditCopy.js"
+      },
+      {
+        "url": "/TieReadyMadeOrder/CopyTieReadyMadeOrder/?orderID={id}&isQualityIssueRemakeOrder=true",
+        "method": "GET (redirect)",
+        "source": "TieOrderEditCopy.js"
+      }
+    ],
+
+    "edit_order_endpoints": [
+      {
+        "url": "/CustomOrder/GetEditOrderDialog",
+        "method": "GET",
+        "params": { "orderId": "int", "userSpressEditOrderWarning": "boolean" },
+        "response": { "status": "boolean", "Msg": "string", "isMossOrder": "boolean", "isMTOOrder": "boolean", "redirectUrl": "string", "ErrMsg": "array" },
+        "for": "CM/MTM/CUSTOMMADE/MTO (orderType==1)"
+      },
+      {
+        "url": "/ReadyMadeOrder/GetEditOrderDialog",
+        "method": "GET",
+        "params": { "orderId": "int", "userSpressEditOrderWarning": "boolean" },
+        "for": "RM MTM/CUSTOMMADE/MTO (orderType==2)"
+      },
+      {
+        "url": "/OrderDetail/GetEditOrderWarning2Message",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "response": { "UserSupressEditOrderWarning": "boolean", "ShowEditWarningMsg": "boolean" }
+      },
+      {
+        "url": "/ShoeOrder/EditShoeOrder/?orderId={id}",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/ShoeReadyMadeOrder/EditShoeOrder/?orderId={id}",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/TieOrder/EditTieOrder/?orderId={id}",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/TieReadyMadeOrder/EditTieOrder/?orderId={id}",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/VestOrder/EditVestOrder/?orderID={id}",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/VestReadymadeOrder/EditVestOrder/?orderId={id}",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/DenimReadymadeOrder/EditDenimOrder/?orderId={id}",
+        "method": "GET (redirect)"
+      },
+      {
+        "url": "/KnitReadymadeOrder/EditKnitOrder/?orderId={id}",
+        "method": "GET (redirect)"
+      }
+    ],
+
+    "validation_endpoints": [
+      {
+        "url": "/CustomOrderOverview/ValidateOrderFitProfile",
+        "method": "POST",
+        "params": { "orderID": "int" },
+        "response": { "IsValidOrderFitProfile": "boolean", "Title": "string", "ErrorMessage": "string" },
+        "source": "CopyOrder.js"
+      },
+      {
+        "url": "/QualityIssue/GetValidationOfProductCombinationForQualityIssueRemakeOrder",
+        "method": "GET",
+        "params": { "orderId": "int", "selectedProductCombination": "JSON array of ints" },
+        "response": { "Status": "boolean", "Message": "string" },
+        "source": "CopyOrder.js"
+      },
+      {
+        "url": "/IssueModule/GetValidationOfProductCombinationForQualityIssueRemakeOrder",
+        "method": "GET",
+        "params": { "orderId": "int", "selectedProductCombination": "string" },
+        "source": "CopyOrder.js"
+      },
+      {
+        "url": "/ShoeOrder/ValidateShoeOrder",
+        "method": "POST",
+        "params": { "orderID": "int" },
+        "source": "ShoeOrderEditCopy.js"
+      },
+      {
+        "url": "/ShoeReadyMadeOrder/ValidateShoeRmOrder",
+        "method": "POST",
+        "params": { "orderID": "int" },
+        "source": "ShoeOrderEditCopy.js"
+      },
+      {
+        "url": "/TieOrder/ValidateTieOrder",
+        "method": "POST",
+        "params": { "orderID": "int" },
+        "source": "TieOrderEditCopy.js"
+      },
+      {
+        "url": "/TieReadyMadeOrder/ValidateTieRmOrder",
+        "method": "POST",
+        "params": { "orderID": "int" },
+        "source": "TieOrderEditCopy.js"
+      },
+      {
+        "url": "/VestReadymadeOrder/ValidateVestReadymadeOrder",
+        "method": "POST",
+        "params": { "orderID": "int" },
+        "source": "CopyOrder.js"
+      },
+      {
+        "url": "/DenimReadymadeOrder/ValidateDenimReadymadeOrder",
+        "method": "POST",
+        "params": { "orderID": "int" },
+        "source": "CopyOrder.js"
+      },
+      {
+        "url": "/KnitReadymadeOrder/ValidateKnitReadymadeOrder",
+        "method": "POST",
+        "params": { "orderID": "int" },
+        "source": "CopyOrder.js"
+      },
+      {
+        "url": "/ShopSettings/ValidateFitTools",
+        "method": "POST",
+        "params": "serialized #frmDesignOptionSave form",
+        "response": { "Status": "boolean", "Result": { "ProductMakeName": "string" }, "MessageHtml": "string" },
+        "source": "ShopDesignOptionSettings.js"
+      }
+    ],
+
+    "customer_endpoints": [
+      {
+        "url": "/Customer/Delete",
+        "method": "POST",
+        "params": { "customerID": "int" },
+        "response": { "Status": "boolean", "Message": "string", "RedirectURL": "string" }
+      },
+      {
+        "url": "/Customer/ValidateEditCopyFitProfile",
+        "method": "POST",
+        "params": { "customerFitProfileID": "int" },
+        "response": { "IsValidFitProfile": "boolean", "ErrorMessage": "string" }
+      },
+      {
+        "url": "/Customer/EditCustomerFitProfile",
+        "method": "GET",
+        "params": { "customerFitProfileID": "int", "customerID": "int" },
+        "response": "HTML string"
+      },
+      {
+        "url": "/Customer/GetCustomerFitProfileDetail",
+        "method": "GET",
+        "params": { "customerFitProfileID": "int", "customerID": "int" },
+        "response": "HTML string"
+      },
+      {
+        "url": "/Customer/CopyCustomerFitProfile",
+        "method": "GET",
+        "params": { "customerFitProfileID": "int", "customerID": "int" },
+        "response": "HTML string"
+      },
+      {
+        "url": "/Customer/FillTryOnSizes",
+        "method": "GET",
+        "params": { "productPartID": "int", "productFitID": "int" },
+        "response": { "TryOnSizes": [{ "Value": "int", "Text": "string" }] }
+      },
+      {
+        "url": "/Customer/HasShopMultipleProductLine/",
+        "method": "GET",
+        "params": { "customerId": "int" },
+        "response": { "hasMultiplePL": "boolean", "productLineId": "int", "RedirectUrl": "string" }
+      },
+      {
+        "url": "/Customer/SelectOrder/",
+        "method": "GET",
+        "response": "HTML string (product line/item type selection popup)"
+      },
+      {
+        "url": "/Customer/LoadCustomOrderCreationPerShop/",
+        "method": "POST",
+        "params": { "itemGroupId": "int", "itemTypeCategoryId": "int", "productLineId": "int", "customerId": "int", "isSwipe": "boolean" },
+        "response": { "Status": "boolean", "RefreshURL": "string" }
+      },
+      {
+        "url": "/Customer/DeleteCustomerImage",
+        "method": "GET",
+        "params": { "entityImageID": "int" }
+      },
+      {
+        "url": "/Customer/EditImageDescription",
+        "method": "POST",
+        "params": { "imageID": "int", "description": "string" }
+      },
+      {
+        "url": "/Customer/ActivateDeactivateProfile",
+        "method": "GET",
+        "params": { "customerProfileID": "int", "customerID": "int", "isEnabled": "boolean" }
+      },
+      {
+        "url": "/Customer/GetCustomerId/",
+        "method": "GET",
+        "params": { "customerId": "int" },
+        "response": { "data": "int (actual customerId)" }
+      },
+      {
+        "url": "/Customer/CreateOrderForMossCustomer",
+        "method": "GET",
+        "params": { "externalID": "string", "isSwipe": "boolean" },
+        "response": { "Status": "boolean", "RedirectUrl": "string", "UpdateInHouseCustomer": "boolean", "Message": "string" }
+      },
+      {
+        "url": "/Customer/EditMossCustomer",
+        "method": "GET",
+        "params": { "externalID": "string" },
+        "response": { "Status": "boolean", "RedirectUrl": "string" }
+      },
+      {
+        "url": "/Customer/MossCustomerDetail",
+        "method": "GET",
+        "params": { "externalCustomerID": "string" },
+        "response": { "Status": "boolean", "RedirectUrl": "string" }
+      },
+      {
+        "url": "/Customer/CheckIfQualityIssueExistsAndIsNotCancelled",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "response": { "Status": "boolean", "MessageHtml": "string" }
+      },
+      {
+        "url": "/Customer/CheckIfNewIssueModuleExistsAndIsNotCancelled",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "response": { "Status": "boolean", "MessageHtml": "string" }
+      },
+      {
+        "url": "/Customer/ShowDMNotes",
+        "method": "GET",
+        "params": { "fitProfileVersion": "int", "fitProfileId": "int", "isCurrentVersion": "boolean" },
+        "response": { "CanShowNotes": "boolean", "MessageHtml": "string" }
+      },
+      {
+        "url": "/Customer/ShowNotesForEditting",
+        "method": "GET",
+        "params": { "fitProfileVersion": "int", "fitProfileId": "int" },
+        "response": { "CanShowNotes": "boolean", "MessageHtml": "string" }
+      },
+      {
+        "url": "/Customer/ShowDesiredMeasurementNotes",
+        "method": "GET",
+        "params": { "fitProfileVersion": "int", "fitProfileId": "int" }
+      },
+      {
+        "url": "/Customer/CreateFitProfile",
+        "method": "GET",
+        "params": { "customerID": "int" },
+        "response": "HTML string"
+      },
+      {
+        "url": "/Customer/CreateNewFitProfileForCustomer",
+        "method": "GET",
+        "params": { "selectedProductCombinationID": "int", "customerID": "int" },
+        "response": "HTML string"
+      },
+      {
+        "url": "/Customer/FetchViewModelForFitToolProfileCreation",
+        "method": "GET",
+        "params": {
+          "productFitId": "int",
+          "productPartId": "int",
+          "tryOnSizeId": "int",
+          "customerId": "int",
+          "selectedProductCombinationID": "int",
+          "indexForProductPart": "int",
+          "orderId": "int"
+        },
+        "response": { "ViewString": "HTML string" }
+      },
+      {
+        "url": "/Customer/GetPreviousOrderFitProfileData",
+        "method": "GET",
+        "params": { "orderID": "int", "productPartID": "int" },
+        "response": {
+          "Status": "boolean",
+          "IsDenimOrder": "boolean",
+          "IsShoeOrder": "boolean",
+          "CustomerFitProfileData": {
+            "ProductFitID": "int",
+            "TryOnSizeID": "int",
+            "LeftTryOnSizeID": "int",
+            "RightTryOnSizeID": "int",
+            "TryOnTypeID": "int",
+            "DefaultFitProfileName": "string"
+          }
+        }
+      },
+      {
+        "url": "/Customer/GetContextMenuStringByEntityID",
+        "method": "POST",
+        "params": { "entityID": "int" },
+        "response": { "Status": "boolean", "htmlString": "string" }
+      }
+    ],
+
+    "dyo_order_endpoints": [
+      {
+        "url": "/DyoOrder/RenderPrimaryInfo/",
+        "method": "POST",
+        "params": { "combinationId": "int", "styleId": "int" },
+        "response": { "Data": { "PrimaryInfoViewModel": "object" } },
+        "source": "DyoOrder.js - OnCombinationChange()"
+      },
+      {
+        "url": "/DyoOrder/GetRunningInfo",
+        "method": "GET",
+        "params": {
+          "combinationId": "int",
+          "productPartId": "int",
+          "selectedMakeId": "int",
+          "fabricId": "int",
+          "liningId": "int",
+          "extraDays": "int"
+        },
+        "response": { "Data": { "ShipmentInformationViewModel": { "ExpDeliveryDate": "string", "LatestDeliveryDate": "string" } } },
+        "source": "DyoOrder.js - RefereshRunningInfo()"
+      },
+      {
+        "url": "/DyoOrder/CreateOrderForSameCustomer",
+        "method": "GET (redirect)"
+      }
+    ],
+
+    "order_overview_endpoints": [
+      {
+        "url": "/CustomOrderOverview/UpdateOrderStatusToCancellationAndRemake",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "response": { "Status": "boolean", "ReturnHTML": "string" }
+      },
+      {
+        "url": "/ReadymadeOrderOverview/UpdateOrderStatusToCancellationAndRemake",
+        "method": "GET",
+        "params": { "orderId": "int" }
+      },
+      {
+        "url": "/CustomOrderOverview/OrderReportError",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "response": { "Status": "boolean", "ReturnHTML": "string" }
+      },
+      {
+        "url": "/ReadymadeOrderOverview/OrderReportError",
+        "method": "GET",
+        "params": { "orderId": "int" }
+      },
+      {
+        "url": "CustomOrderOverview/UpdateOrderStatus",
+        "method": "GET",
+        "params": { "orderIds": "array of int", "destinationStatusId": "int" },
+        "response": "HTML string"
+      },
+      {
+        "url": "/CustomOrderOverview/ShipOrder",
+        "method": "GET",
+        "params": { "orderId": "int" }
+      },
+      {
+        "url": "/CustomOrderOverview/DeliverToCustomerOrder",
+        "method": "GET",
+        "params": { "orderId": "int" }
+      },
+      {
+        "url": "/CustomOrderOverview/CancelOrder",
+        "method": "GET",
+        "params": { "orderId": "int" }
+      },
+      {
+        "url": "/CustomOrderOverview/RefundOrder",
+        "method": "GET",
+        "params": { "orderId": "int" }
+      },
+      {
+        "url": "/ReadymadeOrderOverview/RefundOrder",
+        "method": "GET",
+        "params": { "orderId": "int" }
+      },
+      {
+        "url": "/CustomOrderOverview/MarkOrderForExpressDelivery",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "response": { "Status": "boolean", "ReturnHTML": "string", "IsShopAcceptesPrepayment": "boolean" }
+      },
+      {
+        "url": "/CustomOrderOverview/ChangeShipTo",
+        "method": "GET",
+        "params": { "orderId": "int" },
+        "response": { "Status": "boolean", "ReturnHTML": "string" }
+      },
+      {
+        "url": "/CustomOrderOverview/GetCargoBoxList",
+        "method": "GET",
+        "source": "OrderOverview.js"
+      },
+      {
+        "url": "/CustomOrderOverview/GetExpressOrderDeliveryDetails",
+        "method": "GET",
+        "source": "OrderOverview.js"
+      },
+      {
+        "url": "/CustomOrderOverview/GetOrdersWithSameShipmentDate",
+        "method": "GET",
+        "source": "OrderOverview.js"
+      },
+      {
+        "url": "/CustomOrderOverview/MarkOrderForFastTrack",
+        "method": "GET",
+        "source": "OrderOverview.js"
+      },
+      {
+        "url": "/CustomOrderOverview/MarkOrderForFastTrackConfirmed",
+        "method": "GET",
+        "source": "OrderOverview.js"
+      },
+      {
+        "url": "/CustomOrderOverview/MarkOrderForNonExpressDelivery",
+        "method": "GET",
+        "source": "OrderOverview.js"
+      },
+      {
+        "url": "/OrderDetail/GetDuplicateOrder",
+        "method": "GET",
+        "params": { "orderID": "int" },
+        "response": "HTML or { status: false, message: string }"
+      },
+      {
+        "url": "/OrderDetail/GetRemarkForOrder",
+        "method": "GET",
+        "params": { "orderID": "int" }
+      },
+      {
+        "url": "OrderDetail/GetOrderPriceDetail",
+        "method": "GET",
+        "source": "OrderOverview.js"
+      }
+    ],
+
+    "shop_settings_endpoints": [
+      {
+        "url": "/ShopSettings/GetProductLineMakeAndFits",
+        "method": "GET",
+        "params": { "productPartId": "int" },
+        "response": {
+          "ProductLines": [{ "AtelierId": "int", "ProductLineLocalizedName": "string" }],
+          "ProductMakes": [{ "ID": "int", "Name": "string" }],
+          "ProductFits": [{ "ID": "int", "Name": "string" }]
+        },
+        "source": "ShopDesignOptionSettings.js"
+      },
+      {
+        "url": "/ShopSettings/GetProductMakeAndFits",
+        "method": "GET",
+        "params": { "productPartId": "int", "atelierId": "int" },
+        "response": { "ProductMakes": [{ "ID": "int", "Name": "string" }] },
+        "source": "ShopDesignOptionSettings.js"
+      },
+      {
+        "url": "/ShopSettings/GetProductFits",
+        "method": "GET",
+        "params": { "productPartID": "int" },
+        "source": "ShopFittoolSettings.js"
+      },
+      {
+        "url": "/ShopSettings/ValidateFitTools",
+        "method": "POST",
+        "params": "serialized #frmDesignOptionSave",
+        "source": "ShopDesignOptionSettings.js"
+      }
+    ],
+
+    "other_endpoints": [
+      {
+        "url": "/Login/CheckIfSessionIsExpired/",
+        "method": "GET",
+        "source": "MunroShopLayout.js"
+      },
+      {
+        "url": "/ClientLog/Addlog",
+        "method": "POST",
+        "source": "MunroShopLayout.js"
+      },
+      {
+        "url": "/ReadymadeOrderOverview/HasShopMultipleProductLine/",
+        "method": "GET",
+        "source": "Common.js"
+      },
+      {
+        "url": "/ReadymadeOrderOverview/SelectOrder/",
+        "method": "GET",
+        "source": "Common.js"
+      },
+      {
+        "url": "/ReadymadeOrderOverview/LoadReadyMadeOrderCreationPerShop/",
+        "method": "POST",
+        "source": "Common.js"
+      },
+      {
+        "url": "/Login/GetMarketingToolDetails/",
+        "method": "GET",
+        "source": "Common.js"
+      },
+      {
+        "url": "/AdyenPayment/ProcessPayment",
+        "method": "POST",
+        "source": "AdyenPayment.js"
+      },
+      {
+        "url": "/Localized/GetClientLocalizeMessages",
+        "method": "GET",
+        "params": { "pageCode": "string", "langCode": "string (e.g. EN)" },
+        "response": "JSON object of localized key-value pairs",
+        "source": "script tags in HTML pages"
+      },
+      {
+        "url": "/Customer/UpdateMossCustomer?inhouseID={id}&redirectToOrderCreation=true&isUpdate=true",
+        "method": "GET (redirect)",
+        "source": "Customer.js"
+      },
+      {
+        "url": "/ShopCalendar/CreateAppointmentForRedirectedCustomer?customerId={id}",
+        "method": "GET (redirect)",
+        "source": "Customer.js"
+      },
+      {
+        "url": "/ShopCalendar/EditAppointmentForRedirectedCustomer?appointmentID={id}",
+        "method": "GET (redirect)",
+        "source": "Customer.js"
+      },
+      {
+        "url": "/Customer/GetCustomerDetail?customerID={id}",
+        "method": "GET (redirect)",
+        "source": "multiple files"
+      },
+      {
+        "url": "/OrderDetail/GetOrderDetail?id={orderId}&shopID={shopId}&openTabID={tabId}",
+        "method": "GET (redirect)",
+        "source": "Customer.js"
+      }
+    ],
+
+    "fetch_and_display_urls": [
+      {
+        "url": "/Customer/GetCustomerOrder",
+        "params": { "customerID": "int", "customerShopID": "int" },
+        "divId": "divCustomerOrderGrid"
+      },
+      {
+        "url": "/Customer/GetCustomerAppointments",
+        "params": { "customerID": "int" },
+        "divId": "divPastAppointmentsGrid"
+      },
+      {
+        "url": "/Customer/GetImagesForCustomer",
+        "params": { "customerID": "int" },
+        "divId": "divImagesCustomer"
+      },
+      {
+        "url": "/Customer/GetReferedCustomer",
+        "params": { "customerID": "int" },
+        "divId": "divReferedCustomerGrid"
+      },
+      {
+        "url": "/Customer/GetCustomerFitProfile",
+        "params": { "customerID": "int" },
+        "divId": "divCustomerFitProfileGrid"
+      },
+      {
+        "url": "/Customer/GetCustomerFitProfilesBM",
+        "params": { "customerID": "int" },
+        "divId": "divCustomerBMFitProfileGrid"
+      },
+      {
+        "url": "/Customer/ResetOrderSearch",
+        "divId": "divCustomerOrderGridContaner"
+      },
+      {
+        "url": "/Customer/ResetProfileSearch",
+        "params": { "profileType": "string" },
+        "divId": "divFitProfileGrid"
+      }
+    ]
+  },
+
+  "form_ids": {
+    "wizard_forms": {
+      "#frmPrimaryInfo": "Step 1 - Primary Information form (product combination, fabric, model, occasion, quantity, SPP selections)",
+      "#frmFitTools": "Step 3 - Fit Tools form",
+      "#Form{ActiveProductTab}": "Step 4 - Design Options form (dynamic, one per product part tab, e.g. #FormProductPartName1)",
+      "#BrandingOptionForm": "Step 5 - Branding Options form",
+      "#CustomOrderSummaryForm": "Step 6 - Order Summary form",
+      "#FinalizeForm": "Step 7 - Finalize form",
+      "#DraftForm": "Draft order save form",
+      "#ImportForm": "Import form (made ajax)",
+      "#frmDyoOrder": "DYO single-page order form"
+    },
+    "copy_forms": {
+      "#frmCopyOrder": "Copy order component selection form",
+      "#DuplicateOrderForm": "Duplicate order form",
+      "#FrmCancelAndRemake": "Cancel and remake form",
+      "#FrmOrderReportError": "Order report error form",
+      "#FrmOrderRefund": "Refund order form",
+      "#frmChangeShipTo": "Change ship-to form",
+      "#OrderRemarkForm": "Add remark for order form"
+    },
+    "customer_forms": {
+      "#CustomerForm": "Customer create/edit form (made ajax with ajaxForm)",
+      "#UploadForm": "Image upload form",
+      "#CustomerFitProfileWithNotesSubmit": "Fit profile notes submit form"
+    },
+    "settings_forms": {
+      "#frmDesignOptionSave": "Design option settings save form",
+      "#frnDesignOptionsSearch": "Design option settings search form",
+      "#frmFittoolSave": "Fit tool settings save form",
+      "#frnFittoolSearch": "Fit tool settings search form"
+    },
+    "search_forms": {
+      "#frmSearch": "Customer/order search form"
+    }
+  },
+
+  "hidden_input_ids": {
+    "wizard_state": {
+      "#HideFitAndTryOn": "boolean - hide fit & try-on step from wizard",
+      "#HideFitTools": "boolean - hide fit tools step from wizard",
+      "#HideMake": "boolean - hide make selection",
+      "#HideButton": "boolean - hide button selection",
+      "#hdnHideBrandingOptions": "1 or 0 - hide branding options step (reduces TOTAL_STEP to 6)",
+      "#HideFitAndTryOnStepInCopyOrder": "boolean - hide fit step in copy mode",
+      "#HideFitToolsStepInCopyOrder": "boolean - hide fit tools step in copy mode",
+      "#hiddenOrderMode": "int (0=NEW, 1=EDIT, 2=COPY) from EnumOrderMode",
+      "#hiddenOrderCreationType": "int (1=TryOn, 2=BM, 3=AdminBM)",
+      "#IsOrderCreationTypeSelected": "0 or 1",
+      "#IsFromDraftOrder": "0 or 1",
+      "#ActiveProductTab": "string - current product part tab name (e.g. 'ProductPartName1')",
+      "#OrderCopyEachComponent": "boolean - copy all components and skip to finalize",
+      "#hdnIsAdminLoggedInToTheApplication": "0 or 1"
+    },
+    "product_combination": {
+      "#hdnProductCombinationCanCreateBMOrder": "0 or 1 - can this combination create BM orders",
+      "#AllowedCombinationsForTestGarment": "string - allowed combinations for test garment",
+      "#JacketSppIdForTestGarment": "int - jacket SPP ID for test garment",
+      "#TrouserSppIdForTestGarment": "int - trouser SPP ID for test garment"
+    },
+    "fit_profile": {
+      "#hdnDdlProductFit_{productPartId}": "int - selected product fit ID",
+      "#hdnDdlProductTryOn_{productPartId}": "int - selected try-on size ID",
+      "#hdnDdlProductLeftTryOn_{productPartId}": "int - selected left try-on (shoes)",
+      "#hdnDdlProductRightTryOn_{productPartId}": "int - selected right try-on (shoes)",
+      "#hdnFitProfileName_{productPartId}": "string - default fit profile name",
+      "#hdnIsShoeOrder": "boolean"
+    },
+    "customer": {
+      "#CustomerID": "int - current customer ID",
+      "#CustomerShopID": "int - customer's shop ID",
+      "#SearchCustomerID": "int - customer ID from search",
+      "#customerId": "int - customer ID for order creation",
+      "#isSwipe": "boolean - swipe payment indicator",
+      "#ReferredByID": "int - referred by customer ID",
+      "#CustomerData_ReferenceCustId": "int"
+    },
+    "duplicate_order": {
+      "#IsProcess": "boolean",
+      "#IsTailorMandetory": "boolean",
+      "#SalesPersonID": "int",
+      "#OrderQuantity": "int",
+      "#IsCancelledAndRemakeOrder": "boolean or TRUE/FALSE string",
+      "#CopyEachComponent": "boolean"
+    },
+    "dyo_order": {
+      "#HDStyleId": "int - DYO style ID",
+      "#hiddenOrderMode": "text 'Edit' or 'Copy'",
+      "#DDLCombinations": "int - selected combination ID",
+      "#HDTXFabric_1": "int - fabric ID",
+      "#HDTXLining_1": "int - lining ID",
+      "#RPriceTXFabric_1": "float - fabric RPrice",
+      "#RPriceTXLining_1": "float - lining RPrice",
+      "#RPriceDDLButton": "float - button RPrice",
+      "#RPriceDDLPiping": "float - piping RPrice",
+      "#EDTXFabric_1": "int - fabric extra days",
+      "#EDTXLining_1": "int - lining extra days",
+      "#HDDDLButton": "int - button ID",
+      "#HDDDLPiping": "int - piping ID",
+      "#IsTailorManditory": "boolean string"
+    },
+    "moss_customer": {
+      "#Customer_Hdr_Name": "string - first name",
+      "#Customer_Hdr_Surname": "string - last name",
+      "#Customer_Hdr_Email": "string - email",
+      "#Customer_Hdr_Cellphone": "string - phone",
+      "#Customer_Hdr_PhoneCountryId": "string - phone country",
+      "#Customer_Hdr_IsPhoneValidated": "boolean",
+      "#Customer_Hdr_IsEmailValidated": "boolean",
+      "#Customer_Hdr_CellphoneValidated": "boolean",
+      "#Customer_Hdr_EmailValidated": "boolean",
+      "#NoOfCalls": "int - API validation call count",
+      "#IsSendMailToAM": "boolean",
+      "#IsDraftFitProfile": "boolean string",
+      "#ProcessButtonText": "string"
+    },
+    "order_overview": {
+      "#IsCustomerOwnFabricOrder": "boolean",
+      "#CanProcessOrder": "boolean",
+      "#IsCreditLimitExceeded": "boolean",
+      "#POMandatoryFor": "string (Both|CM|etc)"
+    },
+    "design_option_settings": {
+      "#productFitIDs": "multi-select fit IDs",
+      "#productMakeIDs": "multi-select make IDs"
+    },
+    "fit_tool_settings": {
+      "#SelectedProductPartID": "int - selected product part for fit tool search"
+    }
+  },
+
+  "dropdown_select_ids": {
+    "primary_info": {
+      "#ddQuantities": "Order quantity dropdown",
+      "#Spp_1_1": "Product part 1 (Jacket) SPP dropdown (slot 1)",
+      "#Spp_2_1": "Product part 2 (Trouser) SPP dropdown (slot 1)",
+      "Spp_{partIndex}_{slotIndex}": "Dynamic SPP selection per product part per quantity slot",
+      "#ddFilterField": "Customer search filter field"
+    },
+    "fit_and_tryon": {
+      "#ddFitAdvise_{productPartId}": "Fit advise dropdown (1=New, 2=CopyFromPrevious)",
+      "#ddProductFit_{productPartId}": "Product fit selection per part",
+      "#ddTryOnSizes_{productPartId}": "Try-on size selection per part",
+      "#ddLeftTryOnSizes_{productPartId}": "Left try-on (shoes)",
+      "#ddRightTryOnSizes_{productPartId}": "Right try-on (shoes)"
+    },
+    "branding_options": {
+      "#drpbgroup_{index}": "Branding group dropdown (e.g. drpbgroup_1)"
+    },
+    "dyo_order": {
+      "#DDLCombinations": "DYO combination selection",
+      "#DDLDyoModel_{part}": "DYO model/make selection per product part",
+      "#DDLDyoStyle": "DYO style selection",
+      "#DDLFitProfile": "DYO fit profile selection",
+      "#DDLTryOnSize_{part}": "DYO try-on size selection",
+      "#DDLButton": "DYO button selection",
+      "#DDLPiping": "DYO piping selection",
+      "#drpDesignOption_{id}": "DYO design option per category",
+      "#SalesPersonID": "Tailor/salesperson selection"
+    },
+    "design_option_settings": {
+      "#ddlProductPart": "Product part filter",
+      "#ddlProductLine": "Product line (atelier) filter",
+      "#ddlProductMake": "Product make filter (multi-select)",
+      "#ddlProductFit": "Product fit filter (multi-select)",
+      "#dd_{designOptionId}": "Default value dropdown per design option",
+      "#DesignOptionValuesIds_{designOptionId}": "Design option values multi-select"
+    },
+    "customer_detail": {
+      "#ddCombination": "Customer order search combination filter",
+      "#ddCombinations": "Fit profile combination selection",
+      "#ddProfileActiveInActive": "Fit profile active/inactive filter",
+      "#ddProfileProductPart": "Fit profile product part filter",
+      "#ddProfileProductLine": "Fit profile product line filter",
+      "#ddProductFit": "Product fit dropdown (denim/customer)",
+      "#ddTryOnSizes": "Try-on sizes dropdown (denim)",
+      "#ddTryOnTypes": "Try-on types dropdown (denim)",
+      "#CustomerData_IsCMBefore": "Had custom-made before dropdown",
+      "#CustomerData_ReferenceTypeId": "Reference type dropdown (1=customer, else=other)",
+      "#orderStatusDropdownForStatusChange": "Order status change dropdown",
+      "#FaultById": "Caused by dropdown (cancel/remake)",
+      "#selectedProductPartIds": "Selected product parts (cancel/remake)",
+      "#SelectedRefundReasonId": "Refund reason dropdown",
+      "#drpShipToId": "Ship-to change dropdown",
+      "#drpSizeType": "Size type unit (cm/kg vs inch/pound)"
+    }
+  },
+
+  "wizard_step_breakdown": {
+    "step_1_primary_info": {
+      "tab_name": "Primary Info",
+      "form_id": "#frmPrimaryInfo",
+      "submit_function": "SubmitPrimaryInfo()",
+      "what_happens": [
+        "Validates primary info screen via ValidatePrimaryInfoScreen()",
+        "Checks test garment constraints (IsTestGarmentAvailable)",
+        "If new order + BM-capable combination + type not selected: shows #divOrderCreationSelection dialog (TryOn vs BM)",
+        "If draft order: submits with validation",
+        "Sends form data via ajaxForm to server (collects all SPP selections, fabric, model, etc.)",
+        "Server responds with next step HTML or validation errors",
+        "On success: calls ChangeWizardStep() which replaces #divOrderCreationMainPanel with new HTML"
+      ],
+      "conditional_logic": [
+        "hideBrandingOptions==1: skips step 5 entirely, TOTAL_STEP=6",
+        "hideFitAndTryOn: skips step 2",
+        "hideFitTools: skips step 3",
+        "BM order creation type: shows body measurement calculator option"
+      ],
+      "key_inputs_read": [
+        "#HideFitAndTryOn", "#HideFitTools", "#HideMake", "#HideButton",
+        "#hdnHideBrandingOptions", "#hiddenOrderMode", "#hiddenOrderCreationType",
+        "#IsOrderCreationTypeSelected", "#hdnProductCombinationCanCreateBMOrder",
+        "#IsFromDraftOrder", "#JacketSppIdForTestGarment", "#TrouserSppIdForTestGarment",
+        "#AllowedCombinationsForTestGarment", "#ddQuantities", "#Spp_1_1", "#Spp_2_1"
+      ]
+    },
+    "step_2_fit_and_tryon": {
+      "tab_name": "FitProfile",
+      "submit_function": "submitFitAndTryOn()",
+      "what_happens": [
+        "Collects product part IDs from #tblFitAndTryOn",
+        "Checks each part's fit advise dropdown (#ddFitAdvise_{partId})",
+        "If fitAdvise==2 (copy from previous): shows new FP creation section",
+        "Otherwise submits form with validation",
+        "Server returns next step HTML"
+      ],
+      "key_inputs_read": [
+        "#ddFitAdvise_{productPartId}", "#ddProductFit_{productPartId}",
+        "#ddTryOnSizes_{productPartId}", "#hdnProductPartID_{index}"
+      ]
+    },
+    "step_3_fit_tools": {
+      "tab_name": "FitTool (or Measurement for BM orders)",
+      "form_id": "#frmFitTools",
+      "submit_function": "submitFitTools()",
+      "what_happens": [
+        "If BM order (creationType==2) or admin BM (creationType==3): tab labeled 'Measurement'",
+        "Otherwise labeled 'FitTool'",
+        "Submits fit tool measurements form",
+        "Validation can be skipped in copy/edit mode (except for design options step)"
+      ]
+    },
+    "step_4_design_options": {
+      "tab_name": "Design Options",
+      "form_id": "#Form{ActiveProductTab}",
+      "submit_function": "submitDesignOptions()",
+      "what_happens": [
+        "Uses tabbed panel per product part (e.g. ProductPartName1, ProductPartName2)",
+        "Each tab has its own form with design option dropdowns",
+        "Design options have internal names like JBU, TBU, WBU, SBU (buttons), JPP, MPP (piping), ML1L2",
+        "Submits active tab's form"
+      ],
+      "data_attributes_on_options": [
+        "data-extradays: extra production days for this option value",
+        "data-rprice: retail price addition for this option value",
+        "data-makerprice: make retail price",
+        "data-makeextradays: make extra days",
+        "data-makeid: make ID",
+        "data-productpartid: product part ID"
+      ]
+    },
+    "step_5_branding_options": {
+      "tab_name": "Branding Option",
+      "form_id": "#BrandingOptionForm",
+      "submit_function": "SubmitBrandingOptionInfo()",
+      "what_happens": [
+        "Can be hidden entirely via #hdnHideBrandingOptions==1",
+        "Branding groups selected via #drpbgroup_{index} dropdowns",
+        "If test garment selected: removes option values 2 and 3 from drpbgroup_1"
+      ]
+    },
+    "step_6_order_summary": {
+      "tab_name": "Summary",
+      "form_id": "#CustomOrderSummaryForm",
+      "submit_function": "SubmitOrderSummaryInfo()",
+      "what_happens": [
+        "Shows caution messages via ShowHideSelectAllCautionMessageCheckboxes()",
+        "Submits summary form with caution message acknowledgments"
+      ]
+    },
+    "step_7_finalize": {
+      "tab_name": "Finalize",
+      "form_id": "#FinalizeForm",
+      "submit_function": "SubmitFinalize()",
+      "what_happens": [
+        "Disables caution message checkboxes",
+        "Can submit to process order (isProcessOrder=true) or save on hold",
+        "For draft orders: shows #divIsSendMailToAm dialog asking about AM notification",
+        "Draft save flow: DraftOrderSubmit() -> DraftSubmit() -> /CustomOrder/SaveDraftOrder",
+        "On success: shows final message dialog with redirect options"
+      ],
+      "redirect_options": [
+        "RedirectToOrderOverview() -> /CustomOrderOverview",
+        "RedirectToCustomerOrders(customerId) -> /Customer/GetCustomerDetail?customerID={id}",
+        "RedirectToNewOrders() -> /CustomOrder/CreateOrderForSameCustomer",
+        "RedirectToDraftOrders() -> /DraftOrder"
+      ]
+    }
+  },
+
+  "dyo_order_flow": {
+    "description": "Single-page order for DYO (Design Your Own) products",
+    "form_id": "#frmDyoOrder",
+    "panels": [
+      "styleTemplate / StylTemplate - Style selection",
+      "fitProfilePanel / fitProfileTemplate - Fit profile selection",
+      "fitToolPanel / fitFitToolTemplate - Fit tool measurements",
+      "designOptionPanel / designOptionTemplate - Design options",
+      "designOptionMonogramPanel / designOptionMonogramTemplate - Monogram design options",
+      "brandingOptionPanel / brandingOptionTemplate - Branding options",
+      "OtherPanel - Other/summary panel"
+    ],
+    "flow": [
+      "1. Select combination (#DDLCombinations) -> triggers OnCombinationChange() -> POST /DyoOrder/RenderPrimaryInfo/",
+      "2. Server returns PrimaryInfoViewModel -> initializes style, fit profile, fit tools, design options, branding",
+      "3. Select style (#DDLDyoStyle) -> renders style data",
+      "4. Select fit profile (#DDLFitProfile) -> 0 = new profile",
+      "5. Select try-on sizes per part",
+      "6. Design options via #drpDesignOption_{id} dropdowns",
+      "7. Button/piping selection (#DDLButton, #DDLPiping)",
+      "8. Make/model selection (#DDLDyoModel_{part})",
+      "9. Running info refreshed via GET /DyoOrder/GetRunningInfo",
+      "10. Submit order: SubmitOrder() or SubmitProcesssOrder()",
+      "11. Validates via ValidateOrder() + IsOrderSummaryScreenValid()",
+      "12. Submits #frmDyoOrder via ajaxForm"
+    ],
+    "running_info_calculation": {
+      "rprice_components": ["make", "fabric", "lining", "button", "piping", "designOptionValues"],
+      "extra_days_components": ["fabric", "lining", "designOptionValues", "button", "piping", "make"],
+      "note": "Highest extra days across all components determines delivery date"
+    },
+    "design_option_internal_names": {
+      "JBU": "Jacket Button",
+      "TBU": "Trouser Button",
+      "WBU": "Waistcoat Button",
+      "SBU": "Shirt Button",
+      "JPP": "Jacket Piping",
+      "MPP": "Model Piping",
+      "ML1L2": "Model Layer 1/Layer 2"
+    }
+  },
+
+  "order_creation_flow_from_customer": {
+    "steps": [
+      "1. CreateNewOrderForCustomer(customerId) called",
+      "2. GET /Customer/HasShopMultipleProductLine/ -> checks if shop has multiple product lines",
+      "3. If hasMultiplePL: ShowProductLineSelectionPopUp() -> GET /Customer/SelectOrder/ -> shows item type selection dialog",
+      "4. User selects item type + product line from radio buttons",
+      "5. GoToOrderCreation() reads selection -> POST /Customer/LoadCustomOrderCreationPerShop/",
+      "6. Server responds with RefreshURL -> redirect to order creation page",
+      "7. If !hasMultiplePL: redirect directly to data.RedirectUrl"
+    ],
+    "item_type_category_mapping": "Hidden inputs #ItemTypeCategoryMapping_{itemGroupId} contain '{categoryId}_{itemTypeId}' values"
+  },
+
+  "copy_order_flow": {
+    "steps": [
+      "1. OnCopyClick() called with orderID, orderType, shopType, productLineInternalName",
+      "2. For MOSS shops (shopType==3): ValidateOrderFitProfile() first",
+      "3. GetNewGuid() -> GET /CustomOrder/GetNewGuid to get session GUID",
+      "4. Build copy URL based on orderType + productLine (see copy_order_endpoints)",
+      "5. GET copy URL with orderID and isCancelledAndRemakeOrder flag",
+      "6. Server returns { status, Msg (HTML for copy selection dialog) }",
+      "7. For DYO orders: skip dialog, redirect directly to copy page",
+      "8. For CM/MTM/MTO: show copy dialog with checkboxes for each component to copy",
+      "9. CopyOrderSubmit() submits #frmCopyOrder form",
+      "10. CopyEachComponentAndSubmit() checks all components and submits (go to finalize)"
+    ],
+    "copy_components_form": {
+      "form_id": "#frmCopyOrder",
+      "checkboxes": "input[type='checkbox'] in #tblCopyComponents",
+      "select_all": "#SelectAllComponents",
+      "special_handling": "For cancel-and-remake: CopyFabric and CopyLining checkboxes are excluded from SelectAll"
+    }
+  },
+
+  "product_part_ids_observed": {
+    "16": "Shoe part (triggers shoe-specific try-on logic)",
+    "17": "Shoe part",
+    "18": "Shoe part",
+    "19": "Shoe part",
+    "20": "Shoe part",
+    "21": "Shoe part",
+    "26": "Coat with detachable liner (triggers auto-copy to part 27)",
+    "27": "Detachable liner",
+    "33": "Shoe part",
+    "41": "Shoe part",
+    "14": "Denim/pants (special denim note shown)"
+  },
+
+  "key_functions_by_file": {
+    "CustomOrder.js": [
+      "InitializeCustomOrderIndexPageScripts()",
+      "GetTabNameAndCounter(next, previous)",
+      "GetNextDetail()",
+      "GetPreviousDeatil()",
+      "GoToStep(stepNo)",
+      "GoToStepForEdit(stepNo)",
+      "ChangeWizardStep(data, resultData)",
+      "SubmitPrimaryInfo(postData, func, param)",
+      "SubmitOrderSummaryInfo(postData, func, param)",
+      "submitFitAndTryOn() [referenced but defined server-side]",
+      "submitFitTools() [referenced but defined server-side]",
+      "submitDesignOptions() [referenced but defined server-side]",
+      "SubmitBrandingOptionInfo() [referenced but defined server-side]",
+      "SubmitFinalize() [referenced but defined server-side]",
+      "SaveCustomOrder()",
+      "OnBodyMeasurementCalculatorApply(SaveBMStatus)",
+      "RefreshRemarksInRunningInfo(ctrl)",
+      "DraftOrderSubmit(tabName)",
+      "DraftSubmit()",
+      "SubmitDraftOrder(tabName, isBmOrderCreation)",
+      "FinalSubmitDraftOrder(tabName)",
+      "AssignStepsToHideAccordingToCombination()",
+      "RefreshStepsAccordingToSelectedCombination()",
+      "IsTestGarmentAvailable(sppId, quantity)",
+      "IsTestGarmentSelected()",
+      "RemoveTestGarmentFromTrouser()",
+      "ValidatePrimaryInfoScreen() [referenced]",
+      "CollectAllCautionMessages() [referenced]",
+      "GetProductPartIDs() [referenced]"
+    ],
+    "CopyOrder.js": [
+      "OnCopyClick(orderID, orderType, copyOrderHeaderText, canHideCopyAllButton, shopType, productLineInternalName, itemTypeCategory)",
+      "ValidateOrderFitProfile()",
+      "GetNewGuid()",
+      "OnDuplicateClick(orderID)",
+      "OnRemakeClick(orderID, orderType)",
+      "OnEditOrderClick(orderID, orderType, shopType, productLineInternalName, itemTypeCategory, isCallFromOrderDetail)",
+      "ShowEditOrderDialogBox()",
+      "CopyOrderSubmit()",
+      "CopyEachComponentAndSubmit()",
+      "OnCancellationAndRemakeClick()",
+      "CancelAndRemakeOrder()",
+      "OnOrderReportErrorClick()",
+      "OnMossProcessOrder(orderId)",
+      "OnShipOrder(orderId)",
+      "DeliverToCustomerOrder(orderId)",
+      "OnCancelOrderClick(orderId)",
+      "OnOrderRefundClick()",
+      "MarkOrderForExpressDelivery(orderId)",
+      "MarkOrderForNonExpressDelivery(orderId)",
+      "OnShipToChange(orderId)",
+      "OnVestCopyClick()", "OnDenimCopyClick()", "OnKnitCopyClick()",
+      "OnCopyShoeOrder()", "OnTieCopyClick()",
+      "OnMossCopyClick()"
+    ],
+    "Customer.js": [
+      "InitializeCreateEditCustomerScreen()",
+      "OnSubmitClick()",
+      "OnCustomerFormSubmitSuccess(data)",
+      "CreateNewOrderForCustomer(customerId)",
+      "ShowProductLineSelectionPopUp(customerId, orderProductLine)",
+      "GoToOrderCreation()",
+      "EditFitProfile()", "CopyFitProfile()", "ViewCustomerFitProfile()",
+      "OnFitChange(productPartId)",
+      "TryOnChange(productPartId, index, orderId)",
+      "GetFitToolViewModel()",
+      "LoadOrderFitProfileData(orderId, productPartId, index)",
+      "SetCustomerProfileAction(action)",
+      "CreateOrderForMossCustomer(externalID, isSwipe)",
+      "EditMossCustomer(externalID)",
+      "ShowMossCustomerDetails(externalCustomerID)",
+      "OnMossCustomerSubmitClick()",
+      "ValidateMossCustomer()",
+      "RenderCustomerOrderActionMenus(entityID)"
+    ],
+    "DyoOrder.js": [
+      "OnCombinationChange(control)",
+      "SubmitOrder()", "SubmitProcesssOrder()",
+      "SaveOrderOnServer(isToProcessOrder, skipWarning)",
+      "UpdateRunningInformation()",
+      "RefereshRunningInfo()",
+      "UpdateRPriceRunningInformation()",
+      "GethighestExtraDays()",
+      "RefreshMakeRPrice(element)",
+      "IsOrderSummaryScreenValid(isProcessOrder)",
+      "IsCopyOrder()", "IsEditOrder()",
+      "DesignOptionIsNotAllowCopy(designOption)",
+      "WarningFitAndTryOn()"
+    ],
+    "ShopDesignOptionSettings.js": [
+      "InitializeShopDesignOptionSettingsPage()",
+      "ValidateDesignOptionsLinkedUnliked()",
+      "ValidateDefaultValue()",
+      "SubmitSaveForm()",
+      "SubmitSearchForm()",
+      "onProductPartChange()",
+      "onProductLineChange()",
+      "onProductFitChange()",
+      "onProductMakeChange()",
+      "LoadMultiSelectDropdown()",
+      "RefreshMultiSelectDropdown()"
+    ],
+    "ShopFittoolSettings.js": [
+      "SubmitSaveForm()",
+      "SubmitSearchForm()",
+      "onProductPartChange()"
+    ]
+  },
+
+  "important_div_containers": {
+    "#divOrderCreationMainPanel": "Main wizard content area - replaced on each step change",
+    "#divOrderCreationSelection": "Order creation type selection dialog (TryOn vs BM)",
+    "#divSinglePageOrderContainer": "DYO single-page order container",
+    "#divRPriceContainer": "Running retail price container",
+    "#divPPriceContainer": "Running purchase price container",
+    "#divShipmentContainer": "Shipment info container",
+    "#divItemDetailMContainer": "Item details container",
+    "#divMainCautionMessageContainer": "Caution messages container",
+    "#divOrderSelectPopup": "Product line/item type selection popup",
+    "#divCreateFitProfileContainer": "Create fit profile container",
+    "#divFitToolContainer_{productPartId}": "Fit tool container per product part",
+    "#divShopDesignOptions": "Design option settings results container",
+    "#divShopFitTools": "Fit tool settings results container",
+    "#divFitProfileGrid": "Fit profile grid container",
+    "#divCustomerFitProfileGrid": "Customer fit profile grid container",
+    "#DraftOrderFinalMessage": "Draft order confirmation dialog",
+    "#DraftName": "Draft name input dialog",
+    "#OrderSummaryCheckbox": "DYO order summary confirmation checkbox dialog"
+  },
+
+  "template_ids": {
+    "#ItemDetailsTemplate": "jQuery template for item details",
+    "#ShipmentTemplate": "jQuery template for shipment info",
+    "#StylTemplate": "DYO style template",
+    "#fitProfileTemplate": "DYO fit profile template",
+    "#fitFitToolTemplate": "DYO fit tool template",
+    "#designOptionTemplate": "DYO design option template",
+    "#designOptionMonogramTemplate": "DYO monogram template",
+    "#brandingOptionTemplate": "DYO branding option template"
+  },
+
+  "localization_pages": [
+    "ShopCustomOrderOverview",
+    "ShopCustomer"
+  ],
+
+  "navigation_urls": {
+    "/CustomOrderOverview": "Order overview page",
+    "/Customer/GetCustomerDetail?customerID={id}": "Customer detail page",
+    "/CustomOrder/CreateOrderForSameCustomer": "Create new order for same customer",
+    "/DyoOrder/CreateOrderForSameCustomer": "Create new DYO order for same customer",
+    "/DraftOrder": "Draft orders page",
+    "/Customer": "Customer overview page",
+    "/Customer/Index": "Customer index",
+    "/Customer/Edit/{id}": "Edit customer page"
+  }
+}

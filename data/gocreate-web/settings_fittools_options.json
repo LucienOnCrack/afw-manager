@@ -1,0 +1,134 @@
+{
+  "SelectedProductPartID": [
+    [
+      "1",
+      "Jacket"
+    ],
+    [
+      "2",
+      "Trousers"
+    ],
+    [
+      "3",
+      "Waistcoat"
+    ],
+    [
+      "4",
+      "Shirt"
+    ],
+    [
+      "5",
+      "Overcoat"
+    ],
+    [
+      "12",
+      "Bermuda"
+    ],
+    [
+      "13",
+      "Pea coat"
+    ],
+    [
+      "14",
+      "5 Pocket"
+    ],
+    [
+      "15",
+      "Chino"
+    ],
+    [
+      "16",
+      "Formal round"
+    ],
+    [
+      "18",
+      "Informal"
+    ],
+    [
+      "20",
+      "Flex"
+    ],
+    [
+      "21",
+      "Sneaker"
+    ],
+    [
+      "22",
+      "Tie"
+    ],
+    [
+      "23",
+      "Bow tie"
+    ],
+    [
+      "24",
+      "Pocket square"
+    ],
+    [
+      "25",
+      "Belt"
+    ],
+    [
+      "26",
+      "Coat"
+    ],
+    [
+      "27",
+      "Detachable liner"
+    ],
+    [
+      "31",
+      "Informal jacket"
+    ],
+    [
+      "32",
+      "Knitwear"
+    ],
+    [
+      "33",
+      "City loafer"
+    ],
+    [
+      "34",
+      "Beanie"
+    ],
+    [
+      "35",
+      "Scarf"
+    ],
+    [
+      "36",
+      "Quilted vest"
+    ],
+    [
+      "37",
+      "Cummerbund"
+    ],
+    [
+      "38",
+      "Vest"
+    ],
+    [
+      "40",
+      "Pants"
+    ],
+    [
+      "41",
+      "Runner"
+    ]
+  ],
+  "SelectedProductFitID": [
+    [
+      "38",
+      "Regular "
+    ],
+    [
+      "41",
+      "Slim "
+    ],
+    [
+      "39",
+      "Slim2.0 "
+    ]
+  ]
+}

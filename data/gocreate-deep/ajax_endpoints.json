@@ -1,0 +1,258 @@
+[
+  {
+    "url": "/ReadymadeOrderOverview/HasShopMultipleProductLine/",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "url": "/ReadymadeOrderOverview/SelectOrder/",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "url": "/ReadymadeOrderOverview/LoadReadyMadeOrderCreationPerShop/",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "url": "/",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "url": "/Login/GetMarketingToolDetails/",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "url": "/CustomOrderOverview/ValidateOrderFitProfile",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "/CustomOrder/GetNewGuid",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "/QualityIssue/GetValidationOfProductCombinationForQualityIssueRemakeOrder",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "/IssueModule/GetValidationOfProductCombinationForQualityIssueRemakeOrder",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "/OrderDetail/GetEditOrderWarning2Message",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "/VestReadymadeOrder/ValidateVestReadymadeOrder",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "/DenimReadymadeOrder/ValidateDenimReadymadeOrder",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "/KnitReadymadeOrder/ValidateKnitReadymadeOrder",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "/OrderDetail/GetDuplicateOrder",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "/OrderDetail/GetRemarkForOrder",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "CustomOrderOverview/UpdateOrderStatus",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "url": "/AdyenPayment/ProcessPayment",
+    "source": "/Scripts/CustomScripts/Page/AdyenPayment/AdyenPayment.js?version=20260311"
+  },
+  {
+    "url": "CustomOrder/GoToStep",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "url": "CustomOrder/GoToStep?step=",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "url": "/CustomOrder/RefreshRunningInformation",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "url": "/CustomOrder/SaveCustomOrder",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "url": "/CustomOrder/ApplyBodymeasurementCalculatedValues",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "url": "/CustomOrder/UpdateOrderForDraft",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "url": "/CustomOrder/SaveDraftOrder",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "url": "/Customer/CheckIfQualityIssueExistsAndIsNotCancelled",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/CheckIfNewIssueModuleExistsAndIsNotCancelled",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/Delete",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/ValidateEditCopyFitProfile",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/EditCustomerFitProfile",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/GetCustomerFitProfileDetail",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/CopyCustomerFitProfile",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/FillTryOnSizes",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/ShowDMNotes",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/ShowNotesForEditting",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/HasShopMultipleProductLine/",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/SelectOrder/",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/LoadCustomOrderCreationPerShop/",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/DeleteCustomerImage",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/EditImageDescription",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/ActivateDeactivateProfile",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/GetCustomerId/",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/CreateOrderForMossCustomer",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/EditMossCustomer",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/MossCustomerDetail",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/ShowDesiredMeasurementNotes",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/RedirectToCreateFitProfile",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/CreateFitProfile",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/CreateNewFitProfileForCustomer",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/FetchViewModelForFitToolProfileCreation",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/Customer/GetPreviousOrderFitProfileData",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "url": "/DyoOrder/RenderPrimaryInfo/",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrder.js"
+  },
+  {
+    "url": "/DyoOrder/GetRunningInfo",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrder.js"
+  },
+  {
+    "url": "/Login/CheckIfSessionIsExpired/",
+    "source": "/Scripts/CustomScripts/Page/MunroShopLayout.js"
+  },
+  {
+    "url": "/ClientLog/Addlog",
+    "source": "/Scripts/CustomScripts/Page/MunroShopLayout.js"
+  },
+  {
+    "url": "OrderDetail/GetOrderPriceDetail",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  },
+  {
+    "url": "OrderDetail/CheckIfQualityIssueExistsAndIsNotCancelled",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  },
+  {
+    "url": "IssueModule/CheckIfNewIssueModuleExistsAndIsNotCancelled",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  },
+  {
+    "url": "/CustomOrderOverview/GetCargoBoxList",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  },
+  {
+    "url": "/CustomOrderOverview/GetExpressOrderDeliveryDetails",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  },
+  {
+    "url": "/CustomOrderOverview/GetOrdersWithSameShipmentDate",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  },
+  {
+    "url": "/CustomOrderOverview/MarkOrderForFastTrack",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  },
+  {
+    "url": "/CustomOrderOverview/MarkOrderForFastTrackConfirmed",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  },
+  {
+    "url": "/CustomOrderOverview/MarkOrderForExpressDelivery",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  },
+  {
+    "url": "/CustomOrderOverview/MarkOrderForNonExpressDelivery",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "items": {
+    "type": "json",
+    "length": 2,
+    "data": []
+  },
+  "buttons": {
+    "type": "json",
+    "length": 2,
+    "data": []
+  },
+  "msgBoxData": {
+    "type": "raw_js",
+    "length": 146,
+    "data": "{\n                modal: true,\n                resizable: false,\n                title: headerText,\n                buttons: buttons\n            }"
+  },
+  "orders": {
+    "type": "json",
+    "length": 2,
+    "data": []
+  },
+  "dataToOrder": {
+    "type": "raw_js",
+    "length": 20,
+    "data": "{ 'orderId': items }"
+  }
+}

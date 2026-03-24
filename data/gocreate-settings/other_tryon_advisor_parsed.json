@@ -1,0 +1,121 @@
+{
+  "selects": [],
+  "hiddens": [
+    {
+      "id": "",
+      "name": "Chk_1",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_5",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_2",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_3",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_4",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_8",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_22",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_21",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_9",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_59",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_61",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "Chk_54",
+      "value": "false"
+    },
+    {
+      "id": "AdvisorDataPerCombination",
+      "name": "AdvisorDataPerCombination",
+      "value": ""
+    },
+    {
+      "id": "HDMeasurementUnit",
+      "name": "HDMeasurementUnit",
+      "value": "CM"
+    },
+    {
+      "id": "ControllerName",
+      "name": "ControllerName",
+      "value": "TryOnAdvisor"
+    },
+    {
+      "id": "ActionName",
+      "name": "ActionName",
+      "value": "Index"
+    },
+    {
+      "id": "hiddenScrollPositionH",
+      "name": "",
+      "value": ""
+    },
+    {
+      "id": "selectedShop",
+      "name": "selectedShop",
+      "value": ""
+    },
+    {
+      "id": "hiddenHostedServer",
+      "name": "",
+      "value": "Web5"
+    },
+    {
+      "id": "hiddenFromMobileDevice",
+      "name": "",
+      "value": "false"
+    }
+  ],
+  "tables": [],
+  "js_variables": {
+    "DATEFORMAT": "'dd-M-yyyy'",
+    "shopCurrency": "'&#163;'",
+    "DATERANGE": "'1950:2050'",
+    "DATEFORMAT_SERVER": "'dd-MMM-yyyy'",
+    "SITE_BASE_URL": "'http://gocreate.nu/'",
+    "SESSION_EXPIRE_URL": "'/TryOnAdvisor/SessionExpire'",
+    "ISINVOICE_SURCHARGE_APPLICABLE": "'False'",
+    "shouldRedirectToHttps": "'true'",
+    "redirectToHttps": "'False'",
+    "PANEL_COOKIE_NAME": "\"shoppanels\"",
+    "PANEL_COOKIE_NAME_SINGLE_STEP": "\"shoppanelSingleStep\"",
+    "isSiteInReadOnlyMode": "'False'",
+    "i": "0"
+  }
+}

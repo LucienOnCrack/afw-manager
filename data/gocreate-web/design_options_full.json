@@ -1,0 +1,2298 @@
+{
+  "part1_Jacket_make8_fit38": {
+    "productPartId": 1,
+    "productPart": "Jacket",
+    "makeId": 8,
+    "fitId": 38,
+    "designOptions": {
+      "DesignOptions": {
+        "selectId": "dd_183",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "5957",
+            "text": "light"
+          },
+          {
+            "value": "5958",
+            "text": "standard"
+          }
+        ]
+      },
+      "Closure &amp; lapel": {
+        "selectId": "dd_413",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23186",
+            "text": "1 button with peak lapel"
+          }
+        ]
+      },
+      "Lower gorge": {
+        "selectId": "dd_589",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "29158",
+            "text": "regular"
+          },
+          {
+            "value": "29157",
+            "text": "low"
+          }
+        ]
+      },
+      "Lapel width": {
+        "selectId": "dd_79",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "611",
+            "text": "narrow"
+          },
+          {
+            "value": "19351",
+            "text": "slim"
+          },
+          {
+            "value": "610",
+            "text": "standard"
+          },
+          {
+            "value": "3007",
+            "text": "wide"
+          }
+        ]
+      },
+      "Lapel buttonhole type": {
+        "selectId": "dd_387",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23089",
+            "text": "no buttonhole"
+          },
+          {
+            "value": "23090",
+            "text": "standard"
+          },
+          {
+            "value": "23091",
+            "text": "handmade"
+          },
+          {
+            "value": "23092",
+            "text": "milanese"
+          },
+          {
+            "value": "23093",
+            "text": "long milanese"
+          },
+          {
+            "value": "23094",
+            "text": "neapolitan"
+          }
+        ]
+      },
+      "Shoulder type": {
+        "selectId": "dd_388",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23085",
+            "text": "traditional"
+          },
+          {
+            "value": "23086",
+            "text": "soft"
+          },
+          {
+            "value": "23087",
+            "text": "soft with 2 mm pick stitch"
+          },
+          {
+            "value": "23088",
+            "text": "soft with 6 mm pick stitch"
+          }
+        ]
+      },
+      "Chest pocket": {
+        "selectId": "dd_389",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23077",
+            "text": "narrow welt"
+          },
+          {
+            "value": "23078",
+            "text": "straight welt"
+          },
+          {
+            "value": "23079",
+            "text": "rounded welt"
+          }
+        ]
+      },
+      "Side pockets": {
+        "selectId": "dd_22",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "103",
+            "text": "straight flap"
+          },
+          {
+            "value": "105",
+            "text": "slanted flap"
+          },
+          {
+            "value": "104",
+            "text": "straight jet"
+          },
+          {
+            "value": "106",
+            "text": "slanted jet"
+          },
+          {
+            "value": "107",
+            "text": "patch"
+          },
+          {
+            "value": "1025",
+            "text": "rounded patch"
+          },
+          {
+            "value": "707",
+            "text": "patch with flap"
+          },
+          {
+            "value": "108",
+            "text": "patch with inverted pleat, flap &amp; button"
+          }
+        ]
+      },
+      "Double patch": {
+        "selectId": "dd_558",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "28011",
+            "text": "none"
+          }
+        ]
+      },
+      "Ticket pocket": {
+        "selectId": "dd_2",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "121",
+            "text": "none"
+          },
+          {
+            "value": "10",
+            "text": "straight flap"
+          },
+          {
+            "value": "62",
+            "text": "slanted flap"
+          },
+          {
+            "value": "12",
+            "text": "straight jet"
+          },
+          {
+            "value": "64",
+            "text": "slanted jet"
+          }
+        ]
+      },
+      "Pocket flap height": {
+        "selectId": "dd_80",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "668",
+            "text": "no pocket flap"
+          },
+          {
+            "value": "613",
+            "text": "small (4 cm)"
+          },
+          {
+            "value": "612",
+            "text": "standard (5 cm)"
+          },
+          {
+            "value": "614",
+            "text": "large (7 cm)"
+          }
+        ]
+      },
+      "Cuff finishing": {
+        "selectId": "dd_390",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23064",
+            "text": "3 kissing buttons with closed buttonholes"
+          },
+          {
+            "value": "23065",
+            "text": "3 kissing buttons with open cuff"
+          },
+          {
+            "value": "23066",
+            "text": "3 non-kissing buttons with closed buttonholes"
+          },
+          {
+            "value": "23067",
+            "text": "3 non-kissing buttons with open cuff"
+          },
+          {
+            "value": "23068",
+            "text": "4 kissing buttons with closed buttonholes"
+          },
+          {
+            "value": "23069",
+            "text": "4 kissing buttons with open cuff"
+          },
+          {
+            "value": "23070",
+            "text": "4 non-kissing buttons with closed buttonholes"
+          },
+          {
+            "value": "23071",
+            "text": "4 non-kissing buttons with open cuff"
+          },
+          {
+            "value": "23072",
+            "text": "5 kissing buttons with closed buttonholes"
+          },
+          {
+            "value": "23073",
+            "text": "5 kissing buttons with open cuff"
+          },
+          {
+            "value": "23074",
+            "text": "5 non-kissing buttons with closed buttonholes"
+          },
+          {
+            "value": "23075",
+            "text": "5 non-kissing buttons with open cuff"
+          },
+          {
+            "value": "23076",
+            "text": "no buttonholes"
+          }
+        ]
+      },
+      "1st sleeve buttonhole type left": {
+        "selectId": "dd_423",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "24834",
+            "text": "none"
+          },
+          {
+            "value": "23833",
+            "text": "standard"
+          },
+          {
+            "value": "23834",
+            "text": "milanese"
+          }
+        ]
+      },
+      "Vent(s)": {
+        "selectId": "dd_414",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23191",
+            "text": "1 back vent"
+          }
+        ]
+      },
+      "Lining style": {
+        "selectId": "dd_391",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23188",
+            "text": "fully-lined"
+          }
+        ]
+      },
+      "Inside facing": {
+        "selectId": "dd_392",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23062",
+            "text": "jet facing"
+          },
+          {
+            "value": "23063",
+            "text": "tongue facing"
+          }
+        ]
+      },
+      "Sleeve lining": {
+        "selectId": "dd_393",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23060",
+            "text": "stripe lining"
+          },
+          {
+            "value": "23189",
+            "text": "same as body lining"
+          }
+        ]
+      },
+      "Pick stitching (AMF)": {
+        "selectId": "dd_394",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23057",
+            "text": "none"
+          },
+          {
+            "value": "23058",
+            "text": "standard, 2 mm from edge"
+          },
+          {
+            "value": "23059",
+            "text": "standard, 6 mm from edge"
+          }
+        ]
+      },
+      "Tuxedo (lapel &amp; jets)": {
+        "selectId": "dd_93",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "717",
+            "text": "none"
+          },
+          {
+            "value": "29225_448",
+            "text": "ivory Ottoman"
+          },
+          {
+            "value": "29225_442",
+            "text": "off-white satin"
+          },
+          {
+            "value": "29225_439",
+            "text": "black satin"
+          },
+          {
+            "value": "29225_443",
+            "text": "ivory satin"
+          },
+          {
+            "value": "29225_441",
+            "text": "Neapolitan blue satin"
+          },
+          {
+            "value": "29225_440",
+            "text": "midnight blue satin"
+          },
+          {
+            "value": "29225_447",
+            "text": "off-white Ottoman"
+          },
+          {
+            "value": "29225_446",
+            "text": "Neapolitan blue Ottoman"
+          },
+          {
+            "value": "29225_445",
+            "text": "midnight blue Ottoman"
+          },
+          {
+            "value": "29225_444",
+            "text": "black Ottoman"
+          }
+        ]
+      },
+      "Under collar": {
+        "selectId": "dd_396",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23053",
+            "text": "best match"
+          },
+          {
+            "value": "23527",
+            "text": "same as fabric"
+          },
+          {
+            "value": "29235_4",
+            "text": "melton 1. midnight blue"
+          },
+          {
+            "value": "29235_5",
+            "text": "melton 2. dark blue"
+          },
+          {
+            "value": "29235_6",
+            "text": "melton 3. blue-grey melange"
+          },
+          {
+            "value": "29235_7",
+            "text": "melton 4. blue melange"
+          },
+          {
+            "value": "29235_8",
+            "text": "melton 5. mid blue"
+          },
+          {
+            "value": "29235_9",
+            "text": "melton 6. raf blue"
+          },
+          {
+            "value": "29235_10",
+            "text": "melton 7. blue"
+          },
+          {
+            "value": "29235_11",
+            "text": "melton 8. light blue"
+          },
+          {
+            "value": "29235_12",
+            "text": "melton 9. sky blue"
+          },
+          {
+            "value": "29235_13",
+            "text": "melton 10. ice blue melange"
+          },
+          {
+            "value": "29235_14",
+            "text": "melton 11. white"
+          },
+          {
+            "value": "29235_16",
+            "text": "melton 13. light grey melange"
+          },
+          {
+            "value": "29235_17",
+            "text": "melton 14. light grey"
+          },
+          {
+            "value": "29235_18",
+            "text": "melton 15. dark grey"
+          },
+          {
+            "value": "29235_19",
+            "text": "melton 16. black"
+          },
+          {
+            "value": "29235_20",
+            "text": "melton 17. black-brown"
+          },
+          {
+            "value": "29235_21",
+            "text": "melton 18. chocolate brown"
+          },
+          {
+            "value": "29235_22",
+            "text": "melton 19. dark brown"
+          },
+          {
+            "value": "29235_23",
+            "text": "melton 20. caramel"
+          },
+          {
+            "value": "29235_24",
+            "text": "melton 21. mid brown"
+          },
+          {
+            "value": "29235_25",
+            "text": "melton 22. camel"
+          },
+          {
+            "value": "29235_26",
+            "text": "melton 23. sand"
+          },
+          {
+            "value": "29235_27",
+            "text": "melton 24. green-grey melange"
+          },
+          {
+            "value": "29235_28",
+            "text": "melton 25. green"
+          },
+          {
+            "value": "29235_29",
+            "text": "melton 26. mid green"
+          },
+          {
+            "value": "29235_30",
+            "text": "melton 27. forest green"
+          },
+          {
+            "value": "29235_31",
+            "text": "melton 28. olive green"
+          },
+          {
+            "value": "29235_32",
+            "text": "melton 29. burgundy"
+          },
+          {
+            "value": "29235_34",
+            "text": "melton 31. red"
+          },
+          {
+            "value": "29235_35",
+            "text": "melton 32. oxide red"
+          },
+          {
+            "value": "29235_36",
+            "text": "melton 33. orange"
+          },
+          {
+            "value": "29235_37",
+            "text": "melton 34. yellow"
+          },
+          {
+            "value": "29235_38",
+            "text": "melton 35. vintage pink"
+          },
+          {
+            "value": "29235_39",
+            "text": "melton 36. light pink"
+          },
+          {
+            "value": "29235_40",
+            "text": "melton 37. fuchsia"
+          },
+          {
+            "value": "29235_41",
+            "text": "melton 38. magenta"
+          },
+          {
+            "value": "29235_42",
+            "text": "melton 39. aubergine"
+          },
+          {
+            "value": "29235_43",
+            "text": "melton 40. purple"
+          },
+          {
+            "value": "29235_44",
+            "text": "melton 41. khaki m&#233;lange"
+          },
+          {
+            "value": "29235_45",
+            "text": "40. midnight blue alcantara"
+          },
+          {
+            "value": "29235_46",
+            "text": "41. deep blue alcantara"
+          },
+          {
+            "value": "29235_47",
+            "text": "42. royal blue alcantara"
+          },
+          {
+            "value": "29235_48",
+            "text": "43. ash grey m&#233;lange alcantara"
+          },
+          {
+            "value": "29235_49",
+            "text": "44. black alcantara"
+          },
+          {
+            "value": "29235_50",
+            "text": "45. anthracite grey alcantara"
+          },
+          {
+            "value": "29235_51",
+            "text": "46. stone grey m&#233;lange alcantara"
+          },
+          {
+            "value": "29235_52",
+            "text": "47. cloud grey alcantara"
+          },
+          {
+            "value": "29235_53",
+            "text": "48. ice grey alcantara"
+          },
+          {
+            "value": "29235_54",
+            "text": "49. dark brown alcantara"
+          },
+          {
+            "value": "29235_55",
+            "text": "50. tan alcantara"
+          },
+          {
+            "value": "29235_56",
+            "text": "51. off-white alcantara"
+          },
+          {
+            "value": "29235_57",
+            "text": "52. bottle green alcantara"
+          },
+          {
+            "value": "29235_58",
+            "text": "53. sage green alcantara"
+          },
+          {
+            "value": "29235_59",
+            "text": "54. wine red alcantara"
+          },
+          {
+            "value": "29235_60",
+            "text": "55. magenta alcantara"
+          },
+          {
+            "value": "29235_61",
+            "text": "56. violet alcantara"
+          },
+          {
+            "value": "29235_62",
+            "text": "57. chestnut alcantara"
+          },
+          {
+            "value": "29235_63",
+            "text": "58. beige alcantara"
+          },
+          {
+            "value": "29235_64",
+            "text": "alcantara 20. off white"
+          },
+          {
+            "value": "29235_65",
+            "text": "alcantara 21. beige"
+          },
+          {
+            "value": "29235_66",
+            "text": "alcantara 22. taupe"
+          },
+          {
+            "value": "29235_67",
+            "text": "alcantara 23. caramel"
+          },
+          {
+            "value": "29235_68",
+            "text": "alcantara 24. middle brown"
+          },
+          {
+            "value": "29235_69",
+            "text": "alcantara 25. chocolate brown"
+          },
+          {
+            "value": "29235_70",
+            "text": "alcantara 26. dark brown"
+          },
+          {
+            "value": "29235_71",
+            "text": "alcantara 27. black"
+          },
+          {
+            "value": "29235_72",
+            "text": "alcantara 28. stone red"
+          },
+          {
+            "value": "29235_73",
+            "text": "alcantara 29. red"
+          },
+          {
+            "value": "29235_74",
+            "text": "alcantara 30. burgundy"
+          },
+          {
+            "value": "29235_75",
+            "text": "alcantara 31. purple"
+          },
+          {
+            "value": "29235_76",
+            "text": "alcantara 32. raf blue"
+          },
+          {
+            "value": "29235_77",
+            "text": "alcantara 33. dark blue"
+          },
+          {
+            "value": "29235_78",
+            "text": "alcantara 34. midnight blue"
+          },
+          {
+            "value": "29235_79",
+            "text": "alcantara 35. dark green"
+          },
+          {
+            "value": "29235_80",
+            "text": "alcantara 36. chalk grey"
+          },
+          {
+            "value": "29235_81",
+            "text": "alcantara 37. light grey"
+          },
+          {
+            "value": "29235_82",
+            "text": "alcantara 38. anthracite grey"
+          },
+          {
+            "value": "29235_83",
+            "text": "alcantara 39. dark grey"
+          }
+        ]
+      },
+      "Inside pick stitching (Columbia)": {
+        "selectId": "dd_398",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23051",
+            "text": "none"
+          },
+          {
+            "value": "23210",
+            "text": "white"
+          },
+          {
+            "value": "23049",
+            "text": "best match with fabric"
+          },
+          {
+            "value": "23050",
+            "text": "best match with lining"
+          },
+          {
+            "value": "23211",
+            "text": "off white"
+          },
+          {
+            "value": "23212",
+            "text": "silver"
+          },
+          {
+            "value": "23213",
+            "text": "light grey"
+          },
+          {
+            "value": "23214",
+            "text": "mid grey"
+          },
+          {
+            "value": "23215",
+            "text": "anthracite"
+          },
+          {
+            "value": "23216",
+            "text": "black"
+          },
+          {
+            "value": "23217",
+            "text": "sand"
+          },
+          {
+            "value": "23218",
+            "text": "light brown"
+          },
+          {
+            "value": "23219",
+            "text": "mid brown"
+          },
+          {
+            "value": "23220",
+            "text": "chocolate brown"
+          },
+          {
+            "value": "23221",
+            "text": "dark brown"
+          },
+          {
+            "value": "23222",
+            "text": "light green"
+          },
+          {
+            "value": "23223",
+            "text": "forest green"
+          },
+          {
+            "value": "23224",
+            "text": "dark green"
+          },
+          {
+            "value": "23225",
+            "text": "light blue"
+          },
+          {
+            "value": "23226",
+            "text": "sky blue"
+          },
+          {
+            "value": "23227",
+            "text": "royal blue"
+          },
+          {
+            "value": "23228",
+            "text": "navy blue"
+          },
+          {
+            "value": "23229",
+            "text": "slate blue"
+          },
+          {
+            "value": "23230",
+            "text": "midnight blue"
+          },
+          {
+            "value": "23231",
+            "text": "purple"
+          },
+          {
+            "value": "23232",
+            "text": "violet"
+          },
+          {
+            "value": "23233",
+            "text": "pink"
+          },
+          {
+            "value": "23234",
+            "text": "red"
+          },
+          {
+            "value": "23235",
+            "text": "dark red"
+          },
+          {
+            "value": "23236",
+            "text": "wine red"
+          },
+          {
+            "value": "23237",
+            "text": "orange"
+          },
+          {
+            "value": "23238",
+            "text": "oxide red"
+          },
+          {
+            "value": "23239",
+            "text": "gold"
+          },
+          {
+            "value": "23240",
+            "text": "fuchsia"
+          },
+          {
+            "value": "23241",
+            "text": "ice blue"
+          },
+          {
+            "value": "23242",
+            "text": "olive green"
+          },
+          {
+            "value": "23243",
+            "text": "yellow"
+          },
+          {
+            "value": "23244",
+            "text": "petrol"
+          }
+        ]
+      },
+      "Throat tab": {
+        "selectId": "dd_98",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "932",
+            "text": "none"
+          },
+          {
+            "value": "931",
+            "text": "same as fabric"
+          },
+          {
+            "value": "29227_45",
+            "text": "40. midnight blue alcantara"
+          },
+          {
+            "value": "29227_46",
+            "text": "41. deep blue alcantara"
+          },
+          {
+            "value": "29227_47",
+            "text": "42. royal blue alcantara"
+          },
+          {
+            "value": "29227_48",
+            "text": "43. ash grey m&#233;lange alcantara"
+          },
+          {
+            "value": "29227_49",
+            "text": "44. black alcantara"
+          },
+          {
+            "value": "29227_50",
+            "text": "45. anthracite grey alcantara"
+          },
+          {
+            "value": "29227_51",
+            "text": "46. stone grey m&#233;lange alcantara"
+          },
+          {
+            "value": "29227_52",
+            "text": "47. cloud grey alcantara"
+          },
+          {
+            "value": "29227_53",
+            "text": "48. ice grey alcantara"
+          },
+          {
+            "value": "29227_54",
+            "text": "49. dark brown alcantara"
+          },
+          {
+            "value": "29227_55",
+            "text": "50. tan alcantara"
+          },
+          {
+            "value": "29227_56",
+            "text": "51. off-white alcantara"
+          },
+          {
+            "value": "29227_57",
+            "text": "52. bottle green alcantara"
+          },
+          {
+            "value": "29227_58",
+            "text": "53. sage green alcantara"
+          },
+          {
+            "value": "29227_59",
+            "text": "54. wine red alcantara"
+          },
+          {
+            "value": "29227_60",
+            "text": "55. magenta alcantara"
+          },
+          {
+            "value": "29227_61",
+            "text": "56. violet alcantara"
+          },
+          {
+            "value": "29227_62",
+            "text": "57. chestnut alcantara"
+          },
+          {
+            "value": "29227_63",
+            "text": "58. beige alcantara"
+          },
+          {
+            "value": "29227_64",
+            "text": "alcantara 20. off white"
+          },
+          {
+            "value": "29227_65",
+            "text": "alcantara 21. beige"
+          },
+          {
+            "value": "29227_66",
+            "text": "alcantara 22. taupe"
+          },
+          {
+            "value": "29227_67",
+            "text": "alcantara 23. caramel"
+          },
+          {
+            "value": "29227_68",
+            "text": "alcantara 24. middle brown"
+          },
+          {
+            "value": "29227_69",
+            "text": "alcantara 25. chocolate brown"
+          },
+          {
+            "value": "29227_70",
+            "text": "alcantara 26. dark brown"
+          },
+          {
+            "value": "29227_71",
+            "text": "alcantara 27. black"
+          },
+          {
+            "value": "29227_72",
+            "text": "alcantara 28. stone red"
+          },
+          {
+            "value": "29227_73",
+            "text": "alcantara 29. red"
+          },
+          {
+            "value": "29227_74",
+            "text": "alcantara 30. burgundy"
+          },
+          {
+            "value": "29227_75",
+            "text": "alcantara 31. purple"
+          },
+          {
+            "value": "29227_76",
+            "text": "alcantara 32. raf blue"
+          },
+          {
+            "value": "29227_77",
+            "text": "alcantara 33. dark blue"
+          },
+          {
+            "value": "29227_78",
+            "text": "alcantara 34. midnight blue"
+          },
+          {
+            "value": "29227_79",
+            "text": "alcantara 35. dark green"
+          },
+          {
+            "value": "29227_80",
+            "text": "alcantara 36. chalk grey"
+          },
+          {
+            "value": "29227_81",
+            "text": "alcantara 37. light grey"
+          },
+          {
+            "value": "29227_82",
+            "text": "alcantara 38. anthracite grey"
+          },
+          {
+            "value": "29227_83",
+            "text": "alcantara 39. dark grey"
+          }
+        ]
+      },
+      "Elbow patches": {
+        "selectId": "dd_78",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "549",
+            "text": "none"
+          },
+          {
+            "value": "716",
+            "text": "0. same as fabric"
+          },
+          {
+            "value": "29224_45",
+            "text": "40. midnight blue alcantara"
+          },
+          {
+            "value": "29224_46",
+            "text": "41. deep blue alcantara"
+          },
+          {
+            "value": "29224_47",
+            "text": "42. royal blue alcantara"
+          },
+          {
+            "value": "29224_48",
+            "text": "43. ash grey m&#233;lange alcantara"
+          },
+          {
+            "value": "29224_49",
+            "text": "44. black alcantara"
+          },
+          {
+            "value": "29224_50",
+            "text": "45. anthracite grey alcantara"
+          },
+          {
+            "value": "29224_51",
+            "text": "46. stone grey m&#233;lange alcantara"
+          },
+          {
+            "value": "29224_52",
+            "text": "47. cloud grey alcantara"
+          },
+          {
+            "value": "29224_53",
+            "text": "48. ice grey alcantara"
+          },
+          {
+            "value": "29224_54",
+            "text": "49. dark brown alcantara"
+          },
+          {
+            "value": "29224_55",
+            "text": "50. tan alcantara"
+          },
+          {
+            "value": "29224_56",
+            "text": "51. off-white alcantara"
+          },
+          {
+            "value": "29224_57",
+            "text": "52. bottle green alcantara"
+          },
+          {
+            "value": "29224_58",
+            "text": "53. sage green alcantara"
+          },
+          {
+            "value": "29224_59",
+            "text": "54. wine red alcantara"
+          },
+          {
+            "value": "29224_60",
+            "text": "55. magenta alcantara"
+          },
+          {
+            "value": "29224_61",
+            "text": "56. violet alcantara"
+          },
+          {
+            "value": "29224_62",
+            "text": "57. chestnut alcantara"
+          },
+          {
+            "value": "29224_63",
+            "text": "58. beige alcantara"
+          },
+          {
+            "value": "29224_64",
+            "text": "alcantara 20. off white"
+          },
+          {
+            "value": "29224_65",
+            "text": "alcantara 21. beige"
+          },
+          {
+            "value": "29224_66",
+            "text": "alcantara 22. taupe"
+          },
+          {
+            "value": "29224_67",
+            "text": "alcantara 23. caramel"
+          },
+          {
+            "value": "29224_68",
+            "text": "alcantara 24. middle brown"
+          },
+          {
+            "value": "29224_69",
+            "text": "alcantara 25. chocolate brown"
+          },
+          {
+            "value": "29224_70",
+            "text": "alcantara 26. dark brown"
+          },
+          {
+            "value": "29224_71",
+            "text": "alcantara 27. black"
+          },
+          {
+            "value": "29224_72",
+            "text": "alcantara 28. stone red"
+          },
+          {
+            "value": "29224_73",
+            "text": "alcantara 29. red"
+          },
+          {
+            "value": "29224_74",
+            "text": "alcantara 30. burgundy"
+          },
+          {
+            "value": "29224_75",
+            "text": "alcantara 31. purple"
+          },
+          {
+            "value": "29224_76",
+            "text": "alcantara 32. raf blue"
+          },
+          {
+            "value": "29224_77",
+            "text": "alcantara 33. dark blue"
+          },
+          {
+            "value": "29224_78",
+            "text": "alcantara 34. midnight blue"
+          },
+          {
+            "value": "29224_79",
+            "text": "alcantara 35. dark green"
+          },
+          {
+            "value": "29224_80",
+            "text": "alcantara 36. chalk grey"
+          },
+          {
+            "value": "29224_81",
+            "text": "alcantara 37. light grey"
+          },
+          {
+            "value": "29224_82",
+            "text": "alcantara 38. anthracite grey"
+          },
+          {
+            "value": "29224_83",
+            "text": "alcantara 39. dark grey"
+          }
+        ]
+      },
+      "Hidden lining pocket": {
+        "selectId": "dd_100",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "915",
+            "text": "none"
+          },
+          {
+            "value": "914",
+            "text": "yes"
+          }
+        ]
+      },
+      "Contrast pick stitching (AMF)": {
+        "selectId": "dd_399",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23047",
+            "text": "best match"
+          },
+          {
+            "value": "23048",
+            "text": "none"
+          },
+          {
+            "value": "23245",
+            "text": "white"
+          },
+          {
+            "value": "23246",
+            "text": "off white"
+          },
+          {
+            "value": "23247",
+            "text": "silver"
+          },
+          {
+            "value": "23248",
+            "text": "light grey"
+          },
+          {
+            "value": "23249",
+            "text": "mid grey"
+          },
+          {
+            "value": "23250",
+            "text": "anthracite"
+          },
+          {
+            "value": "23251",
+            "text": "black"
+          },
+          {
+            "value": "23252",
+            "text": "sand"
+          },
+          {
+            "value": "23253",
+            "text": "light brown"
+          },
+          {
+            "value": "23254",
+            "text": "mid brown"
+          },
+          {
+            "value": "23255",
+            "text": "chocolate brown"
+          },
+          {
+            "value": "23256",
+            "text": "dark brown"
+          },
+          {
+            "value": "23257",
+            "text": "light green"
+          },
+          {
+            "value": "23258",
+            "text": "forest green"
+          },
+          {
+            "value": "23259",
+            "text": "dark green"
+          },
+          {
+            "value": "23260",
+            "text": "light blue"
+          },
+          {
+            "value": "23261",
+            "text": "sky blue"
+          },
+          {
+            "value": "23262",
+            "text": "royal blue"
+          },
+          {
+            "value": "23263",
+            "text": "navy blue"
+          },
+          {
+            "value": "23264",
+            "text": "slate blue"
+          },
+          {
+            "value": "23265",
+            "text": "midnight blue"
+          },
+          {
+            "value": "23266",
+            "text": "purple"
+          },
+          {
+            "value": "23267",
+            "text": "violet"
+          },
+          {
+            "value": "23268",
+            "text": "pink"
+          },
+          {
+            "value": "23269",
+            "text": "red"
+          },
+          {
+            "value": "23270",
+            "text": "dark red"
+          },
+          {
+            "value": "23271",
+            "text": "wine red"
+          },
+          {
+            "value": "23272",
+            "text": "orange"
+          },
+          {
+            "value": "23273",
+            "text": "oxide red"
+          },
+          {
+            "value": "23274",
+            "text": "gold"
+          }
+        ]
+      },
+      "Contrast lapel buttonhole": {
+        "selectId": "dd_400",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23044",
+            "text": "best match"
+          },
+          {
+            "value": "23280",
+            "text": "white"
+          },
+          {
+            "value": "23281",
+            "text": "off white"
+          },
+          {
+            "value": "23282",
+            "text": "silver"
+          },
+          {
+            "value": "23283",
+            "text": "light grey"
+          },
+          {
+            "value": "23284",
+            "text": "mid grey"
+          },
+          {
+            "value": "23285",
+            "text": "anthracite"
+          },
+          {
+            "value": "23286",
+            "text": "black"
+          },
+          {
+            "value": "23287",
+            "text": "sand"
+          },
+          {
+            "value": "23288",
+            "text": "light brown"
+          },
+          {
+            "value": "23289",
+            "text": "mid brown"
+          },
+          {
+            "value": "23290",
+            "text": "chocolate brown"
+          },
+          {
+            "value": "23291",
+            "text": "dark brown"
+          },
+          {
+            "value": "23292",
+            "text": "light green"
+          },
+          {
+            "value": "23293",
+            "text": "forest green"
+          },
+          {
+            "value": "23294",
+            "text": "dark green"
+          },
+          {
+            "value": "23295",
+            "text": "light blue"
+          },
+          {
+            "value": "23296",
+            "text": "sky blue"
+          },
+          {
+            "value": "23297",
+            "text": "royal blue"
+          },
+          {
+            "value": "23298",
+            "text": "navy blue"
+          },
+          {
+            "value": "23299",
+            "text": "slate blue"
+          },
+          {
+            "value": "23300",
+            "text": "midnight blue"
+          },
+          {
+            "value": "23301",
+            "text": "purple"
+          },
+          {
+            "value": "23302",
+            "text": "violet"
+          },
+          {
+            "value": "23303",
+            "text": "pink"
+          },
+          {
+            "value": "23304",
+            "text": "red"
+          },
+          {
+            "value": "23305",
+            "text": "dark red"
+          },
+          {
+            "value": "23306",
+            "text": "wine red"
+          },
+          {
+            "value": "23307",
+            "text": "orange"
+          },
+          {
+            "value": "23308",
+            "text": "oxide red"
+          },
+          {
+            "value": "23309",
+            "text": "gold"
+          }
+        ]
+      },
+      "Contrast front buttonholes": {
+        "selectId": "dd_416",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23200",
+            "text": "best match"
+          },
+          {
+            "value": "23350",
+            "text": "white"
+          },
+          {
+            "value": "23351",
+            "text": "off white"
+          },
+          {
+            "value": "23352",
+            "text": "silver"
+          },
+          {
+            "value": "23353",
+            "text": "light grey"
+          },
+          {
+            "value": "23354",
+            "text": "mid grey"
+          },
+          {
+            "value": "23355",
+            "text": "anthracite"
+          },
+          {
+            "value": "23356",
+            "text": "black"
+          },
+          {
+            "value": "23357",
+            "text": "sand"
+          },
+          {
+            "value": "23358",
+            "text": "light brown"
+          },
+          {
+            "value": "23359",
+            "text": "mid brown"
+          },
+          {
+            "value": "23360",
+            "text": "chocolate brown"
+          },
+          {
+            "value": "23361",
+            "text": "dark brown"
+          },
+          {
+            "value": "23362",
+            "text": "light green"
+          },
+          {
+            "value": "23363",
+            "text": "forest green"
+          },
+          {
+            "value": "23364",
+            "text": "dark green"
+          },
+          {
+            "value": "23365",
+            "text": "light blue"
+          },
+          {
+            "value": "23366",
+            "text": "sky blue"
+          },
+          {
+            "value": "23367",
+            "text": "royal blue"
+          },
+          {
+            "value": "23368",
+            "text": "navy blue"
+          },
+          {
+            "value": "23369",
+            "text": "slate blue"
+          },
+          {
+            "value": "23370",
+            "text": "midnight blue"
+          },
+          {
+            "value": "23371",
+            "text": "purple"
+          },
+          {
+            "value": "23372",
+            "text": "violet"
+          },
+          {
+            "value": "23373",
+            "text": "pink"
+          },
+          {
+            "value": "23374",
+            "text": "red"
+          },
+          {
+            "value": "23375",
+            "text": "dark red"
+          },
+          {
+            "value": "23376",
+            "text": "wine red"
+          },
+          {
+            "value": "23377",
+            "text": "orange"
+          },
+          {
+            "value": "23378",
+            "text": "oxide red"
+          },
+          {
+            "value": "23379",
+            "text": "gold"
+          },
+          {
+            "value": "23380",
+            "text": "fuchsia"
+          },
+          {
+            "value": "23381",
+            "text": "ice blue"
+          },
+          {
+            "value": "23382",
+            "text": "olive green"
+          },
+          {
+            "value": "23383",
+            "text": "yellow"
+          },
+          {
+            "value": "23384",
+            "text": "petrol"
+          }
+        ]
+      },
+      "Contrast sleeve buttonholes": {
+        "selectId": "dd_402",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23045",
+            "text": "best match"
+          },
+          {
+            "value": "23385",
+            "text": "white"
+          },
+          {
+            "value": "23386",
+            "text": "off white"
+          },
+          {
+            "value": "23387",
+            "text": "silver"
+          },
+          {
+            "value": "23388",
+            "text": "light grey"
+          },
+          {
+            "value": "23389",
+            "text": "mid grey"
+          },
+          {
+            "value": "23390",
+            "text": "anthracite"
+          },
+          {
+            "value": "23391",
+            "text": "black"
+          },
+          {
+            "value": "23392",
+            "text": "sand"
+          },
+          {
+            "value": "23393",
+            "text": "light brown"
+          },
+          {
+            "value": "23394",
+            "text": "mid brown"
+          },
+          {
+            "value": "23395",
+            "text": "chocolate brown"
+          },
+          {
+            "value": "23396",
+            "text": "dark brown"
+          },
+          {
+            "value": "23397",
+            "text": "light green"
+          },
+          {
+            "value": "23398",
+            "text": "forest green"
+          },
+          {
+            "value": "23399",
+            "text": "dark green"
+          },
+          {
+            "value": "23400",
+            "text": "light blue"
+          },
+          {
+            "value": "23401",
+            "text": "sky blue"
+          },
+          {
+            "value": "23402",
+            "text": "royal blue"
+          },
+          {
+            "value": "23403",
+            "text": "navy blue"
+          },
+          {
+            "value": "23404",
+            "text": "slate blue"
+          },
+          {
+            "value": "23405",
+            "text": "midnight blue"
+          },
+          {
+            "value": "23406",
+            "text": "purple"
+          },
+          {
+            "value": "23407",
+            "text": "violet"
+          },
+          {
+            "value": "23408",
+            "text": "pink"
+          },
+          {
+            "value": "23409",
+            "text": "red"
+          },
+          {
+            "value": "23410",
+            "text": "dark red"
+          },
+          {
+            "value": "23411",
+            "text": "wine red"
+          },
+          {
+            "value": "23412",
+            "text": "orange"
+          },
+          {
+            "value": "23413",
+            "text": "oxide red"
+          },
+          {
+            "value": "23414",
+            "text": "gold"
+          }
+        ]
+      },
+      "Contrast 1st buttonhole sleeve": {
+        "selectId": "dd_403",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23046",
+            "text": "best match"
+          },
+          {
+            "value": "23420",
+            "text": "white"
+          },
+          {
+            "value": "23421",
+            "text": "off white"
+          },
+          {
+            "value": "23422",
+            "text": "silver"
+          },
+          {
+            "value": "23423",
+            "text": "light grey"
+          },
+          {
+            "value": "23424",
+            "text": "mid grey"
+          },
+          {
+            "value": "23425",
+            "text": "anthracite"
+          },
+          {
+            "value": "23426",
+            "text": "black"
+          },
+          {
+            "value": "23427",
+            "text": "sand"
+          },
+          {
+            "value": "23428",
+            "text": "light brown"
+          },
+          {
+            "value": "23429",
+            "text": "mid brown"
+          },
+          {
+            "value": "23430",
+            "text": "chocolate brown"
+          },
+          {
+            "value": "23431",
+            "text": "dark brown"
+          },
+          {
+            "value": "23432",
+            "text": "light green"
+          },
+          {
+            "value": "23433",
+            "text": "forest green"
+          },
+          {
+            "value": "23434",
+            "text": "dark green"
+          },
+          {
+            "value": "23435",
+            "text": "light blue"
+          },
+          {
+            "value": "23436",
+            "text": "sky blue"
+          },
+          {
+            "value": "23437",
+            "text": "royal blue"
+          },
+          {
+            "value": "23438",
+            "text": "navy blue"
+          },
+          {
+            "value": "23439",
+            "text": "slate blue"
+          },
+          {
+            "value": "23440",
+            "text": "midnight blue"
+          },
+          {
+            "value": "23441",
+            "text": "purple"
+          },
+          {
+            "value": "23442",
+            "text": "violet"
+          },
+          {
+            "value": "23443",
+            "text": "pink"
+          },
+          {
+            "value": "23444",
+            "text": "red"
+          },
+          {
+            "value": "23445",
+            "text": "dark red"
+          },
+          {
+            "value": "23446",
+            "text": "wine red"
+          },
+          {
+            "value": "23447",
+            "text": "orange"
+          },
+          {
+            "value": "23448",
+            "text": "oxide red"
+          },
+          {
+            "value": "23449",
+            "text": "gold"
+          }
+        ]
+      },
+      "Morning coat": {
+        "selectId": "dd_385",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "23102",
+            "text": "light"
+          },
+          {
+            "value": "23103",
+            "text": "standard"
+          }
+        ]
+      },
+      "Monogram jacket": {
+        "selectId": "dd_458",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "24772",
+            "text": "under collar"
+          },
+          {
+            "value": "24773",
+            "text": "lining left"
+          },
+          {
+            "value": "24774",
+            "text": "inside facing right"
+          },
+          {
+            "value": "24775",
+            "text": "collar turnback right"
+          }
+        ]
+      },
+      "Monogram general": {
+        "selectId": "dd_452",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "24660",
+            "text": "best match with fabric"
+          },
+          {
+            "value": "24661",
+            "text": "best match with lining"
+          },
+          {
+            "value": "24663",
+            "text": "white"
+          },
+          {
+            "value": "24664",
+            "text": "off white"
+          },
+          {
+            "value": "24665",
+            "text": "silver"
+          },
+          {
+            "value": "24666",
+            "text": "light grey"
+          },
+          {
+            "value": "24667",
+            "text": "mid grey"
+          },
+          {
+            "value": "24668",
+            "text": "anthracite"
+          },
+          {
+            "value": "24669",
+            "text": "black"
+          },
+          {
+            "value": "24670",
+            "text": "sand"
+          },
+          {
+            "value": "24671",
+            "text": "light brown"
+          },
+          {
+            "value": "24672",
+            "text": "mid brown"
+          },
+          {
+            "value": "24673",
+            "text": "chocolate brown"
+          },
+          {
+            "value": "24674",
+            "text": "dark brown"
+          },
+          {
+            "value": "24675",
+            "text": "light green"
+          },
+          {
+            "value": "24676",
+            "text": "forest green"
+          },
+          {
+            "value": "24677",
+            "text": "dark green"
+          },
+          {
+            "value": "24678",
+            "text": "light blue"
+          },
+          {
+            "value": "24679",
+            "text": "sky blue"
+          },
+          {
+            "value": "24680",
+            "text": "royal blue"
+          },
+          {
+            "value": "24681",
+            "text": "navy blue"
+          },
+          {
+            "value": "24682",
+            "text": "slate blue"
+          },
+          {
+            "value": "24683",
+            "text": "midnight blue"
+          },
+          {
+            "value": "24684",
+            "text": "purple"
+          },
+          {
+            "value": "24685",
+            "text": "violet"
+          },
+          {
+            "value": "24686",
+            "text": "pink"
+          },
+          {
+            "value": "24687",
+            "text": "red"
+          },
+          {
+            "value": "24688",
+            "text": "dark red"
+          },
+          {
+            "value": "24689",
+            "text": "wine red"
+          },
+          {
+            "value": "24690",
+            "text": "orange"
+          },
+          {
+            "value": "24691",
+            "text": "oxide red"
+          },
+          {
+            "value": "24692",
+            "text": "gold"
+          }
+        ]
+      },
+      "Monogram font": {
+        "selectId": "dd_453",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "24695",
+            "text": "block"
+          },
+          {
+            "value": "24696",
+            "text": "ornamental"
+          },
+          {
+            "value": "24697",
+            "text": "calligraphy"
+          }
+        ]
+      },
+      "Monogram length": {
+        "selectId": "dd_457",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "24770",
+            "text": "1 line"
+          },
+          {
+            "value": "24771",
+            "text": "2 lines"
+          }
+        ]
+      },
+      "Others jacket": {
+        "selectId": "dd_182",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "5913",
+            "text": "standard"
+          },
+          {
+            "value": "5912",
+            "text": "deep"
+          }
+        ]
+      },
+      "Forward shoulders": {
+        "selectId": "dd_244",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "16653",
+            "text": "no"
+          },
+          {
+            "value": "16654",
+            "text": "yes"
+          }
+        ]
+      },
+      "Neck dart (Beta)": {
+        "selectId": "dd_591",
+        "options": [
+          {
+            "value": "-1",
+            "text": "Select"
+          },
+          {
+            "value": "29277",
+            "text": "no"
+          },
+          {
+            "value": "29278",
+            "text": "yes"
+          }
+        ]
+      }
+    },
+    "totalSelects": 108,
+    "totalCheckboxes": 0,
+    "htmlSize": 154728
+  }
+}

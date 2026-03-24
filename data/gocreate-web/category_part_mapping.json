@@ -1,0 +1,12 @@
+{
+  "Formal suits & Jacket": [1, 2, 3],
+  "Informal suits & Jacket": [31, 2, 3],
+  "Trousers": [2, 12],
+  "Outerwear": [5, 13, 26, 27],
+  "Vests": [3, 36, 38],
+  "Shirts": [4],
+  "Knitwear": [32],
+  "Pants": [14, 15],
+  "Shoes & Belts": [21, 33, 41, 25],
+  "(Bow)Ties, Pocket Squares & Cummerbunds": [22, 23, 24, 37]
+}

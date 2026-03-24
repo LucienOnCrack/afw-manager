@@ -1,0 +1,640 @@
+
+<script type="text/javascript" language="javascript">
+	var isExtraLiningUsed = false;
+    $(document).ready(function () {
+        var tempRunningInfo = $("#RunningInfo").val();
+        if (tempRunningInfo != "" || tempRunningInfo != undefined)
+            window.RunningInformation = $.parseJSON(tempRunningInfo);
+
+        UpdateItemDetails("{\"Items\":[{\"FabricName\":\"\",\"LiningName\":\"\",\"DetachableLiningName\":\"\",\"IsSpecialOfferFabric\":false,\"IsSpecialOfferLining\":false,\"Remarks\":null,\"IsRemarksInternal\":false,\"ProductParts\":[{\"ProductPartId\":23,\"ProductPartName\":\"Bow tie\",\"ProductMakeName\":\"\",\"ProductFitProfile\":null,\"ProductPartStyle\":null,\"HideMake\":true,\"HideFit\":true,\"HideFitProfile\":true,\"SubProductPartName\":null,\"HasSPP\":false}],\"ExtraLiningName\":\"\"}],\"CombinationName\":\"Bow tie\",\"HasDetachableLiningUsage\":false,\"HasExtraLiningUsage\":false,\"OrderHasSameLining\":true}");
+        UpdateRemarks("{\"Items\":[{\"FabricName\":\"\",\"LiningName\":\"\",\"DetachableLiningName\":\"\",\"IsSpecialOfferFabric\":false,\"IsSpecialOfferLining\":false,\"Remarks\":null,\"IsRemarksInternal\":false,\"ProductParts\":[{\"ProductPartId\":23,\"ProductPartName\":\"Bow tie\",\"ProductMakeName\":\"\",\"ProductFitProfile\":null,\"ProductPartStyle\":null,\"HideMake\":true,\"HideFit\":true,\"HideFitProfile\":true,\"SubProductPartName\":null,\"HasSPP\":false}],\"ExtraLiningName\":\"\"}],\"CombinationName\":\"Bow tie\",\"HasDetachableLiningUsage\":false,\"HasExtraLiningUsage\":false,\"OrderHasSameLining\":true}");
+
+        //DisableShowItemDetailsPopup();
+        InitializePrimaryInfoMakeScreen();
+        LoadMunroDropDowns();
+        CloseRRunningInformationTab();
+		ClosePRunningInformationTab();
+
+		isExtraLiningUsed = false;
+		var combinationId = $("#hdnProductCombinationID").val();
+
+        $('[id^=Fabric_]').on('input', function () {
+            IsShowSpinner = false;
+        });
+
+        $('[id^=Lining_]').on('input', function () {
+            IsShowSpinner = false;
+		});
+
+		$('[id^=WaistcoatLining_]').on('input', function () {
+			IsShowSpinner = false;
+		});
+
+        $('#trFabrics')
+            .find("input[type='text']")
+            .bind('click',
+                function () {
+                    $(this).focus();
+                });
+        $('#trLinings')
+            .find("input[type='text']")
+            .bind('click',
+                function () {
+                    $(this).focus();
+				});
+		if (isExtraLiningUsed) {
+			$('#trWaistcoatLinings')
+				.find("input[type='text']")
+				.bind('click',
+					function () {
+						$(this).focus();
+					});
+		}
+
+        AdjustColumnWidths();
+		HideUniBemebegTrIfNoDropDown();
+		if (isExtraLiningUsed) {
+			HideUniBemebegTrIfNoDropDownForWaistcoatLining();
+		}
+        AssignStepsToHideAccordingToCombination();
+        RefreshStepsAccordingToSelectedCombination();
+        $("#HideFitAndTryOnStepInCopyOrder").val('False');
+        $("#HideFitToolsStepInCopyOrder").val('False');
+        if ($("#hdnProductCombinationID") != undefined && $("#hdnProductCombinationID").val() === "45" /*hide Measurements running info tab for facemask only*/) {
+            $("#tabFinishedMeasurements").hide();
+        } else {
+            $("#tabFinishedMeasurements").show();
+        }
+
+        var isChecked = GetIsChecked("chkMarkProductPart")
+        if (isChecked) {
+            var ppInSelectedOrder = $("#HDSSOOrderPPs").val()
+
+            if (ppInSelectedOrder && ppInSelectedOrder.length > 0) {
+                ppInSelectedOrder = ppInSelectedOrder.trim();
+
+                var ppInOrder = ppInSelectedOrder.split(",");
+                for (var i = 0; i < ppInOrder.length; i++) {
+                    var ppId = ppInOrder[i];
+                    $("#Spp_" + ppId + "_" + 1).prop("disabled", true);
+                    $("#OrderModel_" + ppId + "_" + 1).prop("disabled", true);
+                }
+            }
+            else  {
+                //user did hard refresh
+                $("#divOrderTextBox").show();
+
+                var ppRows = $("[id^=HDPPId_]");
+                var itemNumber = 1;
+
+                for (var i = 0; i < ppRows.length; i++) {
+                    var ppRowId = ppRows[i].id;
+                    var ppId = ppRowId.replace("HDPPId_", "")
+
+                    $("#Spp_" + ppId + "_" + itemNumber).prop("disabled", true);
+                    $("#OrderModel_" + ppId + "_" + itemNumber).prop("disabled", true);
+                    $('#Make_' + ppId + '_' + itemNumber).prop('disabled', false);
+
+                    if ($('#Canvas_' + ppId + '_' + itemNumber)) {
+                        $('#Canvas_' + ppId + '_' + itemNumber).prop('disabled', false);
+                    }
+                    if ($('#InsideLining_' + ppId + '_' + itemNumber)) {
+                        $('#InsideLining_' + ppId + '_' + itemNumber).prop('disabled', false);
+                    }
+                    if ($('#SelectedDetachableLiner_0__ID')) {
+                        $("#SelectedDetachableLiner_0__ID").prop('disabled', false);
+                    }
+
+                    $("#Fabric_" + itemNumber).prop('disabled', false);
+                    $("#Lining_" + itemNumber).prop('disabled', false);
+					$("#Button_" + itemNumber).prop('disabled', false);
+
+					if (isExtraLiningUsed) {
+						$("#WaistcoatLining_" + itemNumber).prop('disabled', false);
+						if ($("#drpWLbgroup_" + itemNumber)) {
+							$("#drpWLbgroup_" + itemNumber).prop('disabled', false);
+						}
+					}
+
+                    if ($("#drpbgroup_" + itemNumber)) {
+                        $("#drpbgroup_" + itemNumber).prop('disabled', false);
+                    }
+                }
+            }
+            $("#ddQuantities").prop("disabled", true);
+
+            AttachOrderNumberAutosuggest("SSOOrderNumber", orderNumberAutosuggestURL);
+        }
+
+        $("#HDIsOrderCreationWithSSO").val(isChecked);
+        BindFitToolModalOpenFullView();
+
+        $("#Fabric_1").keypress(function (event) {
+            if (event.keyCode == 13) {
+                event.preventDefault();
+                return false;
+            }
+        });
+    });
+
+
+
+    function DisplayValue() {
+        var RI = RunningInformation;
+    }
+
+    function AdjustColumnWidths() {
+        var selectedQuantities = $('#hiddenSelectedQuantity').val();
+        if (selectedQuantities > 3) {
+
+        } else {
+
+        }
+    }
+
+    function EnableDisablePrimaryInfoControl(isTodisable, itemNumber, ppId) {
+
+
+        $("#Spp_" + ppId + "_" + itemNumber).prop("disabled", isTodisable);
+        $("#OrderModel_" + ppId + "_" + itemNumber).prop("disabled", isTodisable);
+        $('#Make_' + ppId + '_' + itemNumber).prop('disabled', isTodisable);
+
+        if ($('#Canvas_' + ppId + '_' + itemNumber)) {
+            $('#Canvas_' + ppId + '_' + itemNumber).prop('disabled', isTodisable);
+        }
+        if ($('#InsideLining_' + ppId + '_' + itemNumber)) {
+            $('#InsideLining_' + ppId + '_' + itemNumber).prop('disabled', isTodisable);
+        }
+        if ($('#SelectedDetachableLiner_0__ID')) {
+            $("#SelectedDetachableLiner_0__ID").prop('disabled', isTodisable);
+        }
+
+        $("#Fabric_" + itemNumber).prop('disabled', isTodisable);
+        if ($("#Lining_" + itemNumber)) {
+            $("#Lining_" + itemNumber).prop('disabled', isTodisable);
+		}
+
+		if (isExtraLiningUsed) {
+			if ($("#WaistcoatLining_" + itemNumber)) {
+				$("#WaistcoatLining_" + itemNumber).prop('disabled', isTodisable);
+			}
+
+			if ($("#drpWLbgroup_" + itemNumber)) {
+				$("#drpWLbgroup_" + itemNumber).prop('disabled', isTodisable);
+			}
+		}
+
+        $("#Trim_" + itemNumber).prop('disabled', isTodisable);
+
+        if ($("#drpbgroup_" + itemNumber)) {
+            $("#drpbgroup_" + itemNumber).prop('disabled', isTodisable);
+        }
+    }
+
+    function OnToggleChangeForSSOOrderNumber() {
+
+        var isChecked = GetIsChecked("chkMarkProductPart");
+
+        if (isChecked) {
+            GetDialogForCreateOrderFromPreviousOrder(false);
+            $("#divOrderTextBox").show();
+            $("#ddQuantities").prop("disabled", true);
+            $("#HDIsOrderCreationWithSSO").val(true);
+
+            var ppRows = $("[id^=HDPPId_]");
+            var itemNumber = 1;
+
+            for (var i = 0; i < ppRows.length; i++) {
+                var ppRowId = ppRows[i].id;
+                var ppId = ppRowId.replace("HDPPId_", "")
+
+                EnableDisablePrimaryInfoControl(true, itemNumber, ppId);
+            }
+        }
+        else {
+
+            ShowConfirmationModalDialogWithCustomizeText("", GetResourceText("SSO_RESET_INFORMATION", "This will reset all pre-selected information."),
+                function () {
+                    ResetSSOOrderCopy();
+                },
+                OnSSCopyOrderCancelled, "", "Continue", "Cancel");
+        }
+    }
+
+
+    function ResetSSOOrderCopy() {
+
+        $.ajax({
+            type: "POST",
+            data: { copyOrder: false, orderNumber: '', orderId: -1 },
+            url: "/Customorder/OnCopyOrderFromSSOOrderChanged/",
+            success: function (data) {
+                if (data.Status) {
+                    //All good with Ajax call
+                    $("#editOrderNumbers").hide();
+                    var ppRows = $("[id^=HDPPId_]");
+                    var itemNumber = 1;
+
+                    for (var i = 0; i < ppRows.length; i++) {
+                        var ppRowId = ppRows[i].id;
+                        var ppId = ppRowId.replace("HDPPId_", "")
+
+                        $("#Spp_" + ppId + "_" + itemNumber).prop("disabled", false);
+                        $("#OrderModel_" + ppId + "_" + itemNumber).prop("disabled", false);
+                        $("#HDSSOOrderMake_" + ppId).val(-1);
+                        $("#HDSSOOrderSPP_" + ppId).val(-1);
+                        $("#HDSSOOrderModel" + ppId).val(-1);
+                        $("#HDSSOOrderCanvas_" + ppId).val(-1);
+                        $("#HDSSOOrderLiningStyle_" + ppId).val(-1);
+                        $("#HDSSOOrderTrimId_" + ppId).val(-1);
+                        $("#HDSSOOrderIsDeterministicPP_" + ppId).val('');
+
+                        EnableDisablePrimaryInfoControl(false, itemNumber, ppId);
+                    }
+
+                    $("#HDSSOOrderId").val(-1);
+                    $("#HDSSOOrderPPs").val("");
+                    $("#HDSSOOrderFabricId").val(-1);
+                    $("#HDSSOOrderFabricExtraDays").val(0);
+                    $("#HDSSOOrderLiningExtraDays").val(0);
+                    $("#HDSSOOrderLiningId").val(-1);
+                    $("#HDSSOOrderQuiltedLiningId").val(-1);
+                    $("#HDSSOOrderFabricName").val('');
+                    $("#HDSSOOrderLiningNotification").val(false);
+                    $("#HDSSOOrderFabricNotification").val(false);
+                    $("#HDSSOOrderLiningName").val('');
+                    $("#HDSSOOrderAtelierId").val(-1);
+                    $("#ddQuantities").prop("disabled", false);
+                    $("#HDIsOrderCreationWithSSO").val(false);
+                    $("SSOOrderNumber").autocomplete({ source: [] });
+                    $("#divOrderTextBox").hide();
+					$("#SSOOrderNumber").val('');
+
+					var hasExtraLining = $("#HDShowExtraProductLining").val();
+					if (hasExtraLining.toLowerCase() == "true") {
+						$("#HDSSOOrderWaistcoatLiningExtraDays").val(0);
+						$("#HDSSOOrderWaistcoatLiningId").val(-1);
+						$("#HDSSOOrderWaistcoatLiningNotification").val(false);
+						$("#HDSSOOrderWaistcoatLiningName").val('');
+					}
+                    OnCombinationChangeConfimration(true);
+                }
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrown) {
+
+            }
+        });
+    }
+
+
+    function OnSSCopyOrderCancelled() {
+        SetCheckBoxChecked("chkMarkProductPart", true);
+        GetDialogForCreateOrderFromPreviousOrder(false);
+    }
+
+</script>
+<style>
+	.TableRowCellHeading_SubHeading label {
+		display: block;
+		padding-top: 11px;
+	}
+
+	.selectDrp + span.select2 {
+		margin-top: 3px;
+		margin-bottom: 0;
+		margin-left: 2px;
+	}
+
+	input[type="text"] {
+		margin-bottom: 0;
+		margin-top: 3px;
+	}
+
+	.extrainfo {
+		padding-left: 5px;
+	}
+
+    #divOrderCreationMainPanel .iconAlignment {
+        font-size: 22px !important;
+        cursor: pointer;
+        margin: 2px -10px !important;
+        text-decoration: none !important;
+    }
+    .alignPrimaryPageIcon{
+		position: relative;
+		float: left;
+    }
+
+    .tryOnModal {
+        width: 600px;
+        margin: 280px auto;
+    }
+
+	.popupContent {
+		width: 690px;
+		padding: 0px 30px;
+	}
+
+	.headerBorder0 {
+		border: 0px;
+	}
+
+	.marginBottom25 {
+		margin-bottom: 25px !important;
+	}
+
+	.marginBottom15 {
+		margin-bottom: 15px !important;
+	}
+
+	.fontBold600 {
+		font-weight: 600;
+	}
+
+	.fitToolImageModal .carousel-indicators li {
+		width: 130px;
+		margin-left: 8px;
+	}
+
+	.imgCarousalThumb {
+		display: block;
+		margin-left: 0;
+		position: relative;
+		top: 0px;
+		width: 110px;
+		border: 1px solid #dadada;
+		box-shadow: 0 2px 1px rgba(0,0,0,.5);
+		border-radius: 3px;
+	}
+
+	li.active .imgCarousalThumb {
+		border: 2px solid #999999;
+		box-shadow: 0 3px 7px rgba(0,0,0,.5);
+	}
+
+	.modal-dialog.fitToolImageViewer {
+		width: 100%;
+		max-width: 970px;
+		margin: auto;
+		margin-top: 50px;
+	}
+
+	.fitToolImageModal {
+		padding-right: 0px !important;
+	}
+
+		.fitToolImageModal .modal-dialog.fullView {
+			width: 100% !important;
+			max-width: 1157px;
+			margin: auto;
+			margin-top: 2px;
+			width: auto;
+			height: 100%;
+		}
+
+		.fitToolImageModal .fullView .modal-content {
+			height: 100%;
+			overflow: hidden;
+		}
+
+		.fitToolImageModal .fullView .item {
+			width: 1125px;
+			margin: auto;
+		}
+
+	.fitToolImageViewer {
+		margin: 20px;
+	}
+
+		.fitToolImageViewer .carousel-control.right {
+			background-image: none !important;
+		}
+
+		.fitToolImageViewer .carousel-control.left {
+			background-image: none !important;
+		}
+
+		.fitToolImageViewer:not(.fullView) .carousel-control.right {
+			right: -6%;
+		}
+
+		.fitToolImageViewer:not(.fullView) .carousel-control.left {
+			left: -4%;
+		}
+
+		.fitToolImageViewer .carousel-control {
+			color: #bbb;
+			text-shadow: 0 1px 2px rgba(2, 1, 10, 1);
+			background-color: rgba(0,0,0,0);
+			opacity: 0.5;
+		}
+
+	.fitToolImageModal .close {
+		position: absolute;
+		right: 15px;
+		z-index: 1;
+		font-size: 50px;
+		top: 5px;
+	}
+
+	.fullViewIcon {
+		font-size: 25px;
+		cursor: pointer;
+		position: absolute;
+		right: 66px;
+		z-index: 1;
+		color: #cccccc;
+		top: 17px;
+	}
+
+	.expandModal {
+		font-size: 20px;
+	}
+
+	.fitToolImageModal .carousel-indicators {
+		/* bottom: -33px;*/
+	}
+
+	.fitToolImageModal .modal-content {
+		padding-bottom: 5px;
+	}
+
+	.fitToolImageModal .fullView .modal-content {
+		padding-bottom: 0px;
+	}
+
+
+	.fitToolImageViewer .zoomBtnContainer {
+		position: absolute;
+		top: 16px;
+		right: 60px;
+		width: 28px;
+		z-index: 2;
+		border-radius: 2px;
+		padding-left: 4px;
+		padding-top: 3px;
+		cursor: pointer;
+	}
+
+	.fitToolImageViewer .closeBtnContainer {
+		top: 13px;
+	}
+
+	.fitToolImageViewer .windowClose {
+		font-size: 25px;
+	}
+
+	.closeBtnContainer {
+		right: 24px;
+		position: absolute;
+		top: 16px;
+		width: 28px;
+		z-index: 2;
+		border-radius: 2px;
+		padding-left: 4px;
+		padding-top: 3px;
+	}
+
+	.windowClose {
+		font-size: 22px;
+		cursor: pointer;
+	}
+
+	.iconPanelAnchor {
+		font-size: 2em;
+		color: #A0A1A2 !important;
+	}
+
+	/*    #editOrderNumbers {
+		font-size: 24px;
+		margin-top: -45px;
+		margin-left: 86px;
+		cursor:pointer;
+	}*/
+</style>
+
+
+
+<input id="HDShowExtraProductLining" name="HDShowExtraProductLining" type="hidden" value="False" />	<div id="tblMakeAndMaterial">
+
+
+
+
+
+
+
+			<div class="row row-fluid" id="SSOCopyOrderNumber" style=display:block>
+				<div class="col-sm-2 col-md-2 col-lg-2 TableRowCellSubHeading " id='trlabelOrderSSOCopyFrom'>
+					<label class="form-label-bold">Copy from order number</label>
+				</div>
+				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" id='tdToggleOrderSSOCopyFrom'>
+					<label class="switch">
+
+						<input type="checkbox" id="chkMarkProductPart" name="chkMarkProductPart" onclick="OnToggleChangeForSSOOrderNumber(this)" >
+						<div class="slider round"></div>
+					</label>
+					<div id="editOrderNumbers" onclick="GetDialogForCreateOrderFromPreviousOrder(true)" title="Edit order number" style=display:none class='editBtnLogo'>
+						<img src="/Content/Images/icons8-edit-50.png" />
+					</div>
+				</div>
+			</div>
+
+
+
+		<div class="row row-fluid" id="divOrderTextBox" style=display:none>
+			<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" id='tdTextboxOrderSSOCopyFrom'>
+				<input id="HDSSOOrderFabricId" name="HDSSOOrderFabricId" type="hidden" value="-1" />
+				<input id="HDSSOOrderFabricExtraDays" name="HDSSOOrderFabricExtraDays" type="hidden" value="0" />
+				<input id="HDSSOOrderLiningExtraDays" name="HDSSOOrderLiningExtraDays" type="hidden" value="0" />
+				<input id="HDSSOOrderLiningId" name="HDSSOOrderLiningId" type="hidden" value="-1" />
+				<input id="HDSSOOrderQuiltedLiningId" name="HDSSOOrderQuiltedLiningId" type="hidden" value="-1" />
+				<input id="HDSSOOrderFabricName" name="HDSSOOrderFabricName" type="hidden" value="-1" />
+				<input id="HDSSOOrderLiningName" name="HDSSOOrderLiningName" type="hidden" value="-1" />
+				<input id="HDSSOOrderLiningNotification" name="HDSSOOrderLiningNotification" type="hidden" value="False" />
+				<input id="HDSSOOrderFabricNotification" name="HDSSOOrderFabricNotification" type="hidden" value="False" />
+				<input id="HDSSOOrderAtelierId" name="HDSSOOrderAtelierId" type="hidden" value="-1" />
+				<input id="HDIsOrderCreationWithSSO" name="HDIsOrderCreationWithSSO" type="hidden" value="false" />
+				<input id="HDDataLoaded" name="HDDataLoaded" type="hidden" value="true" />
+				<input id="HDDeterministicProductPartID" name="HDDeterministicProductPartID" type="hidden" value="23" />
+
+				<input id="HDSSOOrderWaistcoatLiningId" name="HDSSOOrderWaistcoatLiningId" type="hidden" value="-1" />
+				<input id="HDSSOOrderWaistcoatLiningExtraDays" name="HDSSOOrderWaistcoatLiningExtraDays" type="hidden" value="0" />
+				<input id="HDSSOOrderWaistcoatLiningName" name="HDSSOOrderWaistcoatLiningName" type="hidden" value="-1" />
+				<input id="HDSSOOrderWaistcoatLiningNotification" name="HDSSOOrderWaistcoatLiningNotification" type="hidden" value="False" />
+			</div>
+		</div>
+
+
+
+
+
+
+		
+
+
+					<div class="row row-fluid" id="trItemHeader" style="">
+				<div class="col-sm-2 col-md-2 col-lg-2 TableRowCellHeading" id="tdMakeHeader">
+					<label class="form-label-bold">
+						Make
+					</label>
+				</div>
+				<div class="col-sm-10 col-md-10 col-lg-10">
+
+				</div>
+			</div>
+		<br />
+			<div class="row row-fluid" id="trFabrics">
+
+				<div class="col-sm-2 col-md-2 col-lg-2 TableRowCellSubHeading">
+					<label class="form-label-bold">
+						Fabric
+					</label>
+				</div>
+
+
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" id='tdFabric1'>
+
+
+						<input class="form-control typeahead" id="Fabric_1" name="Fabric_1" type="text" value="" />
+
+						<div id='spFabric_1' class="extrainfo paddingLeft0" style="font-style:italic">
+								<label class="extrainfo" style="padding-left:0px">
+								</label>
+						</div>
+
+						<input id="HDFabric_1" name="HDFabric_1" type="hidden" value="-1" />
+						<input id="EDFabric_1" name="EDFabric_1" type="hidden" value="0" />
+						<input id="CLFabric_1" name="CLFabric_1" type="hidden" value="False" />
+					</div>
+			</div>
+		
+
+
+
+			<div class="row row-fluid" id="trTrims">
+				<div class="col-sm-2 col-md-2 col-lg-2 TableRowCellSubHeading ">
+
+					<label class="form-label-bold">
+						Button
+					</label>
+				</div>
+					<div class="col-xs-12 col-sm-4 col-md-4 col-lg-3" id='tdTrim1'>
+
+						<select id="Trim_1" name="Trim_1" class="form-control selectDrp" data-munro-dropdown="dropdown" onChange="OnTrimSelectionChange(1)">
+						</select>
+						<span id='spTrim_1' class="extrainfo">
+						</span>
+						<span class="extrainfo">
+						</span>
+					</div>
+					<div>
+						<input id="TrimCopyToAll_1" name="TrimCopyToAll_1" type="hidden" value="" />
+					</div>
+			</div>
+		<div class="row row-fluid" style="height: 30px; display: block;"></div>
+	</div>
+<input id="RunningInfo" name="RunningInfo" type="hidden" value="{&quot;RPrice&quot;:{&quot;Items&quot;:[{&quot;Fabric&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;Lining&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;WashPrice&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;Spp&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;CMT&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;IsRTWTierShop&quot;:false,&quot;DetachableLining&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;HasDetachableLiningUsage&quot;:false,&quot;ExtraLining&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;HasExtraLiningUsage&quot;:false,&quot;OrderHasSameLining&quot;:true,&quot;CanApplyBigSizeSurcharge&quot;:false,&quot;RmBssPrice&quot;:[],&quot;Remarks&quot;:null,&quot;IsRemarksInternal&quot;:false,&quot;ProductParts&quot;:[{&quot;HideProductPart&quot;:false,&quot;ProductPartID&quot;:23,&quot;ProductPartName&quot;:&quot;Bow tie&quot;,&quot;MakePrice&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;DOVPrices&quot;:[],&quot;BSSPrice&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;SppPPrice&quot;:null,&quot;ProductPartStyle&quot;:null,&quot;ProductFitProfile&quot;:null,&quot;PossibleMonogramPositions&quot;:0,&quot;SppPrice&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;TotalPrice&quot;:0,&quot;TotalDOVPrice&quot;:0,&quot;ProductFitName&quot;:null,&quot;ProductTryOn&quot;:null}],&quot;PromotionalDiscountValue&quot;:0,&quot;CombinationName&quot;:null,&quot;PromotionalDiscountInPercent&quot;:0,&quot;HideMakeSection&quot;:false,&quot;RmBssPricePreviousRunningInfoCall&quot;:{&quot;ItemNumber&quot;:-1,&quot;ProductPartID&quot;:-1,&quot;TryOnSizeID&quot;:-1},&quot;SppPrice&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;TotalPrice&quot;:0,&quot;PPriceAfterDiscount&quot;:0,&quot;TotalDOVPrice&quot;:0,&quot;TotalMakePrice&quot;:0,&quot;TotalBSSPrice&quot;:0,&quot;TotalSppPrice&quot;:0,&quot;TotalExtraTrouserPrice&quot;:0}],&quot;TotalPrice&quot;:0},&quot;Measurement&quot;:{&quot;ProductParts&quot;:[{&quot;ProductPartID&quot;:23,&quot;ProductPartName&quot;:&quot;Bow tie&quot;,&quot;ProductFitProfile&quot;:null,&quot;TryOnSizeInCM&quot;:null,&quot;FitToolMeasurements&quot;:{},&quot;FlatListOfMeasurement&quot;:[],&quot;ProductFit&quot;:null,&quot;DesiredMeasurements&quot;:[],&quot;HideMeasurement&quot;:false,&quot;HideProductPartFit&quot;:false}]},&quot;Quantity&quot;:1,&quot;ItemDetails&quot;:{&quot;Items&quot;:[{&quot;FabricName&quot;:&quot;&quot;,&quot;LiningName&quot;:&quot;&quot;,&quot;DetachableLiningName&quot;:&quot;&quot;,&quot;IsSpecialOfferFabric&quot;:false,&quot;IsSpecialOfferLining&quot;:false,&quot;Remarks&quot;:null,&quot;IsRemarksInternal&quot;:false,&quot;ProductParts&quot;:[{&quot;ProductPartId&quot;:23,&quot;ProductPartName&quot;:&quot;Bow tie&quot;,&quot;ProductMakeName&quot;:&quot;&quot;,&quot;ProductFitProfile&quot;:null,&quot;ProductPartStyle&quot;:null,&quot;HideMake&quot;:true,&quot;HideFit&quot;:true,&quot;HideFitProfile&quot;:true,&quot;SubProductPartName&quot;:null,&quot;HasSPP&quot;:false}],&quot;ExtraLiningName&quot;:&quot;&quot;}],&quot;CombinationName&quot;:&quot;Bow tie&quot;,&quot;HasDetachableLiningUsage&quot;:false,&quot;HasExtraLiningUsage&quot;:false,&quot;OrderHasSameLining&quot;:true},&quot;ProductPartDetails&quot;:[{&quot;ProductPartID&quot;:23,&quot;ProductPartName&quot;:&quot;Bow tie&quot;,&quot;ProductFit&quot;:&quot;&quot;,&quot;ProductTryOn&quot;:&quot;&quot;,&quot;ProductFitProfile&quot;:null,&quot;TryonType&quot;:null,&quot;SubProductPartName&quot;:null}],&quot;productPartProductCombination&quot;:[{&quot;QuantityInCombination&quot;:1,&quot;IsLiningUsed&quot;:false,&quot;IsDeterministic&quot;:true,&quot;ProductPartType&quot;:17,&quot;HideProductPartInOrderCreation&quot;:false,&quot;OSubProductPart&quot;:{&quot;IsUsedStandard&quot;:true,&quot;SubProductPartType&quot;:0,&quot;StandardSubProductPartId&quot;:0,&quot;SubProductPartIdForOrderCreation&quot;:0,&quot;PPriceEuro&quot;:0,&quot;PPriceDollar&quot;:0,&quot;RPrice&quot;:0,&quot;OldSubProductPartType&quot;:0,&quot;ID&quot;:0,&quot;Name&quot;:null,&quot;OldID&quot;:0,&quot;HasChanged&quot;:false,&quot;HasActuallyChanged&quot;:false},&quot;ID&quot;:23,&quot;Name&quot;:&quot;Bow tie&quot;,&quot;OldID&quot;:0,&quot;HasChanged&quot;:true,&quot;HasActuallyChanged&quot;:false}],&quot;PPrice&quot;:{&quot;Items&quot;:[{&quot;Fabric&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;Lining&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;WashPrice&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;Spp&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;CMT&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;IsRTWTierShop&quot;:false,&quot;DetachableLining&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;HasDetachableLiningUsage&quot;:false,&quot;ExtraLining&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;HasExtraLiningUsage&quot;:false,&quot;OrderHasSameLining&quot;:true,&quot;CanApplyBigSizeSurcharge&quot;:false,&quot;RmBssPrice&quot;:[],&quot;Remarks&quot;:null,&quot;IsRemarksInternal&quot;:false,&quot;ProductParts&quot;:[{&quot;HideProductPart&quot;:false,&quot;ProductPartID&quot;:23,&quot;ProductPartName&quot;:&quot;Bow tie&quot;,&quot;MakePrice&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;DOVPrices&quot;:[],&quot;BSSPrice&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;SppPPrice&quot;:null,&quot;ProductPartStyle&quot;:null,&quot;ProductFitProfile&quot;:null,&quot;PossibleMonogramPositions&quot;:0,&quot;SppPrice&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;TotalPrice&quot;:0,&quot;TotalDOVPrice&quot;:0,&quot;ProductFitName&quot;:null,&quot;ProductTryOn&quot;:null}],&quot;PromotionalDiscountValue&quot;:0,&quot;CombinationName&quot;:null,&quot;PromotionalDiscountInPercent&quot;:0,&quot;HideMakeSection&quot;:false,&quot;RmBssPricePreviousRunningInfoCall&quot;:{&quot;ItemNumber&quot;:-1,&quot;ProductPartID&quot;:-1,&quot;TryOnSizeID&quot;:-1},&quot;SppPrice&quot;:{&quot;ID&quot;:-1,&quot;Name&quot;:&quot;&quot;,&quot;Price&quot;:0,&quot;IsSpecialOffer&quot;:false,&quot;HidePrice&quot;:false},&quot;TotalPrice&quot;:0,&quot;PPriceAfterDiscount&quot;:0,&quot;TotalDOVPrice&quot;:0,&quot;TotalMakePrice&quot;:0,&quot;TotalBSSPrice&quot;:0,&quot;TotalSppPrice&quot;:0,&quot;TotalExtraTrouserPrice&quot;:0}],&quot;TotalPrice&quot;:0},&quot;ShipmentInfo&quot;:{&quot;Items&quot;:[{&quot;FabricExtraDays&quot;:0,&quot;LiningExtraDays&quot;:0,&quot;ExtraLiningExtraDays&quot;:0,&quot;WashExtraDays&quot;:0,&quot;DetachableLiningExtraDays&quot;:0,&quot;HasDetachableLiningUsage&quot;:false,&quot;HasExtraLiningUsage&quot;:false,&quot;TotalExtraDays&quot;:0,&quot;ExpectedDeliveryDate&quot;:null,&quot;LatestExpectedDeliveryDate&quot;:null,&quot;MakeExtraDays&quot;:0,&quot;MaterialExtraDays&quot;:0,&quot;DesignOptionExtraDays&quot;:0,&quot;ShipmentDate&quot;:null}],&quot;HideMakeSection&quot;:false},&quot;CautionMessages&quot;:{&quot;Items&quot;:[{&quot;ProductParts&quot;:{&quot;23&quot;:&quot;Bow tie&quot;},&quot;Fabric&quot;:[],&quot;Lining&quot;:[],&quot;ExtraLining&quot;:[],&quot;Make&quot;:{&quot;23&quot;:{&quot;Message&quot;:&quot;&quot;,&quot;Read&quot;:false,&quot;IsOtherEntity&quot;:false,&quot;IsForTrim&quot;:false,&quot;TrimMasterID&quot;:null,&quot;IsForShow&quot;:false}},&quot;DOV&quot;:{&quot;23&quot;:{}}}],&quot;ProductParts&quot;:[{&quot;ProductPartID&quot;:23,&quot;ProductPartName&quot;:&quot;Bow tie&quot;,&quot;FitToolCautionMessages&quot;:{}}]},&quot;OrderType&quot;:1,&quot;CombinationName&quot;:&quot;Bow tie&quot;,&quot;IsLiningUsed&quot;:false,&quot;FaceMaskRunningInformation&quot;:[],&quot;FaceMaskFilterChosenInOrder&quot;:0,&quot;FaceMaskFilterDovIdChosenInOrder&quot;:0}" /><input id="hdnProductCombinationCanCreateBMOrder" name="hdnProductCombinationCanCreateBMOrder" type="hidden" value="0" /><input id="hiddenSelectedQuantity" name="hiddenSelectedQuantity" type="hidden" value="1" /><input id="hiddenIsDuplicateOrder" name="hiddenIsDuplicateOrder" type="hidden" value="False" /><input data-val="true" data-val-required="The HideFitAndTryOn field is required." id="HideFitAndTryOn" name="HideFitAndTryOn" type="hidden" value="False" /><input data-val="true" data-val-required="The HideFitTools field is required." id="HideFitTools" name="HideFitTools" type="hidden" value="False" /><input data-val="true" data-val-required="The HideMake field is required." id="HideMake" name="HideMake" type="hidden" value="False" /><input data-val="true" data-val-required="The HideButton field is required." id="HideButton" name="HideButton" type="hidden" value="False" /><input data-val="true" data-val-required="The HideFabric field is required." id="HideFabric" name="HideFabric" type="hidden" value="False" /><input id="JacketSppIdForTestGarment" name="JacketSppIdForTestGarment" type="hidden" value="0" /><input id="TrouserSppIdForTestGarment" name="TrouserSppIdForTestGarment" type="hidden" value="0" /><input data-val="true" data-val-number="The field jacketPpId must be a number." data-val-required="The jacketPpId field is required." id="jacketPpId" name="jacketPpId" type="hidden" value="0" /><input id="AllowedCombinationsForTestGarment" name="AllowedCombinationsForTestGarment" type="hidden" value="False" /><input id="SubProductPartListForTrouserWithTG" name="SubProductPartListForTrouserWithTG" type="hidden" value="[]" />
+<div id="divCreatePreviousOrderModal" title="" style="display: none;">
+	<div id="divCreatePreviousOrderModalMessage">
+	</div>
+</div>

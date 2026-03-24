@@ -1,0 +1,542 @@
+[
+  {
+    "name": "LocalisedMessage",
+    "source": "/Localized/GetClientLocalizeMessages?pageCode=ShopCustomOrderOverview&amp;langCode=EN",
+    "preview": "{\"TITLE\":\"CustomMade order overview\",\"REMARK_MANDATORY\":\"Please enter min. of 20 characters\",\"CAUSED_MANDATORY\":\"Please select value from caused by\",\"ITEM_MANDATORY\":\"Please select value from items\",\""
+  },
+  {
+    "name": "LocalisedMessage",
+    "source": "/Localized/GetClientLocalizeMessages?pageCode=ShopCustomer&amp;langCode=EN",
+    "preview": "{\"CREATE_CUSTOMER_SUCCESS_MESSAGE\":\"Customer saved successfully\",\"BODY_MEASUREMENT_NAME\":\"BM\\u0027s\",\"BASIC_INFORMATION\":\"Basic info\",\"BASIC_AND_COMPANY_INFO\":\"Basic and company info\",\"BODY_MEASUREMEN"
+  },
+  {
+    "name": "ClientAppObject",
+    "source": "/Scripts/CustomScripts/ClientAppObject.js",
+    "preview": "{\n        CustomOrderCurrentWizardStep: EnumCustomOrderWizardSteps.PRIMARY_INFORMATION,               //Represents the current step of the Custom Order Wizard\n        CustomOrderMode: EnumOrderMode.NE"
+  },
+  {
+    "name": "ClientAppObject",
+    "source": "/Scripts/CustomScripts/ClientAppObject.js?version=20260311",
+    "preview": "{\n        CustomOrderCurrentWizardStep: EnumCustomOrderWizardSteps.PRIMARY_INFORMATION,               //Represents the current step of the Custom Order Wizard\n        CustomOrderMode: EnumOrderMode.NE"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311",
+    "preview": "{\n                ecomPaymentSessionId: ecomPaymentSessionId,\n                email: email\n            };"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js",
+    "preview": "{\n            positionType: \"center\",\n            modal: true,\n            resizable: false,\n            title: \"\",\n            closeOnEscape: false,\n            open: function () {\n                $("
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        width: 'auto',\n        height: 'auto',\n        resizable: false,\n        buttons: [\n            {\n                text: GetResourceTe"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        width: 'auto',\n        height: 'auto',\n        resizable: false,\n        closeOnEscape: false,\n        buttons: [\n               {\n  "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        width: 'auto',\n        height: 'auto',\n        resizable: false,\n        buttons: [\n               {\n                   text: GetReso"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        width: 'auto',\n        height: 'auto',\n        resizable: false,\n        buttons: [\n            {\n                text: GetResourceTe"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        resizable: false,\n        buttons: [\n              {\n                  text: GetResourceText(\"CANCEL_AND_FINAL\", \"Copy all and go to "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js",
+    "preview": "{\n        positionType: \"center\",\n        modal: true,\n        resizable: false,\n        width: 'auto',\n        title: headerText,\n        buttons: [\n            {\n                text: GetResourceTex"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js",
+    "preview": "{\n        modal: true,\n        title: \"\",\n        width: 'auto',\n        resizable: false,\n        buttons: [\n\n            {\n                text: GetResourceText(\"CANCEL\", \"Cancel\"),\n                "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js?version=20260311",
+    "preview": "{\n            positionType: \"center\",\n            modal: true,\n            resizable: false,\n            title: \"\",\n            closeOnEscape: false,\n            open: function () {\n                $("
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        width: 'auto',\n        height: 'auto',\n        resizable: false,\n        buttons: [\n            {\n                text: GetResourceTe"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        width: 'auto',\n        height: 'auto',\n        resizable: false,\n        closeOnEscape: false,\n        buttons: [\n               {\n  "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        width: 'auto',\n        height: 'auto',\n        resizable: false,\n        buttons: [\n               {\n                   text: GetReso"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        width: 'auto',\n        height: 'auto',\n        resizable: false,\n        buttons: [\n            {\n                text: GetResourceTe"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        resizable: false,\n        buttons: [\n              {\n                  text: GetResourceText(\"CANCEL_AND_FINAL\", \"Copy all and go to "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js?version=20260311",
+    "preview": "{\n        positionType: \"center\",\n        modal: true,\n        resizable: false,\n        width: 'auto',\n        title: headerText,\n        buttons: [\n            {\n                text: GetResourceTex"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CopyOrder.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: \"\",\n        width: 'auto',\n        resizable: false,\n        buttons: [\n\n            {\n                text: GetResourceText(\"CANCEL\", \"Cancel\"),\n                "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: headerText,\n        resizable: false,\n        buttons: [\n            {\n                text: GetResourceText(\"OK\", \"Ok\"),\n                click: function () {\n   "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: headerText,\n        resizable: false,\n        buttons: [\n            {\n                text: GetResourceText(\"OK\", \"Ok\"),\n                click: function () {\n   "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: headerText,\n        width: 500,\n        resizable: false,\n        buttons: [\n            {\n                text: GetResourceText(\"OK\", \"Ok\"),\n                clic"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: headerText,\n        width: 500,\n        resizable: false,\n        closeOnEscape: false,\n        buttons: [\n            {\n                text: GetResourceText(\"OK"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: headerText,\n        width: 500,\n        resizable: false,\n        buttons: [\n            {\n                text: GetResourceText(\"CONTINUE\", \"Continue\"),\n        "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        modal: true,\n        resizable: false,\n        title: \"\",\n        width: 500,\n        buttons: null,\n        close: null,\n        class: 'btn',\n        style: ' outline: none !important; col"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        positionType: \"center\",\n        modal: true,\n        resizable: false,\n        title: headerText,\n        buttons: [\n            {\n                text: GetResourceText(\"OK\", \"Ok\"),\n        "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: headerText,\n        resizable: false,\n        buttons: [\n            {\n                text: GetResourceText(\"YES\", \"Yes\"),\n                click: function () {\n "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        positionType: \"center\",\n        modal: true,\n        resizable: false,\n        title: headerText,\n        buttons: [\n            {\n                text: GetResourceText(\"OK\", \"Ok\"),\n        "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: headerText,\n        width: 500,\n        resizable: false,\n        buttons: [\n            {\n                text: ContinueButtonText,\n                click: functi"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/CustomMessageboxes.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: headerText,\n        width: 500,\n        resizable: false,\n        closeOnEscape: false,\n        buttons: [\n            {\n                text: ContinueButtonText,"
+  },
+  {
+    "name": "EnumCustomOrderWizardSteps",
+    "source": "/Scripts/CustomScripts/Enums.js",
+    "preview": "{\n        PRIMARY_INFORMATION: 1,\n        FIT_AND_TRYON: 2,\n        FITTOOL: 3,\n        DESINGN_OPTIONS: 4,\n        BRANDING_OPTIONS: 5,\n        ORDER_SUMMARY: 6,\n        FINALIZE: 7\n    };"
+  },
+  {
+    "name": "EnumReadyMadeOrderWizardSteps",
+    "source": "/Scripts/CustomScripts/Enums.js",
+    "preview": "{\n        PRIMARY_INFORMATION: 1,\n        TRYON_SIZES: 2,\n        FITTOOL: 3,\n        DESINGN_OPTIONS: 4,\n        BRANDING_OPTIONS: 5,\n        ORDER_SUMMARY: 6,\n        FINALIZE: 7\n};"
+  },
+  {
+    "name": "EnumCustomOrderWizardSteps",
+    "source": "/Scripts/CustomScripts/Enums.js?version=20260311",
+    "preview": "{\n        PRIMARY_INFORMATION: 1,\n        FIT_AND_TRYON: 2,\n        FITTOOL: 3,\n        DESINGN_OPTIONS: 4,\n        BRANDING_OPTIONS: 5,\n        ORDER_SUMMARY: 6,\n        FINALIZE: 7\n    };"
+  },
+  {
+    "name": "EnumReadyMadeOrderWizardSteps",
+    "source": "/Scripts/CustomScripts/Enums.js?version=20260311",
+    "preview": "{\n        PRIMARY_INFORMATION: 1,\n        TRYON_SIZES: 2,\n        FITTOOL: 3,\n        DESINGN_OPTIONS: 4,\n        BRANDING_OPTIONS: 5,\n        ORDER_SUMMARY: 6,\n        FINALIZE: 7\n};"
+  },
+  {
+    "name": "creditCardPaymentRequest",
+    "source": "/Scripts/CustomScripts/Page/AdyenPayment/AdyenPayment.js?version=20260311",
+    "preview": "{\n        PaymentRequest: data,\n        EcomPaymentSessionId: ecomPaymentSessionId,\n        Amount: amount,\n        InternalRedirectUrl: redirectUrl,\n        ShopId: shopId,\n        CustomerEmail: ema"
+  },
+  {
+    "name": "obj",
+    "source": "/Scripts/CustomScripts/Page/AlbumShopScripts/jquery.fancybox.js?version=20260311",
+    "preview": "{},\n\t\t\t\t\thref,\n\t\t\t\t\ttitle,\n\t\t\t\t\tcontent,\n\t\t\t\t\ttype,\n\t\t\t\t\trez,\n\t\t\t\t\threfParts,\n\t\t\t\t\tselector;\n\n                if ($.type(element) === \"object\") {\n                    // Check if is DOM element\n       "
+  },
+  {
+    "name": "coming",
+    "source": "/Scripts/CustomScripts/Page/AlbumShopScripts/jquery.fancybox.js?version=20260311",
+    "preview": "{},\n\t\t\t\tobj,\n\t\t\t\thref,\n\t\t\t\ttype,\n\t\t\t\tmargin,\n\t\t\t\tpadding;\n\n            index = getScalar(index);\n            obj = F.group[index] || null;\n\n            if (!obj) {\n                return false;\n      "
+  },
+  {
+    "name": "stepInfo",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js",
+    "preview": "{ newStep: innerStep, next: false, previous: false };"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js",
+    "preview": "{\n            data: postData,\n            dataType: \"json\",\n            success: function (testdata) {\n                if (testdata != null) {\n                    /// Validate and restrict Test garmen"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js",
+    "preview": "{\n        data: postData,\n        dataType: \"json\",\n        success: function (testdata) {\n            if (testdata != null) {\n                if (testdata.Status == false)\n                    ShowErr"
+  },
+  {
+    "name": "requestData",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js",
+    "preview": "{\n        ElementType: ELEMENT_TYPE_REMARKS,\n        ItemNumber: itemNumber,\n        Remarks: $(remarksInput).val(),\n        IsInternalRemarks: $(internalCheckbox).is(\":checked\")\n    };"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js",
+    "preview": "{\n        url: \"/CustomOrder/UpdateOrderForDraft\",\n        data: { tabName: tabName, activeProductID: productID },\n        dataType: \"json\",\n        success: function (data) {\n\n            if (data.Ac"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js",
+    "preview": "{\n        type: \"POST\",\n        dataType: \"json\",\n        url: \"/CustomOrder/SaveDraftOrder\",\n        success: OnDraftOrderSuccess\n    };"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js",
+    "preview": "{\n                    modal: true,\n                    title: \"Issue Cancelled\",\n                    width: 600,\n                    resizable: false,\n                    close: function () { $('.ui-d"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js",
+    "preview": "{\n                    modal: true,\n                    title: \"Issue Cancelled\",\n                    width: 600,\n                    resizable: false,\n                    close: function () { $('.ui-d"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js",
+    "preview": "{ dataType: \"json\", success: OnCustomerFormSubmitSuccess };"
+  },
+  {
+    "name": "inputData",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js",
+    "preview": "{ productPartID: productPartId, productFitID: productFitID };"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js",
+    "preview": "{ customerID: $(\"#CustomerID\").val(), customerShopID: $(\"#CustomerShopID\").val() };"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js",
+    "preview": "{\n        dataType: \"json\",\n        success: function (resultData) {\n            if (resultData.Status) {\n                ShowOKDialog(null, resultData.SucessMsg, null, null);\n                refreshI"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js",
+    "preview": "{ profileType: $('#fitProfileSearchViewModel_ProfileType').val() };"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js",
+    "preview": "{ 'orderIds': items, \"destinationStatusId\": destinationStatusId };"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311",
+    "preview": "{\n                    modal: true,\n                    title: \"Issue Cancelled\",\n                    width: 600,\n                    resizable: false,\n                    close: function () { $('.ui-d"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311",
+    "preview": "{\n                    modal: true,\n                    title: \"Issue Cancelled\",\n                    width: 600,\n                    resizable: false,\n                    close: function () { $('.ui-d"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311",
+    "preview": "{ dataType: \"json\", success: OnCustomerFormSubmitSuccess };"
+  },
+  {
+    "name": "inputData",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311",
+    "preview": "{ productPartID: productPartId, productFitID: productFitID };"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311",
+    "preview": "{ customerID: $(\"#CustomerID\").val(), customerShopID: $(\"#CustomerShopID\").val() };"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311",
+    "preview": "{\n        dataType: \"json\",\n        success: function (resultData) {\n            if (resultData.Status) {\n                ShowOKDialog(null, resultData.SucessMsg, null, null);\n                refreshI"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311",
+    "preview": "{ profileType: $('#fitProfileSearchViewModel_ProfileType').val() };"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311",
+    "preview": "{ 'orderIds': items, \"destinationStatusId\": destinationStatusId };"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrder.js",
+    "preview": "{\n        dataType: \"json\",\n        data: { isToProcessOrder: isToProcessOrder, skipWarning: skipWarning },\n        success: function (testdata) {\n            if (testdata != null) {\n\n                "
+  },
+  {
+    "name": "extraDaysArray",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrder.js",
+    "preview": "[fabricExtraDays, liningExtraDays, dovExtraDays, buttonExtraDays, pipingExtraDays, makeExtraDays];"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrder.js",
+    "preview": "{\n                    modal: true,\n                    title: \"Warning\",\n                    width: 500,\n                    resizable: false,\n                    buttons: [\n                        {\n"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrderEditCopy.js",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        width: 'auto',\n        height: 'auto',\n        resizable: false,\n        closeOnEscape: false,\n        buttons: [\n               {\n  "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrderEditCopy.js?version=20260311",
+    "preview": "{\n        modal: true,\n        title: copyOrderHeaderText,\n        width: 'auto',\n        height: 'auto',\n        resizable: false,\n        closeOnEscape: false,\n        buttons: [\n               {\n  "
+  },
+  {
+    "name": "opts",
+    "source": "/Scripts/CustomScripts/Page/MunroShopLayout.js",
+    "preview": "{\n        lines: 11, // The number of lines to draw\n        length: 0, // The length of each line\n        width: 11, // The line thickness\n        radius: 20, // The radius of the inner circle\n       "
+  },
+  {
+    "name": "opts",
+    "source": "/Scripts/CustomScripts/Page/MunroShopLayout.js?version=20260311",
+    "preview": "{\n        lines: 11, // The number of lines to draw\n        length: 0, // The length of each line\n        width: 11, // The line thickness\n        radius: 20, // The radius of the inner circle\n       "
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js",
+    "preview": "{ 'orderIds': items, 'withPPrice': withPPrice, 'recieviedPdf': recieviedPdf };"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js",
+    "preview": "{ 'orderIds': items }\n    var href = \"/CustomOrderOverview/GetOrderBodyMeasurement/?\" + $.param(data, true);\n    var myWindow = window.open(href, \"\", 'width=700,location=no,titlebar=no,toolbar=no,resi"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js",
+    "preview": "{\n                modal: true,\n                title: GetResourceText(\"PPRICE_DETAIL\", \"P.Price details\"),\n                width: 600,\n                resizable: false,\n                buttons: [\n    "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js",
+    "preview": "{\n                    modal: true,\n                    title: \"Issue Cancelled\",\n                    width: 600,\n                    resizable: false,\n                    close: function () { $('.ui-d"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js",
+    "preview": "{\n                    modal: true,\n                    title: \"Issue Cancelled\",\n                    width: 600,\n                    resizable: false,\n                    close: function () { $('.ui-d"
+  },
+  {
+    "name": "buttonToDisplay",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js",
+    "preview": "[\n                            {\n                                text: GetResourceText(\"CANCEL_BTN\", \"Cancel\"),\n                                click: function () {\n\n                                   "
+  },
+  {
+    "name": "buttonToDisplay",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js",
+    "preview": "[\n                        {\n                            text: GetResourceText(\"CANCEL_BTN\", \"Cancel\"),\n                            click: function () {\n\n                                $(\"#prePaymentP"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js",
+    "preview": "{\n            OrderShipmentDate: $(\"#OrderShipmentDate\").val(),\n            ExpressOrderGuid: $(\"#ExpressOrderGuid\").val(),\n            DeliveryOrderInfo: deliveryOrderInfo,\n            ExpressOrderIn"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js?version=20260311",
+    "preview": "{ 'orderIds': items, 'withPPrice': withPPrice, 'recieviedPdf': recieviedPdf };"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js?version=20260311",
+    "preview": "{ 'orderIds': items }\n    var href = \"/CustomOrderOverview/GetOrderBodyMeasurement/?\" + $.param(data, true);\n    var myWindow = window.open(href, \"\", 'width=700,location=no,titlebar=no,toolbar=no,resi"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js?version=20260311",
+    "preview": "{\n                modal: true,\n                title: GetResourceText(\"PPRICE_DETAIL\", \"P.Price details\"),\n                width: 600,\n                resizable: false,\n                buttons: [\n    "
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js?version=20260311",
+    "preview": "{\n                    modal: true,\n                    title: \"Issue Cancelled\",\n                    width: 600,\n                    resizable: false,\n                    close: function () { $('.ui-d"
+  },
+  {
+    "name": "msgBoxData",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js?version=20260311",
+    "preview": "{\n                    modal: true,\n                    title: \"Issue Cancelled\",\n                    width: 600,\n                    resizable: false,\n                    close: function () { $('.ui-d"
+  },
+  {
+    "name": "buttonToDisplay",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js?version=20260311",
+    "preview": "[\n                            {\n                                text: GetResourceText(\"CANCEL_BTN\", \"Cancel\"),\n                                click: function () {\n\n                                   "
+  },
+  {
+    "name": "buttonToDisplay",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js?version=20260311",
+    "preview": "[\n                        {\n                            text: GetResourceText(\"CANCEL_BTN\", \"Cancel\"),\n                            click: function () {\n\n                                $(\"#prePaymentP"
+  },
+  {
+    "name": "data",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js?version=20260311",
+    "preview": "{\n            OrderShipmentDate: $(\"#OrderShipmentDate\").val(),\n            ExpressOrderGuid: $(\"#ExpressOrderGuid\").val(),\n            DeliveryOrderInfo: deliveryOrderInfo,\n            ExpressOrderIn"
+  },
+  {
+    "name": "shoeCustomOrder",
+    "source": "/Scripts/CustomScripts/Page/ShoeOrder/ShoeOrderEditCopy.js",
+    "preview": "{\n    PerformCopySkiping: function PerformCopySkipingSelectionDialog(orderId, orderTypeId) {\n        \n        ShowSpinner();\n        var url = \"\";\n        if(orderTypeId === 2) {\n            url = \"/S"
+  },
+  {
+    "name": "shoeCustomOrder",
+    "source": "/Scripts/CustomScripts/Page/ShoeOrder/ShoeOrderEditCopy.js?version=20260311",
+    "preview": "{\n    PerformCopySkiping: function PerformCopySkipingSelectionDialog(orderId, orderTypeId) {\n        \n        ShowSpinner();\n        var url = \"\";\n        if(orderTypeId === 2) {\n            url = \"/S"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopCustomerFieldsSettings.js?version=20260311",
+    "preview": "{\n        success: function (resultData) {\n            if (resultData != null) {\n                if (resultData.Status == false) {\n                    ShowErrorDialog(\"Error\", resultData.ErrorHtml, nu"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopDesignOptionSettings.js",
+    "preview": "{\n            success: function (resultData) {\n                if (resultData != null) {\n                    if (resultData.Status === false && resultData.ErrorMessageWithFile) {\n                     "
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopDesignOptionSettings.js",
+    "preview": "{\n        success: function (resultData) {\n            if (resultData != null) {\n                if (resultData.Status) {\n                    $(\"#divShopDesignOptions\").html(resultData.ViewString);\n  "
+  },
+  {
+    "name": "requestData",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopDesignOptionSettings.js",
+    "preview": "{ productPartId: productPartId, atelierId: atelierId };"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopDesignOptionSettings.js?version=20260311",
+    "preview": "{\n            success: function (resultData) {\n                if (resultData != null) {\n                    if (resultData.Status === false && resultData.ErrorMessageWithFile) {\n                     "
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopDesignOptionSettings.js?version=20260311",
+    "preview": "{\n        success: function (resultData) {\n            if (resultData != null) {\n                if (resultData.Status) {\n                    $(\"#divShopDesignOptions\").html(resultData.ViewString);\n  "
+  },
+  {
+    "name": "requestData",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopDesignOptionSettings.js?version=20260311",
+    "preview": "{ productPartId: productPartId, atelierId: atelierId };"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopFittoolSettings.js",
+    "preview": "{\n        success: function (resultData) {\n            if (resultData != null) {\n                //TODO: VB make string localised\n                if (resultData.Status == false) {\n                    "
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopFittoolSettings.js",
+    "preview": "{\n        success: function (resultData) {\n            if (resultData != null) {\n                $(\"#divShopFitTools\").html(resultData);\n                if (typeof (window.ChangeNotifier) != 'undefine"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopFittoolSettings.js?version=20260311",
+    "preview": "{\n        success: function (resultData) {\n            if (resultData != null) {\n                //TODO: VB make string localised\n                if (resultData.Status == false) {\n                    "
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopFittoolSettings.js?version=20260311",
+    "preview": "{\n        success: function (resultData) {\n            if (resultData != null) {\n                $(\"#divShopFitTools\").html(resultData);\n                if (typeof (window.ChangeNotifier) != 'undefine"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopSettings.js",
+    "preview": "{\n        dataType: \"json\",\n        success: function(resultData) {\n            if (resultData != null) {\n                if (resultData.Status == false) {\n                    ShowErrorDialog(\"Error\","
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopSettings.js",
+    "preview": "{\n        dataType: \"json\",\n        success: function (resultData) {\n            if (resultData != null) {\n                if (resultData.Status == false) {\n                    if (resultData.ErrorMes"
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopSettings.js?version=20260311",
+    "preview": "{\n        dataType: \"json\",\n        success: function(resultData) {\n            if (resultData != null) {\n                if (resultData.Status == false) {\n                    ShowErrorDialog(\"Error\","
+  },
+  {
+    "name": "options",
+    "source": "/Scripts/CustomScripts/Page/ShopSettings/ShopSettings.js?version=20260311",
+    "preview": "{\n        dataType: \"json\",\n        success: function (resultData) {\n            if (resultData != null) {\n                if (resultData.Status == false) {\n                    if (resultData.ErrorMes"
+  },
+  {
+    "name": "tieCustomOrder",
+    "source": "/Scripts/CustomScripts/Page/TieOrder/TieOrderEditCopy.js",
+    "preview": "{\n\n    PerformCopySkiping: function PerformCopySkipingSelectionDialog(orderId, orderTypeId) {\n\n        ShowSpinner();\n        var url = \"\";\n        if (orderTypeId === 2) {\n            url = \"/TieRead"
+  },
+  {
+    "name": "tieCustomOrder",
+    "source": "/Scripts/CustomScripts/Page/TieOrder/TieOrderEditCopy.js?version=20260311",
+    "preview": "{\n\n    PerformCopySkiping: function PerformCopySkipingSelectionDialog(orderId, orderTypeId) {\n\n        ShowSpinner();\n        var url = \"\";\n        if (orderTypeId === 2) {\n            url = \"/TieRead"
+  },
+  {
+    "name": "nonEnumerableProps",
+    "source": "/Scripts/CustomScripts/underscore.js?version=20260311",
+    "preview": "['valueOf', 'isPrototypeOf', 'toString',\n                      'propertyIsEnumerable', 'hasOwnProperty', 'toLocaleString'];"
+  },
+  {
+    "name": "result",
+    "source": "/Scripts/CustomScripts/underscore.js?version=20260311",
+    "preview": "{}, iteratee = keys[0];\n    if (obj == null) return result;\n    if (_.isFunction(iteratee)) {\n      if (keys.length > 1) iteratee = optimizeCb(iteratee, keys[1]);\n      keys = _.allKeys(obj);\n    } el"
+  },
+  {
+    "name": "escapeMap",
+    "source": "/Scripts/CustomScripts/underscore.js?version=20260311",
+    "preview": "{\n    '&': '&amp;',\n    '<': '&lt;',\n    '>': '&gt;',\n    '\"': '&quot;',\n    \"'\": '&#x27;',\n    '`': '&#x60;'\n  };"
+  },
+  {
+    "name": "escapes",
+    "source": "/Scripts/CustomScripts/underscore.js?version=20260311",
+    "preview": "{\n    \"'\": \"'\",\n    '\\\\': '\\\\',\n    '\\r': 'r',\n    '\\n': 'n',\n    '\\u2028': 'u2028',\n    '\\u2029': 'u2029'\n  };"
+  },
+  {
+    "name": "methods",
+    "source": "/Scripts/CustomScrollbar/facescroll.js?version=20260311",
+    "preview": "{\n\t\tinit : function(options) {\n\t\t\tthis.each(function() {\n\n\t\t\t\tif ($(this).hasClass('alternate-scroll')) return;\n\t\t\t\t$(this).addClass('alternate-scroll');\n\t\t\t\t\n\t\t\t\tvar settings = $.extend({\n\t\t\t\t\t'anima"
+  }
+]

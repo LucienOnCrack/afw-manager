@@ -1,0 +1,406 @@
+{
+  "/ShopSettings/GetDesignOptions": {
+    "type": "json",
+    "size": 2405,
+    "structure": "keys=['Status', 'ViewString']"
+  },
+  "/ShopSettings/GetFitTools": {
+    "type": "text",
+    "size": 1322,
+    "preview": "\n<script language=\"javascript\" type=\"text/javascript\">\n    $(document).ready(function () {\n        A"
+  },
+  "/ShopSettings/GetProductMakeAndFits": {
+    "type": "html",
+    "size": 340
+  },
+  "/ShopSettings/GetBrandingSettings": {
+    "type": "html",
+    "size": 1749
+  },
+  "/ShopSettings/GetBrandingPositions": {
+    "type": "html",
+    "size": 1749
+  },
+  "/ShopSettings/GetBrandingLabels": {
+    "type": "html",
+    "size": 1749
+  },
+  "/ShopSettings/GetMonogramSettings": {
+    "type": "html",
+    "size": 1749
+  },
+  "/ShopSettings/GetShipmentSettings": {
+    "type": "html",
+    "size": 1749
+  },
+  "/ShopSettings/GetMakeSettings": {
+    "type": "html",
+    "size": 1749
+  },
+  "/ShopSettings/GetFitSettings": {
+    "type": "html",
+    "size": 1749
+  },
+  "/ShopSettings/GetProductSettings": {
+    "type": "html",
+    "size": 1749
+  },
+  "/ShopSettings/GetPriceSettings": {
+    "type": "html",
+    "size": 1749
+  },
+  "/ShopSettings/GetCustomerFieldSettings": {
+    "type": "html",
+    "size": 1749
+  },
+  "/ShopSettings/GetBodyCalculationSettings": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetProductCombinations": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetProductParts": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetItemTypes": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetMakes": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetFits": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetModels": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetCanvasOptions": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetLiningModes": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetFitAdvise": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetOccasions": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetTailors": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrder/GetNewGuid": {
+    "type": "html",
+    "size": 340
+  },
+  "/Customer/FillTryOnSizes": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/GetCustomerFields": {
+    "type": "html",
+    "size": 1749
+  },
+  "/Customer/SelectOrder": {
+    "type": "text",
+    "size": 16168,
+    "preview": "<style type=\"text/css\">\n    .lightgrey_button {\n        cursor: pointer;\n        font-size: 12px;\n  "
+  },
+  "/ReadymadeOrderOverview/HasShopMultipleProductLine": {
+    "type": "json",
+    "size": 57,
+    "structure": "keys=['hasMultiplePL', 'productLineId', 'RedirectUrl']"
+  },
+  "/Login/CheckIfSessionIsExpired": {
+    "type": "json",
+    "size": 26,
+    "structure": "keys=['IsSessionExpired']"
+  },
+  "/ReadymadeOrderOverview/HasShopMultipleProductLine/": {
+    "type": "json",
+    "size": 57,
+    "structure": "keys=['hasMultiplePL', 'productLineId', 'RedirectUrl']"
+  },
+  "/ReadymadeOrderOverview/SelectOrder/": {
+    "type": "text",
+    "size": 13727,
+    "preview": "\n<style type=\"text/css\">\n    .lightgrey_button {\n        cursor: pointer;\n        font-size: 12px;\n "
+  },
+  "/ReadymadeOrderOverview/LoadReadyMadeOrderCreationPerShop/": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/": {
+    "type": "html",
+    "size": 101731
+  },
+  "/Login/GetMarketingToolDetails/": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/CustomOrderOverview/ValidateOrderFitProfile": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/QualityIssue/GetValidationOfProductCombinationForQualityIssueRemakeOrder": {
+    "type": "html",
+    "size": 1749
+  },
+  "/IssueModule/GetValidationOfProductCombinationForQualityIssueRemakeOrder": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/OrderDetail/GetEditOrderWarning2Message": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/VestReadymadeOrder/ValidateVestReadymadeOrder": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/DenimReadymadeOrder/ValidateDenimReadymadeOrder": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/KnitReadymadeOrder/ValidateKnitReadymadeOrder": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/OrderDetail/GetDuplicateOrder": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/OrderDetail/GetRemarkForOrder": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/AdyenPayment/ProcessPayment": {
+    "type": "json",
+    "size": 94,
+    "structure": "keys=['Status', 'ReturnHtml', 'ErrMsg']"
+  },
+  "/CustomOrder/RefreshRunningInformation": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/CustomOrder/SaveCustomOrder": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/CustomOrder/ApplyBodymeasurementCalculatedValues": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/CustomOrder/UpdateOrderForDraft": {
+    "type": "json",
+    "size": 102,
+    "structure": "keys=['Status', 'AcceptChangeProfile', 'ProfileName', 'SaveFitProfile', 'ChangeWizard']"
+  },
+  "/CustomOrder/SaveDraftOrder": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/CheckIfQualityIssueExistsAndIsNotCancelled": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/CheckIfNewIssueModuleExistsAndIsNotCancelled": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/Delete": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/ValidateEditCopyFitProfile": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/EditCustomerFitProfile": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/GetCustomerFitProfileDetail": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/CopyCustomerFitProfile": {
+    "type": "json",
+    "size": 51,
+    "structure": "keys=['Status', 'MessageHtml']"
+  },
+  "/Customer/ShowDMNotes": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/ShowNotesForEditting": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/HasShopMultipleProductLine/": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/SelectOrder/": {
+    "type": "text",
+    "size": 16168,
+    "preview": "<style type=\"text/css\">\n    .lightgrey_button {\n        cursor: pointer;\n        font-size: 12px;\n  "
+  },
+  "/Customer/LoadCustomOrderCreationPerShop/": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/DeleteCustomerImage": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/EditImageDescription": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/ActivateDeactivateProfile": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/GetCustomerId/": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/CreateOrderForMossCustomer": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/EditMossCustomer": {
+    "type": "json",
+    "size": 99,
+    "structure": "keys=['Status', 'RedirectUrl', 'Message']"
+  },
+  "/Customer/MossCustomerDetail": {
+    "type": "json",
+    "size": 99,
+    "structure": "keys=['Status', 'RedirectUrl', 'Message']"
+  },
+  "/Customer/ShowDesiredMeasurementNotes": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/RedirectToCreateFitProfile": {
+    "type": "html",
+    "size": 1749
+  },
+  "/Customer/CreateFitProfile": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/CreateNewFitProfileForCustomer": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/FetchViewModelForFitToolProfileCreation": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/Customer/GetPreviousOrderFitProfileData": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/DyoOrder/RenderPrimaryInfo/": {
+    "type": "html",
+    "size": 1749
+  },
+  "/DyoOrder/GetRunningInfo": {
+    "type": "html",
+    "size": 1749
+  },
+  "/Login/CheckIfSessionIsExpired/": {
+    "type": "json",
+    "size": 26,
+    "structure": "keys=['IsSessionExpired']"
+  },
+  "/ClientLog/Addlog": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/CustomOrderOverview/GetCargoBoxList": {
+    "type": "html",
+    "size": 1749
+  },
+  "/CustomOrderOverview/GetExpressOrderDeliveryDetails": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/CustomOrderOverview/GetOrdersWithSameShipmentDate": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/CustomOrderOverview/MarkOrderForFastTrack": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/CustomOrderOverview/MarkOrderForFastTrackConfirmed": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  },
+  "/CustomOrderOverview/MarkOrderForExpressDelivery": {
+    "type": "json",
+    "size": 56,
+    "structure": "keys=['updatedResult', 'Status']"
+  },
+  "/CustomOrderOverview/MarkOrderForNonExpressDelivery": {
+    "type": "text",
+    "size": 57,
+    "preview": "\"Sorry some error occurred while processing your request\""
+  }
+}

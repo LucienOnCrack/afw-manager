@@ -1,0 +1,366 @@
+{
+  "OrderStatuses": [
+    {
+      "value": "12",
+      "text": "On hold"
+    },
+    {
+      "value": "52|6",
+      "text": "Processed"
+    },
+    {
+      "value": "83",
+      "text": "Payment Requested"
+    },
+    {
+      "value": "97",
+      "text": "RM Draft approval in process"
+    },
+    {
+      "value": "98",
+      "text": "Process pending"
+    },
+    {
+      "value": "28|95|74|25|27|57|21|19|18|1|30|96|45",
+      "text": "In workshop"
+    },
+    {
+      "value": "3|85|60|40|41|42|44|78",
+      "text": "In transit"
+    },
+    {
+      "value": "9|88|75|51|64|46",
+      "text": "Out for delivery"
+    },
+    {
+      "value": "94|16|89",
+      "text": "Received"
+    },
+    {
+      "value": "11",
+      "text": "In alteration"
+    },
+    {
+      "value": "14",
+      "text": "Delivered to customer"
+    },
+    {
+      "value": "17|58",
+      "text": "Cancelled"
+    },
+    {
+      "value": "77",
+      "text": "Partial ReMade"
+    },
+    {
+      "value": "61",
+      "text": "ReMade"
+    },
+    {
+      "value": "65",
+      "text": "Refused by customer"
+    },
+    {
+      "value": "93",
+      "text": "Partial Refused by customer"
+    }
+  ],
+  "SelectedTailorID": [
+    {
+      "value": "",
+      "text": ""
+    },
+    {
+      "value": "4945",
+      "text": "anthony barnes"
+    },
+    {
+      "value": "1040",
+      "text": "iain kinsman"
+    },
+    {
+      "value": "1039",
+      "text": "Jake Barnes"
+    },
+    {
+      "value": "10035",
+      "text": "Paul stubbs"
+    }
+  ],
+  "SelectedColorID": [
+    {
+      "value": "",
+      "text": ""
+    },
+    {
+      "value": "1",
+      "text": "Orange (Urgent/Wedding)"
+    },
+    {
+      "value": "6",
+      "text": "Red (Urgent)"
+    },
+    {
+      "value": "9",
+      "text": "Red (Order issue in progress)"
+    },
+    {
+      "value": "3",
+      "text": "Purple (Order delayed)"
+    },
+    {
+      "value": "8",
+      "text": "Blue(Duplicate)"
+    },
+    {
+      "value": "10",
+      "text": "Green (Order issue analysed)"
+    },
+    {
+      "value": "7",
+      "text": "Yellow (Changed Ship to)"
+    },
+    {
+      "value": "11",
+      "text": "Red (Order Blocked)"
+    },
+    {
+      "value": "12",
+      "text": "Orange in yellow (COVID-19 Issue)"
+    },
+    {
+      "value": "13",
+      "text": "Green (FastTrack)"
+    }
+  ],
+  "SelectedProductCombinationID": [
+    {
+      "value": "",
+      "text": ""
+    },
+    {
+      "value": "53",
+      "text": "Informal jacket"
+    },
+    {
+      "value": "55",
+      "text": "Informal jacket + trouser"
+    },
+    {
+      "value": "1",
+      "text": "2-piece suit"
+    },
+    {
+      "value": "7",
+      "text": "2-piece suit + extra trousers"
+    },
+    {
+      "value": "5",
+      "text": "3-piece suit"
+    },
+    {
+      "value": "14",
+      "text": "3-piece suit + extra trousers"
+    },
+    {
+      "value": "2",
+      "text": "Jacket"
+    },
+    {
+      "value": "3",
+      "text": "Trousers"
+    },
+    {
+      "value": "4",
+      "text": "Waistcoat"
+    },
+    {
+      "value": "16",
+      "text": "Bermudas"
+    },
+    {
+      "value": "17",
+      "text": "Jacket + Bermudas"
+    },
+    {
+      "value": "8",
+      "text": "Shirt"
+    },
+    {
+      "value": "22",
+      "text": "Chinos"
+    },
+    {
+      "value": "21",
+      "text": "Jeans / 5 Pockets"
+    },
+    {
+      "value": "23",
+      "text": "Formal round"
+    },
+    {
+      "value": "25",
+      "text": "Informal"
+    },
+    {
+      "value": "27",
+      "text": "Flex"
+    },
+    {
+      "value": "28",
+      "text": "Sneaker"
+    },
+    {
+      "value": "56",
+      "text": "City loafer"
+    },
+    {
+      "value": "63",
+      "text": "Runner"
+    },
+    {
+      "value": "33",
+      "text": "Belt - Made in Italy"
+    },
+    {
+      "value": "64",
+      "text": "Belt \u2013 Made in Portugal"
+    },
+    {
+      "value": "34",
+      "text": "Coat"
+    },
+    {
+      "value": "41",
+      "text": "Detachable liner"
+    },
+    {
+      "value": "42",
+      "text": "Coat + Detachable liner"
+    },
+    {
+      "value": "9",
+      "text": "Overcoat"
+    },
+    {
+      "value": "18",
+      "text": "Pea coat"
+    },
+    {
+      "value": "59",
+      "text": "Quilted vest"
+    },
+    {
+      "value": "61",
+      "text": "Vest"
+    },
+    {
+      "value": "29",
+      "text": "Tie"
+    },
+    {
+      "value": "31",
+      "text": "Pocket square"
+    },
+    {
+      "value": "32",
+      "text": "Bow tie"
+    },
+    {
+      "value": "60",
+      "text": "Cummerbund"
+    },
+    {
+      "value": "54",
+      "text": "Knit"
+    },
+    {
+      "value": "62",
+      "text": "Pants"
+    },
+    {
+      "value": "58",
+      "text": "Scarf"
+    },
+    {
+      "value": "57",
+      "text": "Beanie"
+    }
+  ],
+  "orderStatusDropdownForStatusChange": [
+    {
+      "value": "",
+      "text": ""
+    },
+    {
+      "value": "12",
+      "text": "On hold"
+    },
+    {
+      "value": "83",
+      "text": "Payment Requested"
+    },
+    {
+      "value": "6",
+      "text": "Processed"
+    },
+    {
+      "value": "16",
+      "text": "Received"
+    },
+    {
+      "value": "11",
+      "text": "In alteration"
+    },
+    {
+      "value": "14",
+      "text": "Delivered to customer"
+    },
+    {
+      "value": "17",
+      "text": "Cancelled"
+    },
+    {
+      "value": "65",
+      "text": "Refused by customer"
+    },
+    {
+      "value": "93",
+      "text": "Partial Refused by customer"
+    }
+  ],
+  "abc": [
+    {
+      "value": "5",
+      "text": "5"
+    },
+    {
+      "value": "10",
+      "text": "10"
+    },
+    {
+      "value": "20",
+      "text": "20"
+    },
+    {
+      "value": "30",
+      "text": "30"
+    },
+    {
+      "value": "40",
+      "text": "40"
+    },
+    {
+      "value": "50",
+      "text": "50"
+    },
+    {
+      "value": "100",
+      "text": "100"
+    },
+    {
+      "value": "200",
+      "text": "200"
+    }
+  ]
+}

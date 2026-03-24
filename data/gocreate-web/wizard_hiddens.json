@@ -1,0 +1,8 @@
+{
+  "IsShopChainFilterEnabled": "True",
+  "LastName.FieldValue": "kinsman",
+  "ControllerName": "Customer",
+  "ActionName": "Index",
+  "hiddenHostedServer": "Web5",
+  "hiddenFromMobileDevice": "false"
+}

@@ -1,0 +1,259 @@
+{
+  "selects": [
+    {
+      "id": "SelectedProductPartID",
+      "name": "SelectedProductPartID",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "1",
+          "selected": false,
+          "data": {},
+          "text": "Jacket"
+        },
+        {
+          "value": "2",
+          "selected": false,
+          "data": {},
+          "text": "Trousers"
+        },
+        {
+          "value": "3",
+          "selected": false,
+          "data": {},
+          "text": "Waistcoat"
+        },
+        {
+          "value": "4",
+          "selected": false,
+          "data": {},
+          "text": "Shirt"
+        },
+        {
+          "value": "5",
+          "selected": false,
+          "data": {},
+          "text": "Overcoat"
+        },
+        {
+          "value": "12",
+          "selected": false,
+          "data": {},
+          "text": "Bermuda"
+        },
+        {
+          "value": "13",
+          "selected": false,
+          "data": {},
+          "text": "Pea coat"
+        },
+        {
+          "value": "14",
+          "selected": false,
+          "data": {},
+          "text": "5 Pocket"
+        },
+        {
+          "value": "15",
+          "selected": false,
+          "data": {},
+          "text": "Chino"
+        },
+        {
+          "value": "16",
+          "selected": false,
+          "data": {},
+          "text": "Formal round"
+        },
+        {
+          "value": "18",
+          "selected": false,
+          "data": {},
+          "text": "Informal"
+        },
+        {
+          "value": "20",
+          "selected": false,
+          "data": {},
+          "text": "Flex"
+        },
+        {
+          "value": "21",
+          "selected": false,
+          "data": {},
+          "text": "Sneaker"
+        },
+        {
+          "value": "22",
+          "selected": false,
+          "data": {},
+          "text": "Tie"
+        },
+        {
+          "value": "23",
+          "selected": false,
+          "data": {},
+          "text": "Bow tie"
+        },
+        {
+          "value": "24",
+          "selected": false,
+          "data": {},
+          "text": "Pocket square"
+        },
+        {
+          "value": "25",
+          "selected": false,
+          "data": {},
+          "text": "Belt"
+        },
+        {
+          "value": "26",
+          "selected": false,
+          "data": {},
+          "text": "Coat"
+        },
+        {
+          "value": "27",
+          "selected": false,
+          "data": {},
+          "text": "Detachable liner"
+        },
+        {
+          "value": "31",
+          "selected": false,
+          "data": {},
+          "text": "Informal jacket"
+        },
+        {
+          "value": "32",
+          "selected": false,
+          "data": {},
+          "text": "Knitwear"
+        },
+        {
+          "value": "33",
+          "selected": false,
+          "data": {},
+          "text": "City loafer"
+        },
+        {
+          "value": "34",
+          "selected": false,
+          "data": {},
+          "text": "Beanie"
+        },
+        {
+          "value": "35",
+          "selected": false,
+          "data": {},
+          "text": "Scarf"
+        },
+        {
+          "value": "36",
+          "selected": false,
+          "data": {},
+          "text": "Quilted vest"
+        },
+        {
+          "value": "37",
+          "selected": false,
+          "data": {},
+          "text": "Cummerbund"
+        },
+        {
+          "value": "38",
+          "selected": false,
+          "data": {},
+          "text": "Vest"
+        },
+        {
+          "value": "40",
+          "selected": false,
+          "data": {},
+          "text": "Pants"
+        },
+        {
+          "value": "41",
+          "selected": false,
+          "data": {},
+          "text": "Runner"
+        }
+      ]
+    },
+    {
+      "id": "SelectedProductFitID",
+      "name": "SelectedProductFitID",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "38",
+          "selected": false,
+          "data": {},
+          "text": "Regular "
+        },
+        {
+          "value": "41",
+          "selected": false,
+          "data": {},
+          "text": "Slim "
+        },
+        {
+          "value": "39",
+          "selected": false,
+          "data": {},
+          "text": "Slim2.0 "
+        }
+      ]
+    }
+  ],
+  "hiddens": [
+    {
+      "id": "ControllerName",
+      "name": "ControllerName",
+      "value": "ShopSettings"
+    },
+    {
+      "id": "ActionName",
+      "name": "ActionName",
+      "value": "FitTools"
+    },
+    {
+      "id": "hiddenScrollPositionH",
+      "name": "",
+      "value": ""
+    },
+    {
+      "id": "selectedShop",
+      "name": "selectedShop",
+      "value": ""
+    },
+    {
+      "id": "hiddenHostedServer",
+      "name": "",
+      "value": "Web5"
+    },
+    {
+      "id": "hiddenFromMobileDevice",
+      "name": "",
+      "value": "false"
+    }
+  ],
+  "tables": [],
+  "js_variables": {
+    "DATEFORMAT": "'dd-M-yyyy'",
+    "shopCurrency": "'&#163;'",
+    "DATERANGE": "'1950:2050'",
+    "DATEFORMAT_SERVER": "'dd-MMM-yyyy'",
+    "SITE_BASE_URL": "'http://gocreate.nu/'",
+    "SESSION_EXPIRE_URL": "'/ShopSettings/SessionExpire'",
+    "ISINVOICE_SURCHARGE_APPLICABLE": "'False'",
+    "shouldRedirectToHttps": "'true'",
+    "redirectToHttps": "'False'",
+    "PANEL_COOKIE_NAME": "\"shoppanels\"",
+    "PANEL_COOKIE_NAME_SINGLE_STEP": "\"shoppanelSingleStep\"",
+    "isSiteInReadOnlyMode": "'False'",
+    "i": "0",
+    "productPartChangeURL": "'/ShopSettings/GetProductFits'"
+  }
+}

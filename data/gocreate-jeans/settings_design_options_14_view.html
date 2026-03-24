@@ -1,0 +1,55 @@
+<script language="javascript" type="text/javascript">
+    $(document).ready(function () {
+        $('.topsectionBody').alternateScroll();
+        LoadMunroDropDowns();
+
+        $(".drpMultiSelect").each(function () {
+            LoadMultiSelectDropdown(this.id, "");
+        });
+    });
+
+    $(window).resize(function () {
+        $(".drpMultiSelect").each(function () {
+            LoadMultiSelectDropdown(this.id, "");
+        });
+    });
+
+</script>
+<style>
+    .paddings {
+        padding: 10px;
+    }
+</style>
+<input id="productPartID" name="productPartID" type="hidden" value="14" />
+<input id="productFitIDs" name="productFitIDs" type="hidden" value="37" />
+<input id="productMakeIDs" name="productMakeIDs" type="hidden" value="41" />
+<input id="selectedAtelierID" name="selectedAtelierID" type="hidden" value="1" />
+
+<br />
+<div class="row row-fluid">
+    <div class="col-sm-12 col-md-12 col-lg-12">
+        <div class="row row-fluid">
+            <div class="col-sm-4 col-md-3 col-lg-3">
+                <label class="form-label-bold-only">DesignOptions</label>
+            </div>
+            <div class="col-sm-2 col-md-1 col-lg-1 text-center">
+                <label class="form-label-bold-only">Is visible</label>
+            </div>
+            <div class="col-sm-3 col-md-4 col-lg-4">
+                <label class="form-label-bold-only">Default value</label>
+            </div>
+            <div class="col-sm-3 col-md-4 col-lg-4">
+                <label class="form-label-bold-only">Is hidden</label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class="paddings">
+        <div class="row row-fluid">
+            <div class="col-sm-12 col-md-12 col-lg-12">
+            </div>
+        </div>
+    </div>
+</div>

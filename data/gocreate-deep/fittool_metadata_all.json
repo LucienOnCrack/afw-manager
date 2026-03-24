@@ -1,0 +1,5130 @@
+{
+  "part1_Jacket_fit38": {
+    "productPartId": 1,
+    "productPart": "Jacket",
+    "fitId": 38,
+    "fitName": "Regular",
+    "tools": [
+      {
+        "checkbox_id": "chk_8",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_9",
+        "name": "Take in \u00bd collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_36",
+        "name": "Raise collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_179",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_27",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_32",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_31",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_34",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_35",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_38",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_37",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_40",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_39",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_28",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_29",
+        "name": "Raise side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_375",
+        "name": "Lower side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_376",
+        "name": "Raise vent(s)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_185",
+        "name": "Lower vent(s)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_186",
+        "name": "Raise chest pocket",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_251",
+        "name": "Shorten lapels",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_70",
+        "name": "Lower chest pocket",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_262",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_2",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_16",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_17",
+        "name": "Take in \u00bd skirt",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_150",
+        "name": "Let out \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_22",
+        "name": "Take in \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_23",
+        "name": "Raise closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_119",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_71",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_7",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_118",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_14",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_15",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_42",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_43",
+        "name": "Let out upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_5",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_6",
+        "name": "Let out \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_323",
+        "name": "Take in \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_322",
+        "name": "Let out \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_68",
+        "name": "Take in \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_69",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_10",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_11",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_12",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_13",
+        "name": "Arms backwards",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_25",
+        "name": "Arms forwards",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_377",
+        "name": "Length Morning Coat (based on Jacket)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_893",
+        "name": "Shorten length (Morning coat)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_894",
+        "name": "Let out \u00bd cuff only (NEW)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1035",
+        "name": "Take in \u00bd cuff only (NEW)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 52
+  },
+  "part1_Jacket_fit41": {
+    "productPartId": 1,
+    "productPart": "Jacket",
+    "fitId": 41,
+    "fitName": "Slim",
+    "tools": [
+      {
+        "checkbox_id": "chk_8",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_9",
+        "name": "Take in \u00bd collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_36",
+        "name": "Raise collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_179",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_27",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_32",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_31",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_34",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_35",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_38",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_37",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_40",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_39",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_28",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_29",
+        "name": "Raise side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_375",
+        "name": "Lower side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_376",
+        "name": "Raise vent(s)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_185",
+        "name": "Lower vent(s)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_186",
+        "name": "Raise chest pocket",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_251",
+        "name": "Shorten lapels",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_70",
+        "name": "Lower chest pocket",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_262",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_2",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_16",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_17",
+        "name": "Take in \u00bd skirt",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_150",
+        "name": "Let out \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_22",
+        "name": "Take in \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_23",
+        "name": "Raise closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_119",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_71",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_7",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_118",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_14",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_15",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_42",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_43",
+        "name": "Let out upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_5",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_6",
+        "name": "Let out \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_323",
+        "name": "Take in \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_322",
+        "name": "Let out \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_68",
+        "name": "Take in \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_69",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_10",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_11",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_12",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_13",
+        "name": "Arms backwards",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_25",
+        "name": "Arms forwards",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_377",
+        "name": "Length Morning Coat (based on Jacket)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_893",
+        "name": "Shorten length (Morning coat)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_894",
+        "name": "Let out \u00bd cuff only (NEW)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1035",
+        "name": "Take in \u00bd cuff only (NEW)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 52
+  },
+  "part1_Jacket_fit39": {
+    "productPartId": 1,
+    "productPart": "Jacket",
+    "fitId": 39,
+    "fitName": "Slim2.0",
+    "tools": [
+      {
+        "checkbox_id": "chk_8",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_9",
+        "name": "Take in \u00bd collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_36",
+        "name": "Raise collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_179",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_27",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_32",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_31",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_34",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_35",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_38",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_37",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_40",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_39",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_28",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_29",
+        "name": "Raise side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_375",
+        "name": "Lower side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_376",
+        "name": "Raise vent(s)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_185",
+        "name": "Lower vent(s)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_186",
+        "name": "Raise chest pocket",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_251",
+        "name": "Shorten lapels",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_70",
+        "name": "Lower chest pocket",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_262",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_2",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_16",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_17",
+        "name": "Take in \u00bd skirt",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_150",
+        "name": "Let out \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_22",
+        "name": "Take in \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_23",
+        "name": "Raise closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_119",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_71",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_7",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_118",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_14",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_15",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_42",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_43",
+        "name": "Let out upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_5",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_6",
+        "name": "Let out \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_323",
+        "name": "Take in \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_322",
+        "name": "Let out \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_68",
+        "name": "Take in \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_69",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_10",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_11",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_12",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_13",
+        "name": "Arms backwards",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_25",
+        "name": "Arms forwards",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_377",
+        "name": "Length Morning Coat (based on Jacket)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_893",
+        "name": "Shorten length (Morning coat)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_894",
+        "name": "Let out \u00bd cuff only (NEW)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1035",
+        "name": "Take in \u00bd cuff only (NEW)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 52
+  },
+  "part2_Trousers_fit1": {
+    "productPartId": 2,
+    "productPart": "Trousers",
+    "fitId": 1,
+    "fitName": "Regular",
+    "tools": [
+      {
+        "checkbox_id": "chk_3",
+        "name": "Lower total rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_46",
+        "name": "Raise front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_47",
+        "name": "Lower front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_48",
+        "name": "Raise back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_49",
+        "name": "Lower back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_4",
+        "name": "Flat seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_120",
+        "name": "Let out crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_55",
+        "name": "Take in crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_54",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_50",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_51",
+        "name": "Let out \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_265",
+        "name": "Take in \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_266",
+        "name": "Let out \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_53",
+        "name": "Take in \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_52",
+        "name": "Take in \u00bd back seam",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_263",
+        "name": "Let out \u00bd hip curve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_261",
+        "name": "Take in \u00bd hip curve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_180",
+        "name": "Let out \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_56",
+        "name": "Take in \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_57",
+        "name": "Let out \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_267",
+        "name": "Take in \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_268",
+        "name": "Let out \u00bd knee",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_58",
+        "name": "Take in \u00bd knee",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_59",
+        "name": "Let out \u00bd knee only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_269",
+        "name": "Take in \u00bd knee only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_270",
+        "name": "Let out \u00bd hem",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_60",
+        "name": "Take in \u00bd hem",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_61",
+        "name": "Lengthen leg R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_63",
+        "name": "Lengthen leg L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_64",
+        "name": "Shorten leg R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_65",
+        "name": "Shorten leg L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 31
+  },
+  "part2_Trousers_fit2": {
+    "productPartId": 2,
+    "productPart": "Trousers",
+    "fitId": 2,
+    "fitName": "Slim",
+    "tools": [
+      {
+        "checkbox_id": "chk_3",
+        "name": "Lower total rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_46",
+        "name": "Raise front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_47",
+        "name": "Lower front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_48",
+        "name": "Raise back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_49",
+        "name": "Lower back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_4",
+        "name": "Flat seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_120",
+        "name": "Let out crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_55",
+        "name": "Take in crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_54",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_50",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_51",
+        "name": "Let out \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_265",
+        "name": "Take in \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_266",
+        "name": "Let out \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_53",
+        "name": "Take in \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_52",
+        "name": "Take in \u00bd back seam",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_263",
+        "name": "Let out \u00bd hip curve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_261",
+        "name": "Take in \u00bd hip curve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_180",
+        "name": "Let out \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_56",
+        "name": "Take in \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_57",
+        "name": "Let out \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_267",
+        "name": "Take in \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_268",
+        "name": "Let out \u00bd knee",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_58",
+        "name": "Take in \u00bd knee",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_59",
+        "name": "Let out \u00bd knee only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_269",
+        "name": "Take in \u00bd knee only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_270",
+        "name": "Let out \u00bd hem",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_60",
+        "name": "Take in \u00bd hem",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_61",
+        "name": "Lengthen leg R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_63",
+        "name": "Lengthen leg L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_64",
+        "name": "Shorten leg R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_65",
+        "name": "Shorten leg L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 31
+  },
+  "part2_Trousers_fit6": {
+    "productPartId": 2,
+    "productPart": "Trousers",
+    "fitId": 6,
+    "fitName": "Slim 2.0",
+    "tools": [
+      {
+        "checkbox_id": "chk_3",
+        "name": "Lower total rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_46",
+        "name": "Raise front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_47",
+        "name": "Lower front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_48",
+        "name": "Raise back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_49",
+        "name": "Lower back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_4",
+        "name": "Flat seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_120",
+        "name": "Let out crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_55",
+        "name": "Take in crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_54",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_50",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_51",
+        "name": "Let out \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_265",
+        "name": "Take in \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_266",
+        "name": "Let out \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_53",
+        "name": "Take in \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_52",
+        "name": "Take in \u00bd back seam",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_263",
+        "name": "Let out \u00bd hip curve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_261",
+        "name": "Take in \u00bd hip curve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_180",
+        "name": "Let out \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_56",
+        "name": "Take in \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_57",
+        "name": "Let out \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_267",
+        "name": "Take in \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_268",
+        "name": "Let out \u00bd knee",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_58",
+        "name": "Take in \u00bd knee",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_59",
+        "name": "Let out \u00bd knee only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_269",
+        "name": "Take in \u00bd knee only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_270",
+        "name": "Let out \u00bd hem",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_60",
+        "name": "Take in \u00bd hem",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_61",
+        "name": "Lengthen leg R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_63",
+        "name": "Lengthen leg L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_64",
+        "name": "Shorten leg R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_65",
+        "name": "Shorten leg L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 31
+  },
+  "part2_Trousers_fit28": {
+    "productPartId": 2,
+    "productPart": "Trousers",
+    "fitId": 28,
+    "fitName": "T40",
+    "tools": [
+      {
+        "checkbox_id": "chk_3",
+        "name": "Lower total rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_46",
+        "name": "Raise front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_47",
+        "name": "Lower front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_48",
+        "name": "Raise back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_49",
+        "name": "Lower back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_4",
+        "name": "Let out crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_55",
+        "name": "Take in crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_54",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_50",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_51",
+        "name": "Let out \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_53",
+        "name": "Take in \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_52",
+        "name": "Take in \u00bd back seam",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_263",
+        "name": "Let out \u00bd hip curve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_261",
+        "name": "Take in \u00bd hip curve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_180",
+        "name": "Let out \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_56",
+        "name": "Take in \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_57",
+        "name": "Let out \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_267",
+        "name": "Take in \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_268",
+        "name": "Let out \u00bd knee",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_58",
+        "name": "Take in \u00bd knee",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_59",
+        "name": "Let out \u00bd hem",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_60",
+        "name": "Take in \u00bd hem",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_61",
+        "name": "Lengthen leg R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_63",
+        "name": "Lengthen leg L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_64",
+        "name": "Shorten leg R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_65",
+        "name": "Shorten leg L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 26
+  },
+  "part3_Waistcoat_fit1": {
+    "productPartId": 3,
+    "productPart": "Waistcoat",
+    "fitId": 1,
+    "fitName": "Regular",
+    "tools": [
+      {
+        "checkbox_id": "chk_115",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_116",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_317",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_318",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_319",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_320",
+        "name": "Let out \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_113",
+        "name": "Take in \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_114",
+        "name": "Let out \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_111",
+        "name": "Shorten lapels",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_258",
+        "name": "Take in \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_112",
+        "name": "Raise closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_327",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_328",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_117",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_184",
+        "name": "Take in armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_110",
+        "name": "Let out \u00bd waist & hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_92",
+        "name": "Take in \u00bd waist & hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_107",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_381",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_321",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_325",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_326",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_108",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 23
+  },
+  "part3_Waistcoat_fit2": {
+    "productPartId": 3,
+    "productPart": "Waistcoat",
+    "fitId": 2,
+    "fitName": "Slim",
+    "tools": [
+      {
+        "checkbox_id": "chk_115",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_116",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_317",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_318",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_319",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_320",
+        "name": "Let out \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_113",
+        "name": "Take in \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_114",
+        "name": "Let out \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_111",
+        "name": "Shorten lapels",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_258",
+        "name": "Take in \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_112",
+        "name": "Raise closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_327",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_328",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_117",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_184",
+        "name": "Take in armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_110",
+        "name": "Let out \u00bd waist & hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_92",
+        "name": "Take in \u00bd waist & hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_107",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_381",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_321",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_325",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_326",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_108",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 23
+  },
+  "part3_Waistcoat_fit6": {
+    "productPartId": 3,
+    "productPart": "Waistcoat",
+    "fitId": 6,
+    "fitName": "Slim 2.0",
+    "tools": [
+      {
+        "checkbox_id": "chk_115",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_116",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_317",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_318",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_319",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_320",
+        "name": "Let out \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_113",
+        "name": "Take in \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_114",
+        "name": "Let out \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_111",
+        "name": "Shorten lapels",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_258",
+        "name": "Take in \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_112",
+        "name": "Raise closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_327",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_328",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_117",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_184",
+        "name": "Take in armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_110",
+        "name": "Let out \u00bd waist & hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_92",
+        "name": "Take in \u00bd waist & hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_107",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_381",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_321",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_325",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_326",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_108",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 23
+  },
+  "part4_Shirt_fit5": {
+    "productPartId": 4,
+    "productPart": "Shirt",
+    "fitId": 5,
+    "fitName": "Regular 2.0",
+    "tools": [
+      {
+        "checkbox_id": "chk_187",
+        "name": "Take in collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_190",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_324",
+        "name": "Collar depth",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_205",
+        "name": "Raise collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_382",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_374",
+        "name": "Let out \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_191",
+        "name": "Take in \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_192",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_259",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_260",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_372",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_373",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_193",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_194",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_195",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_196",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_197",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_198",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_206",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_207",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_208",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_209",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_218",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_249",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_203",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_204",
+        "name": "Let out upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_211",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_210",
+        "name": "Let out armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_257",
+        "name": "Take in armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_256",
+        "name": "Let out upper arm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_252",
+        "name": "Take in upper arm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_253",
+        "name": "Let out forearm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_254",
+        "name": "Take in forearm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_255",
+        "name": "Let out arm inc. armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_212",
+        "name": "Take in arm inc. armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_213",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_199",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_200",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_202",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_201",
+        "name": "Lengthen short sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_385",
+        "name": "Lengthen short sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_387",
+        "name": "Shorten short sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_388",
+        "name": "Shorten short sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_386",
+        "name": "Let out cuff R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_214",
+        "name": "Let out cuff L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_215",
+        "name": "Take in cuff R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_216",
+        "name": "Take in cuff L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 47
+  },
+  "part4_Shirt_fit6": {
+    "productPartId": 4,
+    "productPart": "Shirt",
+    "fitId": 6,
+    "fitName": "Slim 2.0",
+    "tools": [
+      {
+        "checkbox_id": "chk_187",
+        "name": "Take in collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_190",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_324",
+        "name": "Collar depth",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_205",
+        "name": "Raise collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_382",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_374",
+        "name": "Let out \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_191",
+        "name": "Take in \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_192",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_259",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_260",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_372",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_373",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_193",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_194",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_195",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_196",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_197",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_198",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_206",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_207",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_208",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_209",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_218",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_249",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_203",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_204",
+        "name": "Let out upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_211",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_210",
+        "name": "Let out armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_257",
+        "name": "Take in armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_256",
+        "name": "Let out upper arm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_252",
+        "name": "Take in upper arm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_253",
+        "name": "Let out forearm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_254",
+        "name": "Take in forearm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_255",
+        "name": "Let out arm inc. armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_212",
+        "name": "Take in arm inc. armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_213",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_199",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_200",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_202",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_201",
+        "name": "Lengthen short sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_385",
+        "name": "Lengthen short sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_387",
+        "name": "Shorten short sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_388",
+        "name": "Shorten short sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_386",
+        "name": "Let out cuff R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_214",
+        "name": "Let out cuff L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_215",
+        "name": "Take in cuff R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_216",
+        "name": "Take in cuff L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 47
+  },
+  "part4_Shirt_fit42": {
+    "productPartId": 4,
+    "productPart": "Shirt",
+    "fitId": 42,
+    "fitName": "Comfort",
+    "tools": [
+      {
+        "checkbox_id": "chk_187",
+        "name": "Take in collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_190",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_324",
+        "name": "Collar depth",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_205",
+        "name": "Raise collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_382",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_374",
+        "name": "Let out \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_191",
+        "name": "Take in \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_192",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_259",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_260",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_372",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_373",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_193",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_194",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_195",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_196",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_197",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_198",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_206",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_207",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_208",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_209",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_218",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_249",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_203",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_204",
+        "name": "Let out upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_211",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_210",
+        "name": "Let out armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_257",
+        "name": "Take in armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_256",
+        "name": "Let out upper arm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_252",
+        "name": "Take in upper arm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_253",
+        "name": "Let out forearm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_254",
+        "name": "Take in forearm",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_255",
+        "name": "Let out arm inc. armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_212",
+        "name": "Take in arm inc. armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_213",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_199",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_200",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_202",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_201",
+        "name": "Lengthen short sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_385",
+        "name": "Lengthen short sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_387",
+        "name": "Shorten short sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_388",
+        "name": "Shorten short sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_386",
+        "name": "Let out cuff R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_214",
+        "name": "Let out cuff L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_215",
+        "name": "Take in cuff R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_216",
+        "name": "Take in cuff L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 47
+  },
+  "part5_Overcoat_fit1": {
+    "productPartId": 5,
+    "productPart": "Overcoat",
+    "fitId": 1,
+    "fitName": "Regular",
+    "tools": [
+      {
+        "checkbox_id": "chk_271",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_272",
+        "name": "Take in \u00bd collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_273",
+        "name": "Raise collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_274",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_275",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_276",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_277",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_278",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_279",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_280",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_281",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_282",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_283",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_284",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_285",
+        "name": "Raise chest pocket",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_313",
+        "name": "Lower chest pocket",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_314",
+        "name": "Shorten lapels",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_286",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_287",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_288",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_289",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_290",
+        "name": "Take in \u00bd skirt",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_291",
+        "name": "Let out \u00bd Centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_292",
+        "name": "Take in \u00bd Centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_293",
+        "name": "Raise closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_294",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_295",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_296",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_297",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_298",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_299",
+        "name": "Lengthen without pockets & waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_315",
+        "name": "Shorten without pockets & waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_316",
+        "name": "Raise vent(s)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_311",
+        "name": "Lower vent(s)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_312",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_300",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_301",
+        "name": "Let out upperarm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_302",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_303",
+        "name": "Let out \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_379",
+        "name": "Take in \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_380",
+        "name": "Let out \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_304",
+        "name": "Take in \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_305",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_306",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_307",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_308",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_309",
+        "name": "Arms backwards",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_310",
+        "name": "Arms forwards",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_378",
+        "name": "Raise side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_651",
+        "name": "Lower side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 50
+  },
+  "part12_Bermuda_fit1": {
+    "productPartId": 12,
+    "productPart": "Bermuda",
+    "fitId": 1,
+    "fitName": "Regular",
+    "tools": [
+      {
+        "checkbox_id": "chk_612",
+        "name": "Lower total rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_614",
+        "name": "Raise front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_615",
+        "name": "Lower front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_616",
+        "name": "Raise back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_617",
+        "name": "Lower back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_613",
+        "name": "Flat seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_618",
+        "name": "Let out crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_637",
+        "name": "Take in crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_636",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_632",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_633",
+        "name": "Let out \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_622",
+        "name": "Take in \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_623",
+        "name": "Let out \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_635",
+        "name": "Take in \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_634",
+        "name": "Take in \u00bd back seam",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_621",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_620",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_619",
+        "name": "Let out \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_624",
+        "name": "Take in \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_625",
+        "name": "Let out \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_638",
+        "name": "Take in \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_639",
+        "name": "Let out \u00bd hem Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_630",
+        "name": "Take in \u00bd hem Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_631",
+        "name": "Lengthen leg Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_648",
+        "name": "Shorten leg Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 25
+  },
+  "part12_Bermuda_fit2": {
+    "productPartId": 12,
+    "productPart": "Bermuda",
+    "fitId": 2,
+    "fitName": "Slim",
+    "tools": [
+      {
+        "checkbox_id": "chk_612",
+        "name": "Lower total rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_614",
+        "name": "Raise front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_615",
+        "name": "Lower front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_616",
+        "name": "Raise back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_617",
+        "name": "Lower back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_613",
+        "name": "Flat seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_618",
+        "name": "Let out crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_637",
+        "name": "Take in crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_636",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_632",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_633",
+        "name": "Let out \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_622",
+        "name": "Take in \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_623",
+        "name": "Let out \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_635",
+        "name": "Take in \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_634",
+        "name": "Take in \u00bd back seam",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_621",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_620",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_619",
+        "name": "Let out \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_624",
+        "name": "Take in \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_625",
+        "name": "Let out \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_638",
+        "name": "Take in \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_639",
+        "name": "Let out \u00bd hem Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_630",
+        "name": "Take in \u00bd hem Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_631",
+        "name": "Lengthen leg Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_648",
+        "name": "Shorten leg Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 25
+  },
+  "part12_Bermuda_fit3": {
+    "productPartId": 12,
+    "productPart": "Bermuda",
+    "fitId": 3,
+    "fitName": "SuperSlim",
+    "tools": [
+      {
+        "checkbox_id": "chk_612",
+        "name": "Lower total rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_614",
+        "name": "Raise front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_615",
+        "name": "Lower front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_616",
+        "name": "Raise back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_617",
+        "name": "Lower back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_613",
+        "name": "Flat seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_618",
+        "name": "Let out crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_637",
+        "name": "Take in crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_636",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_632",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_633",
+        "name": "Let out \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_622",
+        "name": "Take in \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_623",
+        "name": "Let out \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_635",
+        "name": "Take in \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_634",
+        "name": "Take in \u00bd back seam",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_621",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_620",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_619",
+        "name": "Let out \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_624",
+        "name": "Take in \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_625",
+        "name": "Let out \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_638",
+        "name": "Take in \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_639",
+        "name": "Let out \u00bd hem Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_630",
+        "name": "Take in \u00bd hem Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_631",
+        "name": "Lengthen leg Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_648",
+        "name": "Shorten leg Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 25
+  },
+  "part12_Bermuda_fit6": {
+    "productPartId": 12,
+    "productPart": "Bermuda",
+    "fitId": 6,
+    "fitName": "Slim 2.0",
+    "tools": [
+      {
+        "checkbox_id": "chk_612",
+        "name": "Lower total rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_614",
+        "name": "Raise front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_615",
+        "name": "Lower front rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_616",
+        "name": "Raise back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_617",
+        "name": "Lower back rise",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_613",
+        "name": "Flat seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_618",
+        "name": "Let out crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_637",
+        "name": "Take in crotch",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_636",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_632",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_633",
+        "name": "Let out \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_622",
+        "name": "Take in \u00bd seat only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_623",
+        "name": "Let out \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_635",
+        "name": "Take in \u00bd seat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_634",
+        "name": "Take in \u00bd back seam",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_621",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_620",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_619",
+        "name": "Let out \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_624",
+        "name": "Take in \u00bd thigh only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_625",
+        "name": "Let out \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_638",
+        "name": "Take in \u00bd thigh",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_639",
+        "name": "Let out \u00bd hem Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_630",
+        "name": "Take in \u00bd hem Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_631",
+        "name": "Lengthen leg Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_648",
+        "name": "Shorten leg Bermuda",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 25
+  },
+  "part13_Pea coat_fit1": {
+    "productPartId": 13,
+    "productPart": "Pea coat",
+    "fitId": 1,
+    "fitName": "Regular",
+    "tools": [
+      {
+        "checkbox_id": "chk_667",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_668",
+        "name": "Take in \u00bd collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_669",
+        "name": "Raise collar",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_655",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_656",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_657",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_658",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_659",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_660",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_683",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_684",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_685",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_686",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_687",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_688",
+        "name": "Shorten lapels",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_689",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_676",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_677",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_678",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_679",
+        "name": "Take in \u00bd skirt",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_680",
+        "name": "Let out \u00bd Centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_681",
+        "name": "Take in \u00bd Centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_682",
+        "name": "Raise closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_661",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_662",
+        "name": "Lengthen front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_690",
+        "name": "Shorten front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_691",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_692",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_693",
+        "name": "Lengthen without pockets & waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_704",
+        "name": "Shorten without pockets & waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_705",
+        "name": "Raise vent(s)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_700",
+        "name": "Lower vent(s)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_701",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_663",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_664",
+        "name": "Let out upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_672",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_673",
+        "name": "Let out \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_670",
+        "name": "Take in \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_671",
+        "name": "Let out \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_674",
+        "name": "Take in \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_675",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_694",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_695",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_696",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_697",
+        "name": "Arms backwards",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_665",
+        "name": "Arms forwards",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 46
+  },
+  "part26_Coat_fit30": {
+    "productPartId": 26,
+    "productPart": "Coat",
+    "fitId": 30,
+    "fitName": "CC40",
+    "tools": [
+      {
+        "checkbox_id": "chk_790",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_791",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_792",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_796",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_797",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_798",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_799",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_806",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_807",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_805",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_804",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_810",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_812",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_773",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_772",
+        "name": "Take in \u00bd hip & hem",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_774",
+        "name": "Let out \u00bd hip & hem",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_775",
+        "name": "Let out \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_808",
+        "name": "Take in \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_809",
+        "name": "Let out upperarm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_846",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_847",
+        "name": "Shorten without pockets & waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_778",
+        "name": "Lengthen without pockets & waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_779",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_795",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_811",
+        "name": "Take in \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_776",
+        "name": "Let out \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_777",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_780",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_781",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_782",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_783",
+        "name": "Raise side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_802",
+        "name": "Lower side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 32
+  },
+  "part27_Detachable liner_fit30": {
+    "productPartId": 27,
+    "productPart": "Detachable liner",
+    "fitId": 30,
+    "fitName": "CC40",
+    "tools": [
+      {
+        "checkbox_id": "chk_813",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_814",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_815",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_816",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_817",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_818",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_819",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_820",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_821",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_822",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_823",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_824",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_825",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_826",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_827",
+        "name": "Lengthen without pockets & waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_830",
+        "name": "Shorten without pockets & waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_831",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_832",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_833",
+        "name": "Take in \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_834",
+        "name": "Let out \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_835",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_836",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_837",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_838",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_839",
+        "name": "Raise side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_840",
+        "name": "Lower side pockets",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_841",
+        "name": "Let out \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_842",
+        "name": "Take in \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_843",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_844",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_845",
+        "name": "Let out upperarm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_848",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 32
+  },
+  "part31_Informal jacket_fit32": {
+    "productPartId": 31,
+    "productPart": "Informal jacket",
+    "fitId": 32,
+    "fitName": "SJ40",
+    "tools": [
+      {
+        "checkbox_id": "chk_921",
+        "name": "Erect posture",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_922",
+        "name": "Collar pleat",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_925",
+        "name": "Slope shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_926",
+        "name": "Slope shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_927",
+        "name": "Square shoulder R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_928",
+        "name": "Square shoulder L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_929",
+        "name": "Let out \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_930",
+        "name": "Take in \u00bd shoulder",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_931",
+        "name": "Let out \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_932",
+        "name": "Take in \u00bd back",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_933",
+        "name": "Let out \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_934",
+        "name": "Take in \u00bd chest front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_935",
+        "name": "Raise closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_984",
+        "name": "Lower closing button",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_985",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_943",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_944",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_948",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1032",
+        "name": "Let out \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_950",
+        "name": "Take in \u00bd centre front",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_951",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_956",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_957",
+        "name": "Raise armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_960",
+        "name": "Lower armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_961",
+        "name": "Let out upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_962",
+        "name": "Take in upper arm & armhole",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_963",
+        "name": "Let out \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_964",
+        "name": "Take in \u00bd upper arm only",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_965",
+        "name": "Let out \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_966",
+        "name": "Take in \u00bd cuff",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_967",
+        "name": "Lengthen sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_968",
+        "name": "Lengthen sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_969",
+        "name": "Shorten sleeve R",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_970",
+        "name": "Shorten sleeve L",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_971",
+        "name": "Lower internal elastic cord",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_982",
+        "name": "Raise internal elastic cord",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 36
+  },
+  "part21_Sneaker_fit22": {
+    "productPartId": 21,
+    "productPart": "Sneaker",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tools": [],
+    "tool_count": 0
+  },
+  "part22_Tie_fit22": {
+    "productPartId": 22,
+    "productPart": "Tie",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tools": [],
+    "tool_count": 0
+  },
+  "part23_Bow tie_fit22": {
+    "productPartId": 23,
+    "productPart": "Bow tie",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tools": [],
+    "tool_count": 0
+  },
+  "part24_Pocket square_fit22": {
+    "productPartId": 24,
+    "productPart": "Pocket square",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tools": [],
+    "tool_count": 0
+  },
+  "part25_Belt_fit22": {
+    "productPartId": 25,
+    "productPart": "Belt",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tools": [],
+    "tool_count": 0
+  },
+  "part32_Knitwear_fit33": {
+    "productPartId": 32,
+    "productPart": "Knitwear",
+    "fitId": 33,
+    "fitName": "K40",
+    "tools": [
+      {
+        "checkbox_id": "chk_987",
+        "name": "Take in \u00bd hip & waist (50%)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_988",
+        "name": "Let out \u00bd upper arm (straight cut short sleeve only)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1040",
+        "name": "Take in \u00bd upper arm (straight cut short sleeve only)",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1041",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_976",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_977",
+        "name": "Lengthen sleeve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_978",
+        "name": "Shorten sleeve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_979",
+        "name": "Lengthen short sleeve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_980",
+        "name": "Shorten short sleeve",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 9
+  },
+  "part33_City loafer_fit22": {
+    "productPartId": 33,
+    "productPart": "City loafer",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tools": [],
+    "tool_count": 0
+  },
+  "part36_Quilted vest_fit34": {
+    "productPartId": 36,
+    "productPart": "Quilted vest",
+    "fitId": 34,
+    "fitName": "BW40",
+    "tools": [
+      {
+        "checkbox_id": "chk_989",
+        "name": "Take in \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_990",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_994",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_995",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_996",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_997",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_998",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 7
+  },
+  "part37_Cummerbund_fit22": {
+    "productPartId": 37,
+    "productPart": "Cummerbund",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tools": [],
+    "tool_count": 0
+  },
+  "part38_Vest_fit35": {
+    "productPartId": 38,
+    "productPart": "Vest",
+    "fitId": 35,
+    "fitName": "V40",
+    "tools": [
+      {
+        "checkbox_id": "chk_1015",
+        "name": "Take in \u00bd chest",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1016",
+        "name": "Let out \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1017",
+        "name": "Take in \u00bd waist",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1018",
+        "name": "Let out \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1019",
+        "name": "Take in \u00bd hip",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1020",
+        "name": "Lengthen length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      },
+      {
+        "checkbox_id": "chk_1021",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 7
+  },
+  "part40_Pants_fit36": {
+    "productPartId": 40,
+    "productPart": "Pants",
+    "fitId": 36,
+    "fitName": "P40",
+    "tools": [
+      {
+        "checkbox_id": "chk_1030",
+        "name": "Shorten length",
+        "default_checked": true,
+        "input_type": "checkbox"
+      }
+    ],
+    "tool_count": 1
+  },
+  "part41_Runner_fit22": {
+    "productPartId": 41,
+    "productPart": "Runner",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tools": [],
+    "tool_count": 0
+  }
+}

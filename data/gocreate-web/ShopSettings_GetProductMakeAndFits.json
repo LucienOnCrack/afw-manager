@@ -1,0 +1,466 @@
+{
+  "ProductMakes": [
+    {
+      "ID": 8,
+      "Name": "traditional",
+      "Sequence": 1,
+      "LocalisedNames": [
+        {
+          "ID": 218450,
+          "StringType": 10,
+          "Language": "en",
+          "EntityID": 8,
+          "StringValue": "traditional",
+          "SystemInformation": {
+            "CreatedBy": 1,
+            "CreatedByUser": {
+              "ID": 1,
+              "LastName": "Systeem",
+              "FirstName": "Automated",
+              "FullName": "Automated Systeem",
+              "IsEnabled": true
+            },
+            "CreatedDate": "/Date(1391819274000)/",
+            "ChangedByUser": {
+              "ID": 7677,
+              "LastName": "van Breda",
+              "FirstName": "Maikel",
+              "FullName": "Maikel van Breda",
+              "IsEnabled": false
+            },
+            "ChangedBy": 7677,
+            "ChangedDate": "/Date(1550242713000)/",
+            "ChangedByUserName": "Maikel van Breda",
+            "CreatedByUserName": "Automated Systeem"
+          },
+          "IsActive": true,
+          "LanguageID": 1
+        }
+      ],
+      "SystemInformation": {
+        "CreatedBy": 13,
+        "CreatedByUser": {
+          "ID": 13,
+          "LastName": "Bressers",
+          "FirstName": "Sander",
+          "FullName": "Sander Bressers",
+          "IsEnabled": true
+        },
+        "CreatedDate": "/Date(1229468400000)/",
+        "ChangedByUser": {
+          "ID": 15739,
+          "LastName": "Nandre",
+          "FirstName": "Kaveri",
+          "FullName": "Kaveri Nandre",
+          "IsEnabled": true
+        },
+        "ChangedBy": 15739,
+        "ChangedDate": "/Date(1769574953243)/",
+        "ChangedByUserName": "Kaveri Nandre",
+        "CreatedByUserName": "Sander Bressers"
+      },
+      "IsActive": true,
+      "LocalizedName": "traditional",
+      "LocalStringsToSave": null,
+      "InternalName": "traditional",
+      "ExtraDays": 0,
+      "RPrice": 0,
+      "MakeDescription": null,
+      "MakeImages": null,
+      "CautionRemarks": null,
+      "LocalisedCautionRemarks": [],
+      "AvailableForOrderType": 3,
+      "CategoryNameValue": {
+        "ID": 8,
+        "MakeName": "traditional",
+        "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+      },
+      "CategoryNames": " CMMA Traditional, RMMA Traditional"
+    },
+    {
+      "ID": 9,
+      "Name": "traditional full canvas",
+      "Sequence": 2,
+      "LocalisedNames": [
+        {
+          "ID": 218459,
+          "StringType": 10,
+          "Language": "en",
+          "EntityID": 9,
+          "StringValue": "traditional full canvas",
+          "SystemInformation": {
+            "CreatedBy": 1,
+            "CreatedByUser": {
+              "ID": 1,
+              "LastName": "Systeem",
+              "FirstName": "Automated",
+              "FullName": "Automated Systeem",
+              "IsEnabled": true
+            },
+            "CreatedDate": "/Date(1391819274000)/",
+            "ChangedByUser": {
+              "ID": 7677,
+              "LastName": "van Breda",
+              "FirstName": "Maikel",
+              "FullName": "Maikel van Breda",
+              "IsEnabled": false
+            },
+            "ChangedBy": 7677,
+            "ChangedDate": "/Date(1571401608230)/",
+            "ChangedByUserName": "Maikel van Breda",
+            "CreatedByUserName": "Automated Systeem"
+          },
+          "IsActive": true,
+          "LanguageID": 1
+        }
+      ],
+      "SystemInformation": {
+        "CreatedBy": 15,
+        "CreatedByUser": {
+          "ID": 15,
+          "LastName": "Nonner",
+          "FirstName": "Jouko",
+          "FullName": "Jouko Nonner",
+          "IsEnabled": true
+        },
+        "CreatedDate": "/Date(1265704045000)/",
+        "ChangedByUser": {
+          "ID": 15739,
+          "LastName": "Nandre",
+          "FirstName": "Kaveri",
+          "FullName": "Kaveri Nandre",
+          "IsEnabled": true
+        },
+        "ChangedBy": 15739,
+        "ChangedDate": "/Date(1769574953390)/",
+        "ChangedByUserName": "Kaveri Nandre",
+        "CreatedByUserName": "Jouko Nonner"
+      },
+      "IsActive": true,
+      "LocalizedName": "traditional full canvas",
+      "LocalStringsToSave": null,
+      "InternalName": "traditionalfullcanvas",
+      "ExtraDays": 0,
+      "RPrice": 0,
+      "MakeDescription": null,
+      "MakeImages": null,
+      "CautionRemarks": null,
+      "LocalisedCautionRemarks": [],
+      "AvailableForOrderType": 3,
+      "CategoryNameValue": {
+        "ID": 9,
+        "MakeName": "traditional full canvas",
+        "MakePriceCategories": " AM Full Canvas / The Traditional, CMMA Full canvas, CMMA Moss Full canvas, RM AM Full Canvas / The Traditional, RMMA Full canvas, RMMA Moss Full canvas"
+      },
+      "CategoryNames": " AM Full Canvas / The Traditional, CMMA Full canvas, CMMA Moss Full canvas, RM AM Full Canvas / The Traditional, RMMA Full canvas, RMMA Moss Full canvas"
+    },
+    {
+      "ID": 1,
+      "Name": "handmade",
+      "Sequence": 4,
+      "LocalisedNames": [
+        {
+          "ID": 218387,
+          "StringType": 10,
+          "Language": "en",
+          "EntityID": 1,
+          "StringValue": "handmade",
+          "SystemInformation": {
+            "CreatedBy": 1,
+            "CreatedByUser": {
+              "ID": 1,
+              "LastName": "Systeem",
+              "FirstName": "Automated",
+              "FullName": "Automated Systeem",
+              "IsEnabled": true
+            },
+            "CreatedDate": "/Date(1391819274000)/",
+            "ChangedByUser": {
+              "ID": 1,
+              "LastName": "Systeem",
+              "FirstName": "Automated",
+              "FullName": "Automated Systeem",
+              "IsEnabled": true
+            },
+            "ChangedBy": 1,
+            "ChangedDate": "/Date(1391819274000)/",
+            "ChangedByUserName": "Automated Systeem",
+            "CreatedByUserName": "Automated Systeem"
+          },
+          "IsActive": true,
+          "LanguageID": 1
+        }
+      ],
+      "SystemInformation": {
+        "CreatedBy": 13,
+        "CreatedByUser": {
+          "ID": 13,
+          "LastName": "Bressers",
+          "FirstName": "Sander",
+          "FullName": "Sander Bressers",
+          "IsEnabled": true
+        },
+        "CreatedDate": "/Date(1229513895000)/",
+        "ChangedByUser": {
+          "ID": 15739,
+          "LastName": "Nandre",
+          "FirstName": "Kaveri",
+          "FullName": "Kaveri Nandre",
+          "IsEnabled": true
+        },
+        "ChangedBy": 15739,
+        "ChangedDate": "/Date(1769574953687)/",
+        "ChangedByUserName": "Kaveri Nandre",
+        "CreatedByUserName": "Sander Bressers"
+      },
+      "IsActive": true,
+      "LocalizedName": "handmade",
+      "LocalStringsToSave": null,
+      "InternalName": "Handmade",
+      "ExtraDays": 0,
+      "RPrice": 0,
+      "MakeDescription": null,
+      "MakeImages": null,
+      "CautionRemarks": null,
+      "LocalisedCautionRemarks": [],
+      "AvailableForOrderType": 3,
+      "CategoryNameValue": {
+        "ID": 1,
+        "MakeName": "handmade",
+        "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      },
+      "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+    },
+    {
+      "ID": 11,
+      "Name": "unconstructed",
+      "Sequence": 5,
+      "LocalisedNames": [
+        {
+          "ID": 218477,
+          "StringType": 10,
+          "Language": "en",
+          "EntityID": 11,
+          "StringValue": "unconstructed",
+          "SystemInformation": {
+            "CreatedBy": 1,
+            "CreatedByUser": {
+              "ID": 1,
+              "LastName": "Systeem",
+              "FirstName": "Automated",
+              "FullName": "Automated Systeem",
+              "IsEnabled": true
+            },
+            "CreatedDate": "/Date(1391819274000)/",
+            "ChangedByUser": {
+              "ID": 1,
+              "LastName": "Systeem",
+              "FirstName": "Automated",
+              "FullName": "Automated Systeem",
+              "IsEnabled": true
+            },
+            "ChangedBy": 1,
+            "ChangedDate": "/Date(1391819274000)/",
+            "ChangedByUserName": "Automated Systeem",
+            "CreatedByUserName": "Automated Systeem"
+          },
+          "IsActive": true,
+          "LanguageID": 1
+        }
+      ],
+      "SystemInformation": {
+        "CreatedBy": 15,
+        "CreatedByUser": {
+          "ID": 15,
+          "LastName": "Nonner",
+          "FirstName": "Jouko",
+          "FullName": "Jouko Nonner",
+          "IsEnabled": true
+        },
+        "CreatedDate": "/Date(1355884883000)/",
+        "ChangedByUser": {
+          "ID": 15739,
+          "LastName": "Nandre",
+          "FirstName": "Kaveri",
+          "FullName": "Kaveri Nandre",
+          "IsEnabled": true
+        },
+        "ChangedBy": 15739,
+        "ChangedDate": "/Date(1769574953837)/",
+        "ChangedByUserName": "Kaveri Nandre",
+        "CreatedByUserName": "Jouko Nonner"
+      },
+      "IsActive": true,
+      "LocalizedName": "unconstructed",
+      "LocalStringsToSave": null,
+      "InternalName": null,
+      "ExtraDays": 0,
+      "RPrice": 0,
+      "MakeDescription": null,
+      "MakeImages": null,
+      "CautionRemarks": null,
+      "LocalisedCautionRemarks": [],
+      "AvailableForOrderType": 3,
+      "CategoryNameValue": {
+        "ID": 11,
+        "MakeName": "unconstructed",
+        "MakePriceCategories": " CMMA Unconstructed, RMMA Unconstructed"
+      },
+      "CategoryNames": " CMMA Unconstructed, RMMA Unconstructed"
+    },
+    {
+      "ID": 12,
+      "Name": "unconstructed handmade",
+      "Sequence": 6,
+      "LocalisedNames": [
+        {
+          "ID": 290060,
+          "StringType": 10,
+          "Language": "en",
+          "EntityID": 12,
+          "StringValue": "unconstructed handmade",
+          "SystemInformation": {
+            "CreatedBy": 25,
+            "CreatedByUser": {
+              "ID": 25,
+              "LastName": "Coppens",
+              "FirstName": "Ellen",
+              "FullName": "Ellen Coppens",
+              "IsEnabled": false
+            },
+            "CreatedDate": "/Date(1392999187000)/",
+            "ChangedByUser": {
+              "ID": 25,
+              "LastName": "Coppens",
+              "FirstName": "Ellen",
+              "FullName": "Ellen Coppens",
+              "IsEnabled": false
+            },
+            "ChangedBy": 25,
+            "ChangedDate": "/Date(1392999187000)/",
+            "ChangedByUserName": "Ellen Coppens",
+            "CreatedByUserName": "Ellen Coppens"
+          },
+          "IsActive": true,
+          "LanguageID": 1
+        }
+      ],
+      "SystemInformation": {
+        "CreatedBy": 1,
+        "CreatedByUser": {
+          "ID": 1,
+          "LastName": "Systeem",
+          "FirstName": "Automated",
+          "FullName": "Automated Systeem",
+          "IsEnabled": true
+        },
+        "CreatedDate": "/Date(1389913200000)/",
+        "ChangedByUser": {
+          "ID": 15739,
+          "LastName": "Nandre",
+          "FirstName": "Kaveri",
+          "FullName": "Kaveri Nandre",
+          "IsEnabled": true
+        },
+        "ChangedBy": 15739,
+        "ChangedDate": "/Date(1769574953983)/",
+        "ChangedByUserName": "Kaveri Nandre",
+        "CreatedByUserName": "Automated Systeem"
+      },
+      "IsActive": true,
+      "LocalizedName": "unconstructed handmade",
+      "LocalStringsToSave": null,
+      "InternalName": "UnconstructedHandmade",
+      "ExtraDays": 0,
+      "RPrice": 0,
+      "MakeDescription": null,
+      "MakeImages": null,
+      "CautionRemarks": null,
+      "LocalisedCautionRemarks": [],
+      "AvailableForOrderType": 3,
+      "CategoryNameValue": {
+        "ID": 12,
+        "MakeName": "unconstructed handmade",
+        "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      },
+      "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+    },
+    {
+      "ID": 7,
+      "Name": "semi-traditional",
+      "Sequence": 7,
+      "LocalisedNames": [
+        {
+          "ID": 218441,
+          "StringType": 10,
+          "Language": "en",
+          "EntityID": 7,
+          "StringValue": "semi-traditional",
+          "SystemInformation": {
+            "CreatedBy": 1,
+            "CreatedByUser": {
+              "ID": 1,
+              "LastName": "Systeem",
+              "FirstName": "Automated",
+              "FullName": "Automated Systeem",
+              "IsEnabled": true
+            },
+            "CreatedDate": "/Date(1391819274000)/",
+            "ChangedByUser": {
+              "ID": 7677,
+              "LastName": "van Breda",
+              "FirstName": "Maikel",
+              "FullName": "Maikel van Breda",
+              "IsEnabled": false
+            },
+            "ChangedBy": 7677,
+            "ChangedDate": "/Date(1550242693000)/",
+            "ChangedByUserName": "Maikel van Breda",
+            "CreatedByUserName": "Automated Systeem"
+          },
+          "IsActive": true,
+          "LanguageID": 1
+        }
+      ],
+      "SystemInformation": {
+        "CreatedBy": 15,
+        "CreatedByUser": {
+          "ID": 15,
+          "LastName": "Nonner",
+          "FirstName": "Jouko",
+          "FullName": "Jouko Nonner",
+          "IsEnabled": true
+        },
+        "CreatedDate": "/Date(1320706800000)/",
+        "ChangedByUser": {
+          "ID": 15739,
+          "LastName": "Nandre",
+          "FirstName": "Kaveri",
+          "FullName": "Kaveri Nandre",
+          "IsEnabled": true
+        },
+        "ChangedBy": 15739,
+        "ChangedDate": "/Date(1769574954133)/",
+        "ChangedByUserName": "Kaveri Nandre",
+        "CreatedByUserName": "Jouko Nonner"
+      },
+      "IsActive": true,
+      "LocalizedName": "semi-traditional",
+      "LocalStringsToSave": null,
+      "InternalName": "semitraditional",
+      "ExtraDays": 0,
+      "RPrice": 0,
+      "MakeDescription": null,
+      "MakeImages": null,
+      "CautionRemarks": null,
+      "LocalisedCautionRemarks": [],
+      "AvailableForOrderType": 3,
+      "CategoryNameValue": {
+        "ID": 7,
+        "MakeName": "semi-traditional",
+        "MakePriceCategories": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+      },
+      "CategoryNames": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+    }
+  ]
+}

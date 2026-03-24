@@ -1,0 +1,1054 @@
+{
+  "selects": [
+    {
+      "id": "ShopCurrencyID",
+      "name": "ShopCurrencyID",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "",
+          "selected": false,
+          "data": {},
+          "text": ""
+        },
+        {
+          "value": "1",
+          "selected": false,
+          "data": {},
+          "text": "EUR(\u20ac)"
+        },
+        {
+          "value": "2",
+          "selected": false,
+          "data": {},
+          "text": "AED(AED)"
+        },
+        {
+          "value": "3",
+          "selected": false,
+          "data": {},
+          "text": "AFN(AFN)"
+        },
+        {
+          "value": "4",
+          "selected": false,
+          "data": {},
+          "text": "ALL(ALL)"
+        },
+        {
+          "value": "5",
+          "selected": false,
+          "data": {},
+          "text": "AMD(AMD)"
+        },
+        {
+          "value": "6",
+          "selected": false,
+          "data": {},
+          "text": "ANG(ANG)"
+        },
+        {
+          "value": "7",
+          "selected": false,
+          "data": {},
+          "text": "AOA(AOA)"
+        },
+        {
+          "value": "8",
+          "selected": false,
+          "data": {},
+          "text": "ARS(ARS)"
+        },
+        {
+          "value": "9",
+          "selected": false,
+          "data": {},
+          "text": "AUD(AUD)"
+        },
+        {
+          "value": "10",
+          "selected": false,
+          "data": {},
+          "text": "AWG(AWG)"
+        },
+        {
+          "value": "11",
+          "selected": false,
+          "data": {},
+          "text": "AZN(AZN)"
+        },
+        {
+          "value": "12",
+          "selected": false,
+          "data": {},
+          "text": "BAM(BAM)"
+        },
+        {
+          "value": "13",
+          "selected": false,
+          "data": {},
+          "text": "BBD(BBD)"
+        },
+        {
+          "value": "14",
+          "selected": false,
+          "data": {},
+          "text": "BDT(BDT)"
+        },
+        {
+          "value": "15",
+          "selected": false,
+          "data": {},
+          "text": "BGN(BGN)"
+        },
+        {
+          "value": "16",
+          "selected": false,
+          "data": {},
+          "text": "BHD(BHD)"
+        },
+        {
+          "value": "17",
+          "selected": false,
+          "data": {},
+          "text": "BIF(BIF)"
+        },
+        {
+          "value": "18",
+          "selected": false,
+          "data": {},
+          "text": "BMD(BMD)"
+        },
+        {
+          "value": "19",
+          "selected": false,
+          "data": {},
+          "text": "BND(BND)"
+        },
+        {
+          "value": "20",
+          "selected": false,
+          "data": {},
+          "text": "BOB(BOB)"
+        },
+        {
+          "value": "21",
+          "selected": false,
+          "data": {},
+          "text": "BRL(BRL)"
+        },
+        {
+          "value": "22",
+          "selected": false,
+          "data": {},
+          "text": "BSD(BSD)"
+        },
+        {
+          "value": "23",
+          "selected": false,
+          "data": {},
+          "text": "BTN(BTN)"
+        },
+        {
+          "value": "24",
+          "selected": false,
+          "data": {},
+          "text": "BWP(BWP)"
+        },
+        {
+          "value": "25",
+          "selected": false,
+          "data": {},
+          "text": "BYR(BYR)"
+        },
+        {
+          "value": "26",
+          "selected": false,
+          "data": {},
+          "text": "BZD(BZD)"
+        },
+        {
+          "value": "27",
+          "selected": false,
+          "data": {},
+          "text": "CAD(CA$)"
+        },
+        {
+          "value": "28",
+          "selected": false,
+          "data": {},
+          "text": "CDF(CDF)"
+        },
+        {
+          "value": "29",
+          "selected": false,
+          "data": {},
+          "text": "CHF(CHF)"
+        },
+        {
+          "value": "30",
+          "selected": false,
+          "data": {},
+          "text": "CLP(CLP)"
+        },
+        {
+          "value": "31",
+          "selected": false,
+          "data": {},
+          "text": "CNY(CNY)"
+        },
+        {
+          "value": "32",
+          "selected": false,
+          "data": {},
+          "text": "COP(COP)"
+        },
+        {
+          "value": "33",
+          "selected": false,
+          "data": {},
+          "text": "CRC(CRC)"
+        },
+        {
+          "value": "34",
+          "selected": false,
+          "data": {},
+          "text": "CUC(CUC)"
+        },
+        {
+          "value": "35",
+          "selected": false,
+          "data": {},
+          "text": "CUP(CUP)"
+        },
+        {
+          "value": "36",
+          "selected": false,
+          "data": {},
+          "text": "CVE(CVE)"
+        },
+        {
+          "value": "37",
+          "selected": false,
+          "data": {},
+          "text": "CZK(CZK)"
+        },
+        {
+          "value": "38",
+          "selected": false,
+          "data": {},
+          "text": "DJF(DJF)"
+        },
+        {
+          "value": "39",
+          "selected": false,
+          "data": {},
+          "text": "DKK(DKK)"
+        },
+        {
+          "value": "40",
+          "selected": false,
+          "data": {},
+          "text": "DOP(DOP)"
+        },
+        {
+          "value": "41",
+          "selected": false,
+          "data": {},
+          "text": "DZD(DZD)"
+        },
+        {
+          "value": "42",
+          "selected": false,
+          "data": {},
+          "text": "EGP(EGP)"
+        },
+        {
+          "value": "43",
+          "selected": false,
+          "data": {},
+          "text": "ERN(ERN)"
+        },
+        {
+          "value": "44",
+          "selected": false,
+          "data": {},
+          "text": "ETB(ETB)"
+        },
+        {
+          "value": "45",
+          "selected": false,
+          "data": {},
+          "text": "FJD(FJD)"
+        },
+        {
+          "value": "46",
+          "selected": false,
+          "data": {},
+          "text": "FKP(FKP)"
+        },
+        {
+          "value": "47",
+          "selected": true,
+          "data": {},
+          "text": "GBP(\u00a3)"
+        },
+        {
+          "value": "48",
+          "selected": false,
+          "data": {},
+          "text": "GEL(GEL)"
+        },
+        {
+          "value": "49",
+          "selected": false,
+          "data": {},
+          "text": "GGP(GGP)"
+        },
+        {
+          "value": "50",
+          "selected": false,
+          "data": {},
+          "text": "GHS(GHS)"
+        },
+        {
+          "value": "51",
+          "selected": false,
+          "data": {},
+          "text": "GIP(GIP)"
+        },
+        {
+          "value": "52",
+          "selected": false,
+          "data": {},
+          "text": "GMD(GMD)"
+        },
+        {
+          "value": "53",
+          "selected": false,
+          "data": {},
+          "text": "GNF(GNF)"
+        },
+        {
+          "value": "54",
+          "selected": false,
+          "data": {},
+          "text": "GTQ(GTQ)"
+        },
+        {
+          "value": "55",
+          "selected": false,
+          "data": {},
+          "text": "GYD(GYD)"
+        },
+        {
+          "value": "56",
+          "selected": false,
+          "data": {},
+          "text": "HKD(HKD)"
+        },
+        {
+          "value": "57",
+          "selected": false,
+          "data": {},
+          "text": "HNL(HNL)"
+        },
+        {
+          "value": "58",
+          "selected": false,
+          "data": {},
+          "text": "HRK(HRK)"
+        },
+        {
+          "value": "59",
+          "selected": false,
+          "data": {},
+          "text": "HTG(HTG)"
+        },
+        {
+          "value": "60",
+          "selected": false,
+          "data": {},
+          "text": "HUF(HUF)"
+        },
+        {
+          "value": "61",
+          "selected": false,
+          "data": {},
+          "text": "IDR(IDR)"
+        },
+        {
+          "value": "62",
+          "selected": false,
+          "data": {},
+          "text": "ILS(ILS)"
+        },
+        {
+          "value": "63",
+          "selected": false,
+          "data": {},
+          "text": "IMP(IMP)"
+        },
+        {
+          "value": "64",
+          "selected": false,
+          "data": {},
+          "text": "INR(INR)"
+        },
+        {
+          "value": "65",
+          "selected": false,
+          "data": {},
+          "text": "IQD(IQD)"
+        },
+        {
+          "value": "66",
+          "selected": false,
+          "data": {},
+          "text": "IRR(IRR)"
+        },
+        {
+          "value": "67",
+          "selected": false,
+          "data": {},
+          "text": "ISK(ISK)"
+        },
+        {
+          "value": "68",
+          "selected": false,
+          "data": {},
+          "text": "JEP(JEP)"
+        },
+        {
+          "value": "69",
+          "selected": false,
+          "data": {},
+          "text": "JMD(JMD)"
+        },
+        {
+          "value": "70",
+          "selected": false,
+          "data": {},
+          "text": "JOD(JOD)"
+        },
+        {
+          "value": "71",
+          "selected": false,
+          "data": {},
+          "text": "JPY(JPY)"
+        },
+        {
+          "value": "72",
+          "selected": false,
+          "data": {},
+          "text": "KES(KES)"
+        },
+        {
+          "value": "73",
+          "selected": false,
+          "data": {},
+          "text": "KGS(KGS)"
+        },
+        {
+          "value": "74",
+          "selected": false,
+          "data": {},
+          "text": "KHR(KHR)"
+        },
+        {
+          "value": "75",
+          "selected": false,
+          "data": {},
+          "text": "KMF(KMF)"
+        },
+        {
+          "value": "76",
+          "selected": false,
+          "data": {},
+          "text": "KPW(KPW)"
+        },
+        {
+          "value": "77",
+          "selected": false,
+          "data": {},
+          "text": "KRW(\u20a9)"
+        },
+        {
+          "value": "78",
+          "selected": false,
+          "data": {},
+          "text": "KWD(KWD)"
+        },
+        {
+          "value": "79",
+          "selected": false,
+          "data": {},
+          "text": "KYD(KYD)"
+        },
+        {
+          "value": "80",
+          "selected": false,
+          "data": {},
+          "text": "KZT(KZT)"
+        },
+        {
+          "value": "81",
+          "selected": false,
+          "data": {},
+          "text": "LAK(LAK)"
+        },
+        {
+          "value": "82",
+          "selected": false,
+          "data": {},
+          "text": "LBP(LBP)"
+        },
+        {
+          "value": "83",
+          "selected": false,
+          "data": {},
+          "text": "LKR(LKR)"
+        },
+        {
+          "value": "84",
+          "selected": false,
+          "data": {},
+          "text": "LRD(LRD)"
+        },
+        {
+          "value": "85",
+          "selected": false,
+          "data": {},
+          "text": "LSL(LSL)"
+        },
+        {
+          "value": "86",
+          "selected": false,
+          "data": {},
+          "text": "LTL(LTL)"
+        },
+        {
+          "value": "87",
+          "selected": false,
+          "data": {},
+          "text": "LVL(LVL)"
+        },
+        {
+          "value": "88",
+          "selected": false,
+          "data": {},
+          "text": "LYD(LYD)"
+        },
+        {
+          "value": "89",
+          "selected": false,
+          "data": {},
+          "text": "MAD(MAD)"
+        },
+        {
+          "value": "90",
+          "selected": false,
+          "data": {},
+          "text": "MDL(MDL)"
+        },
+        {
+          "value": "91",
+          "selected": false,
+          "data": {},
+          "text": "MGA(MGA)"
+        },
+        {
+          "value": "92",
+          "selected": false,
+          "data": {},
+          "text": "MKD(MKD)"
+        },
+        {
+          "value": "93",
+          "selected": false,
+          "data": {},
+          "text": "MMK(MMK)"
+        },
+        {
+          "value": "94",
+          "selected": false,
+          "data": {},
+          "text": "MNT(MNT)"
+        },
+        {
+          "value": "95",
+          "selected": false,
+          "data": {},
+          "text": "MOP(MOP)"
+        },
+        {
+          "value": "96",
+          "selected": false,
+          "data": {},
+          "text": "MRO(MRO)"
+        },
+        {
+          "value": "97",
+          "selected": false,
+          "data": {},
+          "text": "MUR(MUR)"
+        },
+        {
+          "value": "98",
+          "selected": false,
+          "data": {},
+          "text": "MVR(MVR)"
+        },
+        {
+          "value": "99",
+          "selected": false,
+          "data": {},
+          "text": "MWK(MWK)"
+        },
+        {
+          "value": "100",
+          "selected": false,
+          "data": {},
+          "text": "MXN(MXN)"
+        },
+        {
+          "value": "101",
+          "selected": false,
+          "data": {},
+          "text": "MYR(MYR)"
+        },
+        {
+          "value": "102",
+          "selected": false,
+          "data": {},
+          "text": "MZN(MZN)"
+        },
+        {
+          "value": "103",
+          "selected": false,
+          "data": {},
+          "text": "NAD(NAD)"
+        },
+        {
+          "value": "104",
+          "selected": false,
+          "data": {},
+          "text": "NGN(NGN)"
+        },
+        {
+          "value": "105",
+          "selected": false,
+          "data": {},
+          "text": "NIO(NIO)"
+        },
+        {
+          "value": "106",
+          "selected": false,
+          "data": {},
+          "text": "NOK(kr)"
+        },
+        {
+          "value": "107",
+          "selected": false,
+          "data": {},
+          "text": "NPR(NPR)"
+        },
+        {
+          "value": "108",
+          "selected": false,
+          "data": {},
+          "text": "NZD(NZD)"
+        },
+        {
+          "value": "109",
+          "selected": false,
+          "data": {},
+          "text": "OMR(OMR)"
+        },
+        {
+          "value": "110",
+          "selected": false,
+          "data": {},
+          "text": "PAB(PAB)"
+        },
+        {
+          "value": "111",
+          "selected": false,
+          "data": {},
+          "text": "PEN(PEN)"
+        },
+        {
+          "value": "112",
+          "selected": false,
+          "data": {},
+          "text": "PGK(PGK)"
+        },
+        {
+          "value": "113",
+          "selected": false,
+          "data": {},
+          "text": "PHP(PHP)"
+        },
+        {
+          "value": "114",
+          "selected": false,
+          "data": {},
+          "text": "PKR(PKR)"
+        },
+        {
+          "value": "115",
+          "selected": false,
+          "data": {},
+          "text": "PLN(PLN)"
+        },
+        {
+          "value": "116",
+          "selected": false,
+          "data": {},
+          "text": "PYG(PYG)"
+        },
+        {
+          "value": "117",
+          "selected": false,
+          "data": {},
+          "text": "QAR(QAR)"
+        },
+        {
+          "value": "118",
+          "selected": false,
+          "data": {},
+          "text": "RON(RON)"
+        },
+        {
+          "value": "119",
+          "selected": false,
+          "data": {},
+          "text": "RSD(RSD)"
+        },
+        {
+          "value": "120",
+          "selected": false,
+          "data": {},
+          "text": "RUB(RUB)"
+        },
+        {
+          "value": "121",
+          "selected": false,
+          "data": {},
+          "text": "RWF(RWF)"
+        },
+        {
+          "value": "122",
+          "selected": false,
+          "data": {},
+          "text": "SAR(SAR)"
+        },
+        {
+          "value": "123",
+          "selected": false,
+          "data": {},
+          "text": "SBD(SBD)"
+        },
+        {
+          "value": "124",
+          "selected": false,
+          "data": {},
+          "text": "SCR(SCR)"
+        },
+        {
+          "value": "125",
+          "selected": false,
+          "data": {},
+          "text": "SDG(SDG)"
+        },
+        {
+          "value": "126",
+          "selected": false,
+          "data": {},
+          "text": "SEK(SEK)"
+        },
+        {
+          "value": "127",
+          "selected": false,
+          "data": {},
+          "text": "SGD(SGD)"
+        },
+        {
+          "value": "128",
+          "selected": false,
+          "data": {},
+          "text": "SHP(SHP)"
+        },
+        {
+          "value": "129",
+          "selected": false,
+          "data": {},
+          "text": "SLL(SLL)"
+        },
+        {
+          "value": "130",
+          "selected": false,
+          "data": {},
+          "text": "SOS(SOS)"
+        },
+        {
+          "value": "131",
+          "selected": false,
+          "data": {},
+          "text": "SPL*(SPL*)"
+        },
+        {
+          "value": "132",
+          "selected": false,
+          "data": {},
+          "text": "SRD(SRD)"
+        },
+        {
+          "value": "133",
+          "selected": false,
+          "data": {},
+          "text": "STD(STD)"
+        },
+        {
+          "value": "134",
+          "selected": false,
+          "data": {},
+          "text": "SVC(SVC)"
+        },
+        {
+          "value": "135",
+          "selected": false,
+          "data": {},
+          "text": "SYP(SYP)"
+        },
+        {
+          "value": "136",
+          "selected": false,
+          "data": {},
+          "text": "SZL(SZL)"
+        },
+        {
+          "value": "137",
+          "selected": false,
+          "data": {},
+          "text": "THB(THB)"
+        },
+        {
+          "value": "138",
+          "selected": false,
+          "data": {},
+          "text": "TJS(TJS)"
+        },
+        {
+          "value": "139",
+          "selected": false,
+          "data": {},
+          "text": "TMT(TMT)"
+        },
+        {
+          "value": "140",
+          "selected": false,
+          "data": {},
+          "text": "TND(TND)"
+        },
+        {
+          "value": "141",
+          "selected": false,
+          "data": {},
+          "text": "TOP(TOP)"
+        },
+        {
+          "value": "142",
+          "selected": false,
+          "data": {},
+          "text": "TRY(TRY)"
+        },
+        {
+          "value": "143",
+          "selected": false,
+          "data": {},
+          "text": "TTD(TTD)"
+        },
+        {
+          "value": "144",
+          "selected": false,
+          "data": {},
+          "text": "TVD(TVD)"
+        },
+        {
+          "value": "145",
+          "selected": false,
+          "data": {},
+          "text": "TWD(TWD)"
+        },
+        {
+          "value": "146",
+          "selected": false,
+          "data": {},
+          "text": "TZS(TZS)"
+        },
+        {
+          "value": "147",
+          "selected": false,
+          "data": {},
+          "text": "UAH(UAH)"
+        },
+        {
+          "value": "148",
+          "selected": false,
+          "data": {},
+          "text": "UGX(UGX)"
+        },
+        {
+          "value": "149",
+          "selected": false,
+          "data": {},
+          "text": "USD($)"
+        },
+        {
+          "value": "150",
+          "selected": false,
+          "data": {},
+          "text": "UYU(UYU)"
+        },
+        {
+          "value": "151",
+          "selected": false,
+          "data": {},
+          "text": "UZS(UZS)"
+        },
+        {
+          "value": "152",
+          "selected": false,
+          "data": {},
+          "text": "VEF(VEF)"
+        },
+        {
+          "value": "153",
+          "selected": false,
+          "data": {},
+          "text": "VND(VND)"
+        },
+        {
+          "value": "154",
+          "selected": false,
+          "data": {},
+          "text": "VUV(VUV)"
+        },
+        {
+          "value": "155",
+          "selected": false,
+          "data": {},
+          "text": "WST(WST)"
+        },
+        {
+          "value": "156",
+          "selected": false,
+          "data": {},
+          "text": "XAF(XAF)"
+        },
+        {
+          "value": "157",
+          "selected": false,
+          "data": {},
+          "text": "XCD(XCD)"
+        },
+        {
+          "value": "158",
+          "selected": false,
+          "data": {},
+          "text": "XDR(XDR)"
+        },
+        {
+          "value": "159",
+          "selected": false,
+          "data": {},
+          "text": "XOF(XOF)"
+        },
+        {
+          "value": "160",
+          "selected": false,
+          "data": {},
+          "text": "XPF(XPF)"
+        },
+        {
+          "value": "161",
+          "selected": false,
+          "data": {},
+          "text": "YER(YER)"
+        },
+        {
+          "value": "162",
+          "selected": false,
+          "data": {},
+          "text": "ZAR(ZAR)"
+        },
+        {
+          "value": "163",
+          "selected": false,
+          "data": {},
+          "text": "ZMW(ZMW)"
+        },
+        {
+          "value": "164",
+          "selected": false,
+          "data": {},
+          "text": "ZWD(ZWD)"
+        }
+      ]
+    }
+  ],
+  "hiddens": [
+    {
+      "id": "ControllerName",
+      "name": "ControllerName",
+      "value": "ShopSettings"
+    },
+    {
+      "id": "ActionName",
+      "name": "ActionName",
+      "value": "Index"
+    },
+    {
+      "id": "hiddenScrollPositionH",
+      "name": "",
+      "value": ""
+    },
+    {
+      "id": "selectedShop",
+      "name": "selectedShop",
+      "value": ""
+    },
+    {
+      "id": "hiddenHostedServer",
+      "name": "",
+      "value": "Web5"
+    },
+    {
+      "id": "hiddenFromMobileDevice",
+      "name": "",
+      "value": "false"
+    }
+  ],
+  "tables": [],
+  "js_variables": {
+    "DATEFORMAT": "'dd-M-yyyy'",
+    "shopCurrency": "'&#163;'",
+    "DATERANGE": "'1950:2050'",
+    "DATEFORMAT_SERVER": "'dd-MMM-yyyy'",
+    "SITE_BASE_URL": "'http://gocreate.nu/'",
+    "SESSION_EXPIRE_URL": "'/ShopSettings/SessionExpire'",
+    "ISINVOICE_SURCHARGE_APPLICABLE": "'False'",
+    "shouldRedirectToHttps": "'true'",
+    "redirectToHttps": "'False'",
+    "PANEL_COOKIE_NAME": "\"shoppanels\"",
+    "PANEL_COOKIE_NAME_SINGLE_STEP": "\"shoppanelSingleStep\"",
+    "isSiteInReadOnlyMode": "'False'",
+    "i": "0",
+    "allowedExtensions": "['jpg', 'jpeg', 'png']",
+    "minWidth": "1",
+    "maxWidth": "5000",
+    "minHeight": "1",
+    "maxHeight": "3000"
+  }
+}

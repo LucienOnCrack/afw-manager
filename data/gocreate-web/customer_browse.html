@@ -1,0 +1,52 @@
+<script type="text/javascript" language="javascript">
+
+    var CurrentControllerURL = '/Customer/Browse';
+    $(document).ready(function () {
+
+        ShopCustomer_GridLoad();
+        HighlightFirstRow();
+        InitializeDropDownWithoutSearchBoxByID("abc");
+    });
+
+    $(window)
+           .resize(function () {
+               RefreshSuperTable("EntityListView", "GridContainer", 1);
+               ShopCustomer_GridLoad();
+           });
+
+
+</script>
+
+
+    <div id="GridContainer" class="GridContainernew GridContainer OrderOverviewGridContainer">
+        <table id="EntityListView" class="grid"><thead><tr><th></th><th style="min-width:0px" class="LastName"><a href="/Customer/Browse?Column=LastName&amp;Direction=Ascending">Last name</a></th><th><a href="/Customer/Browse?Column=CustomField1&amp;Direction=Ascending">wedding party</a></th><th style="min-width:0px" class="FirstName"><a href="/Customer/Browse?Column=FirstName&amp;Direction=Ascending">First name</a></th><th style="min-width:0px" class="Initials"><a href="/Customer/Browse?Column=Initials&amp;Direction=Ascending">Initials</a></th><th style="min-width:0px" class="Suffix"><a href="/Customer/Browse?Column=Suffix&amp;Direction=Ascending">Suffix</a></th><th style="min-width:0px" class="Address"><a href="/Customer/Browse?Column=Address&amp;Direction=Ascending">Address</a></th><th><a href="/Customer/Browse?Column=CustomField2&amp;Direction=Ascending">county</a></th><th style="min-width:0px" class="City"><a href="/Customer/Browse?Column=City&amp;Direction=Ascending">City</a></th><th style="min-width:0px" class="PhoneNumber"><a href="/Customer/Browse?Column=PhoneNumber&amp;Direction=Ascending">Phone number</a></th><th style="min-width:0px" class="MobileNumber"><a href="/Customer/Browse?Column=MobileNumber&amp;Direction=Ascending">Mobile number</a></th><th style="display:none;"><a href="/Customer/Browse?Direction=Ascending"></a></th></tr></thead><tbody><tr class="gridrow"><td><div style='display: inline-block' class='customerActionTD'><div style='display: inline-block'><button style='float:left;' class='greyborder_button' type='button' id='PPAction_612060'>Action</button></div></div></td><td style="min-width:0px" class="LastName"><a href="Customer\Detail\612060
+">kinsman</a></td><td></td><td style="min-width:0px" class="FirstName"><a href="Customer\Detail\612060
+">lucien</a></td><td style="min-width:0px" class="Initials"></td><td style="min-width:0px" class="Suffix"></td><td style="min-width:0px" class="Address">38 queen street</td><td>essex</td><td style="min-width:0px" class="City">coggeshall</td><td style="min-width:0px" class="PhoneNumber">07946722166</td><td style="min-width:0px" class="MobileNumber">07946722166</td><td style="display:none;"><ul id='List_1_ContextMenu_612060' class='jqcontextmenu'>
+<li ><a class='fa-lg fa fa-plus' href='' onclick="CreateNewOrderForCustomer(612060);return false;" ><span>Create order</span></a></li>
+<li ><a class='fa-lg fa fa-plus'   href='/Customer/Detail/612060?redirectToFitProfileTab=True')"><span>Create FitProfile</span></a></li>
+<li><a  class='fa fa-lg fa-pencil' href='/Customer/EditCustomerDecryptedMethod/EAAAAIsQsaGxkNqKirje9J1Jt5cUt6sWqc1y7TTFtpNa%252bQy9')"> <span>Edit</span></a></li>
+<li ><a class='fa fa-upload fa-lg' href='/Customer/UploadImageDecryptedMethod/EAAAAKruNZedn9S1ZUcospSJWhQUZTP9s4ccixiPN%252fVaC552')"><span>Upload images</span></a></li>
+<li ><a class='fa fa-minus fa-lg' href='' onclick="OnCustomerDeleteClick(612060);return false;" ><span>Delete</span></a></li>
+</ul>
+</td></tr></tbody></table>
+    </div>
+    <div id="gridPagerContainer" class="buttonwrapper">
+        <div>
+            <div class='row row-fluid'><div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 pagerRow' ><div class ='col-xs-12 col-sm-3 col-md-3 col-lg-3 pagercenter' style='padding-left:0px' class="totalrecord"><label class='form-label'> Total record(s)  <strong>1</strong> </label></div class ='col-xs-12 col-sm-3 col-md-3 col-lg-3 pagercenter' style='padding-left:0px'>
+<div class = 'col-xs-12 col-sm-5 col-md-5 col-lg-5 divPager text-center' class="pagination"><a class="glyphicon glyphicon-step-backward disabled" disabled="true" title="First"> </a><a class="glyphicon glyphicon-triangle-left disabled" disabled="true" title="Previous">  </a><a class="selected" data-ajax="true" data-ajax-complete="" data-ajax-mode="replace" data-ajax-update="#divGrid" href="/Customer/Browse?activePage=1" style="font-size:14px">1</a><a class="glyphicon glyphicon-triangle-right disabled" disabled="true" title="Next"> </a><a class="glyphicon glyphicon-step-forward disabled" disabled="true" title="Last"> </a></div class = 'col-xs-12 col-sm-5 col-md-5 col-lg-5 divPager text-center'>
+<div class='col-xs-12 col-sm-4 col-md-4 col-lg-4 text-right pagercenter' style='padding-right:0px' class="pagesize"><div class='pagesizeTxt'>Page size</div><select class="form-control" id="abc" name="abc" onChange="OnPageSizeChange(this,&#39;/Customer/Browse&#39;,&#39;divGrid&#39;);"><option value="5">5</option>
+<option selected="selected" value="10">10</option>
+<option value="20">20</option>
+<option value="30">30</option>
+<option value="40">40</option>
+<option value="50">50</option>
+<option value="100">100</option>
+<option value="200">200</option>
+</select></div class='col-xs-12 col-sm-4 col-md-4 col-lg-4 text-right pagercenter' style='padding-right:0px'>
+</div class='col-xs-12 col-sm-12 col-md-12 col-lg-12 pagerRow' ></div class='row row-fluid'>
+        </div>
+    </div>
+    <div id="divOrderSelectPopup" style="display: none">
+
+    </div>
+<input id="customerId" name="customerId" type="hidden" value="" />

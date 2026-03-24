@@ -1,0 +1,42 @@
+{
+  "2": {
+    "partName": "Trousers",
+    "positions": {
+      "156": {
+        "positionName": "1.3 Pocket lining, left front",
+        "labels": {
+          "2903": "No"
+        }
+      }
+    }
+  },
+  "1": {
+    "partName": "Jacket",
+    "positions": {
+      "3": {
+        "positionName": "1.1 Inside, below right pocket",
+        "labels": {
+          "4762": "Anthony Formalwear Suits - Current",
+          "3693": "Anthony Formalwear Suits - Current"
+        }
+      },
+      "5": {
+        "positionName": "5. Inside, bottom left",
+        "labels": {
+          "2736": "Fabric Supplier Label"
+        }
+      }
+    }
+  },
+  "4": {
+    "partName": "Shirt",
+    "positions": {
+      "16": {
+        "positionName": "1.1 Inside back yoke",
+        "labels": {
+          "2608": "Anthony Formal Wear Shirt"
+        }
+      }
+    }
+  }
+}

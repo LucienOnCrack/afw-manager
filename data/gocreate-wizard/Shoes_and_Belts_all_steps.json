@@ -1,0 +1,12 @@
+{
+  "step_1_PrimaryInfo": {
+    "selects": {},
+    "hiddens": {},
+    "radios": {},
+    "checkboxes": {},
+    "text_inputs": {},
+    "textareas": {},
+    "inline_data": {},
+    "data_attributes": {}
+  }
+}

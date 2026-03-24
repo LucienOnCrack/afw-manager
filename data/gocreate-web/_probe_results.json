@@ -1,0 +1,144 @@
+{
+  "GET:/CustomOrder/Create": {
+    "status": 500,
+    "label": "order creation page",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "GET:/CustomOrder/New": {
+    "status": 500,
+    "label": "new order",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "GET:/CustomOrder/Index": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "size": 82690,
+    "isJson": false,
+    "label": "custom order index"
+  },
+  "GET:/DyoOrder/EditDyoOrder": {
+    "status": 500,
+    "label": "DYO order edit",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "GET:/ShoeOrder/EditShoeOrder": {
+    "status": 500,
+    "label": "shoe order edit",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "GET:/TieOrder/EditTieOrder": {
+    "status": 500,
+    "label": "tie order edit",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "GET:/VestOrder/EditVestOrder": {
+    "status": 500,
+    "label": "vest order edit",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "GET:/ReadymadeOrderOverview/Index": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "size": 74699,
+    "isJson": false,
+    "label": "readymade overview"
+  },
+  "GET:/CustomOrderOverview/Index": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "size": 82690,
+    "isJson": false,
+    "label": "custom order overview"
+  },
+  "POST:/CustomOrder/GetNewGuid": {
+    "status": 500,
+    "label": "get GUID",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "POST:/Login/CheckIfSessionIsExpired": {
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "size": 26,
+    "isJson": true,
+    "label": "session check"
+  },
+  "POST:/CustomOrderOverview/GetCargoBoxList": {
+    "status": 500,
+    "label": "cargo boxes",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "POST:/ReadymadeOrderOverview/HasShopMultipleProductLine": {
+    "status": 200,
+    "contentType": "application/json; charset=utf-8",
+    "size": 57,
+    "isJson": true,
+    "label": "multi product line"
+  },
+  "POST:/ReadymadeOrderOverview/LoadReadyMadeOrderCreationPerShop": {
+    "status": 500,
+    "label": "readymade per shop",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "POST:/OrderDetail/GetOrderDetail": {
+    "status": 500,
+    "label": "order detail",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "POST:/OrderDetail/GetDuplicateOrder": {
+    "status": 500,
+    "label": "duplicate check",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "POST:/OrderDetail/GetRemarkForOrder": {
+    "status": 500,
+    "label": "remarks",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "POST:/OrderDetail/GetOrderPriceDetail": {
+    "status": 500,
+    "label": "price detail",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "POST:/CustomOrder/CopyOrder": {
+    "status": 500,
+    "label": "copy order page",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "POST:/CustomOrder/CreateOrderForSameCustomer": {
+    "status": 401,
+    "label": "same customer page",
+    "error": "HTTP Error 401: Unauthorized"
+  },
+  "POST:/CustomOrderOverview/GetOrderBodyMeasurement": {
+    "status": 500,
+    "label": "body measurements",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "POST:/OrderDetail/GetEditOrderWarning2": {
+    "status": 500,
+    "label": "edit warning",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "POST:/CustomOrder/GetEditOrderDialog": {
+    "status": 500,
+    "label": "edit dialog",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "GET:/CustomOrder/CopyOrder?orderNumber=ANTHO.BIL.GB.2371641": {
+    "status": 500,
+    "label": "copy order GET",
+    "error": "HTTP Error 500: Internal Server Error"
+  },
+  "GET:/CustomOrder/CreateOrderForSameCustomer?orderNumber=ANTHO.BIL.GB.2371641": {
+    "status": 200,
+    "contentType": "text/html; charset=utf-8",
+    "size": 51224,
+    "isJson": false,
+    "label": "same customer GET"
+  },
+  "GET:/CustomOrder/GetEditOrderDialog?orderNumber=ANTHO.BIL.GB.2371641": {
+    "status": 500,
+    "label": "edit dialog GET",
+    "error": "HTTP Error 500: Internal Server Error"
+  }
+}

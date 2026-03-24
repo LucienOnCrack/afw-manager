@@ -1,0 +1,698 @@
+{
+  "Jacket": {
+    "partId": 1,
+    "partName": "Jacket",
+    "productLines": [
+      {
+        "atelierId": 1,
+        "name": "Standard Suits A"
+      },
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 8,
+        "name": "traditional"
+      },
+      {
+        "id": 9,
+        "name": "traditional full canvas"
+      },
+      {
+        "id": 1,
+        "name": "handmade"
+      },
+      {
+        "id": 11,
+        "name": "unconstructed"
+      },
+      {
+        "id": 12,
+        "name": "unconstructed handmade"
+      },
+      {
+        "id": 7,
+        "name": "semi-traditional"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 38,
+        "name": "Regular "
+      },
+      {
+        "id": 41,
+        "name": "Slim "
+      },
+      {
+        "id": 39,
+        "name": "Slim2.0 "
+      }
+    ]
+  },
+  "Trousers": {
+    "partId": 2,
+    "partName": "Trousers",
+    "productLines": [
+      {
+        "atelierId": 1,
+        "name": "Standard Suits A"
+      },
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 8,
+        "name": "traditional"
+      },
+      {
+        "id": 10,
+        "name": "traditional with pleated waistband"
+      },
+      {
+        "id": 1,
+        "name": "handmade"
+      },
+      {
+        "id": 7,
+        "name": "semi-traditional"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 1,
+        "name": "Regular"
+      },
+      {
+        "id": 2,
+        "name": "Slim"
+      },
+      {
+        "id": 6,
+        "name": "Slim 2.0"
+      },
+      {
+        "id": 28,
+        "name": "T40"
+      }
+    ]
+  },
+  "Waistcoat": {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "productLines": [
+      {
+        "atelierId": 1,
+        "name": "Standard Suits A"
+      },
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 8,
+        "name": "traditional"
+      },
+      {
+        "id": 9,
+        "name": "traditional full canvas"
+      },
+      {
+        "id": 1,
+        "name": "handmade"
+      },
+      {
+        "id": 7,
+        "name": "semi-traditional"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 1,
+        "name": "Regular"
+      },
+      {
+        "id": 2,
+        "name": "Slim"
+      },
+      {
+        "id": 6,
+        "name": "Slim 2.0"
+      }
+    ]
+  },
+  "Shirt": {
+    "partId": 4,
+    "partName": "Shirt",
+    "productLines": [
+      {
+        "atelierId": 3,
+        "name": "Standard"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 8,
+        "name": "traditional"
+      },
+      {
+        "id": 1,
+        "name": "handmade"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 5,
+        "name": "Regular 2.0"
+      },
+      {
+        "id": 6,
+        "name": "Slim 2.0"
+      },
+      {
+        "id": 42,
+        "name": "Comfort"
+      }
+    ]
+  },
+  "Overcoat": {
+    "partId": 5,
+    "partName": "Overcoat",
+    "productLines": [
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 8,
+        "name": "traditional"
+      },
+      {
+        "id": 11,
+        "name": "unconstructed"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 1,
+        "name": "Regular"
+      }
+    ]
+  },
+  "Bermuda": {
+    "partId": 12,
+    "partName": "Bermuda",
+    "productLines": [
+      {
+        "atelierId": 1,
+        "name": "Standard Suits A"
+      },
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 8,
+        "name": "traditional"
+      },
+      {
+        "id": 10,
+        "name": "traditional with pleated waistband"
+      },
+      {
+        "id": 1,
+        "name": "handmade"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 1,
+        "name": "Regular"
+      },
+      {
+        "id": 2,
+        "name": "Slim"
+      },
+      {
+        "id": 3,
+        "name": "SuperSlim"
+      },
+      {
+        "id": 6,
+        "name": "Slim 2.0"
+      }
+    ]
+  },
+  "Pea coat": {
+    "partId": 13,
+    "partName": "Pea coat",
+    "productLines": [
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 11,
+        "name": "unconstructed"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 1,
+        "name": "Regular"
+      }
+    ]
+  },
+  "Coat": {
+    "partId": 26,
+    "partName": "Coat",
+    "productLines": [
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 11,
+        "name": "unconstructed"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 30,
+        "name": "CC40"
+      }
+    ]
+  },
+  "Detachable liner": {
+    "partId": 27,
+    "partName": "Detachable liner",
+    "productLines": [
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 11,
+        "name": "unconstructed"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 30,
+        "name": "CC40"
+      }
+    ]
+  },
+  "Informal jacket": {
+    "partId": 31,
+    "partName": "Informal jacket",
+    "productLines": [
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 11,
+        "name": "unconstructed"
+      },
+      {
+        "id": 12,
+        "name": "unconstructed handmade"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 32,
+        "name": "SJ40"
+      }
+    ]
+  },
+  "Sneaker": {
+    "partId": 21,
+    "partName": "Sneaker",
+    "productLines": [
+      {
+        "atelierId": 15,
+        "name": "Standard"
+      },
+      {
+        "atelierId": 22,
+        "name": "Standard"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 29,
+        "name": "blake"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 22,
+        "name": "Standard"
+      }
+    ]
+  },
+  "Tie": {
+    "partId": 22,
+    "partName": "Tie",
+    "productLines": [
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      },
+      {
+        "atelierId": 16,
+        "name": "Standard"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 31,
+        "name": "tipped"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 22,
+        "name": "Standard"
+      }
+    ]
+  },
+  "Bow tie": {
+    "partId": 23,
+    "partName": "Bow tie",
+    "productLines": [
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      },
+      {
+        "atelierId": 16,
+        "name": "Standard"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 36,
+        "name": "folded"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 22,
+        "name": "Standard"
+      }
+    ]
+  },
+  "Pocket square": {
+    "partId": 24,
+    "partName": "Pocket square",
+    "productLines": [
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      },
+      {
+        "atelierId": 16,
+        "name": "Standard"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 39,
+        "name": "hand rolled"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 22,
+        "name": "Standard"
+      }
+    ]
+  },
+  "Belt": {
+    "partId": 25,
+    "partName": "Belt",
+    "productLines": [
+      {
+        "atelierId": 15,
+        "name": "Standard"
+      },
+      {
+        "atelierId": 22,
+        "name": "Standard"
+      },
+      {
+        "atelierId": 23,
+        "name": "Standard"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 42,
+        "name": "traditional belt"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 22,
+        "name": "Standard"
+      }
+    ]
+  },
+  "Knitwear": {
+    "partId": 32,
+    "partName": "Knitwear",
+    "productLines": [
+      {
+        "atelierId": 19,
+        "name": "Knit in Italy - A"
+      },
+      {
+        "atelierId": 20,
+        "name": "Knit in Italy - B"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 8,
+        "name": "traditional"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 33,
+        "name": "K40"
+      }
+    ]
+  },
+  "City loafer": {
+    "partId": 33,
+    "partName": "City loafer",
+    "productLines": [
+      {
+        "atelierId": 15,
+        "name": "Standard"
+      },
+      {
+        "atelierId": 22,
+        "name": "Standard"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 29,
+        "name": "blake"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 22,
+        "name": "Standard"
+      }
+    ]
+  },
+  "Quilted vest": {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "productLines": [
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 11,
+        "name": "unconstructed"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 34,
+        "name": "BW40"
+      }
+    ]
+  },
+  "Cummerbund": {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "productLines": [
+      {
+        "atelierId": 16,
+        "name": "Standard"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 51,
+        "name": "pleated"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 22,
+        "name": "Standard"
+      }
+    ]
+  },
+  "Vest": {
+    "partId": 38,
+    "partName": "Vest",
+    "productLines": [
+      {
+        "atelierId": 17,
+        "name": "Standard Suits B / Outerwear"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 11,
+        "name": "unconstructed"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 35,
+        "name": "V40"
+      }
+    ]
+  },
+  "5 Pocket": {
+    "partId": 14,
+    "partName": "5 Pocket",
+    "productLines": [
+      {
+        "atelierId": 1,
+        "name": "Standard Suits A"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 41,
+        "name": "the traditional"
+      },
+      {
+        "id": 22,
+        "name": "the sartorial"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 37,
+        "name": "P14"
+      }
+    ]
+  },
+  "Chino": {
+    "partId": 15,
+    "partName": "Chino",
+    "productLines": [
+      {
+        "atelierId": 1,
+        "name": "Standard Suits A"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 41,
+        "name": "the traditional"
+      },
+      {
+        "id": 22,
+        "name": "the sartorial"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 38,
+        "name": "P15"
+      }
+    ]
+  },
+  "Pants": {
+    "partId": 40,
+    "partName": "Pants",
+    "productLines": [
+      {
+        "atelierId": 19,
+        "name": "Knit in Italy - A"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 8,
+        "name": "traditional"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 36,
+        "name": "P40"
+      }
+    ]
+  },
+  "Runner": {
+    "partId": 41,
+    "partName": "Runner",
+    "productLines": [
+      {
+        "atelierId": 22,
+        "name": "Standard"
+      }
+    ],
+    "productMakes": [
+      {
+        "id": 53,
+        "name": "Ago (NEW/Runner)"
+      }
+    ],
+    "productFits": [
+      {
+        "id": 22,
+        "name": "Standard"
+      }
+    ]
+  }
+}

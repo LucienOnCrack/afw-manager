@@ -1,0 +1,1171 @@
+{
+    "OrderInfo": {
+        "OrderNumber": "ANTHO.BIL.GB.2371641",
+        "ShopOrderNumber": "",
+        "RetailPrice": "0.00",
+        "PPrice": "387.00",
+        "Downpayment": "0.00",
+        "CustomerID": 856964,
+        "ProcessDate": "",
+        "OrderType": "3-piece suit",
+        "OrderTypeId": 5,
+        "Tailor": "iain kinsman",
+        "Status": "On hold",
+        "DaysInStatus": 1,
+        "Fabric": "EVE052 laurel green stretch wool-linen blend",
+        "Lining": "Fancy 484 l.sand with Hawaiian surfers and cars",
+        "DeliveryDate": "",
+        "UpdatedDeliveryDate": "",
+        "LatestDeliveryDate": "",
+        "ShopLabel": "Hangtag - Hangtag\\nAnthony Formalwear Suits - Current - 1.1 Inside, below right pocket\\nFabric Supplier Label - 5. Inside, bottom left\\n",
+        "CreateBy": "Anthony Hire Limited",
+        "CreateDate": "2026-03-17",
+        "CustomerName": "mayers, james",
+        "Company": "",
+        "FabricPriceCategory": "PL PC06",
+        "PPriceDiscountOrCost": "0.00",
+        "TotalPPriceInclDiscountOrCost": "387.00",
+        "RPriceDiscount": "0.00",
+        "RPriceServiceCharge": "0.00",
+        "TotalRPrice": "0.00",
+        "OutStandingAmount": "0.00",
+        "ExpectedDeliveryDate": "",
+        "UrgentOrder": "NO",
+        "ShopOrderComment": "",
+        "IsSizeLabelSelected": "NO",
+        "ShopName": "Anthony Formal Wear - Billericay",
+        "WashName": null,
+        "QRCodeResponse": null,
+        "Occasion": "Wedding"
+    },
+    "FitTools": [
+        {
+            "ProductPartId": 3,
+            "ProductPartName": "Waistcoat",
+            "FitToolDetails": [
+                {
+                    "Id": 318,
+                    "Name": "Slope shoulder L",
+                    "Value": "-0.50"
+                },
+                {
+                    "Id": 328,
+                    "Name": "Lower closing button",
+                    "Value": "-2.00"
+                },
+                {
+                    "Id": 117,
+                    "Name": "Raise armhole",
+                    "Value": "+0.50"
+                },
+                {
+                    "Id": 325,
+                    "Name": "Lengthen front",
+                    "Value": "+1.00"
+                },
+                {
+                    "Id": 108,
+                    "Name": "Lengthen length",
+                    "Value": "+2.00"
+                }
+            ]
+        },
+        {
+            "ProductPartId": 1,
+            "ProductPartName": "Jacket",
+            "FitToolDetails": [
+                {
+                    "Id": 32,
+                    "Name": "Slope shoulder R",
+                    "Value": "-0.50"
+                },
+                {
+                    "Id": 31,
+                    "Name": "Slope shoulder L",
+                    "Value": "-0.50"
+                },
+                {
+                    "Id": 28,
+                    "Name": "Let out \u00bd chest front",
+                    "Value": "+0.50"
+                },
+                {
+                    "Id": 1,
+                    "Name": "Take in \u00bd waist",
+                    "Value": "-0.50"
+                },
+                {
+                    "Id": 150,
+                    "Name": "Take in \u00bd skirt",
+                    "Value": "-0.50"
+                },
+                {
+                    "Id": 15,
+                    "Name": "Shorten length",
+                    "Value": "-0.50"
+                },
+                {
+                    "Id": 5,
+                    "Name": "Let out upper arm & armhole",
+                    "Value": "+0.50"
+                },
+                {
+                    "Id": 12,
+                    "Name": "Shorten sleeve R",
+                    "Value": "-1.00"
+                },
+                {
+                    "Id": 13,
+                    "Name": "Shorten sleeve L",
+                    "Value": "-1.00"
+                },
+                {
+                    "Id": 25,
+                    "Name": "Arms backwards",
+                    "Value": "+1.00"
+                },
+                {
+                    "Id": 182,
+                    "Name": "Chest dart",
+                    "Value": "standard"
+                },
+                {
+                    "Id": 244,
+                    "Name": "Forward shoulders",
+                    "Value": "no"
+                },
+                {
+                    "Id": 591,
+                    "Name": "Neck dart (Beta)",
+                    "Value": "no"
+                }
+            ]
+        },
+        {
+            "ProductPartId": 2,
+            "ProductPartName": "Trousers",
+            "FitToolDetails": [
+                {
+                    "Id": 51,
+                    "Name": "Take in \u00bd waist",
+                    "Value": "-0.50"
+                },
+                {
+                    "Id": 52,
+                    "Name": "Take in \u00bd seat",
+                    "Value": "-0.50"
+                },
+                {
+                    "Id": 57,
+                    "Name": "Take in \u00bd thigh",
+                    "Value": "-1.00"
+                },
+                {
+                    "Id": 268,
+                    "Name": "Take in \u00bd thigh only",
+                    "Value": "-1.00"
+                },
+                {
+                    "Id": 59,
+                    "Name": "Take in \u00bd knee",
+                    "Value": "-2.50"
+                },
+                {
+                    "Id": 61,
+                    "Name": "Take in \u00bd hem",
+                    "Value": "-0.50"
+                },
+                {
+                    "Id": 65,
+                    "Name": "Shorten leg R",
+                    "Value": "-7.50"
+                },
+                {
+                    "Id": 66,
+                    "Name": "Shorten leg L",
+                    "Value": "-7.50"
+                },
+                {
+                    "Id": 321,
+                    "Name": "Prominent seat",
+                    "Value": "without"
+                },
+                {
+                    "Id": 322,
+                    "Name": "Flat seat",
+                    "Value": "without"
+                }
+            ]
+        }
+    ],
+    "BodyMeasurements": [],
+    "FinishMeasurement": [
+        {
+            "ProductPartId": 1,
+            "ProductPartName": "Jacket",
+            "MeasurementDetails": [
+                {
+                    "Id": 2,
+                    "Name": "Shoulder",
+                    "Value": "44.60"
+                },
+                {
+                    "Id": 3,
+                    "Name": "\u00bd Back",
+                    "Value": "22.40"
+                },
+                {
+                    "Id": 1,
+                    "Name": "\u00bd Waist",
+                    "Value": "50.50"
+                },
+                {
+                    "Id": 5,
+                    "Name": "Sleeve length R",
+                    "Value": "39.60"
+                },
+                {
+                    "Id": 6,
+                    "Name": "Sleeve length L",
+                    "Value": "39.60"
+                },
+                {
+                    "Id": 4,
+                    "Name": "Back length",
+                    "Value": "70.50"
+                }
+            ]
+        },
+        {
+            "ProductPartId": 2,
+            "ProductPartName": "Trousers",
+            "MeasurementDetails": [
+                {
+                    "Id": 16,
+                    "Name": "\u00bd Waist",
+                    "Value": "44.50"
+                },
+                {
+                    "Id": 21,
+                    "Name": "\u00bd Thigh",
+                    "Value": "28.50"
+                },
+                {
+                    "Id": 22,
+                    "Name": "\u00bd Knee",
+                    "Value": "21.30"
+                },
+                {
+                    "Id": 17,
+                    "Name": "\u00bd Hem",
+                    "Value": "18.80"
+                },
+                {
+                    "Id": 18,
+                    "Name": "Inseam R",
+                    "Value": "69.50"
+                },
+                {
+                    "Id": 19,
+                    "Name": "Inseam L",
+                    "Value": "69.50"
+                },
+                {
+                    "Id": 26,
+                    "Name": "Outseam R",
+                    "Value": "89.10"
+                },
+                {
+                    "Id": 25,
+                    "Name": "Outseam L",
+                    "Value": "89.10"
+                }
+            ]
+        },
+        {
+            "ProductPartId": 3,
+            "ProductPartName": "Waistcoat",
+            "MeasurementDetails": [
+                {
+                    "Id": 58,
+                    "Name": "\u00bd Back",
+                    "Value": "28.60"
+                },
+                {
+                    "Id": 57,
+                    "Name": "\u00bd Waist",
+                    "Value": "51.00"
+                },
+                {
+                    "Id": 59,
+                    "Name": "Back length",
+                    "Value": "57.00"
+                },
+                {
+                    "Id": 156,
+                    "Name": "\u00bd Chest",
+                    "Value": "52.50"
+                },
+                {
+                    "Id": 359,
+                    "Name": "\u00bd Hip closed",
+                    "Value": "53.00"
+                }
+            ]
+        }
+    ],
+    "BrandingOptions": [
+        {
+            "ProductPartId": 1,
+            "ProductPartName": "Jacket",
+            "BrandingOptionDetails": [
+                {
+                    "LabelId": 4762,
+                    "PositionName": "1.1 Inside, below right pocket",
+                    "LabelName": "Anthony Formalwear Suits - Current",
+                    "PositionId": 3
+                },
+                {
+                    "LabelId": 2736,
+                    "PositionName": "5. Inside, bottom left",
+                    "LabelName": "Fabric Supplier Label",
+                    "PositionId": 5
+                }
+            ]
+        }
+    ],
+    "Options": [
+        {
+            "ProductPartId": 1,
+            "ProductPartName": "Jacket",
+            "OptionCategories": [
+                {
+                    "CategoryId": 1,
+                    "CategoryName": "Jacket",
+                    "OptionDetails": [
+                        {
+                            "Name": "Canvassing",
+                            "Value": "standard",
+                            "OptionId": 183,
+                            "OptionValueId": 5958,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Closure & lapel",
+                            "Value": "2 buttons with peak lapel",
+                            "OptionId": 1,
+                            "OptionValueId": 98,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Lapel width",
+                            "Value": "standard",
+                            "OptionId": 79,
+                            "OptionValueId": 610,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Lower gorge",
+                            "Value": "regular",
+                            "OptionId": 589,
+                            "OptionValueId": 29158,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Lapel buttonhole type",
+                            "Value": "standard",
+                            "OptionId": 254,
+                            "OptionValueId": 17075,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Shoulder type",
+                            "Value": "traditional",
+                            "OptionId": 88,
+                            "OptionValueId": 703,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Chest pocket",
+                            "Value": "straight welt",
+                            "OptionId": 3,
+                            "OptionValueId": 4,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Side pockets",
+                            "Value": "slanted flap",
+                            "OptionId": 22,
+                            "OptionValueId": 105,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Double patch",
+                            "Value": "none",
+                            "OptionId": 558,
+                            "OptionValueId": 28011,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Ticket pocket",
+                            "Value": "none",
+                            "OptionId": 2,
+                            "OptionValueId": 121,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Pocket flap height",
+                            "Value": "standard (5 cm)",
+                            "OptionId": 80,
+                            "OptionValueId": 612,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Cuff finishing",
+                            "Value": "4 non-kissing buttons with open cuff",
+                            "OptionId": 7,
+                            "OptionValueId": 962,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "1st sleeve buttonhole type left",
+                            "Value": "standard",
+                            "OptionId": 423,
+                            "OptionValueId": 23833,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Vent(s)",
+                            "Value": "2 side vents",
+                            "OptionId": 4,
+                            "OptionValueId": 3,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Lining style",
+                            "Value": "fully-lined",
+                            "OptionId": 89,
+                            "OptionValueId": 708,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Inside facing",
+                            "Value": "tongue facing",
+                            "OptionId": 151,
+                            "OptionValueId": 3267,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Sleeve lining",
+                            "Value": "same as body lining",
+                            "OptionId": 185,
+                            "OptionValueId": 6041,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Pick stitching (AMF)",
+                            "Value": "none",
+                            "OptionId": 9,
+                            "OptionValueId": 21,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Tuxedo (lapel & jets)",
+                            "Value": "none",
+                            "OptionId": 93,
+                            "OptionValueId": 717,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Button",
+                            "Value": "4. caramel brown horn",
+                            "OptionId": 10,
+                            "OptionValueId": 0,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Under collar",
+                            "Value": "melton 10. ice blue melange",
+                            "OptionId": 77,
+                            "OptionValueId": 29223,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Inside jets",
+                            "Value": "Fancy 484 l.sand with Hawaiian surfers and cars",
+                            "OptionId": 13,
+                            "OptionValueId": 8096,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Inside pick stitching (Columbia)",
+                            "Value": "none",
+                            "OptionId": 11,
+                            "OptionValueId": 8150,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Throat tab",
+                            "Value": "none",
+                            "OptionId": 98,
+                            "OptionValueId": 932,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Elbow patches",
+                            "Value": "none",
+                            "OptionId": 78,
+                            "OptionValueId": 549,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Hidden lining pocket",
+                            "Value": "none",
+                            "OptionId": 100,
+                            "OptionValueId": 915,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Contrast pick stitching (AMF)",
+                            "Value": "none",
+                            "OptionId": 90,
+                            "OptionValueId": 1259,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Contrast lapel buttonhole",
+                            "Value": "best match (with fabric)",
+                            "OptionId": 81,
+                            "OptionValueId": 621,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Contrast front buttonholes",
+                            "Value": "best match",
+                            "OptionId": 198,
+                            "OptionValueId": 9741,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Contrast sleeve buttonholes",
+                            "Value": "best match",
+                            "OptionId": 197,
+                            "OptionValueId": 9718,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Contrast 1st buttonhole sleeve",
+                            "Value": "best match",
+                            "OptionId": 155,
+                            "OptionValueId": 4078,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        }
+                    ]
+                },
+                {
+                    "CategoryId": 62,
+                    "CategoryName": "Monogram jacket",
+                    "OptionDetails": [
+                        {
+                            "Name": "Monogram position(s)",
+                            "Value": "under collar",
+                            "OptionId": 458,
+                            "OptionValueId": 24772,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Monogram position(s)",
+                            "Value": "lining left",
+                            "OptionId": 458,
+                            "OptionValueId": 24773,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        }
+                    ]
+                },
+                {
+                    "CategoryId": 61,
+                    "CategoryName": "Monogram general",
+                    "OptionDetails": [
+                        {
+                            "Name": "Monogram colour",
+                            "Value": "pink",
+                            "OptionId": 452,
+                            "OptionValueId": 24686,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Monogram colour",
+                            "Value": "light green",
+                            "OptionId": 452,
+                            "OptionValueId": 24675,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Monogram font",
+                            "Value": "calligraphy",
+                            "OptionId": 453,
+                            "OptionValueId": 24697,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Monogram font",
+                            "Value": "calligraphy",
+                            "OptionId": 453,
+                            "OptionValueId": 24697,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Monogram length",
+                            "Value": "1 line",
+                            "OptionId": 457,
+                            "OptionValueId": 24770,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Monogram length",
+                            "Value": "2 lines",
+                            "OptionId": 457,
+                            "OptionValueId": 24771,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Monogram text, topline",
+                            "Value": ".",
+                            "OptionId": 465,
+                            "OptionValueId": 24799,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Monogram text",
+                            "Value": ".",
+                            "OptionId": 455,
+                            "OptionValueId": 24701,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Monogram text",
+                            "Value": ".",
+                            "OptionId": 455,
+                            "OptionValueId": 24701,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ProductPartId": 2,
+            "ProductPartName": "Trousers",
+            "OptionCategories": [
+                {
+                    "CategoryId": 2,
+                    "CategoryName": "Trousers",
+                    "OptionDetails": [
+                        {
+                            "Name": "Waistband",
+                            "Value": "belt loops",
+                            "OptionId": 6,
+                            "OptionValueId": 15,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Waistband detailing",
+                            "Value": "standard",
+                            "OptionId": 352,
+                            "OptionValueId": 22615,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Tuxedo waistband",
+                            "Value": "same as fabric",
+                            "OptionId": 566,
+                            "OptionValueId": 28018,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Front style",
+                            "Value": "flat front",
+                            "OptionId": 20,
+                            "OptionValueId": 92,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Closure",
+                            "Value": "zip fly with double hook & eye",
+                            "OptionId": 15,
+                            "OptionValueId": 17081,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Side pockets",
+                            "Value": "slanted",
+                            "OptionId": 5,
+                            "OptionValueId": 17,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Cargo pockets",
+                            "Value": "none",
+                            "OptionId": 483,
+                            "OptionValueId": 25986,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Back pocket(s)",
+                            "Value": "welt with loop & button",
+                            "OptionId": 14,
+                            "OptionValueId": 74,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Hem finish",
+                            "Value": "plain with slanted bottom",
+                            "OptionId": 16,
+                            "OptionValueId": 17878,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Pocket lining",
+                            "Value": "TPC003 off-white",
+                            "OptionId": 76,
+                            "OptionValueId": 493,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Pick stitching (AMF)",
+                            "Value": "none",
+                            "OptionId": 145,
+                            "OptionValueId": 1278,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Tuxedo (side stripe)",
+                            "Value": "none",
+                            "OptionId": 94,
+                            "OptionValueId": 720,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Coin pocket",
+                            "Value": "yes",
+                            "OptionId": 343,
+                            "OptionValueId": 21060,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Button",
+                            "Value": "4. caramel brown horn",
+                            "OptionId": 18,
+                            "OptionValueId": 0,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Pleat direction",
+                            "Value": "no pleats",
+                            "OptionId": 199,
+                            "OptionValueId": 9764,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Pleat depth",
+                            "Value": "no pleats",
+                            "OptionId": 177,
+                            "OptionValueId": 4656,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Pintuck",
+                            "Value": "no",
+                            "OptionId": 625,
+                            "OptionValueId": 30188,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Suspender  buttons",
+                            "Value": "no",
+                            "OptionId": 17,
+                            "OptionValueId": 67,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Buckle loop",
+                            "Value": "no",
+                            "OptionId": 75,
+                            "OptionValueId": 488,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Crotch piece",
+                            "Value": "standard",
+                            "OptionId": 243,
+                            "OptionValueId": 16651,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Leg lining",
+                            "Value": "half-lined front",
+                            "OptionId": 26,
+                            "OptionValueId": 117,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Contrast pick stitching (AMF)",
+                            "Value": "none",
+                            "OptionId": 146,
+                            "OptionValueId": 1281,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Contrast buttonholes",
+                            "Value": "best match",
+                            "OptionId": 95,
+                            "OptionValueId": 727,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ProductPartId": 3,
+            "ProductPartName": "Waistcoat",
+            "OptionCategories": [
+                {
+                    "CategoryId": 6,
+                    "CategoryName": "Waistcoat",
+                    "OptionDetails": [
+                        {
+                            "Name": "Closure",
+                            "Value": "5 + 1  buttons",
+                            "OptionId": 46,
+                            "OptionValueId": 5944,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Side pockets",
+                            "Value": "jet",
+                            "OptionId": 47,
+                            "OptionValueId": 220,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Back style",
+                            "Value": "lining with buckle (metal colour)",
+                            "OptionId": 52,
+                            "OptionValueId": 249,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Pick stitching (AMF)",
+                            "Value": "none",
+                            "OptionId": 49,
+                            "OptionValueId": 225,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Tuxedo (jets)",
+                            "Value": "none",
+                            "OptionId": 351,
+                            "OptionValueId": 22614,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Button",
+                            "Value": "4. caramel brown horn",
+                            "OptionId": 50,
+                            "OptionValueId": 0,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Chest pockets",
+                            "Value": "none",
+                            "OptionId": 48,
+                            "OptionValueId": 247,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Contrast pick stitching (AMF)",
+                            "Value": "none",
+                            "OptionId": 97,
+                            "OptionValueId": 1260,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        },
+                        {
+                            "Name": "Contrast buttonholes",
+                            "Value": "best match",
+                            "OptionId": 96,
+                            "OptionValueId": 729,
+                            "IsForTrim": false,
+                            "TrimMasterId": 0,
+                            "OptionValueType": 0,
+                            "OptionCategoryId": 0
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "ItemDetails": [
+        {
+            "ProductPartId": 1,
+            "ProductPartName": "Jacket",
+            "StyleName": "",
+            "FitProfileName": "[Jacket] 17-Mar-2026",
+            "FitName": "Slim2.0 ",
+            "MakeName": "traditional",
+            "TryOn": "24"
+        },
+        {
+            "ProductPartId": 2,
+            "ProductPartName": "Trousers",
+            "StyleName": "",
+            "FitProfileName": "[Trousers] 17-Mar-2026",
+            "FitName": "T40",
+            "MakeName": "traditional",
+            "TryOn": "24"
+        },
+        {
+            "ProductPartId": 3,
+            "ProductPartName": "Waistcoat",
+            "StyleName": "",
+            "FitProfileName": "[Waistcoat] 17-Mar-2026",
+            "FitName": "Slim 2.0",
+            "MakeName": "traditional",
+            "TryOn": "24"
+        }
+    ],
+    "PriceDetails": [
+        {
+            "FabricPPrice": 344.0,
+            "LiningPPrice": 29.0,
+            "ButtonPPrice": 18.0,
+            "MakePPrice": 0.0,
+            "DesignOptionValuePPrice": 5.0,
+            "TotalDiscount": 0.0,
+            "TotalPPrice": 387.0
+        }
+    ],
+    "IsValidResult": true,
+    "ErrorCode": null,
+    "ErrorMessage": null,
+    "Id": 0
+}

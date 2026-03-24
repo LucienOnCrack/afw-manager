@@ -1,0 +1,62 @@
+[
+  {
+    "radioId": 1,
+    "catId": 1,
+    "typeId": 1,
+    "name": "Formal suits & Jacket"
+  },
+  {
+    "radioId": 2,
+    "catId": 2,
+    "typeId": 1,
+    "name": "Informal suits & Jacket"
+  },
+  {
+    "radioId": 3,
+    "catId": 3,
+    "typeId": 1,
+    "name": "Trousers"
+  },
+  {
+    "radioId": 10,
+    "catId": 10,
+    "typeId": 12,
+    "name": "Vests"
+  },
+  {
+    "radioId": 4,
+    "catId": 4,
+    "typeId": 2,
+    "name": "Shirts"
+  },
+  {
+    "radioId": 9,
+    "catId": 9,
+    "typeId": 11,
+    "name": "Knitwear"
+  },
+  {
+    "radioId": 8,
+    "catId": 8,
+    "typeId": 10,
+    "name": "Pants"
+  },
+  {
+    "radioId": 5,
+    "catId": 5,
+    "typeId": 3,
+    "name": "Outerwear"
+  },
+  {
+    "radioId": 6,
+    "catId": 6,
+    "typeId": 8,
+    "name": "Shoes & Belts"
+  },
+  {
+    "radioId": 7,
+    "catId": 7,
+    "typeId": 9,
+    "name": "(Bow)Ties, Pocket Squares & Cummerbunds"
+  }
+]

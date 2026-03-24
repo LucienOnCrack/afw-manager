@@ -1,0 +1,104 @@
+{
+  "3_Trousers": {
+    "orderType": "Trousers",
+    "orderTypeId": 3,
+    "parts": [
+      [
+        2,
+        "Trousers"
+      ]
+    ]
+  },
+  "4_Waistcoat": {
+    "orderType": "Waistcoat",
+    "orderTypeId": 4,
+    "parts": [
+      [
+        3,
+        "Waistcoat"
+      ]
+    ]
+  },
+  "2_Jacket": {
+    "orderType": "Jacket",
+    "orderTypeId": 2,
+    "parts": [
+      [
+        1,
+        "Jacket"
+      ]
+    ]
+  },
+  "32_Bow tie": {
+    "orderType": "Bow tie",
+    "orderTypeId": 32,
+    "parts": [
+      [
+        23,
+        "Bow tie"
+      ]
+    ]
+  },
+  "1_2-piece suit": {
+    "orderType": "2-piece suit",
+    "orderTypeId": 1,
+    "parts": [
+      [
+        1,
+        "Jacket"
+      ],
+      [
+        2,
+        "Trousers"
+      ]
+    ]
+  },
+  "8_Shirt": {
+    "orderType": "Shirt",
+    "orderTypeId": 8,
+    "parts": [
+      [
+        4,
+        "Shirt"
+      ]
+    ]
+  },
+  "28_Sneaker": {
+    "orderType": "Sneaker",
+    "orderTypeId": 28,
+    "parts": [
+      [
+        21,
+        "Sneaker"
+      ]
+    ]
+  },
+  "54_Knit": {
+    "orderType": "Knit",
+    "orderTypeId": 54,
+    "parts": [
+      [
+        32,
+        "Knitwear"
+      ]
+    ]
+  },
+  "5_3-piece suit": {
+    "orderType": "3-piece suit",
+    "orderTypeId": 5,
+    "parts": [
+      [
+        1,
+        "Jacket"
+      ],
+      [
+        2,
+        "Trousers"
+      ],
+      [
+        3,
+        "Waistcoat"
+      ]
+    ]
+  }
+}

@@ -1,0 +1,1837 @@
+{
+  "selects": [
+    {
+      "id": "ShopCustomerFields_CustomFields_CustomField1_AppearsAfter",
+      "name": "ShopCustomerFields.CustomFields.CustomField1.AppearsAfter",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "LastName",
+          "selected": true,
+          "data": {},
+          "text": "Last name"
+        },
+        {
+          "value": "Initials",
+          "selected": false,
+          "data": {},
+          "text": "Initials"
+        },
+        {
+          "value": "Suffix",
+          "selected": false,
+          "data": {},
+          "text": "Suffix"
+        },
+        {
+          "value": "Address",
+          "selected": false,
+          "data": {},
+          "text": "Address"
+        },
+        {
+          "value": "PostalCode",
+          "selected": false,
+          "data": {},
+          "text": "Postal code"
+        },
+        {
+          "value": "City",
+          "selected": false,
+          "data": {},
+          "text": "City"
+        },
+        {
+          "value": "CountryID",
+          "selected": false,
+          "data": {},
+          "text": "Country"
+        },
+        {
+          "value": "DOB",
+          "selected": false,
+          "data": {},
+          "text": "Date of birth"
+        },
+        {
+          "value": "PhoneNumber",
+          "selected": false,
+          "data": {},
+          "text": "Phone number"
+        },
+        {
+          "value": "MobileNumber",
+          "selected": false,
+          "data": {},
+          "text": "Mobile number"
+        },
+        {
+          "value": "Email",
+          "selected": false,
+          "data": {},
+          "text": "E-mail"
+        },
+        {
+          "value": "ReferredByCustomer",
+          "selected": false,
+          "data": {},
+          "text": "Referred by"
+        },
+        {
+          "value": "KeepInformed",
+          "selected": false,
+          "data": {},
+          "text": "Keep informed"
+        },
+        {
+          "value": "CompanyName",
+          "selected": false,
+          "data": {},
+          "text": "Company name"
+        },
+        {
+          "value": "CompanyAddress",
+          "selected": false,
+          "data": {},
+          "text": "Company address"
+        },
+        {
+          "value": "CompanyPostalCode",
+          "selected": false,
+          "data": {},
+          "text": "Company postal code"
+        },
+        {
+          "value": "CompanyCity",
+          "selected": false,
+          "data": {},
+          "text": "Company city"
+        },
+        {
+          "value": "CustomerProject",
+          "selected": false,
+          "data": {},
+          "text": "Customer project"
+        },
+        {
+          "value": "CustomerData.CustomerType",
+          "selected": false,
+          "data": {},
+          "text": "Type"
+        },
+        {
+          "value": "CustomerData.SuitPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Suit / Year"
+        },
+        {
+          "value": "CustomerData.JacketPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Jacket / Year"
+        },
+        {
+          "value": "CustomerData.ShirtPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Shirt / Year"
+        },
+        {
+          "value": "CustomerData.CoatPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Coat / Year"
+        },
+        {
+          "value": "CustomerData.EstimatedValuePerYear",
+          "selected": false,
+          "data": {},
+          "text": "Estimated value / Year"
+        },
+        {
+          "value": "CustomerData.IsCMBefore",
+          "selected": false,
+          "data": {},
+          "text": "CustomMade before"
+        },
+        {
+          "value": "CustomerData.BrandStoreName",
+          "selected": false,
+          "data": {},
+          "text": "Name of Brand / Store"
+        },
+        {
+          "value": "CustomerData.ReferenceTypeId",
+          "selected": false,
+          "data": {},
+          "text": "Reference via"
+        },
+        {
+          "value": "CustomerData.ReferenceCustomerId",
+          "selected": false,
+          "data": {},
+          "text": "Reference customer"
+        },
+        {
+          "value": "CustomerData.ReferenceInfo",
+          "selected": false,
+          "data": {},
+          "text": "Reference information"
+        },
+        {
+          "value": "CF1",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 1"
+        },
+        {
+          "value": "CF2",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 2"
+        },
+        {
+          "value": "CF3",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 3"
+        },
+        {
+          "value": "CF4",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 4"
+        },
+        {
+          "value": "CF5",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 5"
+        }
+      ]
+    },
+    {
+      "id": "ShopCustomerFields_CustomFields_CustomField2_AppearsAfter",
+      "name": "ShopCustomerFields.CustomFields.CustomField2.AppearsAfter",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "LastName",
+          "selected": false,
+          "data": {},
+          "text": "Last name"
+        },
+        {
+          "value": "Initials",
+          "selected": false,
+          "data": {},
+          "text": "Initials"
+        },
+        {
+          "value": "Suffix",
+          "selected": false,
+          "data": {},
+          "text": "Suffix"
+        },
+        {
+          "value": "Address",
+          "selected": true,
+          "data": {},
+          "text": "Address"
+        },
+        {
+          "value": "PostalCode",
+          "selected": false,
+          "data": {},
+          "text": "Postal code"
+        },
+        {
+          "value": "City",
+          "selected": false,
+          "data": {},
+          "text": "City"
+        },
+        {
+          "value": "CountryID",
+          "selected": false,
+          "data": {},
+          "text": "Country"
+        },
+        {
+          "value": "DOB",
+          "selected": false,
+          "data": {},
+          "text": "Date of birth"
+        },
+        {
+          "value": "PhoneNumber",
+          "selected": false,
+          "data": {},
+          "text": "Phone number"
+        },
+        {
+          "value": "MobileNumber",
+          "selected": false,
+          "data": {},
+          "text": "Mobile number"
+        },
+        {
+          "value": "Email",
+          "selected": false,
+          "data": {},
+          "text": "E-mail"
+        },
+        {
+          "value": "ReferredByCustomer",
+          "selected": false,
+          "data": {},
+          "text": "Referred by"
+        },
+        {
+          "value": "KeepInformed",
+          "selected": false,
+          "data": {},
+          "text": "Keep informed"
+        },
+        {
+          "value": "CompanyName",
+          "selected": false,
+          "data": {},
+          "text": "Company name"
+        },
+        {
+          "value": "CompanyAddress",
+          "selected": false,
+          "data": {},
+          "text": "Company address"
+        },
+        {
+          "value": "CompanyPostalCode",
+          "selected": false,
+          "data": {},
+          "text": "Company postal code"
+        },
+        {
+          "value": "CompanyCity",
+          "selected": false,
+          "data": {},
+          "text": "Company city"
+        },
+        {
+          "value": "CustomerProject",
+          "selected": false,
+          "data": {},
+          "text": "Customer project"
+        },
+        {
+          "value": "CustomerData.CustomerType",
+          "selected": false,
+          "data": {},
+          "text": "Type"
+        },
+        {
+          "value": "CustomerData.SuitPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Suit / Year"
+        },
+        {
+          "value": "CustomerData.JacketPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Jacket / Year"
+        },
+        {
+          "value": "CustomerData.ShirtPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Shirt / Year"
+        },
+        {
+          "value": "CustomerData.CoatPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Coat / Year"
+        },
+        {
+          "value": "CustomerData.EstimatedValuePerYear",
+          "selected": false,
+          "data": {},
+          "text": "Estimated value / Year"
+        },
+        {
+          "value": "CustomerData.IsCMBefore",
+          "selected": false,
+          "data": {},
+          "text": "CustomMade before"
+        },
+        {
+          "value": "CustomerData.BrandStoreName",
+          "selected": false,
+          "data": {},
+          "text": "Name of Brand / Store"
+        },
+        {
+          "value": "CustomerData.ReferenceTypeId",
+          "selected": false,
+          "data": {},
+          "text": "Reference via"
+        },
+        {
+          "value": "CustomerData.ReferenceCustomerId",
+          "selected": false,
+          "data": {},
+          "text": "Reference customer"
+        },
+        {
+          "value": "CustomerData.ReferenceInfo",
+          "selected": false,
+          "data": {},
+          "text": "Reference information"
+        },
+        {
+          "value": "CF1",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 1"
+        },
+        {
+          "value": "CF2",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 2"
+        },
+        {
+          "value": "CF3",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 3"
+        },
+        {
+          "value": "CF4",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 4"
+        },
+        {
+          "value": "CF5",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 5"
+        }
+      ]
+    },
+    {
+      "id": "ShopCustomerFields_CustomFields_CustomField3_AppearsAfter",
+      "name": "ShopCustomerFields.CustomFields.CustomField3.AppearsAfter",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "LastName",
+          "selected": true,
+          "data": {},
+          "text": "Last name"
+        },
+        {
+          "value": "Initials",
+          "selected": false,
+          "data": {},
+          "text": "Initials"
+        },
+        {
+          "value": "Suffix",
+          "selected": false,
+          "data": {},
+          "text": "Suffix"
+        },
+        {
+          "value": "Address",
+          "selected": false,
+          "data": {},
+          "text": "Address"
+        },
+        {
+          "value": "PostalCode",
+          "selected": false,
+          "data": {},
+          "text": "Postal code"
+        },
+        {
+          "value": "City",
+          "selected": false,
+          "data": {},
+          "text": "City"
+        },
+        {
+          "value": "CountryID",
+          "selected": false,
+          "data": {},
+          "text": "Country"
+        },
+        {
+          "value": "DOB",
+          "selected": false,
+          "data": {},
+          "text": "Date of birth"
+        },
+        {
+          "value": "PhoneNumber",
+          "selected": false,
+          "data": {},
+          "text": "Phone number"
+        },
+        {
+          "value": "MobileNumber",
+          "selected": false,
+          "data": {},
+          "text": "Mobile number"
+        },
+        {
+          "value": "Email",
+          "selected": false,
+          "data": {},
+          "text": "E-mail"
+        },
+        {
+          "value": "ReferredByCustomer",
+          "selected": false,
+          "data": {},
+          "text": "Referred by"
+        },
+        {
+          "value": "KeepInformed",
+          "selected": false,
+          "data": {},
+          "text": "Keep informed"
+        },
+        {
+          "value": "CompanyName",
+          "selected": false,
+          "data": {},
+          "text": "Company name"
+        },
+        {
+          "value": "CompanyAddress",
+          "selected": false,
+          "data": {},
+          "text": "Company address"
+        },
+        {
+          "value": "CompanyPostalCode",
+          "selected": false,
+          "data": {},
+          "text": "Company postal code"
+        },
+        {
+          "value": "CompanyCity",
+          "selected": false,
+          "data": {},
+          "text": "Company city"
+        },
+        {
+          "value": "CustomerProject",
+          "selected": false,
+          "data": {},
+          "text": "Customer project"
+        },
+        {
+          "value": "CustomerData.CustomerType",
+          "selected": false,
+          "data": {},
+          "text": "Type"
+        },
+        {
+          "value": "CustomerData.SuitPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Suit / Year"
+        },
+        {
+          "value": "CustomerData.JacketPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Jacket / Year"
+        },
+        {
+          "value": "CustomerData.ShirtPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Shirt / Year"
+        },
+        {
+          "value": "CustomerData.CoatPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Coat / Year"
+        },
+        {
+          "value": "CustomerData.EstimatedValuePerYear",
+          "selected": false,
+          "data": {},
+          "text": "Estimated value / Year"
+        },
+        {
+          "value": "CustomerData.IsCMBefore",
+          "selected": false,
+          "data": {},
+          "text": "CustomMade before"
+        },
+        {
+          "value": "CustomerData.BrandStoreName",
+          "selected": false,
+          "data": {},
+          "text": "Name of Brand / Store"
+        },
+        {
+          "value": "CustomerData.ReferenceTypeId",
+          "selected": false,
+          "data": {},
+          "text": "Reference via"
+        },
+        {
+          "value": "CustomerData.ReferenceCustomerId",
+          "selected": false,
+          "data": {},
+          "text": "Reference customer"
+        },
+        {
+          "value": "CustomerData.ReferenceInfo",
+          "selected": false,
+          "data": {},
+          "text": "Reference information"
+        },
+        {
+          "value": "CF1",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 1"
+        },
+        {
+          "value": "CF2",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 2"
+        },
+        {
+          "value": "CF3",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 3"
+        },
+        {
+          "value": "CF4",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 4"
+        },
+        {
+          "value": "CF5",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 5"
+        }
+      ]
+    },
+    {
+      "id": "ShopCustomerFields_CustomFields_CustomField4_AppearsAfter",
+      "name": "ShopCustomerFields.CustomFields.CustomField4.AppearsAfter",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "LastName",
+          "selected": true,
+          "data": {},
+          "text": "Last name"
+        },
+        {
+          "value": "Initials",
+          "selected": false,
+          "data": {},
+          "text": "Initials"
+        },
+        {
+          "value": "Suffix",
+          "selected": false,
+          "data": {},
+          "text": "Suffix"
+        },
+        {
+          "value": "Address",
+          "selected": false,
+          "data": {},
+          "text": "Address"
+        },
+        {
+          "value": "PostalCode",
+          "selected": false,
+          "data": {},
+          "text": "Postal code"
+        },
+        {
+          "value": "City",
+          "selected": false,
+          "data": {},
+          "text": "City"
+        },
+        {
+          "value": "CountryID",
+          "selected": false,
+          "data": {},
+          "text": "Country"
+        },
+        {
+          "value": "DOB",
+          "selected": false,
+          "data": {},
+          "text": "Date of birth"
+        },
+        {
+          "value": "PhoneNumber",
+          "selected": false,
+          "data": {},
+          "text": "Phone number"
+        },
+        {
+          "value": "MobileNumber",
+          "selected": false,
+          "data": {},
+          "text": "Mobile number"
+        },
+        {
+          "value": "Email",
+          "selected": false,
+          "data": {},
+          "text": "E-mail"
+        },
+        {
+          "value": "ReferredByCustomer",
+          "selected": false,
+          "data": {},
+          "text": "Referred by"
+        },
+        {
+          "value": "KeepInformed",
+          "selected": false,
+          "data": {},
+          "text": "Keep informed"
+        },
+        {
+          "value": "CompanyName",
+          "selected": false,
+          "data": {},
+          "text": "Company name"
+        },
+        {
+          "value": "CompanyAddress",
+          "selected": false,
+          "data": {},
+          "text": "Company address"
+        },
+        {
+          "value": "CompanyPostalCode",
+          "selected": false,
+          "data": {},
+          "text": "Company postal code"
+        },
+        {
+          "value": "CompanyCity",
+          "selected": false,
+          "data": {},
+          "text": "Company city"
+        },
+        {
+          "value": "CustomerProject",
+          "selected": false,
+          "data": {},
+          "text": "Customer project"
+        },
+        {
+          "value": "CustomerData.CustomerType",
+          "selected": false,
+          "data": {},
+          "text": "Type"
+        },
+        {
+          "value": "CustomerData.SuitPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Suit / Year"
+        },
+        {
+          "value": "CustomerData.JacketPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Jacket / Year"
+        },
+        {
+          "value": "CustomerData.ShirtPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Shirt / Year"
+        },
+        {
+          "value": "CustomerData.CoatPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Coat / Year"
+        },
+        {
+          "value": "CustomerData.EstimatedValuePerYear",
+          "selected": false,
+          "data": {},
+          "text": "Estimated value / Year"
+        },
+        {
+          "value": "CustomerData.IsCMBefore",
+          "selected": false,
+          "data": {},
+          "text": "CustomMade before"
+        },
+        {
+          "value": "CustomerData.BrandStoreName",
+          "selected": false,
+          "data": {},
+          "text": "Name of Brand / Store"
+        },
+        {
+          "value": "CustomerData.ReferenceTypeId",
+          "selected": false,
+          "data": {},
+          "text": "Reference via"
+        },
+        {
+          "value": "CustomerData.ReferenceCustomerId",
+          "selected": false,
+          "data": {},
+          "text": "Reference customer"
+        },
+        {
+          "value": "CustomerData.ReferenceInfo",
+          "selected": false,
+          "data": {},
+          "text": "Reference information"
+        },
+        {
+          "value": "CF1",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 1"
+        },
+        {
+          "value": "CF2",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 2"
+        },
+        {
+          "value": "CF3",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 3"
+        },
+        {
+          "value": "CF4",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 4"
+        },
+        {
+          "value": "CF5",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 5"
+        }
+      ]
+    },
+    {
+      "id": "ShopCustomerFields_CustomFields_CustomField5_AppearsAfter",
+      "name": "ShopCustomerFields.CustomFields.CustomField5.AppearsAfter",
+      "class": "form-control",
+      "options": [
+        {
+          "value": "LastName",
+          "selected": true,
+          "data": {},
+          "text": "Last name"
+        },
+        {
+          "value": "Initials",
+          "selected": false,
+          "data": {},
+          "text": "Initials"
+        },
+        {
+          "value": "Suffix",
+          "selected": false,
+          "data": {},
+          "text": "Suffix"
+        },
+        {
+          "value": "Address",
+          "selected": false,
+          "data": {},
+          "text": "Address"
+        },
+        {
+          "value": "PostalCode",
+          "selected": false,
+          "data": {},
+          "text": "Postal code"
+        },
+        {
+          "value": "City",
+          "selected": false,
+          "data": {},
+          "text": "City"
+        },
+        {
+          "value": "CountryID",
+          "selected": false,
+          "data": {},
+          "text": "Country"
+        },
+        {
+          "value": "DOB",
+          "selected": false,
+          "data": {},
+          "text": "Date of birth"
+        },
+        {
+          "value": "PhoneNumber",
+          "selected": false,
+          "data": {},
+          "text": "Phone number"
+        },
+        {
+          "value": "MobileNumber",
+          "selected": false,
+          "data": {},
+          "text": "Mobile number"
+        },
+        {
+          "value": "Email",
+          "selected": false,
+          "data": {},
+          "text": "E-mail"
+        },
+        {
+          "value": "ReferredByCustomer",
+          "selected": false,
+          "data": {},
+          "text": "Referred by"
+        },
+        {
+          "value": "KeepInformed",
+          "selected": false,
+          "data": {},
+          "text": "Keep informed"
+        },
+        {
+          "value": "CompanyName",
+          "selected": false,
+          "data": {},
+          "text": "Company name"
+        },
+        {
+          "value": "CompanyAddress",
+          "selected": false,
+          "data": {},
+          "text": "Company address"
+        },
+        {
+          "value": "CompanyPostalCode",
+          "selected": false,
+          "data": {},
+          "text": "Company postal code"
+        },
+        {
+          "value": "CompanyCity",
+          "selected": false,
+          "data": {},
+          "text": "Company city"
+        },
+        {
+          "value": "CustomerProject",
+          "selected": false,
+          "data": {},
+          "text": "Customer project"
+        },
+        {
+          "value": "CustomerData.CustomerType",
+          "selected": false,
+          "data": {},
+          "text": "Type"
+        },
+        {
+          "value": "CustomerData.SuitPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Suit / Year"
+        },
+        {
+          "value": "CustomerData.JacketPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Jacket / Year"
+        },
+        {
+          "value": "CustomerData.ShirtPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Shirt / Year"
+        },
+        {
+          "value": "CustomerData.CoatPerYear",
+          "selected": false,
+          "data": {},
+          "text": "Coat / Year"
+        },
+        {
+          "value": "CustomerData.EstimatedValuePerYear",
+          "selected": false,
+          "data": {},
+          "text": "Estimated value / Year"
+        },
+        {
+          "value": "CustomerData.IsCMBefore",
+          "selected": false,
+          "data": {},
+          "text": "CustomMade before"
+        },
+        {
+          "value": "CustomerData.BrandStoreName",
+          "selected": false,
+          "data": {},
+          "text": "Name of Brand / Store"
+        },
+        {
+          "value": "CustomerData.ReferenceTypeId",
+          "selected": false,
+          "data": {},
+          "text": "Reference via"
+        },
+        {
+          "value": "CustomerData.ReferenceCustomerId",
+          "selected": false,
+          "data": {},
+          "text": "Reference customer"
+        },
+        {
+          "value": "CustomerData.ReferenceInfo",
+          "selected": false,
+          "data": {},
+          "text": "Reference information"
+        },
+        {
+          "value": "CF1",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 1"
+        },
+        {
+          "value": "CF2",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 2"
+        },
+        {
+          "value": "CF3",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 3"
+        },
+        {
+          "value": "CF4",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 4"
+        },
+        {
+          "value": "CF5",
+          "selected": false,
+          "data": {},
+          "text": "Customer field 5"
+        }
+      ]
+    }
+  ],
+  "hiddens": [
+    {
+      "id": "ShopCustomerFields_BasicFields_FirstName_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.FirstName.CanShopHideIt",
+      "value": "False"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_FirstName_Name",
+      "name": "ShopCustomerFields.BasicFields.FirstName.Name",
+      "value": "FirstName"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.FirstName.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.FirstName.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.FirstName.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_LastName_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.LastName.CanShopHideIt",
+      "value": "False"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.LastName.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.LastName.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.LastName.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_Initials_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.Initials.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Initials.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Initials.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Initials.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_Suffix_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.Suffix.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Suffix.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Suffix.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Suffix.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_Address_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.Address.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Address.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Address.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Address.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_Address_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.Address.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.PostalCode.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.PostalCode.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.PostalCode.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_City_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.City.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.City.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.City.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.City.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_CountryID_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.CountryID.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.CountryID.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.CountryID.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.CountryID.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_DOB_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.DOB.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.DOB.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.DOB.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.DOB.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_PhoneNumber_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.PhoneNumber.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.PhoneNumber.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.PhoneNumber.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.PhoneNumber.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_MobileNumber_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.MobileNumber.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.MobileNumber.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.MobileNumber.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.MobileNumber.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_Email_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.Email.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Email.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Email.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.Email.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_ReferredByID_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.ReferredByID.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.ReferredByID.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.ReferredByID.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.ReferredByID.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_KeepInformed_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.KeepInformed.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.KeepInformed.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.KeepInformed.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.KeepInformed.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_BasicFields_PALeadId_CanShopHideIt",
+      "name": "ShopCustomerFields.BasicFields.PALeadId.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.PALeadId.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.PALeadId.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.BasicFields.PALeadId.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_CompanyFields_CompanyName_CanShopHideIt",
+      "name": "ShopCustomerFields.CompanyFields.CompanyName.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyName.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyName.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyName.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_CompanyFields_CompanyAddress_CanShopHideIt",
+      "name": "ShopCustomerFields.CompanyFields.CompanyAddress.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyAddress.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyAddress.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyAddress.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_CompanyFields_CompanyPostalCode_CanShopHideIt",
+      "name": "ShopCustomerFields.CompanyFields.CompanyPostalCode.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyPostalCode.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyPostalCode.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyPostalCode.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_CompanyFields_CompanyCity_CanShopHideIt",
+      "name": "ShopCustomerFields.CompanyFields.CompanyCity.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyCity.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyCity.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CompanyCity.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_CompanyFields_CustomerProject_CanShopHideIt",
+      "name": "ShopCustomerFields.CompanyFields.CustomerProject.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CustomerProject.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CustomerProject.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CompanyFields.CustomerProject.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_CustomerType_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.CustomerType.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.CustomerType.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.CustomerType.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.CustomerType.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_SuitPerYear_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.SuitPerYear.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.SuitPerYear.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.SuitPerYear.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.SuitPerYear.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_JacketPerYear_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.JacketPerYear.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.JacketPerYear.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.JacketPerYear.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.JacketPerYear.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_ShirtPerYear_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.ShirtPerYear.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ShirtPerYear.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ShirtPerYear.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ShirtPerYear.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_CoatPerYear_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.CoatPerYear.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.CoatPerYear.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.CoatPerYear.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.CoatPerYear.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_EstimatedValuePerYear_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.EstimatedValuePerYear.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.EstimatedValuePerYear.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.EstimatedValuePerYear.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.EstimatedValuePerYear.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_CustomMadeBefore_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.CustomMadeBefore.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.CustomMadeBefore.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.CustomMadeBefore.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.CustomMadeBefore.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_BrandStoreName_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.BrandStoreName.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.BrandStoreName.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.BrandStoreName.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.BrandStoreName.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_ReferenceType_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.ReferenceType.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ReferenceType.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ReferenceType.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ReferenceType.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_ReferenceCustomer_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.ReferenceCustomer.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ReferenceCustomer.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ReferenceCustomer.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ReferenceCustomer.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_DataFields_ReferenceInfo_CanShopHideIt",
+      "name": "ShopCustomerFields.DataFields.ReferenceInfo.CanShopHideIt",
+      "value": "True"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ReferenceInfo.IsVisibleInForm",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ReferenceInfo.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.DataFields.ReferenceInfo.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField1.IsEnabled",
+      "value": "false"
+    },
+    {
+      "id": "ShopCustomerFields_CustomFields_CustomField1_ID",
+      "name": "ShopCustomerFields.CustomFields.CustomField1.ID",
+      "value": "1"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField1.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField1.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField1.IsVisibleInOverViewSearch",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField2.IsEnabled",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField2.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField2.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField2.IsVisibleInOverViewSearch",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField3.IsEnabled",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField3.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField3.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField3.IsVisibleInOverViewSearch",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField4.IsEnabled",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField4.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField4.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField4.IsVisibleInOverViewSearch",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField5.IsEnabled",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField5.IsVisibleInOverview",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField5.IsMandatory",
+      "value": "false"
+    },
+    {
+      "id": "",
+      "name": "ShopCustomerFields.CustomFields.CustomField5.IsVisibleInOverViewSearch",
+      "value": "false"
+    },
+    {
+      "id": "ControllerName",
+      "name": "ControllerName",
+      "value": "ShopSettings"
+    },
+    {
+      "id": "ActionName",
+      "name": "ActionName",
+      "value": "CustomerFields"
+    },
+    {
+      "id": "hiddenScrollPositionH",
+      "name": "",
+      "value": ""
+    },
+    {
+      "id": "selectedShop",
+      "name": "selectedShop",
+      "value": ""
+    },
+    {
+      "id": "hiddenHostedServer",
+      "name": "",
+      "value": "Web5"
+    },
+    {
+      "id": "hiddenFromMobileDevice",
+      "name": "",
+      "value": "false"
+    }
+  ],
+  "tables": [],
+  "js_variables": {
+    "DATEFORMAT": "'dd-M-yyyy'",
+    "shopCurrency": "'&#163;'",
+    "DATERANGE": "'1950:2050'",
+    "DATEFORMAT_SERVER": "'dd-MMM-yyyy'",
+    "SITE_BASE_URL": "'http://gocreate.nu/'",
+    "SESSION_EXPIRE_URL": "'/ShopSettings/SessionExpire'",
+    "ISINVOICE_SURCHARGE_APPLICABLE": "'False'",
+    "shouldRedirectToHttps": "'true'",
+    "redirectToHttps": "'False'",
+    "PANEL_COOKIE_NAME": "\"shoppanels\"",
+    "PANEL_COOKIE_NAME_SINGLE_STEP": "\"shoppanelSingleStep\"",
+    "isSiteInReadOnlyMode": "'False'",
+    "i": "0"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "Formal suits & Jacket": {
+    "step_1_PrimaryInfo": {
+      "selects": {},
+      "hiddens": {},
+      "radios": {},
+      "checkboxes": {},
+      "text_inputs": {},
+      "textareas": {},
+      "inline_data": {},
+      "data_attributes": {}
+    }
+  },
+  "Informal suits & Jacket": {
+    "step_1_PrimaryInfo": {
+      "selects": {},
+      "hiddens": {},
+      "radios": {},
+      "checkboxes": {},
+      "text_inputs": {},
+      "textareas": {},
+      "inline_data": {},
+      "data_attributes": {}
+    }
+  },
+  "Trousers": {
+    "step_1_PrimaryInfo": {
+      "selects": {},
+      "hiddens": {},
+      "radios": {},
+      "checkboxes": {},
+      "text_inputs": {},
+      "textareas": {},
+      "inline_data": {},
+      "data_attributes": {}
+    }
+  },
+  "Shirts": {
+    "step_1_PrimaryInfo": {
+      "selects": {},
+      "hiddens": {},
+      "radios": {},
+      "checkboxes": {},
+      "text_inputs": {},
+      "textareas": {},
+      "inline_data": {},
+      "data_attributes": {}
+    }
+  },
+  "Outerwear": {
+    "step_1_PrimaryInfo": {
+      "selects": {},
+      "hiddens": {},
+      "radios": {},
+      "checkboxes": {},
+      "text_inputs": {},
+      "textareas": {},
+      "inline_data": {},
+      "data_attributes": {}
+    }
+  },
+  "Shoes & Belts": {
+    "step_1_PrimaryInfo": {
+      "selects": {},
+      "hiddens": {},
+      "radios": {},
+      "checkboxes": {},
+      "text_inputs": {},
+      "textareas": {},
+      "inline_data": {},
+      "data_attributes": {}
+    }
+  },
+  "(Bow)Ties, Pocket Squares & Cummerbunds": {
+    "step_1_PrimaryInfo": {
+      "selects": {},
+      "hiddens": {},
+      "radios": {},
+      "checkboxes": {},
+      "text_inputs": {},
+      "textareas": {},
+      "inline_data": {},
+      "data_attributes": {}
+    }
+  },
+  "Pants": {
+    "step_1_PrimaryInfo": {
+      "selects": {},
+      "hiddens": {},
+      "radios": {},
+      "checkboxes": {},
+      "text_inputs": {},
+      "textareas": {},
+      "inline_data": {},
+      "data_attributes": {}
+    }
+  },
+  "Knitwear": {
+    "step_1_PrimaryInfo": {
+      "selects": {},
+      "hiddens": {},
+      "radios": {},
+      "checkboxes": {},
+      "text_inputs": {},
+      "textareas": {},
+      "inline_data": {},
+      "data_attributes": {}
+    }
+  },
+  "Vests": {
+    "step_1_PrimaryInfo": {
+      "selects": {},
+      "hiddens": {},
+      "radios": {},
+      "checkboxes": {},
+      "text_inputs": {},
+      "textareas": {},
+      "inline_data": {},
+      "data_attributes": {}
+    }
+  }
+}

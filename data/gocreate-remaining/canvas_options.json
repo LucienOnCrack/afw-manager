@@ -1,0 +1,2342 @@
+{
+  "part1_make1": {
+    "partId": 1,
+    "partName": "Jacket",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part1_make7": {
+    "partId": 1,
+    "partName": "Jacket",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part1_make8": {
+    "partId": 1,
+    "partName": "Jacket",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part1_make9": {
+    "partId": 1,
+    "partName": "Jacket",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part1_make10": {
+    "partId": 1,
+    "partName": "Jacket",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part1_make11": {
+    "partId": 1,
+    "partName": "Jacket",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part1_make12": {
+    "partId": 1,
+    "partName": "Jacket",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part1_make42": {
+    "partId": 1,
+    "partName": "Jacket",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part1_make51": {
+    "partId": 1,
+    "partName": "Jacket",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part2_make1": {
+    "partId": 2,
+    "partName": "Trousers",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part2_make7": {
+    "partId": 2,
+    "partName": "Trousers",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part2_make8": {
+    "partId": 2,
+    "partName": "Trousers",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part2_make9": {
+    "partId": 2,
+    "partName": "Trousers",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part2_make10": {
+    "partId": 2,
+    "partName": "Trousers",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part2_make11": {
+    "partId": 2,
+    "partName": "Trousers",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part2_make12": {
+    "partId": 2,
+    "partName": "Trousers",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part2_make42": {
+    "partId": 2,
+    "partName": "Trousers",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part2_make51": {
+    "partId": 2,
+    "partName": "Trousers",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part3_make1": {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part3_make7": {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part3_make8": {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part3_make9": {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part3_make10": {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part3_make11": {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part3_make12": {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part3_make42": {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part3_make51": {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part4_make1": {
+    "partId": 4,
+    "partName": "Shirt",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part4_make7": {
+    "partId": 4,
+    "partName": "Shirt",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part4_make8": {
+    "partId": 4,
+    "partName": "Shirt",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part4_make9": {
+    "partId": 4,
+    "partName": "Shirt",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part4_make10": {
+    "partId": 4,
+    "partName": "Shirt",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part4_make11": {
+    "partId": 4,
+    "partName": "Shirt",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part4_make12": {
+    "partId": 4,
+    "partName": "Shirt",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part4_make42": {
+    "partId": 4,
+    "partName": "Shirt",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part4_make51": {
+    "partId": 4,
+    "partName": "Shirt",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part5_make1": {
+    "partId": 5,
+    "partName": "Overcoat",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part5_make7": {
+    "partId": 5,
+    "partName": "Overcoat",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part5_make8": {
+    "partId": 5,
+    "partName": "Overcoat",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part5_make9": {
+    "partId": 5,
+    "partName": "Overcoat",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part5_make10": {
+    "partId": 5,
+    "partName": "Overcoat",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part5_make11": {
+    "partId": 5,
+    "partName": "Overcoat",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part5_make12": {
+    "partId": 5,
+    "partName": "Overcoat",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part5_make42": {
+    "partId": 5,
+    "partName": "Overcoat",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part5_make51": {
+    "partId": 5,
+    "partName": "Overcoat",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part6_make1": {
+    "partId": 6,
+    "partName": "Bermuda",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part6_make7": {
+    "partId": 6,
+    "partName": "Bermuda",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part6_make8": {
+    "partId": 6,
+    "partName": "Bermuda",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part6_make9": {
+    "partId": 6,
+    "partName": "Bermuda",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part6_make10": {
+    "partId": 6,
+    "partName": "Bermuda",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part6_make11": {
+    "partId": 6,
+    "partName": "Bermuda",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part6_make12": {
+    "partId": 6,
+    "partName": "Bermuda",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part6_make42": {
+    "partId": 6,
+    "partName": "Bermuda",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part6_make51": {
+    "partId": 6,
+    "partName": "Bermuda",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part7_make1": {
+    "partId": 7,
+    "partName": "Pea coat",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part7_make7": {
+    "partId": 7,
+    "partName": "Pea coat",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part7_make8": {
+    "partId": 7,
+    "partName": "Pea coat",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part7_make9": {
+    "partId": 7,
+    "partName": "Pea coat",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part7_make10": {
+    "partId": 7,
+    "partName": "Pea coat",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part7_make11": {
+    "partId": 7,
+    "partName": "Pea coat",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part7_make12": {
+    "partId": 7,
+    "partName": "Pea coat",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part7_make42": {
+    "partId": 7,
+    "partName": "Pea coat",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part7_make51": {
+    "partId": 7,
+    "partName": "Pea coat",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part8_make1": {
+    "partId": 8,
+    "partName": "Coat",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part8_make7": {
+    "partId": 8,
+    "partName": "Coat",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part8_make8": {
+    "partId": 8,
+    "partName": "Coat",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part8_make9": {
+    "partId": 8,
+    "partName": "Coat",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part8_make10": {
+    "partId": 8,
+    "partName": "Coat",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part8_make11": {
+    "partId": 8,
+    "partName": "Coat",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part8_make12": {
+    "partId": 8,
+    "partName": "Coat",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part8_make42": {
+    "partId": 8,
+    "partName": "Coat",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part8_make51": {
+    "partId": 8,
+    "partName": "Coat",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part9_make1": {
+    "partId": 9,
+    "partName": "Detachable liner",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part9_make7": {
+    "partId": 9,
+    "partName": "Detachable liner",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part9_make8": {
+    "partId": 9,
+    "partName": "Detachable liner",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part9_make9": {
+    "partId": 9,
+    "partName": "Detachable liner",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part9_make10": {
+    "partId": 9,
+    "partName": "Detachable liner",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part9_make11": {
+    "partId": 9,
+    "partName": "Detachable liner",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part9_make12": {
+    "partId": 9,
+    "partName": "Detachable liner",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part9_make42": {
+    "partId": 9,
+    "partName": "Detachable liner",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part9_make51": {
+    "partId": 9,
+    "partName": "Detachable liner",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part10_make1": {
+    "partId": 10,
+    "partName": "Informal jacket",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part10_make7": {
+    "partId": 10,
+    "partName": "Informal jacket",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part10_make8": {
+    "partId": 10,
+    "partName": "Informal jacket",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part10_make9": {
+    "partId": 10,
+    "partName": "Informal jacket",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part10_make10": {
+    "partId": 10,
+    "partName": "Informal jacket",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part10_make11": {
+    "partId": 10,
+    "partName": "Informal jacket",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part10_make12": {
+    "partId": 10,
+    "partName": "Informal jacket",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part10_make42": {
+    "partId": 10,
+    "partName": "Informal jacket",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part10_make51": {
+    "partId": 10,
+    "partName": "Informal jacket",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part12_make1": {
+    "partId": 12,
+    "partName": "Bermuda (Inf)",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part12_make7": {
+    "partId": 12,
+    "partName": "Bermuda (Inf)",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part12_make8": {
+    "partId": 12,
+    "partName": "Bermuda (Inf)",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part12_make9": {
+    "partId": 12,
+    "partName": "Bermuda (Inf)",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part12_make10": {
+    "partId": 12,
+    "partName": "Bermuda (Inf)",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part12_make11": {
+    "partId": 12,
+    "partName": "Bermuda (Inf)",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part12_make12": {
+    "partId": 12,
+    "partName": "Bermuda (Inf)",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part12_make42": {
+    "partId": 12,
+    "partName": "Bermuda (Inf)",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part12_make51": {
+    "partId": 12,
+    "partName": "Bermuda (Inf)",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part20_make1": {
+    "partId": 20,
+    "partName": "Sneaker",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part20_make7": {
+    "partId": 20,
+    "partName": "Sneaker",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part20_make8": {
+    "partId": 20,
+    "partName": "Sneaker",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part20_make9": {
+    "partId": 20,
+    "partName": "Sneaker",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part20_make10": {
+    "partId": 20,
+    "partName": "Sneaker",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part20_make11": {
+    "partId": 20,
+    "partName": "Sneaker",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part20_make12": {
+    "partId": 20,
+    "partName": "Sneaker",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part20_make42": {
+    "partId": 20,
+    "partName": "Sneaker",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part20_make51": {
+    "partId": 20,
+    "partName": "Sneaker",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part21_make1": {
+    "partId": 21,
+    "partName": "Tie",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part21_make7": {
+    "partId": 21,
+    "partName": "Tie",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part21_make8": {
+    "partId": 21,
+    "partName": "Tie",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part21_make9": {
+    "partId": 21,
+    "partName": "Tie",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part21_make10": {
+    "partId": 21,
+    "partName": "Tie",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part21_make11": {
+    "partId": 21,
+    "partName": "Tie",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part21_make12": {
+    "partId": 21,
+    "partName": "Tie",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part21_make42": {
+    "partId": 21,
+    "partName": "Tie",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part21_make51": {
+    "partId": 21,
+    "partName": "Tie",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part22_make1": {
+    "partId": 22,
+    "partName": "Bow tie",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part22_make7": {
+    "partId": 22,
+    "partName": "Bow tie",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part22_make8": {
+    "partId": 22,
+    "partName": "Bow tie",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part22_make9": {
+    "partId": 22,
+    "partName": "Bow tie",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part22_make10": {
+    "partId": 22,
+    "partName": "Bow tie",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part22_make11": {
+    "partId": 22,
+    "partName": "Bow tie",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part22_make12": {
+    "partId": 22,
+    "partName": "Bow tie",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part22_make42": {
+    "partId": 22,
+    "partName": "Bow tie",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part22_make51": {
+    "partId": 22,
+    "partName": "Bow tie",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part23_make1": {
+    "partId": 23,
+    "partName": "Pocket square",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part23_make7": {
+    "partId": 23,
+    "partName": "Pocket square",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part23_make8": {
+    "partId": 23,
+    "partName": "Pocket square",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part23_make9": {
+    "partId": 23,
+    "partName": "Pocket square",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part23_make10": {
+    "partId": 23,
+    "partName": "Pocket square",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part23_make11": {
+    "partId": 23,
+    "partName": "Pocket square",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part23_make12": {
+    "partId": 23,
+    "partName": "Pocket square",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part23_make42": {
+    "partId": 23,
+    "partName": "Pocket square",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part23_make51": {
+    "partId": 23,
+    "partName": "Pocket square",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part24_make1": {
+    "partId": 24,
+    "partName": "Belt - Italy",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part24_make7": {
+    "partId": 24,
+    "partName": "Belt - Italy",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part24_make8": {
+    "partId": 24,
+    "partName": "Belt - Italy",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part24_make9": {
+    "partId": 24,
+    "partName": "Belt - Italy",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part24_make10": {
+    "partId": 24,
+    "partName": "Belt - Italy",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part24_make11": {
+    "partId": 24,
+    "partName": "Belt - Italy",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part24_make12": {
+    "partId": 24,
+    "partName": "Belt - Italy",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part24_make42": {
+    "partId": 24,
+    "partName": "Belt - Italy",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part24_make51": {
+    "partId": 24,
+    "partName": "Belt - Italy",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part25_make1": {
+    "partId": 25,
+    "partName": "Belt - Portugal",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part25_make7": {
+    "partId": 25,
+    "partName": "Belt - Portugal",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part25_make8": {
+    "partId": 25,
+    "partName": "Belt - Portugal",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part25_make9": {
+    "partId": 25,
+    "partName": "Belt - Portugal",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part25_make10": {
+    "partId": 25,
+    "partName": "Belt - Portugal",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part25_make11": {
+    "partId": 25,
+    "partName": "Belt - Portugal",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part25_make12": {
+    "partId": 25,
+    "partName": "Belt - Portugal",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part25_make42": {
+    "partId": 25,
+    "partName": "Belt - Portugal",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part25_make51": {
+    "partId": 25,
+    "partName": "Belt - Portugal",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part32_make1": {
+    "partId": 32,
+    "partName": "Knitwear",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part32_make7": {
+    "partId": 32,
+    "partName": "Knitwear",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part32_make8": {
+    "partId": 32,
+    "partName": "Knitwear",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part32_make9": {
+    "partId": 32,
+    "partName": "Knitwear",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part32_make10": {
+    "partId": 32,
+    "partName": "Knitwear",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part32_make11": {
+    "partId": 32,
+    "partName": "Knitwear",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part32_make12": {
+    "partId": 32,
+    "partName": "Knitwear",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part32_make42": {
+    "partId": 32,
+    "partName": "Knitwear",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part32_make51": {
+    "partId": 32,
+    "partName": "Knitwear",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part34_make1": {
+    "partId": 34,
+    "partName": "Beanie",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part34_make7": {
+    "partId": 34,
+    "partName": "Beanie",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part34_make8": {
+    "partId": 34,
+    "partName": "Beanie",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part34_make9": {
+    "partId": 34,
+    "partName": "Beanie",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part34_make10": {
+    "partId": 34,
+    "partName": "Beanie",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part34_make11": {
+    "partId": 34,
+    "partName": "Beanie",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part34_make12": {
+    "partId": 34,
+    "partName": "Beanie",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part34_make42": {
+    "partId": 34,
+    "partName": "Beanie",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part34_make51": {
+    "partId": 34,
+    "partName": "Beanie",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part35_make1": {
+    "partId": 35,
+    "partName": "Scarf",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part35_make7": {
+    "partId": 35,
+    "partName": "Scarf",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part35_make8": {
+    "partId": 35,
+    "partName": "Scarf",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part35_make9": {
+    "partId": 35,
+    "partName": "Scarf",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part35_make10": {
+    "partId": 35,
+    "partName": "Scarf",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part35_make11": {
+    "partId": 35,
+    "partName": "Scarf",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part35_make12": {
+    "partId": 35,
+    "partName": "Scarf",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part35_make42": {
+    "partId": 35,
+    "partName": "Scarf",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part35_make51": {
+    "partId": 35,
+    "partName": "Scarf",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part36_make1": {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part36_make7": {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part36_make8": {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part36_make9": {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part36_make10": {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part36_make11": {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part36_make12": {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part36_make42": {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part36_make51": {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part37_make1": {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part37_make7": {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part37_make8": {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part37_make9": {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part37_make10": {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part37_make11": {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part37_make12": {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part37_make42": {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part37_make51": {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part38_make1": {
+    "partId": 38,
+    "partName": "Vest",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part38_make7": {
+    "partId": 38,
+    "partName": "Vest",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part38_make8": {
+    "partId": 38,
+    "partName": "Vest",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part38_make9": {
+    "partId": 38,
+    "partName": "Vest",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part38_make10": {
+    "partId": 38,
+    "partName": "Vest",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part38_make11": {
+    "partId": 38,
+    "partName": "Vest",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part38_make12": {
+    "partId": 38,
+    "partName": "Vest",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part38_make42": {
+    "partId": 38,
+    "partName": "Vest",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part38_make51": {
+    "partId": 38,
+    "partName": "Vest",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part39_make1": {
+    "partId": 39,
+    "partName": "Pants",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part39_make7": {
+    "partId": 39,
+    "partName": "Pants",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part39_make8": {
+    "partId": 39,
+    "partName": "Pants",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part39_make9": {
+    "partId": 39,
+    "partName": "Pants",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part39_make10": {
+    "partId": 39,
+    "partName": "Pants",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part39_make11": {
+    "partId": 39,
+    "partName": "Pants",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part39_make12": {
+    "partId": 39,
+    "partName": "Pants",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part39_make42": {
+    "partId": 39,
+    "partName": "Pants",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part39_make51": {
+    "partId": 39,
+    "partName": "Pants",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part40_make1": {
+    "partId": 40,
+    "partName": "Runner",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part40_make7": {
+    "partId": 40,
+    "partName": "Runner",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part40_make8": {
+    "partId": 40,
+    "partName": "Runner",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part40_make9": {
+    "partId": 40,
+    "partName": "Runner",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part40_make10": {
+    "partId": 40,
+    "partName": "Runner",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part40_make11": {
+    "partId": 40,
+    "partName": "Runner",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part40_make12": {
+    "partId": 40,
+    "partName": "Runner",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part40_make42": {
+    "partId": 40,
+    "partName": "Runner",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part40_make51": {
+    "partId": 40,
+    "partName": "Runner",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part41_make1": {
+    "partId": 41,
+    "partName": "City loafer",
+    "makeId": 1,
+    "makeName": "handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part41_make7": {
+    "partId": 41,
+    "partName": "City loafer",
+    "makeId": 7,
+    "makeName": "semi-traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part41_make8": {
+    "partId": 41,
+    "partName": "City loafer",
+    "makeId": 8,
+    "makeName": "traditional",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part41_make9": {
+    "partId": 41,
+    "partName": "City loafer",
+    "makeId": 9,
+    "makeName": "traditional full canvas",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part41_make10": {
+    "partId": 41,
+    "partName": "City loafer",
+    "makeId": 10,
+    "makeName": "traditional with pleated waistband",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part41_make11": {
+    "partId": 41,
+    "partName": "City loafer",
+    "makeId": 11,
+    "makeName": "unconstructed",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part41_make12": {
+    "partId": 41,
+    "partName": "City loafer",
+    "makeId": 12,
+    "makeName": "unconstructed handmade",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part41_make42": {
+    "partId": 41,
+    "partName": "City loafer",
+    "makeId": 42,
+    "makeName": "traditional belt",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  },
+  "part41_make51": {
+    "partId": 41,
+    "partName": "City loafer",
+    "makeId": 51,
+    "makeName": "pleated",
+    "response": {
+      "status": true,
+      "data": []
+    }
+  }
+}

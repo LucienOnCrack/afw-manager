@@ -1,0 +1,5952 @@
+[
+  {
+    "partId": 1,
+    "partName": "Jacket",
+    "atelierId": 1,
+    "atelierName": "Standard Suits A",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      },
+      {
+        "ID": 9,
+        "Name": "traditional full canvas",
+        "Sequence": 2,
+        "LocalisedNames": [
+          {
+            "ID": 218459,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 9,
+            "StringValue": "traditional full canvas",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1571401608230)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1265704045000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953390)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional full canvas",
+        "LocalStringsToSave": null,
+        "InternalName": "traditionalfullcanvas",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 9,
+          "MakeName": "traditional full canvas",
+          "MakePriceCategories": " AM Full Canvas / The Traditional, CMMA Full canvas, CMMA Moss Full canvas, RM AM Full Canvas / The Traditional, RMMA Full canvas, RMMA Moss Full canvas"
+        },
+        "CategoryNames": " AM Full Canvas / The Traditional, CMMA Full canvas, CMMA Moss Full canvas, RM AM Full Canvas / The Traditional, RMMA Full canvas, RMMA Moss Full canvas"
+      },
+      {
+        "ID": 1,
+        "Name": "handmade",
+        "Sequence": 4,
+        "LocalisedNames": [
+          {
+            "ID": 218387,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 1,
+            "StringValue": "handmade",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229513895000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953687)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "Handmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 1,
+          "MakeName": "handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      },
+      {
+        "ID": 11,
+        "Name": "unconstructed",
+        "Sequence": 5,
+        "LocalisedNames": [
+          {
+            "ID": 218477,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 11,
+            "StringValue": "unconstructed",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1355884883000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953837)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 11,
+          "MakeName": "unconstructed",
+          "MakePriceCategories": " CMMA Unconstructed, RMMA Unconstructed"
+        },
+        "CategoryNames": " CMMA Unconstructed, RMMA Unconstructed"
+      },
+      {
+        "ID": 12,
+        "Name": "unconstructed handmade",
+        "Sequence": 6,
+        "LocalisedNames": [
+          {
+            "ID": 290060,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 12,
+            "StringValue": "unconstructed handmade",
+            "SystemInformation": {
+              "CreatedBy": 25,
+              "CreatedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "CreatedDate": "/Date(1392999187000)/",
+              "ChangedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "ChangedBy": 25,
+              "ChangedDate": "/Date(1392999187000)/",
+              "ChangedByUserName": "Ellen Coppens",
+              "CreatedByUserName": "Ellen Coppens"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 1,
+          "CreatedByUser": {
+            "ID": 1,
+            "LastName": "Systeem",
+            "FirstName": "Automated",
+            "FullName": "Automated Systeem",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1389913200000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953983)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Automated Systeem"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "UnconstructedHandmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 12,
+          "MakeName": "unconstructed handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      },
+      {
+        "ID": 7,
+        "Name": "semi-traditional",
+        "Sequence": 7,
+        "LocalisedNames": [
+          {
+            "ID": 218441,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 7,
+            "StringValue": "semi-traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242693000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1320706800000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574954133)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "semi-traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "semitraditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 7,
+          "MakeName": "semi-traditional",
+          "MakePriceCategories": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+        },
+        "CategoryNames": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+      }
+    ]
+  },
+  {
+    "partId": 1,
+    "partName": "Jacket",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      },
+      {
+        "ID": 9,
+        "Name": "traditional full canvas",
+        "Sequence": 2,
+        "LocalisedNames": [
+          {
+            "ID": 218459,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 9,
+            "StringValue": "traditional full canvas",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1571401608230)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1265704045000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953390)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional full canvas",
+        "LocalStringsToSave": null,
+        "InternalName": "traditionalfullcanvas",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 9,
+          "MakeName": "traditional full canvas",
+          "MakePriceCategories": " AM Full Canvas / The Traditional, CMMA Full canvas, CMMA Moss Full canvas, RM AM Full Canvas / The Traditional, RMMA Full canvas, RMMA Moss Full canvas"
+        },
+        "CategoryNames": " AM Full Canvas / The Traditional, CMMA Full canvas, CMMA Moss Full canvas, RM AM Full Canvas / The Traditional, RMMA Full canvas, RMMA Moss Full canvas"
+      },
+      {
+        "ID": 1,
+        "Name": "handmade",
+        "Sequence": 4,
+        "LocalisedNames": [
+          {
+            "ID": 218387,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 1,
+            "StringValue": "handmade",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229513895000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953687)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "Handmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 1,
+          "MakeName": "handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      },
+      {
+        "ID": 11,
+        "Name": "unconstructed",
+        "Sequence": 5,
+        "LocalisedNames": [
+          {
+            "ID": 218477,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 11,
+            "StringValue": "unconstructed",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1355884883000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953837)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 11,
+          "MakeName": "unconstructed",
+          "MakePriceCategories": " CMMA Unconstructed, RMMA Unconstructed"
+        },
+        "CategoryNames": " CMMA Unconstructed, RMMA Unconstructed"
+      },
+      {
+        "ID": 12,
+        "Name": "unconstructed handmade",
+        "Sequence": 6,
+        "LocalisedNames": [
+          {
+            "ID": 290060,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 12,
+            "StringValue": "unconstructed handmade",
+            "SystemInformation": {
+              "CreatedBy": 25,
+              "CreatedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "CreatedDate": "/Date(1392999187000)/",
+              "ChangedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "ChangedBy": 25,
+              "ChangedDate": "/Date(1392999187000)/",
+              "ChangedByUserName": "Ellen Coppens",
+              "CreatedByUserName": "Ellen Coppens"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 1,
+          "CreatedByUser": {
+            "ID": 1,
+            "LastName": "Systeem",
+            "FirstName": "Automated",
+            "FullName": "Automated Systeem",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1389913200000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953983)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Automated Systeem"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "UnconstructedHandmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 12,
+          "MakeName": "unconstructed handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      },
+      {
+        "ID": 7,
+        "Name": "semi-traditional",
+        "Sequence": 7,
+        "LocalisedNames": [
+          {
+            "ID": 218441,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 7,
+            "StringValue": "semi-traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242693000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1320706800000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574954133)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "semi-traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "semitraditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 7,
+          "MakeName": "semi-traditional",
+          "MakePriceCategories": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+        },
+        "CategoryNames": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+      }
+    ]
+  },
+  {
+    "partId": 2,
+    "partName": "Trousers",
+    "atelierId": 1,
+    "atelierName": "Standard Suits A",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      },
+      {
+        "ID": 10,
+        "Name": "traditional with pleated waistband",
+        "Sequence": 3,
+        "LocalisedNames": [
+          {
+            "ID": 218468,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 10,
+            "StringValue": "traditional with pleated waistband",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "ChangedBy": 25,
+              "ChangedDate": "/Date(1499679200000)/",
+              "ChangedByUserName": "Ellen Coppens",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1372811617000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953540)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional with pleated waistband",
+        "LocalStringsToSave": null,
+        "InternalName": "traditionalwithpleatedwaistband",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 10,
+          "MakeName": "traditional with pleated waistband",
+          "MakePriceCategories": " CMMA Traditional with pleats trousers, RMMA Traditional with pleats trousers"
+        },
+        "CategoryNames": " CMMA Traditional with pleats trousers, RMMA Traditional with pleats trousers"
+      },
+      {
+        "ID": 1,
+        "Name": "handmade",
+        "Sequence": 4,
+        "LocalisedNames": [
+          {
+            "ID": 218387,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 1,
+            "StringValue": "handmade",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229513895000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953687)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "Handmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 1,
+          "MakeName": "handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      },
+      {
+        "ID": 7,
+        "Name": "semi-traditional",
+        "Sequence": 7,
+        "LocalisedNames": [
+          {
+            "ID": 218441,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 7,
+            "StringValue": "semi-traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242693000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1320706800000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574954133)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "semi-traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "semitraditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 7,
+          "MakeName": "semi-traditional",
+          "MakePriceCategories": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+        },
+        "CategoryNames": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+      }
+    ]
+  },
+  {
+    "partId": 2,
+    "partName": "Trousers",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      },
+      {
+        "ID": 10,
+        "Name": "traditional with pleated waistband",
+        "Sequence": 3,
+        "LocalisedNames": [
+          {
+            "ID": 218468,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 10,
+            "StringValue": "traditional with pleated waistband",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "ChangedBy": 25,
+              "ChangedDate": "/Date(1499679200000)/",
+              "ChangedByUserName": "Ellen Coppens",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1372811617000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953540)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional with pleated waistband",
+        "LocalStringsToSave": null,
+        "InternalName": "traditionalwithpleatedwaistband",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 10,
+          "MakeName": "traditional with pleated waistband",
+          "MakePriceCategories": " CMMA Traditional with pleats trousers, RMMA Traditional with pleats trousers"
+        },
+        "CategoryNames": " CMMA Traditional with pleats trousers, RMMA Traditional with pleats trousers"
+      },
+      {
+        "ID": 1,
+        "Name": "handmade",
+        "Sequence": 4,
+        "LocalisedNames": [
+          {
+            "ID": 218387,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 1,
+            "StringValue": "handmade",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229513895000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953687)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "Handmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 1,
+          "MakeName": "handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      },
+      {
+        "ID": 7,
+        "Name": "semi-traditional",
+        "Sequence": 7,
+        "LocalisedNames": [
+          {
+            "ID": 218441,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 7,
+            "StringValue": "semi-traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242693000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1320706800000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574954133)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "semi-traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "semitraditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 7,
+          "MakeName": "semi-traditional",
+          "MakePriceCategories": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+        },
+        "CategoryNames": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+      }
+    ]
+  },
+  {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "atelierId": 1,
+    "atelierName": "Standard Suits A",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      },
+      {
+        "ID": 9,
+        "Name": "traditional full canvas",
+        "Sequence": 2,
+        "LocalisedNames": [
+          {
+            "ID": 218459,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 9,
+            "StringValue": "traditional full canvas",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1571401608230)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1265704045000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953390)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional full canvas",
+        "LocalStringsToSave": null,
+        "InternalName": "traditionalfullcanvas",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 9,
+          "MakeName": "traditional full canvas",
+          "MakePriceCategories": " AM Full Canvas / The Traditional, CMMA Full canvas, CMMA Moss Full canvas, RM AM Full Canvas / The Traditional, RMMA Full canvas, RMMA Moss Full canvas"
+        },
+        "CategoryNames": " AM Full Canvas / The Traditional, CMMA Full canvas, CMMA Moss Full canvas, RM AM Full Canvas / The Traditional, RMMA Full canvas, RMMA Moss Full canvas"
+      },
+      {
+        "ID": 1,
+        "Name": "handmade",
+        "Sequence": 4,
+        "LocalisedNames": [
+          {
+            "ID": 218387,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 1,
+            "StringValue": "handmade",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229513895000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953687)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "Handmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 1,
+          "MakeName": "handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      },
+      {
+        "ID": 7,
+        "Name": "semi-traditional",
+        "Sequence": 7,
+        "LocalisedNames": [
+          {
+            "ID": 218441,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 7,
+            "StringValue": "semi-traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242693000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1320706800000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574954133)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "semi-traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "semitraditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 7,
+          "MakeName": "semi-traditional",
+          "MakePriceCategories": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+        },
+        "CategoryNames": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+      }
+    ]
+  },
+  {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      },
+      {
+        "ID": 9,
+        "Name": "traditional full canvas",
+        "Sequence": 2,
+        "LocalisedNames": [
+          {
+            "ID": 218459,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 9,
+            "StringValue": "traditional full canvas",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1571401608230)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1265704045000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953390)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional full canvas",
+        "LocalStringsToSave": null,
+        "InternalName": "traditionalfullcanvas",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 9,
+          "MakeName": "traditional full canvas",
+          "MakePriceCategories": " AM Full Canvas / The Traditional, CMMA Full canvas, CMMA Moss Full canvas, RM AM Full Canvas / The Traditional, RMMA Full canvas, RMMA Moss Full canvas"
+        },
+        "CategoryNames": " AM Full Canvas / The Traditional, CMMA Full canvas, CMMA Moss Full canvas, RM AM Full Canvas / The Traditional, RMMA Full canvas, RMMA Moss Full canvas"
+      },
+      {
+        "ID": 1,
+        "Name": "handmade",
+        "Sequence": 4,
+        "LocalisedNames": [
+          {
+            "ID": 218387,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 1,
+            "StringValue": "handmade",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229513895000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953687)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "Handmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 1,
+          "MakeName": "handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      },
+      {
+        "ID": 7,
+        "Name": "semi-traditional",
+        "Sequence": 7,
+        "LocalisedNames": [
+          {
+            "ID": 218441,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 7,
+            "StringValue": "semi-traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242693000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1320706800000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574954133)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "semi-traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "semitraditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 7,
+          "MakeName": "semi-traditional",
+          "MakePriceCategories": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+        },
+        "CategoryNames": " CMMA Semi-Traditional, RMMA Semi-Traditional"
+      }
+    ]
+  },
+  {
+    "partId": 4,
+    "partName": "Shirt",
+    "atelierId": 3,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      },
+      {
+        "ID": 1,
+        "Name": "handmade",
+        "Sequence": 4,
+        "LocalisedNames": [
+          {
+            "ID": 218387,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 1,
+            "StringValue": "handmade",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229513895000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953687)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "Handmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 1,
+          "MakeName": "handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      }
+    ]
+  },
+  {
+    "partId": 5,
+    "partName": "Overcoat",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      },
+      {
+        "ID": 11,
+        "Name": "unconstructed",
+        "Sequence": 5,
+        "LocalisedNames": [
+          {
+            "ID": 218477,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 11,
+            "StringValue": "unconstructed",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1355884883000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953837)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 11,
+          "MakeName": "unconstructed",
+          "MakePriceCategories": " CMMA Unconstructed, RMMA Unconstructed"
+        },
+        "CategoryNames": " CMMA Unconstructed, RMMA Unconstructed"
+      }
+    ]
+  },
+  {
+    "partId": 12,
+    "partName": "Bermuda",
+    "atelierId": 1,
+    "atelierName": "Standard Suits A",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      },
+      {
+        "ID": 10,
+        "Name": "traditional with pleated waistband",
+        "Sequence": 3,
+        "LocalisedNames": [
+          {
+            "ID": 218468,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 10,
+            "StringValue": "traditional with pleated waistband",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "ChangedBy": 25,
+              "ChangedDate": "/Date(1499679200000)/",
+              "ChangedByUserName": "Ellen Coppens",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1372811617000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953540)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional with pleated waistband",
+        "LocalStringsToSave": null,
+        "InternalName": "traditionalwithpleatedwaistband",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 10,
+          "MakeName": "traditional with pleated waistband",
+          "MakePriceCategories": " CMMA Traditional with pleats trousers, RMMA Traditional with pleats trousers"
+        },
+        "CategoryNames": " CMMA Traditional with pleats trousers, RMMA Traditional with pleats trousers"
+      },
+      {
+        "ID": 1,
+        "Name": "handmade",
+        "Sequence": 4,
+        "LocalisedNames": [
+          {
+            "ID": 218387,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 1,
+            "StringValue": "handmade",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229513895000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953687)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "Handmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 1,
+          "MakeName": "handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      }
+    ]
+  },
+  {
+    "partId": 12,
+    "partName": "Bermuda",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      },
+      {
+        "ID": 10,
+        "Name": "traditional with pleated waistband",
+        "Sequence": 3,
+        "LocalisedNames": [
+          {
+            "ID": 218468,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 10,
+            "StringValue": "traditional with pleated waistband",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "ChangedBy": 25,
+              "ChangedDate": "/Date(1499679200000)/",
+              "ChangedByUserName": "Ellen Coppens",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1372811617000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953540)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional with pleated waistband",
+        "LocalStringsToSave": null,
+        "InternalName": "traditionalwithpleatedwaistband",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 10,
+          "MakeName": "traditional with pleated waistband",
+          "MakePriceCategories": " CMMA Traditional with pleats trousers, RMMA Traditional with pleats trousers"
+        },
+        "CategoryNames": " CMMA Traditional with pleats trousers, RMMA Traditional with pleats trousers"
+      },
+      {
+        "ID": 1,
+        "Name": "handmade",
+        "Sequence": 4,
+        "LocalisedNames": [
+          {
+            "ID": 218387,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 1,
+            "StringValue": "handmade",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229513895000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953687)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "Handmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 1,
+          "MakeName": "handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      }
+    ]
+  },
+  {
+    "partId": 13,
+    "partName": "Pea coat",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 11,
+        "Name": "unconstructed",
+        "Sequence": 5,
+        "LocalisedNames": [
+          {
+            "ID": 218477,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 11,
+            "StringValue": "unconstructed",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1355884883000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953837)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 11,
+          "MakeName": "unconstructed",
+          "MakePriceCategories": " CMMA Unconstructed, RMMA Unconstructed"
+        },
+        "CategoryNames": " CMMA Unconstructed, RMMA Unconstructed"
+      }
+    ]
+  },
+  {
+    "partId": 26,
+    "partName": "Coat",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 11,
+        "Name": "unconstructed",
+        "Sequence": 5,
+        "LocalisedNames": [
+          {
+            "ID": 218477,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 11,
+            "StringValue": "unconstructed",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1355884883000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953837)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 11,
+          "MakeName": "unconstructed",
+          "MakePriceCategories": " CMMA Unconstructed, RMMA Unconstructed"
+        },
+        "CategoryNames": " CMMA Unconstructed, RMMA Unconstructed"
+      }
+    ]
+  },
+  {
+    "partId": 27,
+    "partName": "Detachable liner",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 11,
+        "Name": "unconstructed",
+        "Sequence": 5,
+        "LocalisedNames": [
+          {
+            "ID": 218477,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 11,
+            "StringValue": "unconstructed",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1355884883000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953837)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 11,
+          "MakeName": "unconstructed",
+          "MakePriceCategories": " CMMA Unconstructed, RMMA Unconstructed"
+        },
+        "CategoryNames": " CMMA Unconstructed, RMMA Unconstructed"
+      }
+    ]
+  },
+  {
+    "partId": 31,
+    "partName": "Informal jacket",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 11,
+        "Name": "unconstructed",
+        "Sequence": 5,
+        "LocalisedNames": [
+          {
+            "ID": 218477,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 11,
+            "StringValue": "unconstructed",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1355884883000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953837)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 11,
+          "MakeName": "unconstructed",
+          "MakePriceCategories": " CMMA Unconstructed, RMMA Unconstructed"
+        },
+        "CategoryNames": " CMMA Unconstructed, RMMA Unconstructed"
+      },
+      {
+        "ID": 12,
+        "Name": "unconstructed handmade",
+        "Sequence": 6,
+        "LocalisedNames": [
+          {
+            "ID": 290060,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 12,
+            "StringValue": "unconstructed handmade",
+            "SystemInformation": {
+              "CreatedBy": 25,
+              "CreatedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "CreatedDate": "/Date(1392999187000)/",
+              "ChangedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "ChangedBy": 25,
+              "ChangedDate": "/Date(1392999187000)/",
+              "ChangedByUserName": "Ellen Coppens",
+              "CreatedByUserName": "Ellen Coppens"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 1,
+          "CreatedByUser": {
+            "ID": 1,
+            "LastName": "Systeem",
+            "FirstName": "Automated",
+            "FullName": "Automated Systeem",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1389913200000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953983)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Automated Systeem"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed handmade",
+        "LocalStringsToSave": null,
+        "InternalName": "UnconstructedHandmade",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 12,
+          "MakeName": "unconstructed handmade",
+          "MakePriceCategories": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+        },
+        "CategoryNames": " AM (Unc.) Handmade, CMMA Handmade, RM AM (Unc.) Handmade, RMMA Handmade"
+      }
+    ]
+  },
+  {
+    "partId": 21,
+    "partName": "Sneaker",
+    "atelierId": 15,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 29,
+        "Name": "blake",
+        "Sequence": 22,
+        "LocalisedNames": [
+          {
+            "ID": 939790,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 29,
+            "StringValue": "blake",
+            "SystemInformation": {
+              "CreatedBy": 3009,
+              "CreatedByUser": {
+                "ID": 3009,
+                "LastName": "Shinde",
+                "FirstName": "Abhijit",
+                "FullName": "Abhijit Shinde",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1498496106000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1627458286227)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Abhijit Shinde"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 3009,
+          "CreatedByUser": {
+            "ID": 3009,
+            "LastName": "Shinde",
+            "FirstName": "Abhijit",
+            "FullName": "Abhijit Shinde",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1498496106000)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1627458285880)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "Abhijit Shinde"
+        },
+        "IsActive": true,
+        "LocalizedName": "blake",
+        "LocalStringsToSave": null,
+        "InternalName": "Blake",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 29,
+          "MakeName": "blake",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 21,
+    "partName": "Sneaker",
+    "atelierId": 22,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 54,
+        "Name": "blake P",
+        "Sequence": 22,
+        "LocalisedNames": [
+          {
+            "ID": 3054260,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 54,
+            "StringValue": "blake P",
+            "SystemInformation": {
+              "CreatedBy": 5803,
+              "CreatedByUser": {
+                "ID": 5803,
+                "LastName": "Hauser",
+                "FirstName": "Julia",
+                "FullName": "Julia Hauser",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1739451774943)/",
+              "ChangedByUser": {
+                "ID": 16562,
+                "LastName": "Longo",
+                "FirstName": "Armando",
+                "FullName": "Armando Longo",
+                "IsEnabled": true
+              },
+              "ChangedBy": 16562,
+              "ChangedDate": "/Date(1766051519873)/",
+              "ChangedByUserName": "Armando Longo",
+              "CreatedByUserName": "Julia Hauser"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 5803,
+          "CreatedByUser": {
+            "ID": 5803,
+            "LastName": "Hauser",
+            "FirstName": "Julia",
+            "FullName": "Julia Hauser",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1739451774897)/",
+          "ChangedByUser": {
+            "ID": 16562,
+            "LastName": "Longo",
+            "FirstName": "Armando",
+            "FullName": "Armando Longo",
+            "IsEnabled": true
+          },
+          "ChangedBy": 16562,
+          "ChangedDate": "/Date(1766051519543)/",
+          "ChangedByUserName": "Armando Longo",
+          "CreatedByUserName": "Julia Hauser"
+        },
+        "IsActive": true,
+        "LocalizedName": "blake P",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [
+          {
+            "ID": 3054261,
+            "StringType": 2640,
+            "Language": "en",
+            "EntityID": 54,
+            "StringValue": "",
+            "SystemInformation": {
+              "CreatedBy": 5803,
+              "CreatedByUser": {
+                "ID": 5803,
+                "LastName": "Hauser",
+                "FirstName": "Julia",
+                "FullName": "Julia Hauser",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1739451774943)/",
+              "ChangedByUser": {
+                "ID": 5803,
+                "LastName": "Hauser",
+                "FirstName": "Julia",
+                "FullName": "Julia Hauser",
+                "IsEnabled": true
+              },
+              "ChangedBy": 5803,
+              "ChangedDate": "/Date(1739451774943)/",
+              "ChangedByUserName": "Julia Hauser",
+              "CreatedByUserName": "Julia Hauser"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 54,
+          "MakeName": "blake P",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 22,
+    "partName": "Tie",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 31,
+        "Name": "tipped",
+        "Sequence": 28,
+        "LocalisedNames": [
+          {
+            "ID": 939810,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 31,
+            "StringValue": "tipped",
+            "SystemInformation": {
+              "CreatedBy": 3009,
+              "CreatedByUser": {
+                "ID": 3009,
+                "LastName": "Shinde",
+                "FirstName": "Abhijit",
+                "FullName": "Abhijit Shinde",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1498496230000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625227529100)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Abhijit Shinde"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 3009,
+          "CreatedByUser": {
+            "ID": 3009,
+            "LastName": "Shinde",
+            "FirstName": "Abhijit",
+            "FullName": "Abhijit Shinde",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1498496230000)/",
+          "ChangedByUser": {
+            "ID": 18215,
+            "LastName": "Penolazzi",
+            "FirstName": "Melissa",
+            "FullName": "Melissa Penolazzi",
+            "IsEnabled": true
+          },
+          "ChangedBy": 18215,
+          "ChangedDate": "/Date(1757948918493)/",
+          "ChangedByUserName": "Melissa Penolazzi",
+          "CreatedByUserName": "Abhijit Shinde"
+        },
+        "IsActive": true,
+        "LocalizedName": "tipped",
+        "LocalStringsToSave": null,
+        "InternalName": "Tipped",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [
+          {
+            "ID": 3130827,
+            "StringType": 2640,
+            "Language": "en",
+            "EntityID": 31,
+            "StringValue": "",
+            "SystemInformation": {
+              "CreatedBy": 18215,
+              "CreatedByUser": {
+                "ID": 18215,
+                "LastName": "Penolazzi",
+                "FirstName": "Melissa",
+                "FullName": "Melissa Penolazzi",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1757948918777)/",
+              "ChangedByUser": {
+                "ID": 18215,
+                "LastName": "Penolazzi",
+                "FirstName": "Melissa",
+                "FullName": "Melissa Penolazzi",
+                "IsEnabled": true
+              },
+              "ChangedBy": 18215,
+              "ChangedDate": "/Date(1757948918777)/",
+              "ChangedByUserName": "Melissa Penolazzi",
+              "CreatedByUserName": "Melissa Penolazzi"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 31,
+          "MakeName": "tipped",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 22,
+    "partName": "Tie",
+    "atelierId": 16,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 31,
+        "Name": "tipped",
+        "Sequence": 28,
+        "LocalisedNames": [
+          {
+            "ID": 939810,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 31,
+            "StringValue": "tipped",
+            "SystemInformation": {
+              "CreatedBy": 3009,
+              "CreatedByUser": {
+                "ID": 3009,
+                "LastName": "Shinde",
+                "FirstName": "Abhijit",
+                "FullName": "Abhijit Shinde",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1498496230000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625227529100)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Abhijit Shinde"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 3009,
+          "CreatedByUser": {
+            "ID": 3009,
+            "LastName": "Shinde",
+            "FirstName": "Abhijit",
+            "FullName": "Abhijit Shinde",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1498496230000)/",
+          "ChangedByUser": {
+            "ID": 18215,
+            "LastName": "Penolazzi",
+            "FirstName": "Melissa",
+            "FullName": "Melissa Penolazzi",
+            "IsEnabled": true
+          },
+          "ChangedBy": 18215,
+          "ChangedDate": "/Date(1757948918493)/",
+          "ChangedByUserName": "Melissa Penolazzi",
+          "CreatedByUserName": "Abhijit Shinde"
+        },
+        "IsActive": true,
+        "LocalizedName": "tipped",
+        "LocalStringsToSave": null,
+        "InternalName": "Tipped",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [
+          {
+            "ID": 3130827,
+            "StringType": 2640,
+            "Language": "en",
+            "EntityID": 31,
+            "StringValue": "",
+            "SystemInformation": {
+              "CreatedBy": 18215,
+              "CreatedByUser": {
+                "ID": 18215,
+                "LastName": "Penolazzi",
+                "FirstName": "Melissa",
+                "FullName": "Melissa Penolazzi",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1757948918777)/",
+              "ChangedByUser": {
+                "ID": 18215,
+                "LastName": "Penolazzi",
+                "FirstName": "Melissa",
+                "FullName": "Melissa Penolazzi",
+                "IsEnabled": true
+              },
+              "ChangedBy": 18215,
+              "ChangedDate": "/Date(1757948918777)/",
+              "ChangedByUserName": "Melissa Penolazzi",
+              "CreatedByUserName": "Melissa Penolazzi"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 31,
+          "MakeName": "tipped",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      },
+      {
+        "ID": 34,
+        "Name": "untipped",
+        "Sequence": 29,
+        "LocalisedNames": [
+          {
+            "ID": 940060,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 34,
+            "StringValue": "untipped",
+            "SystemInformation": {
+              "CreatedBy": 3009,
+              "CreatedByUser": {
+                "ID": 3009,
+                "LastName": "Shinde",
+                "FirstName": "Abhijit",
+                "FullName": "Abhijit Shinde",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1498500520000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625227556383)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Abhijit Shinde"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 3009,
+          "CreatedByUser": {
+            "ID": 3009,
+            "LastName": "Shinde",
+            "FirstName": "Abhijit",
+            "FullName": "Abhijit Shinde",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1498500520000)/",
+          "ChangedByUser": {
+            "ID": 18215,
+            "LastName": "Penolazzi",
+            "FirstName": "Melissa",
+            "FullName": "Melissa Penolazzi",
+            "IsEnabled": true
+          },
+          "ChangedBy": 18215,
+          "ChangedDate": "/Date(1757948944433)/",
+          "ChangedByUserName": "Melissa Penolazzi",
+          "CreatedByUserName": "Abhijit Shinde"
+        },
+        "IsActive": true,
+        "LocalizedName": "untipped",
+        "LocalStringsToSave": null,
+        "InternalName": "Untipped",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [
+          {
+            "ID": 3130836,
+            "StringType": 2640,
+            "Language": "en",
+            "EntityID": 34,
+            "StringValue": "",
+            "SystemInformation": {
+              "CreatedBy": 18215,
+              "CreatedByUser": {
+                "ID": 18215,
+                "LastName": "Penolazzi",
+                "FirstName": "Melissa",
+                "FullName": "Melissa Penolazzi",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1757948944513)/",
+              "ChangedByUser": {
+                "ID": 18215,
+                "LastName": "Penolazzi",
+                "FirstName": "Melissa",
+                "FullName": "Melissa Penolazzi",
+                "IsEnabled": true
+              },
+              "ChangedBy": 18215,
+              "ChangedDate": "/Date(1757948944513)/",
+              "ChangedByUserName": "Melissa Penolazzi",
+              "CreatedByUserName": "Melissa Penolazzi"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 34,
+          "MakeName": "untipped",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      },
+      {
+        "ID": 33,
+        "Name": "bobtail",
+        "Sequence": 30,
+        "LocalisedNames": [
+          {
+            "ID": 939830,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 33,
+            "StringValue": "bobtail",
+            "SystemInformation": {
+              "CreatedBy": 3009,
+              "CreatedByUser": {
+                "ID": 3009,
+                "LastName": "Shinde",
+                "FirstName": "Abhijit",
+                "FullName": "Abhijit Shinde",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1498496305000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625227112043)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Abhijit Shinde"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 3009,
+          "CreatedByUser": {
+            "ID": 3009,
+            "LastName": "Shinde",
+            "FirstName": "Abhijit",
+            "FullName": "Abhijit Shinde",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1498496305000)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1625227111997)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "Abhijit Shinde"
+        },
+        "IsActive": true,
+        "LocalizedName": "bobtail",
+        "LocalStringsToSave": null,
+        "InternalName": "Bobtail",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 33,
+          "MakeName": "bobtail",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      },
+      {
+        "ID": 32,
+        "Name": "7-fold tipped",
+        "Sequence": 31,
+        "LocalisedNames": [
+          {
+            "ID": 939820,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 32,
+            "StringValue": "7-fold tipped",
+            "SystemInformation": {
+              "CreatedBy": 3009,
+              "CreatedByUser": {
+                "ID": 3009,
+                "LastName": "Shinde",
+                "FirstName": "Abhijit",
+                "FullName": "Abhijit Shinde",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1498496277000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625227090543)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Abhijit Shinde"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 3009,
+          "CreatedByUser": {
+            "ID": 3009,
+            "LastName": "Shinde",
+            "FirstName": "Abhijit",
+            "FullName": "Abhijit Shinde",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1498496277000)/",
+          "ChangedByUser": {
+            "ID": 18215,
+            "LastName": "Penolazzi",
+            "FirstName": "Melissa",
+            "FullName": "Melissa Penolazzi",
+            "IsEnabled": true
+          },
+          "ChangedBy": 18215,
+          "ChangedDate": "/Date(1758268160540)/",
+          "ChangedByUserName": "Melissa Penolazzi",
+          "CreatedByUserName": "Abhijit Shinde"
+        },
+        "IsActive": true,
+        "LocalizedName": "7-fold tipped",
+        "LocalStringsToSave": null,
+        "InternalName": "7FoldTipped",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [
+          {
+            "ID": 3133122,
+            "StringType": 2640,
+            "Language": "en",
+            "EntityID": 32,
+            "StringValue": "",
+            "SystemInformation": {
+              "CreatedBy": 18215,
+              "CreatedByUser": {
+                "ID": 18215,
+                "LastName": "Penolazzi",
+                "FirstName": "Melissa",
+                "FullName": "Melissa Penolazzi",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1758268160663)/",
+              "ChangedByUser": {
+                "ID": 18215,
+                "LastName": "Penolazzi",
+                "FirstName": "Melissa",
+                "FullName": "Melissa Penolazzi",
+                "IsEnabled": true
+              },
+              "ChangedBy": 18215,
+              "ChangedDate": "/Date(1758268160663)/",
+              "ChangedByUserName": "Melissa Penolazzi",
+              "CreatedByUserName": "Melissa Penolazzi"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 32,
+          "MakeName": "7-fold tipped",
+          "MakePriceCategories": " AM 7-Fold, CMMA Handmade, RM AM 7-Fold"
+        },
+        "CategoryNames": " AM 7-Fold, CMMA Handmade, RM AM 7-Fold"
+      },
+      {
+        "ID": 35,
+        "Name": "7-fold untipped",
+        "Sequence": 32,
+        "LocalisedNames": [
+          {
+            "ID": 950641,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 35,
+            "StringValue": "7-fold untipped",
+            "SystemInformation": {
+              "CreatedBy": 25,
+              "CreatedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "CreatedDate": "/Date(1499875023000)/",
+              "ChangedByUser": {
+                "ID": 15137,
+                "LastName": "Kosmich",
+                "FirstName": "Olha",
+                "FullName": "Olha Kosmich",
+                "IsEnabled": true
+              },
+              "ChangedBy": 15137,
+              "ChangedDate": "/Date(1730471869910)/",
+              "ChangedByUserName": "Olha Kosmich",
+              "CreatedByUserName": "Ellen Coppens"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 25,
+          "CreatedByUser": {
+            "ID": 25,
+            "LastName": "Coppens",
+            "FirstName": "Ellen",
+            "FullName": "Ellen Coppens",
+            "IsEnabled": false
+          },
+          "CreatedDate": "/Date(1499875023000)/",
+          "ChangedByUser": {
+            "ID": 18215,
+            "LastName": "Penolazzi",
+            "FirstName": "Melissa",
+            "FullName": "Melissa Penolazzi",
+            "IsEnabled": true
+          },
+          "ChangedBy": 18215,
+          "ChangedDate": "/Date(1758268476693)/",
+          "ChangedByUserName": "Melissa Penolazzi",
+          "CreatedByUserName": "Ellen Coppens"
+        },
+        "IsActive": true,
+        "LocalizedName": "7-fold untipped",
+        "LocalStringsToSave": null,
+        "InternalName": "7FoldUntipped",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [
+          {
+            "ID": 3011227,
+            "StringType": 2640,
+            "Language": "en",
+            "EntityID": 35,
+            "StringValue": "",
+            "SystemInformation": {
+              "CreatedBy": 15137,
+              "CreatedByUser": {
+                "ID": 15137,
+                "LastName": "Kosmich",
+                "FirstName": "Olha",
+                "FullName": "Olha Kosmich",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1730471869910)/",
+              "ChangedByUser": {
+                "ID": 15137,
+                "LastName": "Kosmich",
+                "FirstName": "Olha",
+                "FullName": "Olha Kosmich",
+                "IsEnabled": true
+              },
+              "ChangedBy": 15137,
+              "ChangedDate": "/Date(1730471869910)/",
+              "ChangedByUserName": "Olha Kosmich",
+              "CreatedByUserName": "Olha Kosmich"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 35,
+          "MakeName": "7-fold untipped",
+          "MakePriceCategories": " AM 7-Fold, CMMA Handmade, RM AM 7-Fold"
+        },
+        "CategoryNames": " AM 7-Fold, CMMA Handmade, RM AM 7-Fold"
+      }
+    ]
+  },
+  {
+    "partId": 23,
+    "partName": "Bow tie",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 36,
+        "Name": "folded",
+        "Sequence": 33,
+        "LocalisedNames": [
+          {
+            "ID": 951061,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 36,
+            "StringValue": "folded",
+            "SystemInformation": {
+              "CreatedBy": 25,
+              "CreatedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "CreatedDate": "/Date(1499877399000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625227024497)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Ellen Coppens"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 25,
+          "CreatedByUser": {
+            "ID": 25,
+            "LastName": "Coppens",
+            "FirstName": "Ellen",
+            "FullName": "Ellen Coppens",
+            "IsEnabled": false
+          },
+          "CreatedDate": "/Date(1499877399000)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1625227024450)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "Ellen Coppens"
+        },
+        "IsActive": true,
+        "LocalizedName": "folded",
+        "LocalStringsToSave": null,
+        "InternalName": "Folded",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 36,
+          "MakeName": "folded",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 23,
+    "partName": "Bow tie",
+    "atelierId": 16,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 36,
+        "Name": "folded",
+        "Sequence": 33,
+        "LocalisedNames": [
+          {
+            "ID": 951061,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 36,
+            "StringValue": "folded",
+            "SystemInformation": {
+              "CreatedBy": 25,
+              "CreatedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "CreatedDate": "/Date(1499877399000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625227024497)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Ellen Coppens"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 25,
+          "CreatedByUser": {
+            "ID": 25,
+            "LastName": "Coppens",
+            "FirstName": "Ellen",
+            "FullName": "Ellen Coppens",
+            "IsEnabled": false
+          },
+          "CreatedDate": "/Date(1499877399000)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1625227024450)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "Ellen Coppens"
+        },
+        "IsActive": true,
+        "LocalizedName": "folded",
+        "LocalStringsToSave": null,
+        "InternalName": "Folded",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 36,
+          "MakeName": "folded",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      },
+      {
+        "ID": 52,
+        "Name": "pre-folded",
+        "Sequence": 33,
+        "LocalisedNames": [
+          {
+            "ID": 2819515,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 52,
+            "StringValue": "pre-folded",
+            "SystemInformation": {
+              "CreatedBy": 12942,
+              "CreatedByUser": {
+                "ID": 12942,
+                "LastName": "ter Veer",
+                "FirstName": "Lotte",
+                "FullName": "Lotte ter Veer",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1689582028457)/",
+              "ChangedByUser": {
+                "ID": 12942,
+                "LastName": "ter Veer",
+                "FirstName": "Lotte",
+                "FullName": "Lotte ter Veer",
+                "IsEnabled": true
+              },
+              "ChangedBy": 12942,
+              "ChangedDate": "/Date(1696327816270)/",
+              "ChangedByUserName": "Lotte ter Veer",
+              "CreatedByUserName": "Lotte ter Veer"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 12942,
+          "CreatedByUser": {
+            "ID": 12942,
+            "LastName": "ter Veer",
+            "FirstName": "Lotte",
+            "FullName": "Lotte ter Veer",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1689582028407)/",
+          "ChangedByUser": {
+            "ID": 12942,
+            "LastName": "ter Veer",
+            "FirstName": "Lotte",
+            "FullName": "Lotte ter Veer",
+            "IsEnabled": true
+          },
+          "ChangedBy": 12942,
+          "ChangedDate": "/Date(1696327816180)/",
+          "ChangedByUserName": "Lotte ter Veer",
+          "CreatedByUserName": "Lotte ter Veer"
+        },
+        "IsActive": true,
+        "LocalizedName": "pre-folded",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [
+          {
+            "ID": 2819516,
+            "StringType": 2640,
+            "Language": "en",
+            "EntityID": 52,
+            "StringValue": "",
+            "SystemInformation": {
+              "CreatedBy": 12942,
+              "CreatedByUser": {
+                "ID": 12942,
+                "LastName": "ter Veer",
+                "FirstName": "Lotte",
+                "FullName": "Lotte ter Veer",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1689582028457)/",
+              "ChangedByUser": {
+                "ID": 12942,
+                "LastName": "ter Veer",
+                "FirstName": "Lotte",
+                "FullName": "Lotte ter Veer",
+                "IsEnabled": true
+              },
+              "ChangedBy": 12942,
+              "ChangedDate": "/Date(1696327816270)/",
+              "ChangedByUserName": "Lotte ter Veer",
+              "CreatedByUserName": "Lotte ter Veer"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 52,
+          "MakeName": "pre-folded",
+          "MakePriceCategories": " AM CM PFBT, AM RM PFBT, PL CM PFBT, PL RM PFBT"
+        },
+        "CategoryNames": " AM CM PFBT, AM RM PFBT, PL CM PFBT, PL RM PFBT"
+      },
+      {
+        "ID": 37,
+        "Name": "unfolded",
+        "Sequence": 34,
+        "LocalisedNames": [
+          {
+            "ID": 951071,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 37,
+            "StringValue": "unfolded",
+            "SystemInformation": {
+              "CreatedBy": 25,
+              "CreatedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "CreatedDate": "/Date(1499877498000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625227004683)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Ellen Coppens"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 25,
+          "CreatedByUser": {
+            "ID": 25,
+            "LastName": "Coppens",
+            "FirstName": "Ellen",
+            "FullName": "Ellen Coppens",
+            "IsEnabled": false
+          },
+          "CreatedDate": "/Date(1499877498000)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1625227004653)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "Ellen Coppens"
+        },
+        "IsActive": true,
+        "LocalizedName": "unfolded",
+        "LocalStringsToSave": null,
+        "InternalName": "Unfolded",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 37,
+          "MakeName": "unfolded",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 24,
+    "partName": "Pocket square",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 39,
+        "Name": "hand rolled",
+        "Sequence": 35,
+        "LocalisedNames": [
+          {
+            "ID": 951091,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 39,
+            "StringValue": "hand rolled",
+            "SystemInformation": {
+              "CreatedBy": 25,
+              "CreatedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "CreatedDate": "/Date(1499877569000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625226980950)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Ellen Coppens"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 25,
+          "CreatedByUser": {
+            "ID": 25,
+            "LastName": "Coppens",
+            "FirstName": "Ellen",
+            "FullName": "Ellen Coppens",
+            "IsEnabled": false
+          },
+          "CreatedDate": "/Date(1499877568000)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1625226980917)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "Ellen Coppens"
+        },
+        "IsActive": true,
+        "LocalizedName": "hand rolled",
+        "LocalStringsToSave": null,
+        "InternalName": "HandStitched",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 39,
+          "MakeName": "hand rolled",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 24,
+    "partName": "Pocket square",
+    "atelierId": 16,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 39,
+        "Name": "hand rolled",
+        "Sequence": 35,
+        "LocalisedNames": [
+          {
+            "ID": 951091,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 39,
+            "StringValue": "hand rolled",
+            "SystemInformation": {
+              "CreatedBy": 25,
+              "CreatedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "CreatedDate": "/Date(1499877569000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625226980950)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Ellen Coppens"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 25,
+          "CreatedByUser": {
+            "ID": 25,
+            "LastName": "Coppens",
+            "FirstName": "Ellen",
+            "FullName": "Ellen Coppens",
+            "IsEnabled": false
+          },
+          "CreatedDate": "/Date(1499877568000)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1625226980917)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "Ellen Coppens"
+        },
+        "IsActive": true,
+        "LocalizedName": "hand rolled",
+        "LocalStringsToSave": null,
+        "InternalName": "HandStitched",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 39,
+          "MakeName": "hand rolled",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      },
+      {
+        "ID": 38,
+        "Name": "hand stitched",
+        "Sequence": 36,
+        "LocalisedNames": [
+          {
+            "ID": 951081,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 38,
+            "StringValue": "hand stitched",
+            "SystemInformation": {
+              "CreatedBy": 25,
+              "CreatedByUser": {
+                "ID": 25,
+                "LastName": "Coppens",
+                "FirstName": "Ellen",
+                "FullName": "Ellen Coppens",
+                "IsEnabled": false
+              },
+              "CreatedDate": "/Date(1499877539000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1625226970463)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Ellen Coppens"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 25,
+          "CreatedByUser": {
+            "ID": 25,
+            "LastName": "Coppens",
+            "FirstName": "Ellen",
+            "FullName": "Ellen Coppens",
+            "IsEnabled": false
+          },
+          "CreatedDate": "/Date(1499877539000)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1625226970387)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "Ellen Coppens"
+        },
+        "IsActive": true,
+        "LocalizedName": "hand stitched",
+        "LocalStringsToSave": null,
+        "InternalName": "HandRolled",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 38,
+          "MakeName": "hand stitched",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 25,
+    "partName": "Belt",
+    "atelierId": 15,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 42,
+        "Name": "traditional belt",
+        "Sequence": 27,
+        "LocalisedNames": [
+          {
+            "ID": 1362677,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 42,
+            "StringValue": "traditional belt",
+            "SystemInformation": {
+              "CreatedBy": 4415,
+              "CreatedByUser": {
+                "ID": 4415,
+                "LastName": "THAKAR",
+                "FirstName": "BHAVESH",
+                "FullName": "BHAVESH THAKAR",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1524979726000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1627459134367)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "BHAVESH THAKAR"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 4415,
+          "CreatedByUser": {
+            "ID": 4415,
+            "LastName": "THAKAR",
+            "FirstName": "BHAVESH",
+            "FullName": "BHAVESH THAKAR",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1524979122237)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1627459134303)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "BHAVESH THAKAR"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional belt",
+        "LocalStringsToSave": null,
+        "InternalName": "BeltBlake",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 42,
+          "MakeName": "traditional belt",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 25,
+    "partName": "Belt",
+    "atelierId": 22,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 42,
+        "Name": "traditional belt",
+        "Sequence": 27,
+        "LocalisedNames": [
+          {
+            "ID": 1362677,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 42,
+            "StringValue": "traditional belt",
+            "SystemInformation": {
+              "CreatedBy": 4415,
+              "CreatedByUser": {
+                "ID": 4415,
+                "LastName": "THAKAR",
+                "FirstName": "BHAVESH",
+                "FullName": "BHAVESH THAKAR",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1524979726000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1627459134367)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "BHAVESH THAKAR"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 4415,
+          "CreatedByUser": {
+            "ID": 4415,
+            "LastName": "THAKAR",
+            "FirstName": "BHAVESH",
+            "FullName": "BHAVESH THAKAR",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1524979122237)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1627459134303)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "BHAVESH THAKAR"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional belt",
+        "LocalStringsToSave": null,
+        "InternalName": "BeltBlake",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 42,
+          "MakeName": "traditional belt",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 25,
+    "partName": "Belt",
+    "atelierId": 23,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 42,
+        "Name": "traditional belt",
+        "Sequence": 27,
+        "LocalisedNames": [
+          {
+            "ID": 1362677,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 42,
+            "StringValue": "traditional belt",
+            "SystemInformation": {
+              "CreatedBy": 4415,
+              "CreatedByUser": {
+                "ID": 4415,
+                "LastName": "THAKAR",
+                "FirstName": "BHAVESH",
+                "FullName": "BHAVESH THAKAR",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1524979726000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1627459134367)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "BHAVESH THAKAR"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 4415,
+          "CreatedByUser": {
+            "ID": 4415,
+            "LastName": "THAKAR",
+            "FirstName": "BHAVESH",
+            "FullName": "BHAVESH THAKAR",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1524979122237)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1627459134303)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "BHAVESH THAKAR"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional belt",
+        "LocalStringsToSave": null,
+        "InternalName": "BeltBlake",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 42,
+          "MakeName": "traditional belt",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 32,
+    "partName": "Knitwear",
+    "atelierId": 19,
+    "atelierName": "Knit in Italy - A",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      }
+    ]
+  },
+  {
+    "partId": 32,
+    "partName": "Knitwear",
+    "atelierId": 20,
+    "atelierName": "Knit in Italy - B",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      }
+    ]
+  },
+  {
+    "partId": 33,
+    "partName": "City loafer",
+    "atelierId": 15,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 29,
+        "Name": "blake",
+        "Sequence": 22,
+        "LocalisedNames": [
+          {
+            "ID": 939790,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 29,
+            "StringValue": "blake",
+            "SystemInformation": {
+              "CreatedBy": 3009,
+              "CreatedByUser": {
+                "ID": 3009,
+                "LastName": "Shinde",
+                "FirstName": "Abhijit",
+                "FullName": "Abhijit Shinde",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1498496106000)/",
+              "ChangedByUser": {
+                "ID": 48,
+                "LastName": "Schijf",
+                "FirstName": "Milou",
+                "FullName": "Milou Schijf",
+                "IsEnabled": true
+              },
+              "ChangedBy": 48,
+              "ChangedDate": "/Date(1627458286227)/",
+              "ChangedByUserName": "Milou Schijf",
+              "CreatedByUserName": "Abhijit Shinde"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 3009,
+          "CreatedByUser": {
+            "ID": 3009,
+            "LastName": "Shinde",
+            "FirstName": "Abhijit",
+            "FullName": "Abhijit Shinde",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1498496106000)/",
+          "ChangedByUser": {
+            "ID": 48,
+            "LastName": "Schijf",
+            "FirstName": "Milou",
+            "FullName": "Milou Schijf",
+            "IsEnabled": true
+          },
+          "ChangedBy": 48,
+          "ChangedDate": "/Date(1627458285880)/",
+          "ChangedByUserName": "Milou Schijf",
+          "CreatedByUserName": "Abhijit Shinde"
+        },
+        "IsActive": true,
+        "LocalizedName": "blake",
+        "LocalStringsToSave": null,
+        "InternalName": "Blake",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 29,
+          "MakeName": "blake",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 33,
+    "partName": "City loafer",
+    "atelierId": 22,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 54,
+        "Name": "blake P",
+        "Sequence": 22,
+        "LocalisedNames": [
+          {
+            "ID": 3054260,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 54,
+            "StringValue": "blake P",
+            "SystemInformation": {
+              "CreatedBy": 5803,
+              "CreatedByUser": {
+                "ID": 5803,
+                "LastName": "Hauser",
+                "FirstName": "Julia",
+                "FullName": "Julia Hauser",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1739451774943)/",
+              "ChangedByUser": {
+                "ID": 16562,
+                "LastName": "Longo",
+                "FirstName": "Armando",
+                "FullName": "Armando Longo",
+                "IsEnabled": true
+              },
+              "ChangedBy": 16562,
+              "ChangedDate": "/Date(1766051519873)/",
+              "ChangedByUserName": "Armando Longo",
+              "CreatedByUserName": "Julia Hauser"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 5803,
+          "CreatedByUser": {
+            "ID": 5803,
+            "LastName": "Hauser",
+            "FirstName": "Julia",
+            "FullName": "Julia Hauser",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1739451774897)/",
+          "ChangedByUser": {
+            "ID": 16562,
+            "LastName": "Longo",
+            "FirstName": "Armando",
+            "FullName": "Armando Longo",
+            "IsEnabled": true
+          },
+          "ChangedBy": 16562,
+          "ChangedDate": "/Date(1766051519543)/",
+          "ChangedByUserName": "Armando Longo",
+          "CreatedByUserName": "Julia Hauser"
+        },
+        "IsActive": true,
+        "LocalizedName": "blake P",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [
+          {
+            "ID": 3054261,
+            "StringType": 2640,
+            "Language": "en",
+            "EntityID": 54,
+            "StringValue": "",
+            "SystemInformation": {
+              "CreatedBy": 5803,
+              "CreatedByUser": {
+                "ID": 5803,
+                "LastName": "Hauser",
+                "FirstName": "Julia",
+                "FullName": "Julia Hauser",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1739451774943)/",
+              "ChangedByUser": {
+                "ID": 5803,
+                "LastName": "Hauser",
+                "FirstName": "Julia",
+                "FullName": "Julia Hauser",
+                "IsEnabled": true
+              },
+              "ChangedBy": 5803,
+              "ChangedDate": "/Date(1739451774943)/",
+              "ChangedByUserName": "Julia Hauser",
+              "CreatedByUserName": "Julia Hauser"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 54,
+          "MakeName": "blake P",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 11,
+        "Name": "unconstructed",
+        "Sequence": 5,
+        "LocalisedNames": [
+          {
+            "ID": 218477,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 11,
+            "StringValue": "unconstructed",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1355884883000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953837)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 11,
+          "MakeName": "unconstructed",
+          "MakePriceCategories": " CMMA Unconstructed, RMMA Unconstructed"
+        },
+        "CategoryNames": " CMMA Unconstructed, RMMA Unconstructed"
+      }
+    ]
+  },
+  {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "atelierId": 16,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 51,
+        "Name": "pleated",
+        "Sequence": 37,
+        "LocalisedNames": [
+          {
+            "ID": 2735075,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 51,
+            "StringValue": "pleated",
+            "SystemInformation": {
+              "CreatedBy": 5803,
+              "CreatedByUser": {
+                "ID": 5803,
+                "LastName": "Hauser",
+                "FirstName": "Julia",
+                "FullName": "Julia Hauser",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1672752459160)/",
+              "ChangedByUser": {
+                "ID": 5803,
+                "LastName": "Hauser",
+                "FirstName": "Julia",
+                "FullName": "Julia Hauser",
+                "IsEnabled": true
+              },
+              "ChangedBy": 5803,
+              "ChangedDate": "/Date(1672752492067)/",
+              "ChangedByUserName": "Julia Hauser",
+              "CreatedByUserName": "Julia Hauser"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 5803,
+          "CreatedByUser": {
+            "ID": 5803,
+            "LastName": "Hauser",
+            "FirstName": "Julia",
+            "FullName": "Julia Hauser",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1672752459097)/",
+          "ChangedByUser": {
+            "ID": 5803,
+            "LastName": "Hauser",
+            "FirstName": "Julia",
+            "FullName": "Julia Hauser",
+            "IsEnabled": true
+          },
+          "ChangedBy": 5803,
+          "ChangedDate": "/Date(1672752492007)/",
+          "ChangedByUserName": "Julia Hauser",
+          "CreatedByUserName": "Julia Hauser"
+        },
+        "IsActive": true,
+        "LocalizedName": "pleated",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 51,
+          "MakeName": "pleated",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  },
+  {
+    "partId": 38,
+    "partName": "Vest",
+    "atelierId": 17,
+    "atelierName": "Standard Suits B / Outerwear",
+    "makes": [
+      {
+        "ID": 11,
+        "Name": "unconstructed",
+        "Sequence": 5,
+        "LocalisedNames": [
+          {
+            "ID": 218477,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 11,
+            "StringValue": "unconstructed",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "ChangedBy": 1,
+              "ChangedDate": "/Date(1391819274000)/",
+              "ChangedByUserName": "Automated Systeem",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 15,
+          "CreatedByUser": {
+            "ID": 15,
+            "LastName": "Nonner",
+            "FirstName": "Jouko",
+            "FullName": "Jouko Nonner",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1355884883000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953837)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Jouko Nonner"
+        },
+        "IsActive": true,
+        "LocalizedName": "unconstructed",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 11,
+          "MakeName": "unconstructed",
+          "MakePriceCategories": " CMMA Unconstructed, RMMA Unconstructed"
+        },
+        "CategoryNames": " CMMA Unconstructed, RMMA Unconstructed"
+      }
+    ]
+  },
+  {
+    "partId": 40,
+    "partName": "Pants",
+    "atelierId": 19,
+    "atelierName": "Knit in Italy - A",
+    "makes": [
+      {
+        "ID": 8,
+        "Name": "traditional",
+        "Sequence": 1,
+        "LocalisedNames": [
+          {
+            "ID": 218450,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 8,
+            "StringValue": "traditional",
+            "SystemInformation": {
+              "CreatedBy": 1,
+              "CreatedByUser": {
+                "ID": 1,
+                "LastName": "Systeem",
+                "FirstName": "Automated",
+                "FullName": "Automated Systeem",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1391819274000)/",
+              "ChangedByUser": {
+                "ID": 7677,
+                "LastName": "van Breda",
+                "FirstName": "Maikel",
+                "FullName": "Maikel van Breda",
+                "IsEnabled": false
+              },
+              "ChangedBy": 7677,
+              "ChangedDate": "/Date(1550242713000)/",
+              "ChangedByUserName": "Maikel van Breda",
+              "CreatedByUserName": "Automated Systeem"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 13,
+          "CreatedByUser": {
+            "ID": 13,
+            "LastName": "Bressers",
+            "FirstName": "Sander",
+            "FullName": "Sander Bressers",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1229468400000)/",
+          "ChangedByUser": {
+            "ID": 15739,
+            "LastName": "Nandre",
+            "FirstName": "Kaveri",
+            "FullName": "Kaveri Nandre",
+            "IsEnabled": true
+          },
+          "ChangedBy": 15739,
+          "ChangedDate": "/Date(1769574953243)/",
+          "ChangedByUserName": "Kaveri Nandre",
+          "CreatedByUserName": "Sander Bressers"
+        },
+        "IsActive": true,
+        "LocalizedName": "traditional",
+        "LocalStringsToSave": null,
+        "InternalName": "traditional",
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 8,
+          "MakeName": "traditional",
+          "MakePriceCategories": " CMMA Traditional, RMMA Traditional"
+        },
+        "CategoryNames": " CMMA Traditional, RMMA Traditional"
+      }
+    ]
+  },
+  {
+    "partId": 41,
+    "partName": "Runner",
+    "atelierId": 22,
+    "atelierName": "Standard",
+    "makes": [
+      {
+        "ID": 53,
+        "Name": "Ago (NEW/Runner)",
+        "Sequence": 48,
+        "LocalisedNames": [
+          {
+            "ID": 3040427,
+            "StringType": 10,
+            "Language": "en",
+            "EntityID": 53,
+            "StringValue": "Ago (NEW/Runner)",
+            "SystemInformation": {
+              "CreatedBy": 16562,
+              "CreatedByUser": {
+                "ID": 16562,
+                "LastName": "Longo",
+                "FirstName": "Armando",
+                "FullName": "Armando Longo",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1738230211593)/",
+              "ChangedByUser": {
+                "ID": 16562,
+                "LastName": "Longo",
+                "FirstName": "Armando",
+                "FullName": "Armando Longo",
+                "IsEnabled": true
+              },
+              "ChangedBy": 16562,
+              "ChangedDate": "/Date(1738230211593)/",
+              "ChangedByUserName": "Armando Longo",
+              "CreatedByUserName": "Armando Longo"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "SystemInformation": {
+          "CreatedBy": 16562,
+          "CreatedByUser": {
+            "ID": 16562,
+            "LastName": "Longo",
+            "FirstName": "Armando",
+            "FullName": "Armando Longo",
+            "IsEnabled": true
+          },
+          "CreatedDate": "/Date(1738230211517)/",
+          "ChangedByUser": {
+            "ID": 16562,
+            "LastName": "Longo",
+            "FirstName": "Armando",
+            "FullName": "Armando Longo",
+            "IsEnabled": true
+          },
+          "ChangedBy": 16562,
+          "ChangedDate": "/Date(1738230211517)/",
+          "ChangedByUserName": "Armando Longo",
+          "CreatedByUserName": "Armando Longo"
+        },
+        "IsActive": true,
+        "LocalizedName": "Ago (NEW/Runner)",
+        "LocalStringsToSave": null,
+        "InternalName": null,
+        "ExtraDays": 0,
+        "RPrice": 0,
+        "MakeDescription": null,
+        "MakeImages": null,
+        "CautionRemarks": null,
+        "LocalisedCautionRemarks": [
+          {
+            "ID": 3040428,
+            "StringType": 2640,
+            "Language": "en",
+            "EntityID": 53,
+            "StringValue": "",
+            "SystemInformation": {
+              "CreatedBy": 16562,
+              "CreatedByUser": {
+                "ID": 16562,
+                "LastName": "Longo",
+                "FirstName": "Armando",
+                "FullName": "Armando Longo",
+                "IsEnabled": true
+              },
+              "CreatedDate": "/Date(1738230211593)/",
+              "ChangedByUser": {
+                "ID": 16562,
+                "LastName": "Longo",
+                "FirstName": "Armando",
+                "FullName": "Armando Longo",
+                "IsEnabled": true
+              },
+              "ChangedBy": 16562,
+              "ChangedDate": "/Date(1738230211593)/",
+              "ChangedByUserName": "Armando Longo",
+              "CreatedByUserName": "Armando Longo"
+            },
+            "IsActive": true,
+            "LanguageID": 1
+          }
+        ],
+        "AvailableForOrderType": 3,
+        "CategoryNameValue": {
+          "ID": 53,
+          "MakeName": "Ago (NEW/Runner)",
+          "MakePriceCategories": null
+        },
+        "CategoryNames": null
+      }
+    ]
+  }
+]

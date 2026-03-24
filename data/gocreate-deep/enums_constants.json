@@ -1,0 +1,222 @@
+[
+  {
+    "name": "tableId",
+    "value": "EntityListView",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "name": "contextMenuID",
+    "value": "List_",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "name": "gridTableId",
+    "value": "EntityListView",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "name": "tableId",
+    "value": "EntityListView2",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "name": "tableId",
+    "value": "EntityListView",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "name": "tableId",
+    "value": "AppointmentList",
+    "source": "/Scripts/CustomScripts/Common.js?version=20260311"
+  },
+  {
+    "name": "messageCode",
+    "value": "ORDER_EDIT_MESSAGES",
+    "source": "/Scripts/CustomScripts/CopyOrder.js"
+  },
+  {
+    "name": "messageCode",
+    "value": "ORDER_EDIT_MESSAGES",
+    "source": "/Scripts/CustomScripts/CopyOrder.js?version=20260311"
+  },
+  {
+    "name": "EnumOrderMode",
+    "value": "{ NEW: 0, EDIT: 1, COPY: 2 }",
+    "source": "/Scripts/CustomScripts/Enums.js"
+  },
+  {
+    "name": "EnumOrderMode",
+    "value": "{ NEW: 0, EDIT: 1, COPY: 2 }",
+    "source": "/Scripts/CustomScripts/Enums.js?version=20260311"
+  },
+  {
+    "name": "TryOnOrderCreationType",
+    "value": "1",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "name": "BMOrderCreationType",
+    "value": "2",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "name": "sppDivId",
+    "value": "#tdOrderSpp",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "name": "sppDivId",
+    "value": "#tdOrderSpp",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "name": "sppDivId",
+    "value": "#tdOrderSpp",
+    "source": "/Scripts/CustomScripts/Page/CustomOrder/CustomOrder.js"
+  },
+  {
+    "name": "divID",
+    "value": "divCustomerOrderGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "name": "divID",
+    "value": "divPastAppointmentsGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "name": "divID",
+    "value": "divImagesCustomer",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "name": "divID",
+    "value": "divReferedCustomerGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "name": "divID",
+    "value": "divCustomerFitProfileGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "name": "divID",
+    "value": "divCustomerOrderGridContaner",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "name": "divID",
+    "value": "divFitProfileGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "name": "divID",
+    "value": "divCustomerBMFitProfileGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "name": "contextMenuID",
+    "value": "List_1",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js"
+  },
+  {
+    "name": "divID",
+    "value": "divCustomerOrderGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311"
+  },
+  {
+    "name": "divID",
+    "value": "divPastAppointmentsGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311"
+  },
+  {
+    "name": "divID",
+    "value": "divImagesCustomer",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311"
+  },
+  {
+    "name": "divID",
+    "value": "divReferedCustomerGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311"
+  },
+  {
+    "name": "divID",
+    "value": "divCustomerFitProfileGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311"
+  },
+  {
+    "name": "divID",
+    "value": "divCustomerOrderGridContaner",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311"
+  },
+  {
+    "name": "divID",
+    "value": "divFitProfileGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311"
+  },
+  {
+    "name": "divID",
+    "value": "divCustomerBMFitProfileGrid",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311"
+  },
+  {
+    "name": "contextMenuID",
+    "value": "List_1",
+    "source": "/Scripts/CustomScripts/Page/Customer/Customer.js?version=20260311"
+  },
+  {
+    "name": "editMode",
+    "value": "1",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrder.js"
+  },
+  {
+    "name": "copyMode",
+    "value": "2",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrder.js"
+  },
+  {
+    "name": "elementId",
+    "value": "DDLDyoModel_Make_",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrder.js"
+  },
+  {
+    "name": "messageCode",
+    "value": "ORDER_EDIT_MESSAGES",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrderEditCopy.js"
+  },
+  {
+    "name": "messageCode",
+    "value": "ORDER_EDIT_MESSAGES",
+    "source": "/Scripts/CustomScripts/Page/DyoOrder/DyoOrderEditCopy.js?version=20260311"
+  },
+  {
+    "name": "contextMenuID",
+    "value": "List_1",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js"
+  },
+  {
+    "name": "contextMenuID",
+    "value": "List_1",
+    "source": "/Scripts/CustomScripts/Page/OrderOverview.js?version=20260311"
+  },
+  {
+    "name": "messageCode",
+    "value": "ORDER_EDIT_MESSAGES",
+    "source": "/Scripts/CustomScripts/Page/ShoeOrder/ShoeOrderEditCopy.js"
+  },
+  {
+    "name": "messageCode",
+    "value": "ORDER_EDIT_MESSAGES",
+    "source": "/Scripts/CustomScripts/Page/ShoeOrder/ShoeOrderEditCopy.js?version=20260311"
+  },
+  {
+    "name": "messageCode",
+    "value": "ORDER_EDIT_MESSAGES",
+    "source": "/Scripts/CustomScripts/Page/TieOrder/TieOrderEditCopy.js"
+  },
+  {
+    "name": "messageCode",
+    "value": "ORDER_EDIT_MESSAGES",
+    "source": "/Scripts/CustomScripts/Page/TieOrder/TieOrderEditCopy.js?version=20260311"
+  }
+]

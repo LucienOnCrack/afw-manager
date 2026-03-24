@@ -1,0 +1,45 @@
+
+<script language="javascript" type="text/javascript">
+    $(document).ready(function () {
+        AdjustOverviewPageHeight();
+        var listHeight = $("#FitToolList").height();
+        $("#innerContainer").height(listHeight + 90);
+    });
+    $(window).resize(function () {
+        AdjustOverviewPageHeight();
+        var listHeight = $("#FitToolList").height();
+        $("#innerContainer").height(listHeight + 90);
+    });
+
+</script>
+
+
+
+
+<input id="productPartID" name="productPartID" type="hidden" value="1" />
+<input id="productFitID" name="productFitID" type="hidden" value="0" />
+
+
+
+
+
+<div class="row row-fluid">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+        <div id="divShopDesignOptions">
+            <div id="FitToolList" class="col-xs-12 col-sm-10 col-md-10 col-lg-10 nopadding-xs">
+                <div class="col-xs-8 col-sm-4 col-md-6 col-lg-6">
+                    <label class="form-label-bold">
+                        FitTools
+                    </label>
+                </div>
+                <div class="col-xs-4 col-sm-2 col-md-6 col-lg-6">
+                    <label class="form-label-bold">
+                        Is visible
+                    </label>
+                </div>
+                <div class="clearfix"></div>
+
+            </div>
+        </div>
+    </div>
+</div>

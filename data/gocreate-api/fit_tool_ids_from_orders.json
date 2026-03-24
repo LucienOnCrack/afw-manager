@@ -1,0 +1,342 @@
+{
+  "48": {
+    "name": "Lower front rise",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "55": {
+    "name": "Let out crotch",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "50": {
+    "name": "Let out \u00bd waist",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "53": {
+    "name": "Let out \u00bd seat",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "180": {
+    "name": "Take in \u00bd hip curve",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "57": {
+    "name": "Take in \u00bd thigh",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "268": {
+    "name": "Take in \u00bd thigh only",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "59": {
+    "name": "Take in \u00bd knee",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "61": {
+    "name": "Take in \u00bd hem",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "65": {
+    "name": "Shorten leg R",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "66": {
+    "name": "Shorten leg L",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "321": {
+    "name": "Prominent seat",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "322": {
+    "name": "Flat seat",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "114": {
+    "name": "Take in \u00bd chest",
+    "partId": 3,
+    "partName": "Waistcoat"
+  },
+  "117": {
+    "name": "Raise armhole",
+    "partId": 3,
+    "partName": "Waistcoat"
+  },
+  "92": {
+    "name": "Let out \u00bd waist & hip",
+    "partId": 3,
+    "partName": "Waistcoat"
+  },
+  "108": {
+    "name": "Lengthen length",
+    "partId": 3,
+    "partName": "Waistcoat"
+  },
+  "27": {
+    "name": "Collar pleat",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "37": {
+    "name": "Take in \u00bd shoulder",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "185": {
+    "name": "Raise vent(s)",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "1": {
+    "name": "Take in \u00bd waist",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "17": {
+    "name": "Take in \u00bd hip",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "150": {
+    "name": "Take in \u00bd skirt",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "15": {
+    "name": "Shorten length",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "69": {
+    "name": "Take in \u00bd cuff",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "12": {
+    "name": "Shorten sleeve R",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "13": {
+    "name": "Shorten sleeve L",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "25": {
+    "name": "Arms backwards",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "182": {
+    "name": "Chest dart",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "244": {
+    "name": "Forward shoulders",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "591": {
+    "name": "Neck dart (Beta)",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "110": {
+    "name": "Take in armhole",
+    "partId": 3,
+    "partName": "Waistcoat"
+  },
+  "325": {
+    "name": "Lengthen front",
+    "partId": 3,
+    "partName": "Waistcoat"
+  },
+  "109": {
+    "name": "Shorten length",
+    "partId": 3,
+    "partName": "Waistcoat"
+  },
+  "3": {
+    "name": "Raise total rise",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "60": {
+    "name": "Let out \u00bd hem",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "9": {
+    "name": "Erect posture",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "32": {
+    "name": "Slope shoulder R",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "31": {
+    "name": "Slope shoulder L",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "28": {
+    "name": "Let out \u00bd chest front",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "22": {
+    "name": "Let out \u00bd centre front",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "194": {
+    "name": "Take in \u00bd waist",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "196": {
+    "name": "Take in \u00bd hip",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "207": {
+    "name": "Slope shoulder L",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "203": {
+    "name": "Lengthen length",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "253": {
+    "name": "Take in upper arm",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "255": {
+    "name": "Take in forearm",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "199": {
+    "name": "Lengthen sleeve R",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "200": {
+    "name": "Lengthen sleeve L",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "187": {
+    "name": "Let out collar",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "192": {
+    "name": "Take in \u00bd chest",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "198": {
+    "name": "Take in \u00bd shoulder",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "206": {
+    "name": "Slope shoulder R",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "210": {
+    "name": "Take in upper arm & armhole",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "256": {
+    "name": "Take in armhole",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "213": {
+    "name": "Take in arm inc. armhole",
+    "partId": 4,
+    "partName": "Shirt"
+  },
+  "979": {
+    "name": "Shorten sleeve",
+    "partId": 32,
+    "partName": "Knitwear"
+  },
+  "2": {
+    "name": "Let out \u00bd waist",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "16": {
+    "name": "Let out \u00bd hip",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "5": {
+    "name": "Let out upper arm & armhole",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "261": {
+    "name": "Let out \u00bd hip curve",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "263": {
+    "name": "Take in \u00bd back seam",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "6": {
+    "name": "Take in upper arm & armhole",
+    "partId": 1,
+    "partName": "Jacket"
+  },
+  "318": {
+    "name": "Slope shoulder L",
+    "partId": 3,
+    "partName": "Waistcoat"
+  },
+  "328": {
+    "name": "Lower closing button",
+    "partId": 3,
+    "partName": "Waistcoat"
+  },
+  "51": {
+    "name": "Take in \u00bd waist",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "52": {
+    "name": "Take in \u00bd seat",
+    "partId": 2,
+    "partName": "Trousers"
+  },
+  "39": {
+    "name": "Take in \u00bd back",
+    "partId": 1,
+    "partName": "Jacket"
+  }
+}

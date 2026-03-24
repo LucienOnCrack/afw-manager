@@ -1,0 +1,4062 @@
+[
+  {
+    "partId": 1,
+    "partName": "Jacket",
+    "fitId": 38,
+    "fitName": "Regular ",
+    "tryOnSizes": [
+      {
+        "value": "1379",
+        "text": "38"
+      },
+      {
+        "value": "1378",
+        "text": "40"
+      },
+      {
+        "value": "25",
+        "text": "42"
+      },
+      {
+        "value": "21",
+        "text": "44"
+      },
+      {
+        "value": "17",
+        "text": "46"
+      },
+      {
+        "value": "13",
+        "text": "48"
+      },
+      {
+        "value": "1",
+        "text": "50"
+      },
+      {
+        "value": "5",
+        "text": "52"
+      },
+      {
+        "value": "9",
+        "text": "54"
+      },
+      {
+        "value": "29",
+        "text": "56"
+      },
+      {
+        "value": "33",
+        "text": "58"
+      },
+      {
+        "value": "37",
+        "text": "60"
+      },
+      {
+        "value": "41",
+        "text": "62"
+      },
+      {
+        "value": "45",
+        "text": "64"
+      },
+      {
+        "value": "49",
+        "text": "66"
+      },
+      {
+        "value": "53",
+        "text": "68"
+      },
+      {
+        "value": "57",
+        "text": "70"
+      },
+      {
+        "value": "1380",
+        "text": "72"
+      },
+      {
+        "value": "1381",
+        "text": "74"
+      },
+      {
+        "value": "1382",
+        "text": "76"
+      },
+      {
+        "value": "61",
+        "text": "82"
+      },
+      {
+        "value": "65",
+        "text": "86"
+      },
+      {
+        "value": "69",
+        "text": "90"
+      },
+      {
+        "value": "73",
+        "text": "94"
+      },
+      {
+        "value": "77",
+        "text": "98"
+      },
+      {
+        "value": "81",
+        "text": "102"
+      },
+      {
+        "value": "85",
+        "text": "106"
+      },
+      {
+        "value": "89",
+        "text": "110"
+      },
+      {
+        "value": "93",
+        "text": "114"
+      },
+      {
+        "value": "97",
+        "text": "118"
+      },
+      {
+        "value": "101",
+        "text": "122"
+      },
+      {
+        "value": "105",
+        "text": "126"
+      },
+      {
+        "value": "109",
+        "text": "130"
+      },
+      {
+        "value": "113",
+        "text": "134"
+      },
+      {
+        "value": "117",
+        "text": "138"
+      },
+      {
+        "value": "121",
+        "text": "21"
+      },
+      {
+        "value": "125",
+        "text": "22"
+      },
+      {
+        "value": "129",
+        "text": "23"
+      },
+      {
+        "value": "133",
+        "text": "24"
+      },
+      {
+        "value": "137",
+        "text": "25"
+      },
+      {
+        "value": "141",
+        "text": "26"
+      },
+      {
+        "value": "145",
+        "text": "27"
+      },
+      {
+        "value": "149",
+        "text": "28"
+      },
+      {
+        "value": "153",
+        "text": "29"
+      },
+      {
+        "value": "157",
+        "text": "30"
+      },
+      {
+        "value": "161",
+        "text": "31"
+      },
+      {
+        "value": "165",
+        "text": "32"
+      },
+      {
+        "value": "169",
+        "text": "33"
+      },
+      {
+        "value": "173",
+        "text": "34"
+      },
+      {
+        "value": "177",
+        "text": "35"
+      }
+    ]
+  },
+  {
+    "partId": 1,
+    "partName": "Jacket",
+    "fitId": 41,
+    "fitName": "Slim ",
+    "tryOnSizes": [
+      {
+        "value": "1379",
+        "text": "38"
+      },
+      {
+        "value": "1378",
+        "text": "40"
+      },
+      {
+        "value": "25",
+        "text": "42"
+      },
+      {
+        "value": "21",
+        "text": "44"
+      },
+      {
+        "value": "17",
+        "text": "46"
+      },
+      {
+        "value": "13",
+        "text": "48"
+      },
+      {
+        "value": "1",
+        "text": "50"
+      },
+      {
+        "value": "5",
+        "text": "52"
+      },
+      {
+        "value": "9",
+        "text": "54"
+      },
+      {
+        "value": "29",
+        "text": "56"
+      },
+      {
+        "value": "33",
+        "text": "58"
+      },
+      {
+        "value": "37",
+        "text": "60"
+      },
+      {
+        "value": "41",
+        "text": "62"
+      },
+      {
+        "value": "45",
+        "text": "64"
+      },
+      {
+        "value": "1380",
+        "text": "72"
+      },
+      {
+        "value": "1381",
+        "text": "74"
+      },
+      {
+        "value": "1382",
+        "text": "76"
+      },
+      {
+        "value": "61",
+        "text": "82"
+      },
+      {
+        "value": "65",
+        "text": "86"
+      },
+      {
+        "value": "69",
+        "text": "90"
+      },
+      {
+        "value": "73",
+        "text": "94"
+      },
+      {
+        "value": "77",
+        "text": "98"
+      },
+      {
+        "value": "81",
+        "text": "102"
+      },
+      {
+        "value": "85",
+        "text": "106"
+      },
+      {
+        "value": "89",
+        "text": "110"
+      },
+      {
+        "value": "93",
+        "text": "114"
+      },
+      {
+        "value": "97",
+        "text": "118"
+      },
+      {
+        "value": "101",
+        "text": "122"
+      },
+      {
+        "value": "121",
+        "text": "21"
+      },
+      {
+        "value": "125",
+        "text": "22"
+      },
+      {
+        "value": "129",
+        "text": "23"
+      },
+      {
+        "value": "133",
+        "text": "24"
+      },
+      {
+        "value": "137",
+        "text": "25"
+      },
+      {
+        "value": "141",
+        "text": "26"
+      },
+      {
+        "value": "145",
+        "text": "27"
+      },
+      {
+        "value": "149",
+        "text": "28"
+      }
+    ]
+  },
+  {
+    "partId": 1,
+    "partName": "Jacket",
+    "fitId": 39,
+    "fitName": "Slim2.0 ",
+    "tryOnSizes": [
+      {
+        "value": "1379",
+        "text": "38"
+      },
+      {
+        "value": "1378",
+        "text": "40"
+      },
+      {
+        "value": "25",
+        "text": "42"
+      },
+      {
+        "value": "21",
+        "text": "44"
+      },
+      {
+        "value": "17",
+        "text": "46"
+      },
+      {
+        "value": "13",
+        "text": "48"
+      },
+      {
+        "value": "1",
+        "text": "50"
+      },
+      {
+        "value": "5",
+        "text": "52"
+      },
+      {
+        "value": "9",
+        "text": "54"
+      },
+      {
+        "value": "29",
+        "text": "56"
+      },
+      {
+        "value": "33",
+        "text": "58"
+      },
+      {
+        "value": "37",
+        "text": "60"
+      },
+      {
+        "value": "41",
+        "text": "62"
+      },
+      {
+        "value": "45",
+        "text": "64"
+      },
+      {
+        "value": "1380",
+        "text": "72"
+      },
+      {
+        "value": "1381",
+        "text": "74"
+      },
+      {
+        "value": "1382",
+        "text": "76"
+      },
+      {
+        "value": "61",
+        "text": "82"
+      },
+      {
+        "value": "65",
+        "text": "86"
+      },
+      {
+        "value": "69",
+        "text": "90"
+      },
+      {
+        "value": "73",
+        "text": "94"
+      },
+      {
+        "value": "77",
+        "text": "98"
+      },
+      {
+        "value": "81",
+        "text": "102"
+      },
+      {
+        "value": "85",
+        "text": "106"
+      },
+      {
+        "value": "89",
+        "text": "110"
+      },
+      {
+        "value": "93",
+        "text": "114"
+      },
+      {
+        "value": "97",
+        "text": "118"
+      },
+      {
+        "value": "101",
+        "text": "122"
+      },
+      {
+        "value": "121",
+        "text": "21"
+      },
+      {
+        "value": "125",
+        "text": "22"
+      },
+      {
+        "value": "129",
+        "text": "23"
+      },
+      {
+        "value": "133",
+        "text": "24"
+      },
+      {
+        "value": "137",
+        "text": "25"
+      },
+      {
+        "value": "141",
+        "text": "26"
+      },
+      {
+        "value": "145",
+        "text": "27"
+      },
+      {
+        "value": "149",
+        "text": "28"
+      },
+      {
+        "value": "153",
+        "text": "29"
+      },
+      {
+        "value": "157",
+        "text": "30"
+      }
+    ]
+  },
+  {
+    "partId": 2,
+    "partName": "Trousers",
+    "fitId": 1,
+    "fitName": "Regular",
+    "tryOnSizes": [
+      {
+        "value": "26",
+        "text": "42"
+      },
+      {
+        "value": "22",
+        "text": "44"
+      },
+      {
+        "value": "18",
+        "text": "46"
+      },
+      {
+        "value": "14",
+        "text": "48"
+      },
+      {
+        "value": "2",
+        "text": "50"
+      },
+      {
+        "value": "6",
+        "text": "52"
+      },
+      {
+        "value": "10",
+        "text": "54"
+      },
+      {
+        "value": "30",
+        "text": "56"
+      },
+      {
+        "value": "34",
+        "text": "58"
+      },
+      {
+        "value": "38",
+        "text": "60"
+      },
+      {
+        "value": "42",
+        "text": "62"
+      },
+      {
+        "value": "46",
+        "text": "64"
+      },
+      {
+        "value": "50",
+        "text": "66"
+      },
+      {
+        "value": "54",
+        "text": "68"
+      },
+      {
+        "value": "58",
+        "text": "70"
+      },
+      {
+        "value": "62",
+        "text": "82"
+      },
+      {
+        "value": "66",
+        "text": "86"
+      },
+      {
+        "value": "70",
+        "text": "90"
+      },
+      {
+        "value": "74",
+        "text": "94"
+      },
+      {
+        "value": "78",
+        "text": "98"
+      },
+      {
+        "value": "82",
+        "text": "102"
+      },
+      {
+        "value": "86",
+        "text": "106"
+      },
+      {
+        "value": "90",
+        "text": "110"
+      },
+      {
+        "value": "94",
+        "text": "114"
+      },
+      {
+        "value": "98",
+        "text": "118"
+      },
+      {
+        "value": "102",
+        "text": "122"
+      },
+      {
+        "value": "106",
+        "text": "126"
+      },
+      {
+        "value": "110",
+        "text": "130"
+      },
+      {
+        "value": "114",
+        "text": "134"
+      },
+      {
+        "value": "118",
+        "text": "138"
+      },
+      {
+        "value": "122",
+        "text": "21"
+      },
+      {
+        "value": "126",
+        "text": "22"
+      },
+      {
+        "value": "130",
+        "text": "23"
+      },
+      {
+        "value": "134",
+        "text": "24"
+      },
+      {
+        "value": "138",
+        "text": "25"
+      },
+      {
+        "value": "142",
+        "text": "26"
+      },
+      {
+        "value": "146",
+        "text": "27"
+      },
+      {
+        "value": "150",
+        "text": "28"
+      },
+      {
+        "value": "154",
+        "text": "29"
+      },
+      {
+        "value": "158",
+        "text": "30"
+      },
+      {
+        "value": "162",
+        "text": "31"
+      },
+      {
+        "value": "166",
+        "text": "32"
+      },
+      {
+        "value": "170",
+        "text": "33"
+      },
+      {
+        "value": "174",
+        "text": "34"
+      },
+      {
+        "value": "178",
+        "text": "35"
+      }
+    ]
+  },
+  {
+    "partId": 2,
+    "partName": "Trousers",
+    "fitId": 2,
+    "fitName": "Slim",
+    "tryOnSizes": [
+      {
+        "value": "26",
+        "text": "42"
+      },
+      {
+        "value": "22",
+        "text": "44"
+      },
+      {
+        "value": "18",
+        "text": "46"
+      },
+      {
+        "value": "14",
+        "text": "48"
+      },
+      {
+        "value": "2",
+        "text": "50"
+      },
+      {
+        "value": "6",
+        "text": "52"
+      },
+      {
+        "value": "10",
+        "text": "54"
+      },
+      {
+        "value": "30",
+        "text": "56"
+      },
+      {
+        "value": "34",
+        "text": "58"
+      },
+      {
+        "value": "38",
+        "text": "60"
+      },
+      {
+        "value": "42",
+        "text": "62"
+      },
+      {
+        "value": "46",
+        "text": "64"
+      },
+      {
+        "value": "62",
+        "text": "82"
+      },
+      {
+        "value": "66",
+        "text": "86"
+      },
+      {
+        "value": "70",
+        "text": "90"
+      },
+      {
+        "value": "74",
+        "text": "94"
+      },
+      {
+        "value": "78",
+        "text": "98"
+      },
+      {
+        "value": "82",
+        "text": "102"
+      },
+      {
+        "value": "86",
+        "text": "106"
+      },
+      {
+        "value": "90",
+        "text": "110"
+      },
+      {
+        "value": "94",
+        "text": "114"
+      },
+      {
+        "value": "98",
+        "text": "118"
+      },
+      {
+        "value": "102",
+        "text": "122"
+      },
+      {
+        "value": "122",
+        "text": "21"
+      },
+      {
+        "value": "126",
+        "text": "22"
+      },
+      {
+        "value": "130",
+        "text": "23"
+      },
+      {
+        "value": "134",
+        "text": "24"
+      },
+      {
+        "value": "138",
+        "text": "25"
+      },
+      {
+        "value": "142",
+        "text": "26"
+      },
+      {
+        "value": "146",
+        "text": "27"
+      },
+      {
+        "value": "150",
+        "text": "28"
+      }
+    ]
+  },
+  {
+    "partId": 2,
+    "partName": "Trousers",
+    "fitId": 6,
+    "fitName": "Slim 2.0",
+    "tryOnSizes": [
+      {
+        "value": "26",
+        "text": "42"
+      },
+      {
+        "value": "22",
+        "text": "44"
+      },
+      {
+        "value": "18",
+        "text": "46"
+      },
+      {
+        "value": "14",
+        "text": "48"
+      },
+      {
+        "value": "2",
+        "text": "50"
+      },
+      {
+        "value": "6",
+        "text": "52"
+      },
+      {
+        "value": "10",
+        "text": "54"
+      },
+      {
+        "value": "30",
+        "text": "56"
+      },
+      {
+        "value": "34",
+        "text": "58"
+      },
+      {
+        "value": "38",
+        "text": "60"
+      },
+      {
+        "value": "42",
+        "text": "62"
+      },
+      {
+        "value": "46",
+        "text": "64"
+      },
+      {
+        "value": "62",
+        "text": "82"
+      },
+      {
+        "value": "66",
+        "text": "86"
+      },
+      {
+        "value": "70",
+        "text": "90"
+      },
+      {
+        "value": "74",
+        "text": "94"
+      },
+      {
+        "value": "78",
+        "text": "98"
+      },
+      {
+        "value": "82",
+        "text": "102"
+      },
+      {
+        "value": "86",
+        "text": "106"
+      },
+      {
+        "value": "90",
+        "text": "110"
+      },
+      {
+        "value": "94",
+        "text": "114"
+      },
+      {
+        "value": "98",
+        "text": "118"
+      },
+      {
+        "value": "102",
+        "text": "122"
+      },
+      {
+        "value": "122",
+        "text": "21"
+      },
+      {
+        "value": "126",
+        "text": "22"
+      },
+      {
+        "value": "130",
+        "text": "23"
+      },
+      {
+        "value": "134",
+        "text": "24"
+      },
+      {
+        "value": "138",
+        "text": "25"
+      },
+      {
+        "value": "142",
+        "text": "26"
+      },
+      {
+        "value": "146",
+        "text": "27"
+      },
+      {
+        "value": "150",
+        "text": "28"
+      },
+      {
+        "value": "154",
+        "text": "29"
+      },
+      {
+        "value": "158",
+        "text": "30"
+      }
+    ]
+  },
+  {
+    "partId": 2,
+    "partName": "Trousers",
+    "fitId": 28,
+    "fitName": "T40",
+    "tryOnSizes": [
+      {
+        "value": "929",
+        "text": "38"
+      },
+      {
+        "value": "928",
+        "text": "40"
+      },
+      {
+        "value": "26",
+        "text": "42"
+      },
+      {
+        "value": "22",
+        "text": "44"
+      },
+      {
+        "value": "18",
+        "text": "46"
+      },
+      {
+        "value": "14",
+        "text": "48"
+      },
+      {
+        "value": "2",
+        "text": "50"
+      },
+      {
+        "value": "6",
+        "text": "52"
+      },
+      {
+        "value": "10",
+        "text": "54"
+      },
+      {
+        "value": "30",
+        "text": "56"
+      },
+      {
+        "value": "34",
+        "text": "58"
+      },
+      {
+        "value": "38",
+        "text": "60"
+      },
+      {
+        "value": "42",
+        "text": "62"
+      },
+      {
+        "value": "46",
+        "text": "64"
+      },
+      {
+        "value": "50",
+        "text": "66"
+      },
+      {
+        "value": "54",
+        "text": "68"
+      },
+      {
+        "value": "58",
+        "text": "70"
+      },
+      {
+        "value": "930",
+        "text": "72"
+      },
+      {
+        "value": "931",
+        "text": "74"
+      },
+      {
+        "value": "1383",
+        "text": "76"
+      },
+      {
+        "value": "1479",
+        "text": "38S"
+      },
+      {
+        "value": "1478",
+        "text": "40S"
+      },
+      {
+        "value": "277",
+        "text": "42S"
+      },
+      {
+        "value": "278",
+        "text": "44S"
+      },
+      {
+        "value": "291",
+        "text": "46S"
+      },
+      {
+        "value": "279",
+        "text": "48S"
+      },
+      {
+        "value": "280",
+        "text": "50S"
+      },
+      {
+        "value": "281",
+        "text": "52S"
+      },
+      {
+        "value": "282",
+        "text": "54S"
+      },
+      {
+        "value": "283",
+        "text": "56S"
+      },
+      {
+        "value": "284",
+        "text": "58S"
+      },
+      {
+        "value": "285",
+        "text": "60S"
+      },
+      {
+        "value": "286",
+        "text": "62S"
+      },
+      {
+        "value": "287",
+        "text": "64S"
+      },
+      {
+        "value": "288",
+        "text": "66S"
+      },
+      {
+        "value": "289",
+        "text": "68S"
+      },
+      {
+        "value": "290",
+        "text": "70S"
+      },
+      {
+        "value": "1480",
+        "text": "72S"
+      },
+      {
+        "value": "1481",
+        "text": "74S"
+      },
+      {
+        "value": "1482",
+        "text": "76S"
+      },
+      {
+        "value": "1484",
+        "text": "38L"
+      },
+      {
+        "value": "1483",
+        "text": "40L"
+      },
+      {
+        "value": "262",
+        "text": "42L"
+      },
+      {
+        "value": "263",
+        "text": "44L"
+      },
+      {
+        "value": "264",
+        "text": "46L"
+      },
+      {
+        "value": "265",
+        "text": "48L"
+      },
+      {
+        "value": "266",
+        "text": "50L"
+      },
+      {
+        "value": "267",
+        "text": "52L"
+      },
+      {
+        "value": "268",
+        "text": "54L"
+      },
+      {
+        "value": "269",
+        "text": "56L"
+      },
+      {
+        "value": "270",
+        "text": "58L"
+      },
+      {
+        "value": "271",
+        "text": "60L"
+      },
+      {
+        "value": "272",
+        "text": "62L"
+      },
+      {
+        "value": "273",
+        "text": "64L"
+      },
+      {
+        "value": "274",
+        "text": "66L"
+      },
+      {
+        "value": "275",
+        "text": "68L"
+      },
+      {
+        "value": "276",
+        "text": "70L"
+      },
+      {
+        "value": "1485",
+        "text": "72L"
+      },
+      {
+        "value": "1486",
+        "text": "74L"
+      },
+      {
+        "value": "1487",
+        "text": "76L"
+      },
+      {
+        "value": "62",
+        "text": "82"
+      },
+      {
+        "value": "66",
+        "text": "86"
+      },
+      {
+        "value": "70",
+        "text": "90"
+      },
+      {
+        "value": "74",
+        "text": "94"
+      },
+      {
+        "value": "78",
+        "text": "98"
+      },
+      {
+        "value": "82",
+        "text": "102"
+      },
+      {
+        "value": "86",
+        "text": "106"
+      },
+      {
+        "value": "90",
+        "text": "110"
+      },
+      {
+        "value": "94",
+        "text": "114"
+      },
+      {
+        "value": "98",
+        "text": "118"
+      },
+      {
+        "value": "102",
+        "text": "122"
+      },
+      {
+        "value": "106",
+        "text": "126"
+      },
+      {
+        "value": "110",
+        "text": "130"
+      },
+      {
+        "value": "114",
+        "text": "134"
+      },
+      {
+        "value": "118",
+        "text": "138"
+      },
+      {
+        "value": "122",
+        "text": "21"
+      },
+      {
+        "value": "126",
+        "text": "22"
+      },
+      {
+        "value": "130",
+        "text": "23"
+      },
+      {
+        "value": "134",
+        "text": "24"
+      },
+      {
+        "value": "138",
+        "text": "25"
+      },
+      {
+        "value": "142",
+        "text": "26"
+      },
+      {
+        "value": "146",
+        "text": "27"
+      },
+      {
+        "value": "150",
+        "text": "28"
+      },
+      {
+        "value": "154",
+        "text": "29"
+      },
+      {
+        "value": "158",
+        "text": "30"
+      },
+      {
+        "value": "162",
+        "text": "31"
+      },
+      {
+        "value": "166",
+        "text": "32"
+      },
+      {
+        "value": "170",
+        "text": "33"
+      },
+      {
+        "value": "174",
+        "text": "34"
+      },
+      {
+        "value": "178",
+        "text": "35"
+      }
+    ]
+  },
+  {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "fitId": 1,
+    "fitName": "Regular",
+    "tryOnSizes": [
+      {
+        "value": "1388",
+        "text": "38"
+      },
+      {
+        "value": "1387",
+        "text": "40"
+      },
+      {
+        "value": "27",
+        "text": "42"
+      },
+      {
+        "value": "23",
+        "text": "44"
+      },
+      {
+        "value": "19",
+        "text": "46"
+      },
+      {
+        "value": "15",
+        "text": "48"
+      },
+      {
+        "value": "3",
+        "text": "50"
+      },
+      {
+        "value": "7",
+        "text": "52"
+      },
+      {
+        "value": "11",
+        "text": "54"
+      },
+      {
+        "value": "31",
+        "text": "56"
+      },
+      {
+        "value": "35",
+        "text": "58"
+      },
+      {
+        "value": "39",
+        "text": "60"
+      },
+      {
+        "value": "43",
+        "text": "62"
+      },
+      {
+        "value": "47",
+        "text": "64"
+      },
+      {
+        "value": "51",
+        "text": "66"
+      },
+      {
+        "value": "55",
+        "text": "68"
+      },
+      {
+        "value": "59",
+        "text": "70"
+      },
+      {
+        "value": "1384",
+        "text": "72"
+      },
+      {
+        "value": "1385",
+        "text": "74"
+      },
+      {
+        "value": "1386",
+        "text": "76"
+      },
+      {
+        "value": "63",
+        "text": "82"
+      },
+      {
+        "value": "67",
+        "text": "86"
+      },
+      {
+        "value": "71",
+        "text": "90"
+      },
+      {
+        "value": "75",
+        "text": "94"
+      },
+      {
+        "value": "79",
+        "text": "98"
+      },
+      {
+        "value": "83",
+        "text": "102"
+      },
+      {
+        "value": "87",
+        "text": "106"
+      },
+      {
+        "value": "91",
+        "text": "110"
+      },
+      {
+        "value": "95",
+        "text": "114"
+      },
+      {
+        "value": "99",
+        "text": "118"
+      },
+      {
+        "value": "103",
+        "text": "122"
+      },
+      {
+        "value": "107",
+        "text": "126"
+      },
+      {
+        "value": "111",
+        "text": "130"
+      },
+      {
+        "value": "115",
+        "text": "134"
+      },
+      {
+        "value": "119",
+        "text": "138"
+      },
+      {
+        "value": "123",
+        "text": "21"
+      },
+      {
+        "value": "127",
+        "text": "22"
+      },
+      {
+        "value": "131",
+        "text": "23"
+      },
+      {
+        "value": "135",
+        "text": "24"
+      },
+      {
+        "value": "139",
+        "text": "25"
+      },
+      {
+        "value": "143",
+        "text": "26"
+      },
+      {
+        "value": "147",
+        "text": "27"
+      },
+      {
+        "value": "151",
+        "text": "28"
+      },
+      {
+        "value": "155",
+        "text": "29"
+      },
+      {
+        "value": "159",
+        "text": "30"
+      },
+      {
+        "value": "163",
+        "text": "31"
+      },
+      {
+        "value": "167",
+        "text": "32"
+      },
+      {
+        "value": "171",
+        "text": "33"
+      },
+      {
+        "value": "175",
+        "text": "34"
+      },
+      {
+        "value": "179",
+        "text": "35"
+      }
+    ]
+  },
+  {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "fitId": 2,
+    "fitName": "Slim",
+    "tryOnSizes": [
+      {
+        "value": "27",
+        "text": "42"
+      },
+      {
+        "value": "23",
+        "text": "44"
+      },
+      {
+        "value": "19",
+        "text": "46"
+      },
+      {
+        "value": "15",
+        "text": "48"
+      },
+      {
+        "value": "3",
+        "text": "50"
+      },
+      {
+        "value": "7",
+        "text": "52"
+      },
+      {
+        "value": "11",
+        "text": "54"
+      },
+      {
+        "value": "31",
+        "text": "56"
+      },
+      {
+        "value": "35",
+        "text": "58"
+      },
+      {
+        "value": "39",
+        "text": "60"
+      },
+      {
+        "value": "43",
+        "text": "62"
+      },
+      {
+        "value": "47",
+        "text": "64"
+      },
+      {
+        "value": "63",
+        "text": "82"
+      },
+      {
+        "value": "67",
+        "text": "86"
+      },
+      {
+        "value": "71",
+        "text": "90"
+      },
+      {
+        "value": "75",
+        "text": "94"
+      },
+      {
+        "value": "79",
+        "text": "98"
+      },
+      {
+        "value": "83",
+        "text": "102"
+      },
+      {
+        "value": "87",
+        "text": "106"
+      },
+      {
+        "value": "91",
+        "text": "110"
+      },
+      {
+        "value": "95",
+        "text": "114"
+      },
+      {
+        "value": "99",
+        "text": "118"
+      },
+      {
+        "value": "103",
+        "text": "122"
+      },
+      {
+        "value": "123",
+        "text": "21"
+      },
+      {
+        "value": "127",
+        "text": "22"
+      },
+      {
+        "value": "131",
+        "text": "23"
+      },
+      {
+        "value": "135",
+        "text": "24"
+      },
+      {
+        "value": "139",
+        "text": "25"
+      },
+      {
+        "value": "143",
+        "text": "26"
+      },
+      {
+        "value": "147",
+        "text": "27"
+      },
+      {
+        "value": "151",
+        "text": "28"
+      }
+    ]
+  },
+  {
+    "partId": 3,
+    "partName": "Waistcoat",
+    "fitId": 6,
+    "fitName": "Slim 2.0",
+    "tryOnSizes": [
+      {
+        "value": "1388",
+        "text": "38"
+      },
+      {
+        "value": "1387",
+        "text": "40"
+      },
+      {
+        "value": "27",
+        "text": "42"
+      },
+      {
+        "value": "23",
+        "text": "44"
+      },
+      {
+        "value": "19",
+        "text": "46"
+      },
+      {
+        "value": "15",
+        "text": "48"
+      },
+      {
+        "value": "3",
+        "text": "50"
+      },
+      {
+        "value": "7",
+        "text": "52"
+      },
+      {
+        "value": "11",
+        "text": "54"
+      },
+      {
+        "value": "31",
+        "text": "56"
+      },
+      {
+        "value": "35",
+        "text": "58"
+      },
+      {
+        "value": "39",
+        "text": "60"
+      },
+      {
+        "value": "43",
+        "text": "62"
+      },
+      {
+        "value": "47",
+        "text": "64"
+      },
+      {
+        "value": "1384",
+        "text": "72"
+      },
+      {
+        "value": "1385",
+        "text": "74"
+      },
+      {
+        "value": "1386",
+        "text": "76"
+      },
+      {
+        "value": "63",
+        "text": "82"
+      },
+      {
+        "value": "67",
+        "text": "86"
+      },
+      {
+        "value": "71",
+        "text": "90"
+      },
+      {
+        "value": "75",
+        "text": "94"
+      },
+      {
+        "value": "79",
+        "text": "98"
+      },
+      {
+        "value": "83",
+        "text": "102"
+      },
+      {
+        "value": "87",
+        "text": "106"
+      },
+      {
+        "value": "91",
+        "text": "110"
+      },
+      {
+        "value": "95",
+        "text": "114"
+      },
+      {
+        "value": "99",
+        "text": "118"
+      },
+      {
+        "value": "103",
+        "text": "122"
+      },
+      {
+        "value": "123",
+        "text": "21"
+      },
+      {
+        "value": "127",
+        "text": "22"
+      },
+      {
+        "value": "131",
+        "text": "23"
+      },
+      {
+        "value": "135",
+        "text": "24"
+      },
+      {
+        "value": "139",
+        "text": "25"
+      },
+      {
+        "value": "143",
+        "text": "26"
+      },
+      {
+        "value": "147",
+        "text": "27"
+      },
+      {
+        "value": "151",
+        "text": "28"
+      },
+      {
+        "value": "155",
+        "text": "29"
+      },
+      {
+        "value": "159",
+        "text": "30"
+      }
+    ]
+  },
+  {
+    "partId": 4,
+    "partName": "Shirt",
+    "fitId": 5,
+    "fitName": "Regular 2.0",
+    "tryOnSizes": [
+      {
+        "value": "196",
+        "text": "35"
+      },
+      {
+        "value": "181",
+        "text": "36"
+      },
+      {
+        "value": "182",
+        "text": "37"
+      },
+      {
+        "value": "183",
+        "text": "38"
+      },
+      {
+        "value": "184",
+        "text": "39"
+      },
+      {
+        "value": "185",
+        "text": "40"
+      },
+      {
+        "value": "186",
+        "text": "41"
+      },
+      {
+        "value": "187",
+        "text": "42"
+      },
+      {
+        "value": "188",
+        "text": "43"
+      },
+      {
+        "value": "189",
+        "text": "44"
+      },
+      {
+        "value": "190",
+        "text": "45"
+      },
+      {
+        "value": "191",
+        "text": "46"
+      },
+      {
+        "value": "192",
+        "text": "47"
+      },
+      {
+        "value": "193",
+        "text": "48"
+      },
+      {
+        "value": "194",
+        "text": "49"
+      },
+      {
+        "value": "195",
+        "text": "50"
+      },
+      {
+        "value": "197",
+        "text": "51"
+      },
+      {
+        "value": "198",
+        "text": "52"
+      },
+      {
+        "value": "199",
+        "text": "53"
+      },
+      {
+        "value": "200",
+        "text": "54"
+      },
+      {
+        "value": "201",
+        "text": "55"
+      }
+    ]
+  },
+  {
+    "partId": 4,
+    "partName": "Shirt",
+    "fitId": 6,
+    "fitName": "Slim 2.0",
+    "tryOnSizes": [
+      {
+        "value": "196",
+        "text": "35"
+      },
+      {
+        "value": "181",
+        "text": "36"
+      },
+      {
+        "value": "182",
+        "text": "37"
+      },
+      {
+        "value": "183",
+        "text": "38"
+      },
+      {
+        "value": "184",
+        "text": "39"
+      },
+      {
+        "value": "185",
+        "text": "40"
+      },
+      {
+        "value": "186",
+        "text": "41"
+      },
+      {
+        "value": "187",
+        "text": "42"
+      },
+      {
+        "value": "188",
+        "text": "43"
+      },
+      {
+        "value": "189",
+        "text": "44"
+      },
+      {
+        "value": "190",
+        "text": "45"
+      },
+      {
+        "value": "191",
+        "text": "46"
+      },
+      {
+        "value": "192",
+        "text": "47"
+      },
+      {
+        "value": "193",
+        "text": "48"
+      },
+      {
+        "value": "194",
+        "text": "49"
+      },
+      {
+        "value": "195",
+        "text": "50"
+      }
+    ]
+  },
+  {
+    "partId": 4,
+    "partName": "Shirt",
+    "fitId": 42,
+    "fitName": "Comfort",
+    "tryOnSizes": [
+      {
+        "value": "196",
+        "text": "35"
+      },
+      {
+        "value": "181",
+        "text": "36"
+      },
+      {
+        "value": "182",
+        "text": "37"
+      },
+      {
+        "value": "183",
+        "text": "38"
+      },
+      {
+        "value": "184",
+        "text": "39"
+      },
+      {
+        "value": "185",
+        "text": "40"
+      },
+      {
+        "value": "186",
+        "text": "41"
+      },
+      {
+        "value": "187",
+        "text": "42"
+      },
+      {
+        "value": "188",
+        "text": "43"
+      },
+      {
+        "value": "189",
+        "text": "44"
+      },
+      {
+        "value": "190",
+        "text": "45"
+      },
+      {
+        "value": "191",
+        "text": "46"
+      },
+      {
+        "value": "192",
+        "text": "47"
+      },
+      {
+        "value": "193",
+        "text": "48"
+      },
+      {
+        "value": "194",
+        "text": "49"
+      },
+      {
+        "value": "195",
+        "text": "50"
+      },
+      {
+        "value": "197",
+        "text": "51"
+      },
+      {
+        "value": "198",
+        "text": "52"
+      },
+      {
+        "value": "199",
+        "text": "53"
+      },
+      {
+        "value": "200",
+        "text": "54"
+      },
+      {
+        "value": "201",
+        "text": "55"
+      }
+    ]
+  },
+  {
+    "partId": 5,
+    "partName": "Overcoat",
+    "fitId": 1,
+    "fitName": "Regular",
+    "tryOnSizes": [
+      {
+        "value": "1195",
+        "text": "38"
+      },
+      {
+        "value": "1196",
+        "text": "40"
+      },
+      {
+        "value": "28",
+        "text": "42"
+      },
+      {
+        "value": "24",
+        "text": "44"
+      },
+      {
+        "value": "20",
+        "text": "46"
+      },
+      {
+        "value": "16",
+        "text": "48"
+      },
+      {
+        "value": "4",
+        "text": "50"
+      },
+      {
+        "value": "8",
+        "text": "52"
+      },
+      {
+        "value": "12",
+        "text": "54"
+      },
+      {
+        "value": "32",
+        "text": "56"
+      },
+      {
+        "value": "36",
+        "text": "58"
+      },
+      {
+        "value": "40",
+        "text": "60"
+      },
+      {
+        "value": "44",
+        "text": "62"
+      },
+      {
+        "value": "48",
+        "text": "64"
+      },
+      {
+        "value": "229",
+        "text": "66"
+      },
+      {
+        "value": "230",
+        "text": "68"
+      },
+      {
+        "value": "231",
+        "text": "70"
+      },
+      {
+        "value": "1197",
+        "text": "72"
+      },
+      {
+        "value": "1198",
+        "text": "74"
+      },
+      {
+        "value": "1199",
+        "text": "76"
+      },
+      {
+        "value": "72",
+        "text": "90"
+      },
+      {
+        "value": "76",
+        "text": "94"
+      },
+      {
+        "value": "80",
+        "text": "98"
+      },
+      {
+        "value": "84",
+        "text": "102"
+      },
+      {
+        "value": "88",
+        "text": "106"
+      },
+      {
+        "value": "92",
+        "text": "110"
+      },
+      {
+        "value": "96",
+        "text": "114"
+      }
+    ]
+  },
+  {
+    "partId": 12,
+    "partName": "Bermuda",
+    "fitId": 1,
+    "fitName": "Regular",
+    "tryOnSizes": [
+      {
+        "value": "553",
+        "text": "42"
+      },
+      {
+        "value": "552",
+        "text": "44"
+      },
+      {
+        "value": "551",
+        "text": "46"
+      },
+      {
+        "value": "550",
+        "text": "48"
+      },
+      {
+        "value": "547",
+        "text": "50"
+      },
+      {
+        "value": "548",
+        "text": "52"
+      },
+      {
+        "value": "549",
+        "text": "54"
+      },
+      {
+        "value": "554",
+        "text": "56"
+      },
+      {
+        "value": "555",
+        "text": "58"
+      },
+      {
+        "value": "556",
+        "text": "60"
+      },
+      {
+        "value": "557",
+        "text": "62"
+      },
+      {
+        "value": "558",
+        "text": "64"
+      },
+      {
+        "value": "559",
+        "text": "66"
+      },
+      {
+        "value": "560",
+        "text": "68"
+      },
+      {
+        "value": "561",
+        "text": "70"
+      },
+      {
+        "value": "562",
+        "text": "82"
+      },
+      {
+        "value": "563",
+        "text": "86"
+      },
+      {
+        "value": "564",
+        "text": "90"
+      },
+      {
+        "value": "565",
+        "text": "94"
+      },
+      {
+        "value": "566",
+        "text": "98"
+      },
+      {
+        "value": "567",
+        "text": "102"
+      },
+      {
+        "value": "568",
+        "text": "106"
+      },
+      {
+        "value": "569",
+        "text": "110"
+      },
+      {
+        "value": "570",
+        "text": "114"
+      },
+      {
+        "value": "571",
+        "text": "118"
+      },
+      {
+        "value": "572",
+        "text": "122"
+      },
+      {
+        "value": "573",
+        "text": "126"
+      },
+      {
+        "value": "574",
+        "text": "130"
+      },
+      {
+        "value": "575",
+        "text": "134"
+      },
+      {
+        "value": "576",
+        "text": "138"
+      },
+      {
+        "value": "577",
+        "text": "21"
+      },
+      {
+        "value": "578",
+        "text": "22"
+      },
+      {
+        "value": "579",
+        "text": "23"
+      },
+      {
+        "value": "580",
+        "text": "24"
+      },
+      {
+        "value": "581",
+        "text": "25"
+      },
+      {
+        "value": "582",
+        "text": "26"
+      },
+      {
+        "value": "583",
+        "text": "27"
+      },
+      {
+        "value": "584",
+        "text": "28"
+      },
+      {
+        "value": "585",
+        "text": "29"
+      },
+      {
+        "value": "586",
+        "text": "30"
+      },
+      {
+        "value": "587",
+        "text": "31"
+      },
+      {
+        "value": "588",
+        "text": "32"
+      },
+      {
+        "value": "589",
+        "text": "33"
+      },
+      {
+        "value": "590",
+        "text": "34"
+      },
+      {
+        "value": "591",
+        "text": "35"
+      }
+    ]
+  },
+  {
+    "partId": 12,
+    "partName": "Bermuda",
+    "fitId": 2,
+    "fitName": "Slim",
+    "tryOnSizes": [
+      {
+        "value": "553",
+        "text": "42"
+      },
+      {
+        "value": "552",
+        "text": "44"
+      },
+      {
+        "value": "551",
+        "text": "46"
+      },
+      {
+        "value": "550",
+        "text": "48"
+      },
+      {
+        "value": "547",
+        "text": "50"
+      },
+      {
+        "value": "548",
+        "text": "52"
+      },
+      {
+        "value": "549",
+        "text": "54"
+      },
+      {
+        "value": "554",
+        "text": "56"
+      },
+      {
+        "value": "555",
+        "text": "58"
+      },
+      {
+        "value": "556",
+        "text": "60"
+      },
+      {
+        "value": "557",
+        "text": "62"
+      },
+      {
+        "value": "558",
+        "text": "64"
+      },
+      {
+        "value": "562",
+        "text": "82"
+      },
+      {
+        "value": "563",
+        "text": "86"
+      },
+      {
+        "value": "564",
+        "text": "90"
+      },
+      {
+        "value": "565",
+        "text": "94"
+      },
+      {
+        "value": "566",
+        "text": "98"
+      },
+      {
+        "value": "567",
+        "text": "102"
+      },
+      {
+        "value": "568",
+        "text": "106"
+      },
+      {
+        "value": "569",
+        "text": "110"
+      },
+      {
+        "value": "570",
+        "text": "114"
+      },
+      {
+        "value": "571",
+        "text": "118"
+      },
+      {
+        "value": "572",
+        "text": "122"
+      },
+      {
+        "value": "577",
+        "text": "21"
+      },
+      {
+        "value": "578",
+        "text": "22"
+      },
+      {
+        "value": "579",
+        "text": "23"
+      },
+      {
+        "value": "580",
+        "text": "24"
+      },
+      {
+        "value": "581",
+        "text": "25"
+      },
+      {
+        "value": "582",
+        "text": "26"
+      },
+      {
+        "value": "583",
+        "text": "27"
+      },
+      {
+        "value": "584",
+        "text": "28"
+      }
+    ]
+  },
+  {
+    "partId": 12,
+    "partName": "Bermuda",
+    "fitId": 3,
+    "fitName": "SuperSlim",
+    "tryOnSizes": [
+      {
+        "value": "553",
+        "text": "42"
+      },
+      {
+        "value": "552",
+        "text": "44"
+      },
+      {
+        "value": "551",
+        "text": "46"
+      },
+      {
+        "value": "550",
+        "text": "48"
+      },
+      {
+        "value": "547",
+        "text": "50"
+      },
+      {
+        "value": "548",
+        "text": "52"
+      },
+      {
+        "value": "549",
+        "text": "54"
+      },
+      {
+        "value": "554",
+        "text": "56"
+      },
+      {
+        "value": "555",
+        "text": "58"
+      },
+      {
+        "value": "556",
+        "text": "60"
+      },
+      {
+        "value": "557",
+        "text": "62"
+      },
+      {
+        "value": "558",
+        "text": "64"
+      },
+      {
+        "value": "562",
+        "text": "82"
+      },
+      {
+        "value": "563",
+        "text": "86"
+      },
+      {
+        "value": "564",
+        "text": "90"
+      },
+      {
+        "value": "565",
+        "text": "94"
+      },
+      {
+        "value": "566",
+        "text": "98"
+      },
+      {
+        "value": "567",
+        "text": "102"
+      },
+      {
+        "value": "568",
+        "text": "106"
+      },
+      {
+        "value": "569",
+        "text": "110"
+      },
+      {
+        "value": "570",
+        "text": "114"
+      },
+      {
+        "value": "571",
+        "text": "118"
+      },
+      {
+        "value": "572",
+        "text": "122"
+      },
+      {
+        "value": "577",
+        "text": "21"
+      },
+      {
+        "value": "578",
+        "text": "22"
+      },
+      {
+        "value": "579",
+        "text": "23"
+      },
+      {
+        "value": "580",
+        "text": "24"
+      },
+      {
+        "value": "581",
+        "text": "25"
+      },
+      {
+        "value": "582",
+        "text": "26"
+      },
+      {
+        "value": "583",
+        "text": "27"
+      },
+      {
+        "value": "584",
+        "text": "28"
+      }
+    ]
+  },
+  {
+    "partId": 12,
+    "partName": "Bermuda",
+    "fitId": 6,
+    "fitName": "Slim 2.0",
+    "tryOnSizes": [
+      {
+        "value": "553",
+        "text": "42"
+      },
+      {
+        "value": "552",
+        "text": "44"
+      },
+      {
+        "value": "551",
+        "text": "46"
+      },
+      {
+        "value": "550",
+        "text": "48"
+      },
+      {
+        "value": "547",
+        "text": "50"
+      },
+      {
+        "value": "548",
+        "text": "52"
+      },
+      {
+        "value": "549",
+        "text": "54"
+      },
+      {
+        "value": "554",
+        "text": "56"
+      },
+      {
+        "value": "555",
+        "text": "58"
+      },
+      {
+        "value": "556",
+        "text": "60"
+      },
+      {
+        "value": "557",
+        "text": "62"
+      },
+      {
+        "value": "558",
+        "text": "64"
+      },
+      {
+        "value": "562",
+        "text": "82"
+      },
+      {
+        "value": "563",
+        "text": "86"
+      },
+      {
+        "value": "564",
+        "text": "90"
+      },
+      {
+        "value": "565",
+        "text": "94"
+      },
+      {
+        "value": "566",
+        "text": "98"
+      },
+      {
+        "value": "567",
+        "text": "102"
+      },
+      {
+        "value": "568",
+        "text": "106"
+      },
+      {
+        "value": "569",
+        "text": "110"
+      },
+      {
+        "value": "570",
+        "text": "114"
+      },
+      {
+        "value": "571",
+        "text": "118"
+      },
+      {
+        "value": "572",
+        "text": "122"
+      },
+      {
+        "value": "577",
+        "text": "21"
+      },
+      {
+        "value": "578",
+        "text": "22"
+      },
+      {
+        "value": "579",
+        "text": "23"
+      },
+      {
+        "value": "580",
+        "text": "24"
+      },
+      {
+        "value": "581",
+        "text": "25"
+      },
+      {
+        "value": "582",
+        "text": "26"
+      },
+      {
+        "value": "583",
+        "text": "27"
+      },
+      {
+        "value": "584",
+        "text": "28"
+      },
+      {
+        "value": "585",
+        "text": "29"
+      },
+      {
+        "value": "586",
+        "text": "30"
+      }
+    ]
+  },
+  {
+    "partId": 13,
+    "partName": "Pea coat",
+    "fitId": 1,
+    "fitName": "Regular",
+    "tryOnSizes": [
+      {
+        "value": "1200",
+        "text": "38"
+      },
+      {
+        "value": "1201",
+        "text": "40"
+      },
+      {
+        "value": "628",
+        "text": "42"
+      },
+      {
+        "value": "627",
+        "text": "44"
+      },
+      {
+        "value": "626",
+        "text": "46"
+      },
+      {
+        "value": "625",
+        "text": "48"
+      },
+      {
+        "value": "622",
+        "text": "50"
+      },
+      {
+        "value": "623",
+        "text": "52"
+      },
+      {
+        "value": "624",
+        "text": "54"
+      },
+      {
+        "value": "629",
+        "text": "56"
+      },
+      {
+        "value": "630",
+        "text": "58"
+      },
+      {
+        "value": "631",
+        "text": "60"
+      },
+      {
+        "value": "632",
+        "text": "62"
+      },
+      {
+        "value": "633",
+        "text": "64"
+      },
+      {
+        "value": "641",
+        "text": "66"
+      },
+      {
+        "value": "642",
+        "text": "68"
+      },
+      {
+        "value": "643",
+        "text": "70"
+      },
+      {
+        "value": "1202",
+        "text": "72"
+      },
+      {
+        "value": "1203",
+        "text": "74"
+      },
+      {
+        "value": "1204",
+        "text": "76"
+      },
+      {
+        "value": "634",
+        "text": "90"
+      },
+      {
+        "value": "635",
+        "text": "94"
+      },
+      {
+        "value": "636",
+        "text": "98"
+      },
+      {
+        "value": "637",
+        "text": "102"
+      },
+      {
+        "value": "638",
+        "text": "106"
+      },
+      {
+        "value": "639",
+        "text": "110"
+      },
+      {
+        "value": "640",
+        "text": "114"
+      }
+    ]
+  },
+  {
+    "partId": 26,
+    "partName": "Coat",
+    "fitId": 30,
+    "fitName": "CC40",
+    "tryOnSizes": [
+      {
+        "value": "1080",
+        "text": "38"
+      },
+      {
+        "value": "1081",
+        "text": "40"
+      },
+      {
+        "value": "1011",
+        "text": "42"
+      },
+      {
+        "value": "1012",
+        "text": "44"
+      },
+      {
+        "value": "1013",
+        "text": "46"
+      },
+      {
+        "value": "1014",
+        "text": "48"
+      },
+      {
+        "value": "1016",
+        "text": "50"
+      },
+      {
+        "value": "1017",
+        "text": "52"
+      },
+      {
+        "value": "1019",
+        "text": "54"
+      },
+      {
+        "value": "1021",
+        "text": "56"
+      },
+      {
+        "value": "1023",
+        "text": "58"
+      },
+      {
+        "value": "1024",
+        "text": "60"
+      },
+      {
+        "value": "1025",
+        "text": "62"
+      },
+      {
+        "value": "1022",
+        "text": "64"
+      },
+      {
+        "value": "1020",
+        "text": "66"
+      },
+      {
+        "value": "1018",
+        "text": "68"
+      },
+      {
+        "value": "1015",
+        "text": "70"
+      },
+      {
+        "value": "1077",
+        "text": "72"
+      },
+      {
+        "value": "1078",
+        "text": "74"
+      },
+      {
+        "value": "1079",
+        "text": "76"
+      }
+    ]
+  },
+  {
+    "partId": 27,
+    "partName": "Detachable liner",
+    "fitId": 30,
+    "fitName": "CC40",
+    "tryOnSizes": [
+      {
+        "value": "1058",
+        "text": "38"
+      },
+      {
+        "value": "1059",
+        "text": "40"
+      },
+      {
+        "value": "1060",
+        "text": "42"
+      },
+      {
+        "value": "1061",
+        "text": "44"
+      },
+      {
+        "value": "1062",
+        "text": "46"
+      },
+      {
+        "value": "1063",
+        "text": "48"
+      },
+      {
+        "value": "1064",
+        "text": "50"
+      },
+      {
+        "value": "1065",
+        "text": "52"
+      },
+      {
+        "value": "1066",
+        "text": "54"
+      },
+      {
+        "value": "1067",
+        "text": "56"
+      },
+      {
+        "value": "1068",
+        "text": "58"
+      },
+      {
+        "value": "1069",
+        "text": "60"
+      },
+      {
+        "value": "1070",
+        "text": "62"
+      },
+      {
+        "value": "1071",
+        "text": "64"
+      },
+      {
+        "value": "1072",
+        "text": "66"
+      },
+      {
+        "value": "1073",
+        "text": "68"
+      },
+      {
+        "value": "1074",
+        "text": "70"
+      },
+      {
+        "value": "1075",
+        "text": "72"
+      },
+      {
+        "value": "1076",
+        "text": "74"
+      },
+      {
+        "value": "1082",
+        "text": "76"
+      }
+    ]
+  },
+  {
+    "partId": 31,
+    "partName": "Informal jacket",
+    "fitId": 32,
+    "fitName": "SJ40",
+    "tryOnSizes": [
+      {
+        "value": "1206",
+        "text": "38"
+      },
+      {
+        "value": "1207",
+        "text": "40"
+      },
+      {
+        "value": "1208",
+        "text": "42"
+      },
+      {
+        "value": "1209",
+        "text": "44"
+      },
+      {
+        "value": "1210",
+        "text": "46"
+      },
+      {
+        "value": "1211",
+        "text": "48"
+      },
+      {
+        "value": "1212",
+        "text": "50"
+      },
+      {
+        "value": "1213",
+        "text": "52"
+      },
+      {
+        "value": "1214",
+        "text": "54"
+      },
+      {
+        "value": "1215",
+        "text": "56"
+      },
+      {
+        "value": "1216",
+        "text": "58"
+      },
+      {
+        "value": "1217",
+        "text": "60"
+      },
+      {
+        "value": "1218",
+        "text": "62"
+      },
+      {
+        "value": "1219",
+        "text": "64"
+      },
+      {
+        "value": "1220",
+        "text": "66"
+      },
+      {
+        "value": "1221",
+        "text": "68"
+      },
+      {
+        "value": "1222",
+        "text": "70"
+      },
+      {
+        "value": "1223",
+        "text": "72"
+      },
+      {
+        "value": "1224",
+        "text": "74"
+      },
+      {
+        "value": "1225",
+        "text": "76"
+      },
+      {
+        "value": "1243",
+        "text": "82"
+      },
+      {
+        "value": "1244",
+        "text": "86"
+      },
+      {
+        "value": "1245",
+        "text": "90"
+      },
+      {
+        "value": "1246",
+        "text": "94"
+      },
+      {
+        "value": "1247",
+        "text": "98"
+      },
+      {
+        "value": "1248",
+        "text": "102"
+      },
+      {
+        "value": "1249",
+        "text": "106"
+      },
+      {
+        "value": "1250",
+        "text": "110"
+      },
+      {
+        "value": "1251",
+        "text": "114"
+      },
+      {
+        "value": "1252",
+        "text": "118"
+      },
+      {
+        "value": "1253",
+        "text": "122"
+      },
+      {
+        "value": "1254",
+        "text": "126"
+      },
+      {
+        "value": "1255",
+        "text": "130"
+      },
+      {
+        "value": "1256",
+        "text": "134"
+      },
+      {
+        "value": "1257",
+        "text": "138"
+      },
+      {
+        "value": "1258",
+        "text": "21"
+      },
+      {
+        "value": "1259",
+        "text": "22"
+      },
+      {
+        "value": "1260",
+        "text": "23"
+      },
+      {
+        "value": "1261",
+        "text": "24"
+      },
+      {
+        "value": "1262",
+        "text": "25"
+      },
+      {
+        "value": "1263",
+        "text": "26"
+      },
+      {
+        "value": "1264",
+        "text": "27"
+      },
+      {
+        "value": "1265",
+        "text": "28"
+      },
+      {
+        "value": "1266",
+        "text": "29"
+      },
+      {
+        "value": "1267",
+        "text": "30"
+      },
+      {
+        "value": "1268",
+        "text": "31"
+      },
+      {
+        "value": "1269",
+        "text": "32"
+      },
+      {
+        "value": "1270",
+        "text": "33"
+      },
+      {
+        "value": "1271",
+        "text": "34"
+      },
+      {
+        "value": "1272",
+        "text": "35"
+      }
+    ]
+  },
+  {
+    "partId": 21,
+    "partName": "Sneaker",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tryOnSizes": [
+      {
+        "value": "858",
+        "text": "38"
+      },
+      {
+        "value": "859",
+        "text": "38.5"
+      },
+      {
+        "value": "860",
+        "text": "39"
+      },
+      {
+        "value": "861",
+        "text": "39.5"
+      },
+      {
+        "value": "862",
+        "text": "40"
+      },
+      {
+        "value": "863",
+        "text": "40.5"
+      },
+      {
+        "value": "864",
+        "text": "41"
+      },
+      {
+        "value": "865",
+        "text": "41.5"
+      },
+      {
+        "value": "866",
+        "text": "42"
+      },
+      {
+        "value": "867",
+        "text": "42.5"
+      },
+      {
+        "value": "868",
+        "text": "43"
+      },
+      {
+        "value": "869",
+        "text": "43.5"
+      },
+      {
+        "value": "870",
+        "text": "44"
+      },
+      {
+        "value": "871",
+        "text": "44.5"
+      },
+      {
+        "value": "872",
+        "text": "45"
+      },
+      {
+        "value": "912",
+        "text": "45.5"
+      },
+      {
+        "value": "923",
+        "text": "46"
+      },
+      {
+        "value": "924",
+        "text": "46.5"
+      },
+      {
+        "value": "925",
+        "text": "47"
+      },
+      {
+        "value": "926",
+        "text": "47.5"
+      },
+      {
+        "value": "927",
+        "text": "48"
+      }
+    ]
+  },
+  {
+    "partId": 22,
+    "partName": "Tie",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tryOnSizes": [
+      {
+        "value": "873",
+        "text": "Dummy"
+      }
+    ]
+  },
+  {
+    "partId": 23,
+    "partName": "Bow tie",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tryOnSizes": [
+      {
+        "value": "874",
+        "text": "Dummy"
+      }
+    ]
+  },
+  {
+    "partId": 24,
+    "partName": "Pocket square",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tryOnSizes": [
+      {
+        "value": "875",
+        "text": "Dummy"
+      }
+    ]
+  },
+  {
+    "partId": 25,
+    "partName": "Belt",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tryOnSizes": [
+      {
+        "value": "1368",
+        "text": "60cm"
+      },
+      {
+        "value": "1369",
+        "text": "65cm"
+      },
+      {
+        "value": "1370",
+        "text": "70cm"
+      },
+      {
+        "value": "1371",
+        "text": "75cm"
+      },
+      {
+        "value": "1306",
+        "text": "80cm"
+      },
+      {
+        "value": "913",
+        "text": "85cm"
+      },
+      {
+        "value": "914",
+        "text": "90cm"
+      },
+      {
+        "value": "915",
+        "text": "95cm"
+      },
+      {
+        "value": "916",
+        "text": "100cm"
+      },
+      {
+        "value": "917",
+        "text": "105cm"
+      },
+      {
+        "value": "918",
+        "text": "110cm"
+      },
+      {
+        "value": "919",
+        "text": "115cm"
+      },
+      {
+        "value": "920",
+        "text": "120cm"
+      },
+      {
+        "value": "921",
+        "text": "125cm"
+      },
+      {
+        "value": "922",
+        "text": "130cm"
+      },
+      {
+        "value": "1372",
+        "text": "135cm"
+      },
+      {
+        "value": "1373",
+        "text": "140cm"
+      },
+      {
+        "value": "1374",
+        "text": "145cm"
+      },
+      {
+        "value": "1375",
+        "text": "150cm"
+      },
+      {
+        "value": "1376",
+        "text": "155cm"
+      }
+    ]
+  },
+  {
+    "partId": 32,
+    "partName": "Knitwear",
+    "fitId": 33,
+    "fitName": "K40",
+    "tryOnSizes": [
+      {
+        "value": "1303",
+        "text": "36"
+      },
+      {
+        "value": "1226",
+        "text": "38"
+      },
+      {
+        "value": "1227",
+        "text": "40"
+      },
+      {
+        "value": "1228",
+        "text": "42"
+      },
+      {
+        "value": "1229",
+        "text": "44"
+      },
+      {
+        "value": "1230",
+        "text": "46"
+      },
+      {
+        "value": "1231",
+        "text": "48"
+      },
+      {
+        "value": "1232",
+        "text": "50"
+      },
+      {
+        "value": "1233",
+        "text": "52"
+      },
+      {
+        "value": "1234",
+        "text": "54"
+      },
+      {
+        "value": "1235",
+        "text": "56"
+      },
+      {
+        "value": "1236",
+        "text": "58"
+      },
+      {
+        "value": "1237",
+        "text": "60"
+      },
+      {
+        "value": "1238",
+        "text": "62"
+      },
+      {
+        "value": "1239",
+        "text": "64"
+      },
+      {
+        "value": "1240",
+        "text": "66"
+      },
+      {
+        "value": "1241",
+        "text": "68"
+      },
+      {
+        "value": "1242",
+        "text": "70"
+      }
+    ]
+  },
+  {
+    "partId": 33,
+    "partName": "City loafer",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tryOnSizes": [
+      {
+        "value": "1305",
+        "text": "38"
+      },
+      {
+        "value": "1313",
+        "text": "38.5"
+      },
+      {
+        "value": "1314",
+        "text": "39"
+      },
+      {
+        "value": "1315",
+        "text": "39.5"
+      },
+      {
+        "value": "1316",
+        "text": "40"
+      },
+      {
+        "value": "1317",
+        "text": "40.5"
+      },
+      {
+        "value": "1318",
+        "text": "41"
+      },
+      {
+        "value": "1319",
+        "text": "41.5"
+      },
+      {
+        "value": "1320",
+        "text": "42"
+      },
+      {
+        "value": "1321",
+        "text": "42.5"
+      },
+      {
+        "value": "1322",
+        "text": "43"
+      },
+      {
+        "value": "1323",
+        "text": "43.5"
+      },
+      {
+        "value": "1324",
+        "text": "44"
+      },
+      {
+        "value": "1325",
+        "text": "44.5"
+      },
+      {
+        "value": "1326",
+        "text": "45"
+      },
+      {
+        "value": "1327",
+        "text": "45.5"
+      },
+      {
+        "value": "1328",
+        "text": "46"
+      },
+      {
+        "value": "1329",
+        "text": "46.5"
+      },
+      {
+        "value": "1330",
+        "text": "47"
+      },
+      {
+        "value": "1331",
+        "text": "47.5"
+      },
+      {
+        "value": "1332",
+        "text": "48"
+      }
+    ]
+  },
+  {
+    "partId": 36,
+    "partName": "Quilted vest",
+    "fitId": 34,
+    "fitName": "BW40",
+    "tryOnSizes": [
+      {
+        "value": "1405",
+        "text": "38"
+      },
+      {
+        "value": "1404",
+        "text": "40"
+      },
+      {
+        "value": "1403",
+        "text": "42"
+      },
+      {
+        "value": "1402",
+        "text": "44"
+      },
+      {
+        "value": "1401",
+        "text": "46"
+      },
+      {
+        "value": "1400",
+        "text": "48"
+      },
+      {
+        "value": "1399",
+        "text": "50"
+      },
+      {
+        "value": "1406",
+        "text": "52"
+      },
+      {
+        "value": "1407",
+        "text": "54"
+      },
+      {
+        "value": "1408",
+        "text": "56"
+      },
+      {
+        "value": "1409",
+        "text": "58"
+      },
+      {
+        "value": "1410",
+        "text": "60"
+      },
+      {
+        "value": "1411",
+        "text": "62"
+      },
+      {
+        "value": "1412",
+        "text": "64"
+      },
+      {
+        "value": "1413",
+        "text": "66"
+      },
+      {
+        "value": "1414",
+        "text": "68"
+      },
+      {
+        "value": "1415",
+        "text": "70"
+      },
+      {
+        "value": "1416",
+        "text": "72"
+      },
+      {
+        "value": "1417",
+        "text": "74"
+      },
+      {
+        "value": "1418",
+        "text": "76"
+      }
+    ]
+  },
+  {
+    "partId": 37,
+    "partName": "Cummerbund",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tryOnSizes": [
+      {
+        "value": "1419",
+        "text": "Dummy"
+      }
+    ]
+  },
+  {
+    "partId": 38,
+    "partName": "Vest",
+    "fitId": 35,
+    "fitName": "V40",
+    "tryOnSizes": [
+      {
+        "value": "1420",
+        "text": "38"
+      },
+      {
+        "value": "1421",
+        "text": "40"
+      },
+      {
+        "value": "1422",
+        "text": "42"
+      },
+      {
+        "value": "1423",
+        "text": "44"
+      },
+      {
+        "value": "1424",
+        "text": "46"
+      },
+      {
+        "value": "1425",
+        "text": "48"
+      },
+      {
+        "value": "1426",
+        "text": "50"
+      },
+      {
+        "value": "1427",
+        "text": "52"
+      },
+      {
+        "value": "1428",
+        "text": "54"
+      },
+      {
+        "value": "1429",
+        "text": "56"
+      },
+      {
+        "value": "1430",
+        "text": "58"
+      },
+      {
+        "value": "1431",
+        "text": "60"
+      },
+      {
+        "value": "1432",
+        "text": "62"
+      },
+      {
+        "value": "1433",
+        "text": "64"
+      },
+      {
+        "value": "1434",
+        "text": "66"
+      },
+      {
+        "value": "1435",
+        "text": "68"
+      },
+      {
+        "value": "1436",
+        "text": "70"
+      },
+      {
+        "value": "1437",
+        "text": "72"
+      },
+      {
+        "value": "1438",
+        "text": "74"
+      },
+      {
+        "value": "1439",
+        "text": "76"
+      }
+    ]
+  },
+  {
+    "partId": 40,
+    "partName": "Pants",
+    "fitId": 36,
+    "fitName": "P40",
+    "tryOnSizes": [
+      {
+        "value": "1440",
+        "text": "36"
+      },
+      {
+        "value": "1441",
+        "text": "38"
+      },
+      {
+        "value": "1442",
+        "text": "40"
+      },
+      {
+        "value": "1443",
+        "text": "42"
+      },
+      {
+        "value": "1444",
+        "text": "44"
+      },
+      {
+        "value": "1445",
+        "text": "46"
+      },
+      {
+        "value": "1446",
+        "text": "48"
+      },
+      {
+        "value": "1447",
+        "text": "50"
+      },
+      {
+        "value": "1448",
+        "text": "52"
+      },
+      {
+        "value": "1449",
+        "text": "54"
+      },
+      {
+        "value": "1450",
+        "text": "56"
+      },
+      {
+        "value": "1451",
+        "text": "58"
+      },
+      {
+        "value": "1452",
+        "text": "60"
+      },
+      {
+        "value": "1453",
+        "text": "62"
+      },
+      {
+        "value": "1454",
+        "text": "64"
+      },
+      {
+        "value": "1455",
+        "text": "66"
+      },
+      {
+        "value": "1456",
+        "text": "68"
+      },
+      {
+        "value": "1457",
+        "text": "70"
+      }
+    ]
+  },
+  {
+    "partId": 41,
+    "partName": "Runner",
+    "fitId": 22,
+    "fitName": "Standard",
+    "tryOnSizes": [
+      {
+        "value": "1534",
+        "text": "38"
+      },
+      {
+        "value": "1535",
+        "text": "38.5"
+      },
+      {
+        "value": "1518",
+        "text": "39"
+      },
+      {
+        "value": "1519",
+        "text": "39.5"
+      },
+      {
+        "value": "1520",
+        "text": "40"
+      },
+      {
+        "value": "1521",
+        "text": "40.5"
+      },
+      {
+        "value": "1522",
+        "text": "41"
+      },
+      {
+        "value": "1523",
+        "text": "41.5"
+      },
+      {
+        "value": "1524",
+        "text": "42"
+      },
+      {
+        "value": "1525",
+        "text": "42.5"
+      },
+      {
+        "value": "1526",
+        "text": "43"
+      },
+      {
+        "value": "1527",
+        "text": "43.5"
+      },
+      {
+        "value": "1528",
+        "text": "44"
+      },
+      {
+        "value": "1529",
+        "text": "44.5"
+      },
+      {
+        "value": "1530",
+        "text": "45"
+      },
+      {
+        "value": "1531",
+        "text": "45.5"
+      },
+      {
+        "value": "1532",
+        "text": "46"
+      },
+      {
+        "value": "1536",
+        "text": "46.5"
+      },
+      {
+        "value": "1537",
+        "text": "47"
+      },
+      {
+        "value": "1538",
+        "text": "47.5"
+      },
+      {
+        "value": "1539",
+        "text": "48"
+      }
+    ]
+  }
+]

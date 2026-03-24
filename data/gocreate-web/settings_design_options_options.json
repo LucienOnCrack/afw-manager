@@ -1,0 +1,94 @@
+{
+  "SelectedProductPartID": [
+    [
+      "1",
+      "Jacket"
+    ],
+    [
+      "2",
+      "Trousers"
+    ],
+    [
+      "3",
+      "Waistcoat"
+    ],
+    [
+      "4",
+      "Shirt"
+    ],
+    [
+      "5",
+      "Overcoat"
+    ],
+    [
+      "12",
+      "Bermuda"
+    ],
+    [
+      "13",
+      "Pea coat"
+    ],
+    [
+      "26",
+      "Coat"
+    ],
+    [
+      "27",
+      "Detachable liner"
+    ],
+    [
+      "31",
+      "Informal jacket"
+    ]
+  ],
+  "SelectedProductLineAtelierID": [
+    [
+      "1",
+      "Standard Suits A"
+    ],
+    [
+      "17",
+      "Standard Suits B / Outerwear"
+    ]
+  ],
+  "SelectedProductMakeIDs": [
+    [
+      "8",
+      "traditional"
+    ],
+    [
+      "9",
+      "traditional full canvas"
+    ],
+    [
+      "1",
+      "handmade"
+    ],
+    [
+      "11",
+      "unconstructed"
+    ],
+    [
+      "12",
+      "unconstructed handmade"
+    ],
+    [
+      "7",
+      "semi-traditional"
+    ]
+  ],
+  "SelectedProductFitIDs": [
+    [
+      "38",
+      "Regular "
+    ],
+    [
+      "41",
+      "Slim "
+    ],
+    [
+      "39",
+      "Slim2.0 "
+    ]
+  ]
+}
