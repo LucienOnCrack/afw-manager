@@ -46,6 +46,12 @@ export interface WizardStateForPayload {
   skipWarnings: boolean;
 }
 
+function formatDate(d: Date): string {
+  const day = d.getDate();
+  const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  return `${day}-${months[d.getMonth()]}-${d.getFullYear()}`;
+}
+
 export function buildGoCreatePayload(
   state: WizardStateForPayload,
   parts: ProductPart[],
@@ -55,8 +61,20 @@ export function buildGoCreatePayload(
     const pf = state.partFit[p.id];
     const pd = state.partDesign[p.id];
     const fitToolData: FitToolEntry[] = [];
+
+    // Resolve fit: use user selection, fall back to first (or only) fit from catalog
+    const catalogFits = catalog.fitsByPart[p.id] ?? [];
+    const fitId = pf?.fitId || catalogFits[0]?.id || 0;
+
+    // Resolve tryon: use user selection, fall back to first tryon matching this fit
+    const catalogTryons = catalog.tryonSizesByPart[p.id] ?? [];
+    const fitTryons = fitId > 0 ? catalogTryons.filter((t) => t.fitId === fitId) : catalogTryons;
+    const tryonId = pf?.tryOnId || fitTryons[0]?.id || 0;
+
+    // Resolve fit profile name: use user selection, generate default "[PartName] DD-MMM-YYYY"
+    const fitProfileName = pf?.fitProfileName || `[${p.name}] ${formatDate(new Date())}`;
+
     const fitValues = pf?.fitToolValues ?? {};
-    const fitId = pf?.fitId ?? 0;
     const allPartTools = catalog.fitToolsByPart[p.id] ?? [];
     const partTools = fitId > 0 ? allPartTools.filter((t) => t.fitId === fitId || t.fitId === 0) : allPartTools;
 
@@ -103,9 +121,9 @@ export function buildGoCreatePayload(
       CanvasId: canvasVal != null ? canvasVal : undefined,
       FitAndTryOnData: {
         FitProfileId: pf?.fitProfileId || 0,
-        FitId: pf?.fitId || 0,
-        TryonId: pf?.tryOnId || 0,
-        FitProfileName: pf?.fitProfileName || "",
+        FitId: fitId,
+        TryonId: tryonId,
+        FitProfileName: fitProfileName,
         FitToolData: fitToolData,
       },
       DesignOptions: designOptions.length > 0 ? designOptions : undefined,

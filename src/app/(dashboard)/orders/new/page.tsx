@@ -2469,6 +2469,34 @@ export default function NewOrderPage() {
     setState((prev) => ({ ...prev, ...patch }));
   }
 
+  // Auto-populate default fit/tryon for all parts so items where fit steps are
+  // hidden (e.g. Bow tie) still get valid IDs in the payload.
+  const activeParts = getActiveParts(state, catalog);
+  useEffect(() => {
+    if (!catalog || activeParts.length === 0) return;
+    const patch: Record<number, PartFitState> = {};
+    let changed = false;
+    for (const p of activeParts) {
+      const current = state.partFit[p.id];
+      if (current && current.fitId > 0 && current.tryOnId > 0) continue;
+      const fits = catalog.fitsByPart[p.id] ?? [];
+      const tryons = catalog.tryonSizesByPart[p.id] ?? [];
+      const fitId = current?.fitId || fits[0]?.id || 0;
+      const fitName = current?.fitName || fits.find((f) => f.id === fitId)?.name || "";
+      const fitTryons = fitId > 0 ? tryons.filter((t) => t.fitId === fitId) : tryons;
+      const tryOnId = current?.tryOnId || fitTryons[0]?.id || 0;
+      const tryOnSize = current?.tryOnSize || fitTryons.find((t) => t.id === tryOnId)?.label || "";
+      if (fitId > 0 && tryOnId > 0) {
+        patch[p.id] = {
+          ...(current ?? { fitAdviseMode: 1, fitProfileId: 0, fitProfileName: "", fitId: 0, fitName: "", tryOnType: "", tryOnId: 0, tryOnSize: "", leftTryOnId: 0, rightTryOnId: 0, sourceOrderNumber: "", fitToolValues: {} }),
+          fitId, fitName, tryOnId, tryOnSize,
+        };
+        changed = true;
+      }
+    }
+    if (changed) setState((prev) => ({ ...prev, partFit: { ...prev.partFit, ...patch } }));
+  }, [activeParts.map((p) => p.id).join(","), catalog]);
+
   function getAllConflicts(): { part: string; messages: string[] }[] {
     if (!catalog) return [];
     const parts = getActiveParts(state, catalog);
